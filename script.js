@@ -1,19 +1,114 @@
 const questions = [
-   {
-       question: "which of the following is correct?",
-       answers: [
-        { text: "First", correct: false},
-        { text: "Second", correct: false},
-        { text: "Third", correct: false},
-        { text: "All of the above", correct: true}, 
-    ]
-    },
-    {question: "which of the following is wrong?",
-    answers: [
-     { text: "a", correct: false},
-     { text: "b", correct: true},
-     { text: "c", correct: false},
-     { text: "All of the above", correct: false}, ]},
+  {
+  question: "How many types of nucleic acids exist in the DNA?",
+  answers: [
+    { text: "3", correct: false },
+    { text: "4", correct: true },// Correct answer added from previous information ("B")
+    { text: "5", correct: false },
+    { text: "6", correct: false },
+    { text: "7", correct: false }, 
+  ]
+},
+{
+  question: "Which principle task of Occupational Health involves locating trends, clusters, associations, and causes of disease and injury for in-depth investigation?",
+  answers: [
+    { text: "Exposure reduction", correct: false },
+    { text: "Analysis", correct: true }, // Correct answer added from previous information ("B")
+    { text: "Substitution", correct: false },
+    { text: "Regulation", correct: false },
+    { text: "Awareness", correct: false },
+  ]
+},
+{
+  question: "In occupational health, what does medical surveillance involve?",
+  answers: [
+    { text: "Locating trends", correct: false },
+    { text: "Compensation", correct: false },
+    { text: "Monitoring", correct: true }, // Correct answer added from previous information ("C")
+    { text: "Exposure reduction", correct: false },
+    { text: "Substitution", correct: false },
+  ]
+},
+{
+  question: "Which task involves preparing for prevention as facilities are planned or renovated?",
+  answers: [
+    { text: "Exposure reduction", correct: false },
+    { text: "Anticipation", correct: true }, // Correct answer added from previous information ("B")
+    { text: "Analysis", correct: false },
+    { text: "Substitution", correct: false },
+    { text: "Management-worker cooperation", correct: false },
+  ]
+},
+
+{
+  question: "How does analysis contribute to occupational health?",
+  answers: [
+    { text: "Monitoring disease", correct: false },
+    { text: "Identifying trends", correct: true }, // Correct answer added from previous information ("B")
+    { text: "Minimizing toxic exposure", correct: false },
+    { text: "Preventing injury", correct: false },
+    { text: "Compensating workers", correct: false },
+  ]
+},
+{
+  question: "What is the primary purpose of medical surveillance in occupational health?",
+  answers: [
+    { text: "Locating trends", correct: false },
+    { text: "Compensation", correct: false },
+    { text: "Identifying disease and injury", correct: true }, // Correct answer added from previous information ("C")
+    { text: "Exposure reduction", correct: false },
+    { text: "Substitution", correct: false }
+  ]
+},
+
+{
+  question: "Why is awareness important in occupational health?",
+  answers: [
+    { text: "Minimizing toxic exposure", correct: false },
+    { text: "Locating trends", correct: false },
+    { text: "Compensation for workers", correct: false },
+    { text: "Identifying disease and injury", correct: false },
+    { text: "Worker participation", correct: true }, // Correct answer added from previous information ("E")
+  ]
+},
+{
+  question: "What is the role of regulation in occupational health?",
+  answers: [
+    { text: "Identifying disease and injury", correct: false },
+    { text: "Minimizing toxic exposure", correct: true }, // Correct answer added from previous information ("C")
+    { text: "On-site supervision", correct: false },
+    { text: "Analysis of data", correct: false },
+    { text: "Substitution of substances", correct: false },
+  ]
+},
+{
+  question: "How does compensation relate to occupational health?",
+  answers: [
+    { text: "Identifying disease and injury", correct: false },
+    { text: "Minimizing toxic exposure", correct: false },
+    { text: "Management-worker cooperation", correct: false },
+    { text: "Locating trends", correct: false },
+    { text: "Providing for illness and loss of life", correct: true }, // Correct answer added from previous information ("E")
+  ]
+},
+{
+  question: "Which principal task involves preparing for prevention during the planning or renovation of facilities?",
+  answers: [
+    { text: "Medical surveillance", correct: false },
+    { text: "Exposure reduction", correct: false },
+    { text: "Anticipation", correct: true }, // Correct answer added from previous information ("C")
+    { text: "Compensation", correct: false },
+    { text: "Management-worker cooperation", correct: false },
+  ]
+}
+
+
+
+
+
+
+
+
 
 ];
 
