@@ -2340,8 +2340,8 @@ const questions = [
       { text: "50 g", correct: false },
       { text: "80 g", correct: false },
       { text: "150 g", correct: false },
-      { text: "0.8 g/kg body weight", correct: false },
-      { text: "4 g/kg body weight", correct: true },
+      { text: "0.8 g/kg body weight", correct: true},
+      { text: "4 g/kg body weight", correct: false },
     ],
   },
   {
