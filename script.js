@@ -1041,7 +1041,7 @@ const questions = [
         { text: "Noise-induced pneumoconiosis and vibration-induced pneumoconiosis", correct: false },
       ],
     },
-    {
+    { 
       question: "Which of the following represents an example of an engineering control for noise exposure?",
       answers: [
         { text: "Providing areas for quiet", correct: false },
@@ -2211,7 +2211,7 @@ const questions = [
       { text: "38-44%", correct: false },
     ],
   },
-//more 50 added
+
 
  {
     question: "What helminths are associated with eating vegetables",
@@ -2718,11 +2718,7 @@ const questions = [
     ],
   },
  
- 
-
-
-
-            
+             
 ]
 
 const questionElement = document.getElementById("question");
