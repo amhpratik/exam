@@ -3212,6 +3212,513 @@ const questions = [
     ],
   },
   
+  {
+    question: "What milk-borne disease do you know?",
+    answers: [
+      { text: "teniosis", correct: false },
+      { text: "cestodosis", correct: false },
+      { text: "intestinal infection", correct: false },
+      { text: "difillobotriosis", correct: true },
+      { text: "alveococcosis", correct: false },
+    ],
+  },
+  {
+    question: "What milk-borne disease do you know?",
+    answers: [
+      { text: "foot-and-mouth disease", correct: false },
+      { text: "botulism", correct: false },
+      { text: "tetanus", correct: false },
+      { text: "adenoviral infection", correct: false },
+      { text: "leptospirosis", correct: true },
+    ],
+  },
+  {
+    question: "What disease can be transmitted when you eat a fish:",
+    answers: [
+      { text: "Enterobiosis", correct: false },
+      { text: "Opisthorchiasis", correct: true },
+      { text: "Measles", correct: false },
+      { text: "Echinococcosis", correct: false },
+      { text: "ascariasis", correct: false },
+    ],
+  },
+  {
+    question: "Food poisoning includes diseases caused by:",
+    answers: [
+      { text: "accidental tobacco use", correct: false },
+      { text: "accidental drug use", correct: false },
+      { text: "intentionally eating foods containing a toxic substance", correct: false },
+      { text: "consumption of food contaminated with microorganisms", correct: true },
+      { text: "all of the above poisonings together", correct: false },
+    ],
+  },
+  {
+    question: "Find an example of food poisoning of non-microbial nature in the list below:",
+    answers: [
+      { text: "Ergotism", correct: true },
+      { text: "Fusariosis", correct: false },
+      { text: "streptococcal infection", correct: false },
+      { text: "Staphylococcus intoxication", correct: false },
+      { text: "Poisonings by impurities containing heavy metals’ salts", correct: false },
+    ],
+  },
+  {
+    question: "Find an example of food poisoning of non-microbial nature in the list below:",
+    answers: [
+      { text: "Solanine poisoning", correct: false },
+      { text: "Staphylococcus intoxication", correct: false },
+      { text: "Cocaine intoxication", correct: false },
+      { text: "Fusariosis", correct: true },
+      { text: "alveococcosis", correct: false },
+    ],
+  },
+  {
+    question: "Find an example of food poisoning of non-microbial nature in the list below:",
+    answers: [
+      { text: "Staphylococcus intoxication", correct: true },
+      { text: "Cocaine intoxication", correct: false },
+      { text: "Pesticides’ poisoning", correct: false },
+      { text: "Botulism", correct: false },
+      { text: "Tetanus", correct: false },
+    ],
+  },
+  {
+    question: "Find an example of food poisoning of non-microbial nature in the list below:",
+    answers: [
+      { text: "Alcohol intoxication", correct: false },
+      { text: "Toxicosis by poisonous mushrooms", correct: true },
+      { text: "Ergotism", correct: false },
+      { text: "Fusariosis", correct: false },
+      { text: "Enterobiosis", correct: false },
+    ],
+  },
+  {
+    question: "Ergotism is a disease that develops when eating grain products:",
+    answers: [
+      { text: "infection of grains with ascariasis", correct: false },
+      { text: "infected with fungi of the genus Penicillium", correct: false },
+      { text: "infected with fungi of the genus Aspergillus", correct: false },
+      { text: "contain ergot alkaloids", correct: true },
+      { text: "overwintered in the field", correct: false },
+    ],
+  },
+  {
+    question: "Food toxicoinfection is caused by:",
+    answers: [
+      { text: "infected with fungi of the genus Penicillium", correct: false },
+      { text: "salts of heavy metals", correct: false },
+      { text: "the poisonous mushrooms", correct: true },
+      { text: "fungi of the genus Aspergillus", correct: false },
+      { text: "microorganisms of group Proteus", correct: false },
+    ],
+  },
+
+
+  {
+    question: "Teniosis is a disease that occurs in people who consume",
+    answers: [
+      { text: "meat struck by larval forms of tape helminth", correct: true },
+      { text: "fish affected by helminth", correct: false },
+      { text: "meat struck by larval forms of round helminths", correct: false },
+      { text: "meat affected by larval forms of helminths", correct: false },
+      { text: "meat contaminated with ascarbic acid", correct: false },
+    ],
+  },
+  {
+    question: "Trihinellosis is a disease that occurs when they consume:",
+    answers: [
+      { text: "Fish", correct: false },
+      { text: "Lamb", correct: false },
+      { text: "Pork", correct: true },
+      { text: "Poultry meat", correct: false },
+      { text: "Horse meat", correct: false },
+    ],
+  },
+  {
+    question: "Diplopia, dysphagia, dysarthria, dysphonia are symptoms of the following food poisoning:",
+    answers: [
+      { text: "Aflatoxicosis", correct: false },
+      { text: "Botulism", correct: true },
+      { text: "Mycotoxin", correct: false },
+      { text: "Toxicoinfection", correct: false },
+      { text: "Toxicosis by poisonous mushrooms", correct: false },
+    ],
+  },
+  {
+    question: "How many grams of protein is in an egg yolk:",
+    answers: [
+      { text: "6 g%", correct: false },
+      { text: "10 g%", correct: false },
+      { text: "25 g%", correct: false },
+      { text: "15 g%", correct: false },
+      { text: "21g%", correct: true },
+    ],
+  },
+  {
+    question: "What physiological process occurs in the body with the participation of microorganisms",
+    answers: [
+      { text: "Infection", correct: false },
+      { text: "Digestion", correct: false },
+      { text: "Protein breakdown", correct: false },
+      { text: "food poisoning", correct: false },
+      { text: "toxic infection", correct: true },
+    ],
+  },
+  {
+    question: "What are the constituent parts of blood hemoglobin that carries oxygen to cells and tissues:",
+    answers: [
+      { text: "macronutrients", correct: false },
+      { text: "Vitamins", correct: false },
+      { text: "Fats", correct: false },
+      { text: "Water", correct: false },
+      { text: "Iron", correct: true },
+    ],
+  },
+  {
+    question: "Which substance regulates the activity of the thyroid gland in the human body",
+    answers: [
+      { text: "Phosphorus", correct: false },
+      { text: "Calcium", correct: false },
+      { text: "Iodine", correct: true },
+      { text: "Chlorine", correct: false },
+      { text: "magnesium", correct: false },
+    ],
+  },
+  {
+    question: "What does not apply to vitamins?",
+    answers: [
+      { text: "P", correct: false },
+      { text: "Fe", correct: false },
+      { text: "A, D", correct: false },
+      { text: "E, C, B", correct: true },
+      { text: "choline", correct: false },
+    ],
+  },
+  {
+    question: "Why do catering workers need sanitary clothing?",
+    answers: [
+      { text: "for inspectors", correct: false },
+      { text: "For a neat look", correct: false },
+      { text: "To protect clothes from dirt", correct: false },
+      { text: "To protect food from contamination by pathogens", correct: true },
+      { text: "All answers are correct", correct: false },
+    ],
+  },
+  {
+    question: "What vitamins are sources for rye bread, legumes, oatmeal, meat products.",
+    answers: [
+      { text: "B vitamins", correct: true },
+      { text: "Vitamin A", correct: false },
+      { text: "Vitamin C", correct: false },
+      { text: "Vitamin E", correct: false },
+      { text: "Vitamin P", correct: false },
+    ],
+  },
+
+  {
+    question: "Direct methemoglobin formers are:",
+    answers: [
+      { text: "nitrates", correct: false },
+      { text: "nitrosamines", correct: false },
+      { text: "pesticides", correct: false },
+      { text: "radionuclides", correct: false },
+      { text: "nitrites", correct: true },
+    ],
+  },
+  {
+    question: "As a result of the use of pasteurized milk obtained from mastitis animals, the following may occur:",
+    answers: [
+      { text: "botulism", correct: false },
+      { text: "yersiniosis", correct: false },
+      { text: "staphylococcal toxicosis", correct: true },
+      { text: "escherichiosis", correct: false },
+      { text: "salmonellosis", correct: false },
+    ],
+  },
+  {
+    question: "Which product contains solanine:",
+    answers: [
+      { text: "apricot and peach kernels", correct: false },
+      { text: "potatoes", correct: true },
+      { text: "peas", correct: false },
+      { text: "beans", correct: false },
+      { text: "beech nuts", correct: false },
+    ],
+  },
+  {
+    question: "What are the methods for assessing organized actual nutrition:",
+    answers: [
+      { text: "questionnaire, recording methods, playback methods", correct: false },
+      { text: "recording methods, playback methods, laboratory", correct: false },
+      { text: "questionnaire, budgetary, laboratory", correct: false },
+      { text: "analysis of menu layouts, questionnaire, laboratory", correct: false },
+      { text: "balance and budget", correct: true },
+    ],
+  },
+  {
+    question: "Which foods contain the most dietary fiber:",
+    answers: [
+      { text: "vegetables", correct: true },
+      { text: "milk", correct: false },
+      { text: "meat", correct: false },
+      { text: "legumes", correct: false },
+      { text: "fish", correct: false },
+    ],
+  },
+  {
+    question: "Which cookware is the most food resistant:",
+    answers: [
+      { text: "galvanized metal", correct: false },
+      { text: "made of plastics", correct: false },
+      { text: "pottery", correct: false },
+      { text: "wooden", correct: false },
+      { text: "enamelled", correct: true },
+    ],
+  },
+  {
+    question: "The daily inclusion of fish dishes in the diet can be hindered by:",
+    answers: [
+      { text: "low biological value", correct: false },
+      { text: "high energy value", correct: false },
+      { text: "high stickiness", correct: false },
+      { text: "low digestibility", correct: false },
+      { text: "high biological value", correct: true },
+    ],
+  },
+  {
+    question: "When choosing meat products for the daily diet of an adult healthy person, preference should be given to:",
+    answers: [
+      { text: "sausages", correct: false },
+      { text: "lean meats and poultry", correct: true },
+      { text: "frozen semi-finished products", correct: false },
+      { text: "canned food", correct: false },
+      { text: "smoked meats", correct: false },
+    ],
+  },
+  {
+    question: "What are the main foods most often associated with food poisoning of staphylococcal etiology:",
+    answers: [
+      { text: "confectionery with cream", correct: true },
+      { text: "homemade stone fruit compotes", correct: false },
+      { text: "homemade stone fruit compotes", correct: false },
+      { text: "goose eggs", correct: false },
+      { text: "home salted fish", correct: false },
+    ],
+  },
+  {
+    question: "General control over the prescription of therapeutic nutrition in health care facilities is carried out by:",
+    answers: [
+      { text: "dietician", correct: false },
+      { text: "accountant", correct: false },
+      { text: "dietitian", correct: false },
+      { text: "chief doctor", correct: true },
+      { text: "cook", correct: false },
+    ],
+  },
+
+  {
+    question: "How many vitamins of group B does bread from flour contain:",
+    answers: [
+      { text: "10% (grains)", correct: false },
+      { text: "25% (Best)", correct: false },
+      { text: "75% (1st grade)", correct: false },
+      { text: "85% (2nd grade)", correct: false },
+      { text: "97.5% (wallpaper)", correct: true },
+    ],
+  },
+  {
+    question: "Shelf life of liquid fermented milk products at temperatures from +2 to +6°C:",
+    answers: [
+      { text: "72h", correct: true },
+      { text: "48h", correct: false },
+      { text: "36h", correct: false },
+      { text: "24h", correct: false },
+      { text: "12h", correct: false },
+    ],
+  },
+  {
+    question: "Which body needs Vitamin D?",
+    answers: [
+      { text: "improved night vision", correct: false },
+      { text: "muscle contractions", correct: false },
+      { text: "bone tissue formation", correct: true },
+      { text: "regulation of blood clotting", correct: false },
+      { text: "liver activity", correct: false },
+    ],
+  },
+  {
+    question: "What is the difference between intestinal infections and food poisoning:",
+    answers: [
+      { text: "mass character", correct: false },
+      { text: "contagiousness", correct: true },
+      { text: "sudden onset", correct: false },
+      { text: "short incubation period", correct: false },
+      { text: "connection of the disease with food intake", correct: false },
+    ],
+  },
+  {
+    question: "The main factors contributing to the development of microflora in minced meat in the production of sausages, all except:",
+    answers: [
+      { text: "high humidity", correct: false },
+      { text: "high degree of crushing", correct: false },
+      { text: "long holding time", correct: false },
+      { text: "high salt content", correct: false },
+      { text: "addition of sodium nitrite", correct: true },
+    ],
+  },
+  {
+    question: "The final diagnosis of 'food poisoning' is established after:",
+    answers: [
+      { text: "analysis of the primary symptoms of the disease", correct: false },
+      { text: 'collecting a food history and identifying a "suspect" product', correct: true },
+      { text: "analysis of the epidemiological situation", correct: false },
+      { text: "Sanitary and epidemiological examination of the food facility", correct: false },
+      { text: "obtaining data from laboratory studies", correct: false },
+    ],
+  },
+  {
+    question: "Which methods of thermal cooking contribute to the maximum decontamination of the product:",
+    answers: [
+      { text: "cooking", correct: true },
+      { text: "extinguishing", correct: false },
+      { text: "frying", correct: false },
+      { text: "baking", correct: false },
+      { text: "soaking", correct: false },
+    ],
+  },
+  {
+    question: "Which carbohydrate has a significant impact on the nature of the intestinal microflora:",
+    answers: [
+      { text: "fructose", correct: false },
+      { text: "sucrose", correct: false },
+      { text: "lactose", correct: true },
+      { text: "glycogen", correct: false },
+      { text: "maltose", correct: false },
+    ],
+  },
+  {
+    question: "What is the sample size of menu layouts in general for the year to characterize the nutrition in teams should be at least:",
+    answers: [
+      { text: "16-30 days", correct: false },
+      { text: "32-50 days", correct: false },
+      { text: "52 - 70 days", correct: false },
+      { text: "72 - 80 days (+)", correct: false },
+      { text: "82-100 days", correct: true },
+    ],
+  },
+  {
+    question: "Basically, the energy function in the body is performed by:",
+    answers: [
+      { text: "vitamins", correct: false },
+      { text: "carbohydrates", correct: true },
+      { text: "proteins", correct: false },
+      { text: "macronutrients", correct: false },
+      { text: "trace elements", correct: false },
+    ],
+  },
+  {
+    question: "Ready meals at catering establishments must be sold within:",
+    answers: [
+      { text: "4-6 hours", correct: false },
+      { text: "4-5 hours", correct: false },
+      { text: "3-4 hours", correct: false },
+      { text: "1-2 hours", correct: false },
+      { text: "2-3 hours", correct: true },
+    ],
+  },
+  {
+    question: "The main place in nature where the causative agent of botulism maintains its appearance:",
+    answers: [
+      { text: "soil", correct: false },
+      { text: "air", correct: false },
+      { text: "water", correct: false },
+      { text: "human intestine", correct: false },
+      { text: "intestines of fish, rodents, pigs", correct: true },
+    ],
+  },
+  {
+    question: "What foods are well absorbed by calcium:",
+    answers: [
+      { text: "fish and fish products", correct: false },
+      { text: "vegetables", correct: false },
+      { text: "milk and dairy products", correct: false },
+      { text: "cereals", correct: false },
+      { text: "confectionery", correct: true },
+    ],
+  },
+  {
+    question: "A significant reduction in the concentration of nitrates in food products is facilitated by:",
+    answers: [
+      { text: "salting, drying, smoking", correct: false },
+      { text: "cleaning, grinding, freezing", correct: false },
+      { text: "heat treatment, salting, smoking", correct: false },
+      { text: "cleaning, soaking, heat treatment, pickling", correct: false },
+      { text: "drying, freezing, salting, smoking", correct: true },
+    ],
+  },
+  {
+    question: "For the prevention of staphylococcal toxicosis, the main is:",
+    answers: [
+      { text: "high-quality heat treatment of products", correct: false },
+      { text: "medical control over the health of workers in food enterprises", correct: false },
+      { text: "compliance with the technological process of cooking products and dishes", correct: false },
+      { text: "hygienic training of employees of food enterprises", correct: false },
+      { text: "sufficient supply of refrigeration equipment", correct: true },
+    ],
+  },
+  {
+    question: "Shelf life of pasteurized milk in consumer packaging at a temperature of +2 to +6°C:",
+    answers: [
+      { text: "72h", correct: false },
+      { text: "48h", correct: false },
+      { text: "24h", correct: false },
+      { text: "12h", correct: false },
+      { text: "36h", correct: true },
+    ],
+  },
+  {
+    question: "Fish can cause the following helminthiases in humans:",
+    answers: [
+      { text: "diphyllobothriasis, opisthorchiasis", correct: true },
+      { text: "teniidosis, opisthorchiasis", correct: false },
+      { text: "diphyllobothriasis, trichinosis", correct: false },
+      { text: "echinococcosis, trichinosis", correct: false },
+      { text: "giardiasis, opisthorchiasis", correct: false },
+    ],
+  },
+  {
+    question: "The food additive sodium nitrite is used in the manufacture of a food product:",
+    answers: [
+      { text: "fats, margarines", correct: false },
+      { text: "confectionery", correct: false },
+      { text: "sausages and canned meat", correct: true },
+      { text: "fruit juices", correct: false },
+      { text: "dry concentrates for first and second courses", correct: false },
+    ],
+  },
+  {
+    question: "A method of studying nutrition that allows you to cover a large group of people with a survey in a relatively short period of time:",
+    answers: [
+      { text: "interrogation-weight", correct: false },
+      { text: "weight", correct: false },
+      { text: "clinical", correct: false },
+      { text: "questionnaire", correct: true },
+      { text: "laboratory", correct: false },
+    ],
+  },
+  {
+    question: "The most favorable ratio between calcium and phosphorus salts in the human diet is:",
+    answers: [
+      { text: "1:01", correct: false },
+      { text: "1:1.5", correct: true },
+      { text: "1:02", correct: false },
+      { text: "1:2.5", correct: false },
+      { text: "1:1.5", correct: false },
+    ],
+  },
+
+
+
             
 ]
 
