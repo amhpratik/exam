@@ -150,7 +150,107 @@ const questions = [
       { text: "Offering wellness programs", correct: false },
       { text: "Risk assessment", correct: true }
     ]
-  }
+  },
+  {
+    question: "Which governmental responsibility involves enforcing legislation related to worker health and safety?",
+    answers: [
+      { text: "Inspections and Compliance", correct: false },
+      { text: "Research and Guidance", correct: false },
+      { text: "Regulatory Framework", correct: true },
+      { text: "Occupational Health Services", correct: false },
+      { text: "Advocacy and Collaboration", correct: false }
+    ]
+  },
+  {
+    question: "What does management aim to achieve through regular risk assessments in the workplace?",
+    answers: [
+      { text: "Advocacy", correct: false },
+      { text: "Compliance", correct: false },
+      { text: "Creating a safe working environment", correct: true },
+      { text: "Identifying root causes", correct: false },
+      { text: "Offering wellness programs", correct: false }
+    ]
+  },
+  {
+    question: "Which management responsibility involves educating employees about potential hazards and safe work practices?",
+    answers: [
+      { text: "Incident Reporting and Investigation", correct: false },
+      { text: "Risk Assessment and Mitigation", correct: false },
+      { text: "Health Promotion and Wellness Programs", correct: false },
+      { text: "Training and Education", correct: true },
+      { text: "Providing Occupational Health Services", correct: false }
+    ]
+  },
+  {
+    question: "What is the primary responsibility of management in incident reporting and investigation?",
+    answers: [
+      { text: "Identifying root causes", correct: true },
+      { text: "Compliance inspections", correct: false },
+      { text: "Offering wellness programs", correct: false },
+      { text: "Advocacy", correct: false },
+      { text: "Hazard identification", correct: false }
+    ]
+  },
+  {
+    question: "Which governmental responsibility involves ensuring compliance with health and safety regulations through regular inspections?",
+    answers: [
+      { text: "Research and Guidance", correct: false },
+      { text: "Occupational Health Services", correct: false },
+      { text: "Advocacy and Collaboration", correct: false },
+      { text: "Regulatory Framework", correct: true },
+      { text: "Inspections and Compliance", correct: false }
+    ]
+  },
+  {
+    question: "What proactive measures can management take to promote employee health and well-being?",
+    answers: [
+      { text: "Conducting regular risk assessments", correct: false },
+      { text: "Providing Occupational Health Services", correct: false },
+      { text: "Offering wellness programs", correct: true },
+      { text: "Advocating for worker health", correct: false },
+      { text: "Implementing safety protocols", correct: false }
+    ]
+  },
+  {
+    question: "What is a key aspect of governmental responsibilities in research and guidance?",
+    answers: [
+      { text: "Offering wellness programs", correct: false },
+      { text: "Providing legal frameworks", correct: false },
+      { text: "Ensuring compliance", correct: false },
+      { text: "Collaborating with experts", correct: true },
+      { text: "Conducting regular inspections", correct: false }
+    ]
+  },
+  {
+    question: "In what way can management protect the health of employees during risk assessments?",
+    answers: [
+      { text: "Developing appropriate strategies", correct: true },
+      { text: "Advocating for worker health", correct: false },
+      { text: "Offering wellness programs", correct: false },
+      { text: "Creating a safe working environment", correct: false },
+      { text: "Providing legal frameworks", correct: false }
+    ]
+  },
+  {
+    question: "What is the responsibility of governmental agencies in occupational health services?",
+    answers: [
+      { text: "Offering wellness programs", correct: false },
+      { text: "Advocating for worker health", correct: false },
+      { text: "Providing medical support and rehabilitation", correct: true },
+      { text: "Creating a safe working environment", correct: false },
+      { text: "Conducting regular risk assessments", correct: false }
+    ]
+  },
+  {
+    question: "How does management contribute to worker health through health promotion and wellness programs?",
+    answers: [
+      { text: "By enforcing legislation", correct: false },
+      { text: "By conducting regular inspections", correct: false },
+      { text: "By promoting work-life balance", correct: true },
+      { text: "By developing legal frameworks", correct: false },
+      { text: "By collaborating with experts", correct: false }
+    ]
+  },
 
 
             
