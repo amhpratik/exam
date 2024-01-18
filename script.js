@@ -4,10 +4,10 @@ const questions = [
     question: "How many types of nucleic acids exist in the DNA?",
     answers: [
       { text: "3", correct: false },
-      { text: "4", correct: false },
+      { text: "4", correct: true },
       { text: "5", correct: false },
       { text: "6", correct: false },
-      { text: "7", correct: true },
+      { text: "7", correct: false },
     ],
   },
   {
