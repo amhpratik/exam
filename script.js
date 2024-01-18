@@ -1707,6 +1707,511 @@ const questions = [
       { text: "measured at maximum inhalation and exhalation", correct: true },
     ],
   },
+{
+    question: "How is the average thickness of fatty deviations determined?",
+    answers: [
+      { text: "from 0.5 to 1.5cm", correct: false },
+      { text: "from 1.0 to 1.5cm", correct: false },
+      { text: "from 2cm to 2.5cm", correct: false },
+      { text: "from 0.5cm to 2cm", correct: false },
+      { text: "from 1.0 to 2cm", correct: true },
+    ],
+  },
+  {
+    question: "How are the somatometric signs of the skeleton determined",
+    answers: [
+      { text: "big feet", correct: false },
+      { text: "thick skin", correct: false },
+      { text: "stocky", correct: true },
+      { text: "Long hands", correct: false },
+      { text: "thick neck", correct: false },
+    ],
+  },
+  {
+    question: "What breast shape is not typical for somatoscopy",
+    answers: [
+      { text: "cylindrical", correct: false },
+      { text: "thin", correct: true },
+      { text: "conical", correct: false },
+      { text: "flat", correct: false },
+      { text: "barrel-shaped", correct: false },
+    ],
+  },
+  {
+    question: "What is not typical for somatoscopy of the back",
+    answers: [
+      { text: "rounded", correct: true },
+      { text: "lordotic", correct: false },
+      { text: "kyphotic", correct: false },
+      { text: "slouch", correct: false },
+      { text: "normal", correct: false },
+    ],
+  },
+  {
+    question: "What is not characteristic of spinal deformity",
+    answers: [
+      { text: "right-sided and left-sided scoliosis", correct: false },
+      { text: "shoulder asymmetry", correct: false },
+      { text: "Steady tilt right or left", correct: false },
+      { text: "cylindrical curvature of the arm", correct: true },
+      { text: "deep curvature of the shoulders", correct: false },
+    ],
+  },
+  {
+    question: "What method can determine the shape of the feet?",
+    answers: [
+      { text: "center of little finger", correct: false },
+      { text: "point E-base of the thumb", correct: false },
+      { text: "point C-from the end of the heel", correct: false },
+      { text: "point A - between the middle finger", correct: false },
+      { text: "point B - in the middle of the base of the thumb", correct: true },
+    ],
+  },
+  {
+    question: "How is the shape of the foot measured?",
+    answers: [
+      { text: "if only one line is out of bounds", correct: false },
+      { text: "if only the lateral line comes out", correct: false },
+      { text: "if 2-lines do not go beyond the trace", correct: true },
+      { text: "if the medial does not go beyond", correct: false },
+      { text: "if there is one line on the seat", correct: false },
+    ],
+  },
+  {
+    question: "What are the shapes of the human foot?",
+    answers: [
+      { text: "flat feet", correct: true },
+      { text: "x-shaped", correct: false },
+      { text: "o-shaped", correct: false },
+      { text: "wide", correct: false },
+      { text: "mixed", correct: false },
+    ],
+  },
+  {
+    question: "What method determines the Stritter method?",
+    answers: [
+      { text: "pedobaroanthropometer", correct: false },
+      { text: "plantography", correct: true },
+      { text: "strong compass", correct: false },
+      { text: "gas spirometer", correct: false },
+      { text: "weighing", correct: false },
+    ],
+  },
+  {
+    question: "What determines the assessment of puberty boys?",
+    answers: [
+      { text: "hyperactivity", correct: false },
+      { text: "hypothermia", correct: false },
+      { text: "Improves vision", correct: false },
+      { text: "voice change", correct: true },
+      { text: "shrinking thyroid gland", correct: false },
+    ],
+  },
+
+  {
+    question: "What determines the assessment of sexual development in girls?",
+    answers: [
+      { text: "hyperactivity", correct: false },
+      { text: "hypothermia", correct: false },
+      { text: "hoarse voice", correct: false },
+      { text: "enlargement of the thyroid gland", correct: false },
+      { text: "development of mammary glands", correct: true },
+    ],
+  },
+  {
+    question: "What determines lung capacity?",
+    answers: [
+      { text: "strong compass", correct: false },
+      { text: "centimeter tape measure", correct: false },
+      { text: "water spirometer", correct: true },
+      { text: "metal anthropometer", correct: false },
+      { text: "steel tape measure", correct: false },
+    ],
+  },
+  {
+    question: "What determines arm strength?",
+    answers: [
+      { text: "manual dynamometer", correct: true },
+      { text: "strong compass", correct: false },
+      { text: "metal anthropometer", correct: false },
+      { text: "centimeter tape measure", correct: false },
+      { text: "water spirometer", correct: false },
+    ],
+  },
+  {
+    question: "What determines the strength of the back extensors?",
+    answers: [
+      { text: "strong compass", correct: false },
+      { text: "rear dynamometer", correct: true },
+      { text: "centimeter tape measure", correct: false },
+      { text: "water spirometer", correct: false },
+      { text: "metal anthropometer", correct: false },
+    ],
+  },
+  {
+    question: "How is blood pressure determined?",
+    answers: [
+      { text: "metal dynamometer", correct: false },
+      { text: "gas spirometer", correct: false },
+      { text: "manual dynamometer", correct: false },
+      { text: "tonometer", correct: true },
+      { text: "water spirometer", correct: false },
+    ],
+  },
+  {
+    question: "What criteria are not included in the comprehensive assessment of physical development?",
+    answers: [
+      { text: "the state of the main organs and systems", correct: false },
+      { text: "Nervous and mental state", correct: false },
+      { text: "chronic diseases", correct: false },
+      { text: "resistance", correct: false },
+      { text: "puberty", correct: true },
+    ],
+  },
+  {
+    question: "What method of a comprehensive assessment of physical development is a generalized (transverse)?",
+    answers: [
+      { text: "statistical analysis", correct: true },
+      { text: "reveals features of growth", correct: false },
+      { text: "Monitoring chronic diseases", correct: false },
+      { text: "studies the rate of physical development", correct: false },
+      { text: "systematically observes faces for a long time", correct: false },
+    ],
+  },
+  {
+    question: "What method of complex assessment of physical development is individual (longitudinal)?",
+    answers: [
+      { text: "mass study of physical development", correct: false },
+      { text: "reveals features of growth and development of personality", correct: true },
+      { text: "statistical data analysis", correct: false },
+      { text: "study of groups of children", correct: false },
+      { text: "various telechecks", correct: false },
+    ],
+  },
+  {
+    question: "What method is not included in the assessment of physical development?",
+    answers: [
+      { text: "comprehensive health assessment", correct: false },
+      { text: "regression scale method", correct: false },
+      { text: "assessment of puberty", correct: true },
+      { text: "centile method", correct: false },
+      { text: "standard deviation method", correct: false },
+    ],
+  },
+  {
+    question: "How is the result of the standard deviation method determined?",
+    answers: [
+      { text: "narrow", correct: false },
+      { text: "round", correct: false },
+      { text: "high", correct: false },
+      { text: "average", correct: true },
+      { text: "cylindrical", correct: false },
+    ],
+  },
+
+  {
+    question: "What are not regression scale methods?",
+    answers: [
+      { text: "harmonious physical development", correct: false },
+      { text: "disharmonious physical development", correct: false },
+      { text: "very disharmonious development", correct: false },
+      { text: "make correlation array", correct: false },
+      { text: "weight and circumference of the chest does not determine harmony", correct: true },
+    ],
+  },
+  {
+    question: "What does not determine the morphological status of an organism?",
+    answers: [
+      { text: "complete retardation of physical development", correct: false },
+      { text: "rich and disharmonious", correct: true },
+      { text: "advanced physical development", correct: false },
+      { text: "worse and disharmonious", correct: false },
+      { text: "balanced", correct: false },
+    ],
+  },
+  {
+    question: "The physical development of children does not include",
+    answers: [
+      { text: "biological development", correct: false },
+      { text: "Muscle strength and performance", correct: false },
+      { text: "chemical factors", correct: true },
+      { text: "Nutrition", correct: false },
+      { text: "environment", correct: false },
+    ],
+  },
+  {
+    question: "What question will not be included in the study of hygiene of children and adolescents?",
+    answers: [
+      { text: "Hygiene of the educational process", correct: false },
+      { text: "Hygienic bases of physical education", correct: false },
+      { text: "Occupational hygiene", correct: false },
+      { text: "Sanitary well-being", correct: false },
+      { text: "external conditions", correct: true },
+    ],
+  },
+  {
+    question: "What external conditions are not required for the development of the child's body?",
+    answers: [
+      { text: "do not promote physical development", correct: true },
+      { text: "improve health", correct: false },
+      { text: "improve student achievement", correct: false },
+      { text: "improve overall performance", correct: false },
+      { text: "exclude the possibility of harmful effects", correct: false },
+    ],
+  },
+  {
+    question: "Specify anthropometric indicators of physical development",
+    answers: [
+      { text: "lung capacity status", correct: false },
+      { text: "body mass", correct: true },
+      { text: "degree of puberty", correct: false },
+      { text: "muscle strength", correct: false },
+      { text: "posture", correct: false },
+    ],
+  },
+  {
+    question: "What method is used to measure arm muscle strength",
+    answers: [
+      { text: "anthropometer", correct: false },
+      { text: "spirometer", correct: false },
+      { text: "hand dynamometer", correct: true },
+      { text: "backbone dynamometer", correct: false },
+      { text: "thick compasses", correct: false },
+    ],
+  },
+  {
+    question: "Choose from the proposed list the most likely risk factor for neurosis in a child at school age:",
+    answers: [
+      { text: "environmental pollution", correct: false },
+      { text: "malnutrition", correct: false },
+      { text: "irrational organization of the workplace", correct: false },
+      { text: "low physical activity", correct: false },
+      { text: "psycho-emotional stress", correct: true },
+    ],
+  },
+  {
+    question: "At what age is the rate of growth and development the highest?",
+    answers: [
+      { text: "0-1 year", correct: true },
+      { text: "1-3 year", correct: false },
+      { text: "4-7 year", correct: false },
+      { text: "13-16 year", correct: false },
+      { text: "17-21 year", correct: false },
+    ],
+  },
+  {
+    question: "Specify somatoscopic indicators of physical development",
+    answers: [
+      { text: "body length", correct: false },
+      { text: "posture", correct: true },
+      { text: "dental formula", correct: false },
+      { text: "body mass", correct: false },
+      { text: "ossification of the bones of the hand", correct: false },
+    ],
+  },
+
+  {
+    question: "What indicators are used to assess the level of biological maturity of a child?",
+    answers: [
+      { text: "Head circumference", correct: false },
+      { text: "lung capacity", correct: false },
+      { text: "body mass", correct: false },
+      { text: "dental formula", correct: true },
+      { text: "hand muscle strength", correct: false },
+    ],
+  },
+  {
+    question: "Healthy eating is",
+    answers: [
+      { text: "a lot of protein", correct: true },
+      { text: "more meat", correct: false },
+      { text: "less fish", correct: false },
+      { text: "many nutritional supplements", correct: false },
+      { text: "a lot of salt", correct: false },
+    ],
+  },
+  {
+    question: "Which vitamins are water-soluble vitamins",
+    answers: [
+      { text: "Антропометр", correct: false },
+      { text: "В", correct: true },
+      { text: "D", correct: false },
+      { text: "Е", correct: false },
+      { text: "Choline", correct: false },
+    ],
+  },
+  {
+    question: "What is the daily requirement of an adult for vitamin C:",
+    answers: [
+      { text: "10-20mg", correct: false },
+      { text: "20-50mg", correct: false },
+      { text: "50-70mg", correct: false },
+      { text: "70-100mg", correct: true },
+      { text: "120-150mg", correct: false },
+    ],
+  },
+  {
+    question: "What foods can be a source of vitamin B1",
+    answers: [
+      { text: "milk", correct: false },
+      { text: "apples", correct: false },
+      { text: "nuts", correct: true },
+      { text: "beef meat", correct: false },
+      { text: "jams and juices", correct: false },
+    ],
+  },
+  {
+    question: "What are the causes of hypovitaminosis C, in the winter-spring period",
+    answers: [
+      { text: "Decreased reactivity of the body;", correct: false },
+      { text: "Decrease in the amount of vitamin C in foods", correct: true },
+      { text: "Increasing levels of ultraviolet radiation", correct: false },
+      { text: "Low air temperatures;", correct: false },
+      { text: "Low atmospheric pressure", correct: false },
+    ],
+  },
+  {
+    question: "What symptoms of hypervitaminosis A are not",
+    answers: [
+      { text: "Headache;", correct: false },
+      { text: "Loss of appetite;", correct: false },
+      { text: "Hair loss", correct: false },
+      { text: "Pain in the bones, their fragility;", correct: false },
+      { text: "Keratoconjunctivitis.", correct: true },
+    ],
+  },
+  {
+    question: "What is the main criterion for the freshness of milk determined in the laboratory",
+    answers: [
+      { text: "density", correct: false },
+      { text: "acidity", correct: true },
+      { text: "fat content", correct: false },
+      { text: "starch test", correct: false },
+      { text: "test for posterization", correct: false },
+    ],
+  },
+  {
+    question: "Which body stores vitamin A?",
+    answers: [
+      { text: "In the intestines", correct: false },
+      { text: "nervous system", correct: false },
+      { text: "skeletal system", correct: false },
+      { text: "liver", correct: true },
+      { text: "endocrine system", correct: false },
+    ],
+  },
+  {
+    question: "What foods are healthy",
+    answers: [
+      { text: "vegetables and fruits", correct: true },
+      { text: "processed meat", correct: false },
+      { text: "White bread", correct: false },
+      { text: "sweet sparkling water", correct: false },
+      { text: "fast food", correct: false },
+    ],
+  },
+
+  {
+    question: "What symptoms are not typical for vitamin A",
+    answers: [
+      { text: "Keratinization and cyanotic edema of the skin;", correct: false },
+      { text: "Disease cracks in the corners of the mouth", correct: true },
+      { text: "Violation of twilight vision;", correct: false },
+      { text: "Increased bone fragility;", correct: false },
+      { text: "Hair loss", correct: false },
+    ],
+  },
+  {
+    question: "What does not apply to the prevention of toxic infections",
+    answers: [
+      { text: "no need for a lab", correct: true },
+      { text: "food storage", correct: false },
+      { text: "heat treatment", correct: false },
+      { text: "transportation", correct: false },
+      { text: "control", correct: false },
+    ],
+  },
+  {
+    question: "Specify the daily intake reference for fats of a person of working age",
+    answers: [
+      { text: "20-30g", correct: false },
+      { text: "60-154 g", correct: true },
+      { text: "300-350 g", correct: false },
+      { text: "40-60 g", correct: false },
+      { text: "100-220 g", correct: false },
+    ],
+  },
+  {
+    question: "How much energy do we get from 1 g of carbohydrates?",
+    answers: [
+      { text: "12 kcal", correct: false },
+      { text: "9 kcal", correct: false },
+      { text: "1 kcal", correct: false },
+      { text: "2 kcal", correct: false },
+      { text: "4 kcal", correct: true },
+    ],
+  },
+  {
+    question: "What foods are rich in",
+    answers: [
+      { text: "bread", correct: false },
+      { text: "cabbage", correct: false },
+      { text: "beans and peas", correct: true },
+      { text: "beet", correct: false },
+      { text: "potato", correct: false },
+    ],
+  },
+  {
+    question: "Specify the mineral element that participates in hematopoiesis",
+    answers: [
+      { text: "sodium", correct: false },
+      { text: "Potassium", correct: false },
+      { text: "Iodine", correct: false },
+      { text: "Iron", correct: true },
+      { text: "fluorine", correct: false },
+    ],
+  },
+  {
+    question: "What vitamin is used for the improvement of vision?",
+    answers: [
+      { text: "A", correct: true },
+      { text: "C", correct: false },
+      { text: "B12", correct: false },
+      { text: "B6", correct: false },
+      { text: "E", correct: false },
+    ],
+  },
+  {
+    question: "What vitamin is used in the treatment of pernicious anemia, polyneuritis, and radiculitis?",
+    answers: [
+      { text: "A", correct: false },
+      { text: "B12", correct: true },
+      { text: "C", correct: false },
+      { text: "E", correct: false },
+      { text: "cholin", correct: false },
+    ],
+  },
+  {
+    question: "What chemical element in milk cannot fully satisfy the needs of a growing organism",
+    answers: [
+      { text: "Calcium", correct: false },
+      { text: "Phosphorus", correct: false },
+      { text: "Magnesium", correct: false },
+      { text: "Iodine", correct: false },
+      { text: "Iron", correct: true },
+    ],
+  },
+  {
+    question: "Specify the amount of protein in fish",
+    answers: [
+      { text: "2-3%", correct: false },
+      { text: "4-8%", correct: false },
+      { text: "8-21%", correct: true },
+      { text: "28-37%", correct: false },
+      { text: "38-44%", correct: false },
+    ],
+  },
+//more 50 added
 
   
  
