@@ -546,9 +546,9 @@ const questions = [
     answers: [
       { text: "Availability of personal protective equipment", correct: false },
       { text: "Ergonomic principles", correct: false },
-      { text: "Compliance with regulations", correct: true },
-      { text: "Presence of potential electrical hazards", correct: true },
-      { text: "Worker feedback", correct: false }
+      { text: "Compliance with regulations", correct: false },
+      { text: "Presence of potential electrical hazards", correct: false },
+      { text: "Worker feedback", correct: true }
     ]
   },
   {
