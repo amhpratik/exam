@@ -1703,8 +1703,8 @@ const questions = [
       { text: "steel tape measure", correct: false },
       { text: "centimeter tape measure", correct: false },
       { text: "measured at rest", correct: false },
-      { text: "measured with a pedobaroacrometer", correct: false },
-      { text: "measured at maximum inhalation and exhalation", correct: true },
+      { text: "measured with a pedobaroacrometer", correct: true },
+      { text: "measured at maximum inhalation and exhalation", correct: false },
     ],
   },
 {
