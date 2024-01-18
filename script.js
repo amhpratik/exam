@@ -1257,8 +1257,8 @@ const questions = [
     answers: [
       { text: "increase", correct: false },
       { text: "increases only mentally", correct: false },
-      { text: "decreases", correct: false },
-      { text: "increases and simultaneously decreases", correct: true },
+      { text: "decreases", correct: true },
+      { text: "increases and simultaneously decreases", correct: false },
       { text: "does not change", correct: false },
     ],
   },
@@ -1330,7 +1330,7 @@ const questions = [
       { text: "the growth and development of each child is controlled by its own genetic program", correct: false },
       { text: "the older the child, the lower the rate of growth and development", correct: true },
       { text: "growth rates of boys and girls are not the same", correct: false },
-      { text: "the growth and development rates of different body systems are not the same", correct: true },
+      { text: "the growth and development rates of different body systems are not the same", correct: false},
       { text: "accelerated rates ensure the survival of the organism", correct: false },
     ],
   },
@@ -1512,7 +1512,7 @@ const questions = [
     answers: [
       { text: "health and physical development", correct: false },
       { text: "hygiene of the educational process", correct: false },
-      { text: "work hygiene", correct: true },
+      { text: "work hygiene", correct: false },
       { text: "sanitary well-being in children's and adolescent institutions", correct: false },
       { text: "environmental hygiene", correct: true },
     ],
