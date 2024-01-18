@@ -2718,6 +2718,501 @@ const questions = [
     ],
   },
  
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Tyrosine", correct: false },
+      { text: "Proline", correct: false },
+      { text: "Serine", correct: false },
+      { text: "Lysine", correct: true },
+      { text: "Arginine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Methionine", correct: true },
+      { text: "Arginine", correct: false },
+      { text: "Proline", correct: false },
+      { text: "Serine", correct: false },
+      { text: "Cysteine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Arginine", correct: false },
+      { text: "Alanine", correct: false },
+      { text: "Glycine", correct: false },
+      { text: "Proline", correct: false },
+      { text: "Phenylalanine", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Proline", correct: false },
+      { text: "Threonine", correct: true },
+      { text: "Tyrosine", correct: false },
+      { text: "Cysteine", correct: false },
+      { text: "Arginine", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They participate in transport of oxygen", correct: false },
+      { text: "They play genetic value", correct: false },
+      { text: "They give energy", correct: true },
+      { text: "They transport iron", correct: false },
+      { text: "They transport nicotinic acid", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They transport nicotinic acid", correct: false },
+      { text: "They transport iron", correct: false },
+      { text: "They transport selenium", correct: false },
+      { text: "They give plasticity", correct: true },
+      { text: "They play genetic value", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They give plasticity", correct: true },
+      { text: "They transport nicotinic acid", correct: false },
+      { text: "They transport iron", correct: false },
+      { text: "They transport selenium", correct: false },
+      { text: "They play genetic value", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They participate in transport of oxygen", correct: false },
+      { text: "They play thermoregulatory role", correct: true },
+      { text: "They play genetic value", correct: false },
+      { text: "They transport nicotinic acid", correct: false },
+      { text: "They transport iron", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They play genetic value", correct: false },
+      { text: "They transport selenium", correct: false },
+      { text: "They transport iron", correct: false },
+      { text: "They participate in transport of oxygen", correct: false },
+      { text: "They play protective role", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of polyunsaturated fatty acids?",
+    answers: [
+      { text: "lamb fat", correct: false },
+      { text: "beef fat", correct: false },
+      { text: "vegetable oil", correct: true },
+      { text: "butter", correct: false },
+      { text: "clarified butter", correct: false },
+    ],
+  },
+
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Coniferous needles", correct: true },
+      { text: "Butter", correct: false },
+      { text: "Vegetable oil", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Fish", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Butter", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Vegetables", correct: true },
+      { text: "Liver", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Butter", correct: false },
+      { text: "Fruits", correct: true },
+      { text: "Vegetable oil", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Fish", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Beef", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Butter", correct: false },
+      { text: "Vegetable oil", correct: false },
+      { text: "Berries", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Fruits", correct: false },
+      { text: "Bread", correct: false },
+      { text: "Chicken egg", correct: true },
+      { text: "Berries", correct: false },
+      { text: "Vegetable oil", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Sour cream", correct: true },
+      { text: "Fruits", correct: false },
+      { text: "Vegetables", correct: false },
+      { text: "Vegetable oil", correct: false },
+      { text: "Fruits", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Vegetable oil", correct: false },
+      { text: "Fruits", correct: false },
+      { text: "Berries", correct: false },
+      { text: "Butter", correct: true },
+      { text: "Bread", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Vegetables", correct: false },
+      { text: "Liver", correct: true },
+      { text: "Bread", correct: false },
+      { text: "Berries", correct: false },
+      { text: "Fruits", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Vegetable oil", correct: false },
+      { text: "Bread", correct: false },
+      { text: "Vegetables", correct: false },
+      { text: "Fruits", correct: false },
+      { text: "Cod liver oil", correct: true },
+    ],
+  },
+  {
+    question: "What is the recommended daily allowance of ascorbic acid for adults?",
+    answers: [
+      { text: "2 mg", correct: false },
+      { text: "500-1000 mg", correct: false },
+      { text: "70-100 mg", correct: true },
+      { text: "20-30 mg", correct: false },
+      { text: "150-300 mg", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the recommended daily allowance for retinol?",
+    answers: [
+      { text: "1 mg", correct: true },
+      { text: "1 mkg", correct: false },
+      { text: "1 g", correct: false },
+      { text: "1 mg", correct: false },
+      { text: "1 kg", correct: false },
+    ],
+  },
+  {
+    question: "Which vitamin deficiency has angular stomatitis as a symptom?",
+    answers: [
+      { text: "Thiamine", correct: false },
+      { text: "Pantothenic acid", correct: false },
+      { text: "Nicotinic acid", correct: false },
+      { text: "Riboflavin", correct: true },
+      { text: "Tyrosine", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Fish", correct: false },
+      { text: "Bread", correct: true },
+      { text: "Cod liver oil", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Chicken egg", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Butter", correct: false },
+      { text: "Goat meat", correct: false },
+      { text: "Chicken egg", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Milk", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Goat meat", correct: false },
+      { text: "Cod liver oil", correct: false },
+      { text: "Cereals", correct: true },
+      { text: "Beef", correct: false },
+      { text: "Fruits", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Yeast", correct: true },
+      { text: "Eggs white", correct: false },
+      { text: "Cod liver oil", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Fish", correct: false },
+    ],
+  },
+  {
+    question: "What compounds are found in bread?",
+    answers: [
+      { text: "Proteins, fats, and carbohydrates", correct: false },
+      { text: "Carbohydrates and fats", correct: false },
+      { text: "Fats and proteins", correct: false },
+      { text: "Carbohydrates and proteins", correct: true },
+      { text: "Vitamins and fats", correct: false },
+    ],
+  },
+  {
+    question: "What compounds are found in milk?",
+    answers: [
+      { text: "Carbohydrates and fats", correct: false },
+      { text: "Only carbohydrates", correct: false },
+      { text: "Proteins and carbohydrates", correct: false },
+      { text: "Only proteins", correct: false },
+      { text: "Proteins and fats", correct: true },
+    ],
+  },
+  {
+    question: "What compounds are found in meat?",
+    answers: [
+      { text: "Proteins", correct: false },
+      { text: "Proteins and fats", correct: true },
+      { text: "Fats and carbohydrates", correct: false },
+      { text: "Proteins and carbohydrates", correct: false },
+      { text: "Carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What food product is the richest in linoleic acid?",
+    answers: [
+      { text: "Goose fat", correct: false },
+      { text: "Mutton fat", correct: false },
+      { text: "Vegetable oil", correct: true },
+      { text: "Butter", correct: false },
+      { text: "Bread", correct: false },
+    ],
+  },
+
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Moisture test", correct: true },
+      { text: "Nessler test", correct: false },
+      { text: "Colorimetry", correct: false },
+      { text: "Fortification tests", correct: false },
+      { text: "Indirect calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Gramm test", correct: false },
+      { text: "Indirect calorimetry", correct: false },
+      { text: "Fortification tests", correct: false },
+      { text: "Acidity test", correct: true },
+      { text: "Nessler test", correct: false },
+    ],
+  },
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Indirect calorimetry", correct: false },
+      { text: "Fortification tests", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Colorimetry", correct: false },
+      { text: "Porosity test", correct: true },
+    ],
+  },
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Nessler test", correct: false },
+      { text: "Organoleptic tests", correct: true },
+      { text: "Gramm test", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Fortification tests", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Enriching formulas", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Organoleptic properties", correct: true },
+      { text: "Temperature", correct: false },
+      { text: "Gramm test", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Acidity", correct: true },
+      { text: "Color", correct: false },
+      { text: "Fluoride content", correct: false },
+      { text: "Gramm tests", correct: false },
+      { text: "Temperature", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Temperature", correct: false },
+      { text: "Fluoride content", correct: false },
+      { text: "Color", correct: false },
+      { text: "Fat content", correct: true },
+      { text: "Gramm tests", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Color", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Fluoride content", correct: false },
+      { text: "Gramm tests", correct: false },
+      { text: "Density", correct: true },
+    ],
+  },
+  {
+    question: "How is meat quality determined?",
+    answers: [
+      { text: "Gram test", correct: false },
+      { text: "Iodine test", correct: true },
+      { text: "Organoleptic tests", correct: false },
+      { text: "Colorimetry", correct: false },
+      { text: "Acidity test", correct: false },
+    ],
+  },
+  {
+    question: "How is meat quality determined?",
+    answers: [
+      { text: "Nessler test", correct: false },
+      { text: "Test for fatness", correct: false },
+      { text: "Andrievsky test", correct: true },
+      { text: "Gramm test", correct: false },
+      { text: "Colorimetry", correct: false },
+    ],
+  },
+  {
+    question: "How is meat quality determined?",
+    answers: [
+      { text: "Test-reaction with the bluestone in a broth", correct: true },
+      { text: "Test for protein", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Acidity test", correct: false },
+    ],
+  },
+  {
+    question: "What is the recommended daily intake of calcium:",
+    answers: [
+      { text: "2000 mg", correct: false },
+      { text: "1000 mg", correct: false },
+      { text: "1-2 g", correct: false },
+      { text: "800 mg", correct: true },
+      { text: "500 mg", correct: false },
+    ],
+  },
+  {
+    question: "What foods have the most favorable ratio of Ca and P:",
+    answers: [
+      { text: "fruits", correct: false },
+      { text: "Bread", correct: false },
+      { text: "legumes", correct: false },
+      { text: "buckwheat", correct: false },
+      { text: "cottage cheese", correct: true },
+    ],
+  },
+  {
+    question: "What foods contain iron:",
+    answers: [
+      { text: "sugar", correct: false },
+      { text: "cereals", correct: true },
+      { text: "milk", correct: false },
+      { text: "chokeberry", correct: false },
+      { text: "orange", correct: false },
+    ],
+  },
+  {
+    question: "What foods contain iron:",
+    answers: [
+      { text: "Cote liver oil", correct: false },
+      { text: "Eggs white", correct: false },
+      { text: "White mushrooms", correct: true },
+      { text: "Beef", correct: false },
+      { text: "Vegetable oil", correct: false },
+    ],
+  },
+  {
+    question: "What foods contain iron:",
+    answers: [
+      { text: "Apples", correct: true },
+      { text: "Milk", correct: false },
+      { text: "Cheese", correct: false },
+      { text: "Cote liver oil", correct: false },
+      { text: "sugar", correct: false },
+    ],
+  },
+  {
+    question: "In what dish is vitamin C preserved better?",
+    answers: [
+      { text: "mashed potatoes", correct: false },
+      { text: "potatoes boiled in their skins", correct: true },
+      { text: "fried potatoes", correct: false },
+      { text: "braised potatoes", correct: false },
+      { text: "potato lacks vitamin C", correct: false },
+    ],
+  },
+  {
+    question: "What diseases can be transmitted through milk?",
+    answers: [
+      { text: "botulism", correct: false },
+      { text: "tetanus", correct: false },
+      { text: "diphyllobothriasis", correct: false },
+      { text: "staphylococcal infection", correct: true },
+      { text: "streptococcal infection", correct: false },
+    ],
+  },
+  {
+    question: "What milk-borne disease do you know?",
+    answers: [
+      { text: "leptospirosis", correct: false },
+      { text: "teniosis", correct: false },
+      { text: "difillobotriosis", correct: false },
+      { text: "tetanus", correct: false },
+      { text: "brucellosis", correct: true },
+    ],
+  },
+
+    
              
 ]
 
