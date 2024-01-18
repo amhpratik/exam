@@ -1202,6 +1202,512 @@ const questions = [
         ],
       },
  
+  {
+    question: "What sign of physical development is related to physiometric?",
+    answers: [
+      { text: "condition of the skin", correct: false },
+      { text: "foot shape", correct: false },
+      { text: "body mass", correct: false },
+      { text: "height", correct: false },
+      { text: "muscle strength", correct: true },
+    ],
+  },
+  {
+    question: "What sign of physical development is related to somatoscopic?",
+    answers: [
+      { text: "chest circumference", correct: false },
+      { text: "degree of sexual development", correct: true },
+      { text: "muscle strength", correct: false },
+      { text: "arterial pressure", correct: false },
+      { text: "pulse", correct: false },
+    ],
+  },
+  {
+    question: "What sign of physical development relates to somatometric?",
+    answers: [
+      { text: "muscle strength", correct: false },
+      { text: "lung capacity", correct: false },
+      { text: "height and body weight", correct: false },
+      { text: "fat deposition", correct: false },
+      { text: "sexual development", correct: true },
+    ],
+  },
+  {
+    question: "Which group of children has the lowest prevalence of chronic diseases and functional abnormalities?",
+    answers: [
+      { text: "with an accelerated type of biological development", correct: false },
+      { text: "with a timely type of biological development", correct: true },
+      { text: "with a slow type of biological development", correct: false },
+      { text: "Biological development does not affect", correct: false },
+      { text: "with an accelerated type of physiological development", correct: false },
+    ],
+  },
+  {
+    question: "What rates of age development of children are characterized at the present stage?",
+    answers: [
+      { text: "stabilization", correct: true },
+      { text: "deceleration", correct: false },
+      { text: "acceleration", correct: false },
+      { text: "restabilization", correct: false },
+      { text: "destabilization", correct: false },
+    ],
+  },
+  {
+    question: "How do the rates of growth and development change with age?",
+    answers: [
+      { text: "increase", correct: false },
+      { text: "increases only mentally", correct: false },
+      { text: "decreases", correct: false },
+      { text: "increases and simultaneously decreases", correct: true },
+      { text: "does not change", correct: false },
+    ],
+  },
+  {
+    question: "At what age is there a 'growth leap' in development?",
+    answers: [
+      { text: "infancy", correct: false },
+      { text: "adolescence", correct: true },
+      { text: "preschool age", correct: false },
+      { text: "school age", correct: false },
+      { text: "youth period", correct: false },
+    ],
+  },
+  {
+    question: "What are the processes of acceleration in the development of the child?",
+    answers: [
+      { text: "increase in the average age of puberty", correct: false },
+      { text: "increase in the age of teething", correct: false },
+      { text: "an increase in the average age of completion of growth", correct: false },
+      { text: "increase in average body indicators", correct: true },
+      { text: "do not show up in anything", correct: false },
+    ],
+  },
+  {
+    question: "What are the criteria for the health of children at the individual level?",
+    answers: [
+      { text: "disability", correct: false },
+      { text: "mortality", correct: false },
+      { text: "child nutrition", correct: false },
+      { text: "genealogical history", correct: false },
+      { text: "degree of neuropsychic development", correct: true },
+    ],
+  },
+  {
+    question: "What is the indicator of children's health at the population level?",
+    answers: [
+      { text: "hereditary diseases", correct: false },
+      { text: "fertility", correct: false },
+      { text: "disability", correct: true },
+      { text: "child's lifestyle", correct: false },
+      { text: "climatic and geographical conditions", correct: false },
+    ],
+  },
+
+
+  {
+    question: "Which of the following is true for a child's health?",
+    answers: [
+      { text: "the presence or absence of chronic diseases", correct: true },
+      { text: "health index", correct: false },
+      { text: "actual power state", correct: false },
+      { text: "environmental pollution", correct: false },
+      { text: "child's living conditions", correct: false },
+    ],
+  },
+  {
+    question: "The health of the child is",
+    answers: [
+      { text: "accessibility of education", correct: false },
+      { text: "priority of children's interests", correct: false },
+      { text: "level of material security", correct: false },
+      { text: "absence or presence of morpho-functional changes", correct: true },
+      { text: "actual power state", correct: false },
+    ],
+  },
+  {
+    question: "What refers to uneven growth and development in ontogenesis:",
+    answers: [
+      { text: "the growth and development of each child is controlled by its own genetic program", correct: false },
+      { text: "the older the child, the lower the rate of growth and development", correct: true },
+      { text: "growth rates of boys and girls are not the same", correct: false },
+      { text: "the growth and development rates of different body systems are not the same", correct: true },
+      { text: "accelerated rates ensure the survival of the organism", correct: false },
+    ],
+  },
+  {
+    question: "Sexual dimorphism of growth and development is",
+    answers: [
+      { text: "the growth and development rates of different body systems are not the same", correct: false },
+      { text: "the older the child, the lower the rate of growth and development", correct: false },
+      { text: "growth and development rates of boys and girls are not the same", correct: true },
+      { text: "the growth and development of each child is controlled by its own genetic program", correct: false },
+      { text: "in the process of growth and development, periods of accelerated and slow development are distinguished", correct: false },
+    ],
+  },
+  {
+    question: "List the leading cause of death in children over two years of age:",
+    answers: [
+      { text: "congenital anomalies and malformations", correct: false },
+      { text: "respiratory diseases", correct: false },
+      { text: "diseases of the perinatal period", correct: false },
+      { text: "infectious diseases", correct: false },
+      { text: "injuries, accidents, poisoning", correct: true },
+    ],
+  },
+  {
+    question: "What diseases are the most common causes of death in children in the first year of life",
+    answers: [
+      { text: "congenital anomalies and malformations", correct: true },
+      { text: "respiratory diseases", correct: false },
+      { text: "infectious diseases", correct: false },
+      { text: "injuries, accidents, poisoning", correct: false },
+      { text: "Genetic diseases", correct: false },
+    ],
+  },
+  {
+    question: "What is the most likely risk factor for a decrease in lung capacity:",
+    answers: [
+      { text: "high teaching loads", correct: false },
+      { text: "malnutrition", correct: false },
+      { text: "hereditary predisposition", correct: false },
+      { text: "low physical activity", correct: true },
+      { text: "lack of hardening", correct: false },
+    ],
+  },
+  {
+    question: "What are the features of nervous processes in childhood:",
+    answers: [
+      { text: "longer attention span", correct: false },
+      { text: "excitatory processes predominate over inhibitory processes", correct: true },
+      { text: "concentration processes prevail over irradiation processes", correct: false },
+      { text: "the activity of the left hemisphere predominates", correct: false },
+      { text: "the degree of growth does not affect the nervous process", correct: false },
+    ],
+  },
+  {
+    question: "At what age does the brain develop most intensively?",
+    answers: [
+      { text: "5 - 7 years old", correct: false },
+      { text: "4 - 6 years old", correct: false },
+      { text: "0-3 years old", correct: true },
+      { text: "6 -12 years old", correct: false },
+      { text: "14 years old and over", correct: false },
+    ],
+  },
+  {
+    question: "What are the structural features of the respiratory system in children compared to adults",
+    answers: [
+      { text: "narrower airways", correct: true },
+      { text: "airways are wider", correct: false },
+      { text: "surface of lung alveoli", correct: false },
+      { text: "thoracic breathing predominates", correct: false },
+      { text: "children and adults are similar", correct: false },
+    ],
+  },
+
+
+  {
+    question: "What are the features of the functioning of the respiratory system in children compared to adults:",
+    answers: [
+      { text: "breathing rate is less", correct: false },
+      { text: "respiratory minute volume is greater", correct: false },
+      { text: "during physical activity, the depth of breathing mainly increases", correct: false },
+      { text: "respiration rate does not change", correct: false },
+      { text: "respiratory rate is higher", correct: true },
+    ],
+  },
+  {
+    question: "With what anatomical and physiological features of the skin is the special need for hardening in childhood associated?",
+    answers: [
+      { text: "greater expression of subcutaneous fat", correct: false },
+      { text: "relatively smaller (per 1 kg of body weight) skin surface", correct: false },
+      { text: "deep location of blood vessels", correct: false },
+      { text: "superficial arrangement of blood vessels", correct: true },
+      { text: "unbranched subcutaneous capillary network", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features of the visual analyzer contribute to the formation of myopia in childhood?",
+    answers: [
+      { text: "large bulge of the lens", correct: false },
+      { text: "far-sighted refraction up to 7-10 years", correct: true },
+      { text: "not elastic walls of the eyeballs", correct: false },
+      { text: "prolonged accommodation", correct: false },
+      { text: "strong development of the oculomotor muscles", correct: false },
+    ],
+  },
+  {
+    question: "What measures are taken to prevent scoliosis in schoolchildren",
+    answers: [
+      { text: "correspondence of educational furniture to the height group", correct: true },
+      { text: "control over the nutrition of schoolchildren", correct: false },
+      { text: "room layout", correct: false },
+      { text: "clinical examination of children with posture disorders", correct: false },
+      { text: "local lighting on desks", correct: false },
+    ],
+  },
+  {
+    question: "Which day is an easy day of the week for middle and high school students should be:",
+    answers: [
+      { text: "Monday", correct: false },
+      { text: "Tuesday", correct: false },
+      { text: "Wednesday", correct: false },
+      { text: "Thursday", correct: true },
+      { text: "Friday", correct: false },
+    ],
+  },
+  {
+    question: "How is student seat height determined:",
+    answers: [
+      { text: "student growth", correct: false },
+      { text: "calf length of students", correct: false },
+      { text: "calf length with foot", correct: true },
+      { text: "sitting tall", correct: false },
+      { text: "thigh length", correct: false },
+    ],
+  },
+  {
+    question: "What are the general requirements for school furniture:",
+    answers: [
+      { text: "coloring in light colors", correct: false },
+      { text: "matching student height", correct: true },
+      { text: "ease of students", correct: false },
+      { text: "coloring in dark colors", correct: false },
+      { text: "modern finish, beautiful design", correct: false },
+    ],
+  },
+  {
+    question: "What is the acceleration of growth and development processes called?",
+    answers: [
+      { text: "secular trend", correct: false },
+      { text: "stagnation", correct: false },
+      { text: "deceleration", correct: false },
+      { text: "gracilization", correct: false },
+      { text: "acceleration", correct: true },
+    ],
+  },
+  {
+    question: "How is air velocity measured in a school building?",
+    answers: [
+      { text: "psychrometer", correct: false },
+      { text: "hygrometer", correct: false },
+      { text: "thermometer", correct: false },
+      { text: "catathermomet", correct: true },
+      { text: "barometer", correct: false },
+    ],
+  },
+  {
+    question: "What pathology is school-significant",
+    answers: [
+      { text: "scoliosis", correct: true },
+      { text: "hepatitis", correct: false },
+      { text: "bronchitis", correct: false },
+      { text: "hearing loss", correct: false },
+      { text: "nephropathy", correct: false },
+    ],
+  },
+
+  {
+    question: "What issues are not studied by the subject of hygiene of children and adolescents",
+    answers: [
+      { text: "health and physical development", correct: false },
+      { text: "hygiene of the educational process", correct: false },
+      { text: "work hygiene", correct: true },
+      { text: "sanitary well-being in children's and adolescent institutions", correct: false },
+      { text: "environmental hygiene", correct: true },
+    ],
+  },
+  {
+    question: "What does not apply to modern trends in the study of hygiene of children and adolescents",
+    answers: [
+      { text: "decreased psychological development", correct: false },
+      { text: "reduction of infectious diseases", correct: false },
+      { text: "reduction of allergic reactions", correct: true },
+      { text: "improvement of dermographic parameters", correct: false },
+      { text: "decrease in mortality", correct: false },
+    ],
+  },
+  {
+    question: "What is not a determinant of health",
+    answers: [
+      { text: "Ante deviation - intra postnotal", correct: false },
+      { text: "violation of the environment", correct: true },
+      { text: "body mass", correct: false },
+      { text: "living conditions", correct: false },
+      { text: "family income", correct: false },
+    ],
+  },
+  {
+    question: "What external favorable conditions are not created in the process of upbringing and in the process of teaching children",
+    answers: [
+      { text: "eliminate the possibility of bad habits", correct: false },
+      { text: "improve health", correct: false },
+      { text: "promote physical development", correct: false },
+      { text: "stop overall performance", correct: true },
+      { text: "Improve student achievement", correct: false },
+    ],
+  },
+  {
+    question: "What causes student stress",
+    answers: [
+      { text: "body fatigue", correct: true },
+      { text: "memory improves", correct: false },
+      { text: "positive effect on mental activity", correct: false },
+      { text: "physical activity increases", correct: false },
+      { text: "attention is activated", correct: false },
+    ],
+  },
+  {
+    question: "Which factor is an unfavorable factor, long sitting at a desk at school or at home",
+    answers: [
+      { text: "increased physical activity", correct: false },
+      { text: "positive effect on mental performance", correct: false },
+      { text: "positive effect on physical performance", correct: false },
+      { text: "reduces static load", correct: false },
+      { text: "reduces the body's resistance to adverse environmental influences", correct: true },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not included in the period of childhood",
+    answers: [
+      { text: "newborns 1-10 days old", correct: false },
+      { text: "infants from 10 days to 1 year", correct: false },
+      { text: "late childhood 1 to 3 years", correct: true },
+      { text: "first childhood 4-7 years old", correct: false },
+      { text: "second childhood from 7 years to 12 years", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not typical for early childhood",
+    answers: [
+      { text: "rapid development of the central nervous system", correct: false },
+      { text: "children at this age are not able to draw", correct: true },
+      { text: "effectively forming motor skills", correct: false },
+      { text: "significant enlargement of the lower extremities", correct: false },
+      { text: "reducing the roundness of the shape", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not typical for primary school age",
+    answers: [
+      { text: "the muscular system develops intensively", correct: false },
+      { text: "instability of nervous processes", correct: false },
+      { text: "predominance of excitatory processes over inhibition processes", correct: false },
+      { text: "at this age, bone deformity does not occur", correct: true },
+      { text: "relatively rapid decline in attention and fatigue", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not typical for adolescence (primary school age)",
+    answers: [
+      { text: "increased learning ability", correct: true },
+      { text: "displacement of the pelvic bones when jumping", correct: false },
+      { text: "improved movement coordination", correct: false },
+      { text: "increased height and muscle strength", correct: false },
+          ],
+  },
+
+  {
+    question: "What anatomical and physiological features are not typical for senior school age",
+    answers: [
+      { text: "the formation of the musculoskeletal system is completed", correct: false },
+      { text: "increase in body length", correct: false },
+      { text: "significant increase in muscle strength", correct: false },
+      { text: "significant weight gain", correct: false },
+      { text: "development of small muscles is slowed down", correct: true },
+    ],
+  },
+  {
+    question: "Which organ system does not change in the growth and development of the child's body",
+    answers: [
+      { text: "cardiovascular", correct: false },
+      { text: "respiratory system", correct: false },
+      { text: "organ of hearing", correct: true },
+      { text: "endocrine", correct: false },
+      { text: "digestive", correct: false },
+    ],
+  },
+  {
+    question: "What development is not typical for physical development",
+    answers: [
+      { text: "the presence of adipose tissue", correct: false },
+      { text: "ecology", correct: true },
+      { text: "puberty", correct: false },
+      { text: "body build and weight", correct: false },
+      { text: "motor development", correct: false },
+    ],
+  },
+  {
+    question: "What patterns are not typical for physical development",
+    answers: [
+      { text: "the younger the body, the more intensive its growth and development", correct: false },
+      { text: "the processes of growth and development do not proceed evenly", correct: false },
+      { text: "the process of growth and development depending on gender", correct: false },
+      { text: "the process of growth and development proceeds evenly", correct: true },
+      { text: "growth process does not depend on gender", correct: false },
+    ],
+  },
+  {
+    question: "How much sleep should a child under 1 year old",
+    answers: [
+      { text: "17-19 hours with an interval of 1.5-2 hours", correct: true },
+      { text: "night 10-10.5 hours and day 2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 1.5 hours", correct: false },
+      { text: "14-15 hours at night and 1-5 hours during the day", correct: false },
+      { text: "night 12-13 hours and day 1 hour", correct: false },
+    ],
+  },
+  {
+    question: "How much time should a child sleep 3-5 years",
+    answers: [
+      { text: "17-19 hours with an interval of 1.5-2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 1.5 hours", correct: false },
+      { text: "night 12-13 hours and day 1 hour", correct: false },
+      { text: "night 12-13 hours and day 2 hours", correct: false },
+      { text: " night 10-10.5 hours and day 2 hours", correct: true },
+    ],
+  },
+  {
+    question: "How much time should a child sleep 5-6 years",
+    answers: [
+      { text: "night 10-10.5 hours and day 2 hours", correct: false },
+      { text: "17-19 hours with an interval of 1.5-2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 1.5 hours", correct: true },
+      { text: "14-15 hours at night and 1-5 hours during the day", correct: false },
+      { text: "night 12-13 hours and day 1 hour", correct: false },
+    ],
+  },
+  {
+    question: "What patterns are not typical for physical development",
+    answers: [
+      { text: "endogeneity", correct: false },
+      { text: "exogenous", correct: true },
+      { text: "not reversibility", correct: false },
+      { text: "cyclicality", correct: false },
+      { text: "synchronicity", correct: false },
+    ],
+  },
+  {
+    question: "How is body height measured?",
+    answers: [
+      { text: "Somatoscopic", correct: true },
+      { text: "Somatometria", correct: false },
+      { text: "wooden stadiometer", correct: false },
+      { text: "metal anthropometer", correct: false },
+      { text: "pedobaroacrometer", correct: false },
+    ],
+  },
+  {
+    question: "How is somatometric of chest circumference measured?",
+    answers: [
+      { text: "steel tape measure", correct: false },
+      { text: "centimeter tape measure", correct: false },
+      { text: "measured at rest", correct: false },
+      { text: "measured with a pedobaroacrometer", correct: false },
+      { text: "measured at maximum inhalation and exhalation", correct: true },
+    ],
+  },
+
   
  
 
