@@ -2213,7 +2213,511 @@ const questions = [
   },
 //more 50 added
 
-  
+ {
+    question: "What helminths are associated with eating vegetables",
+    answers: [
+      { text: "Ascaridosis", correct: true },
+      { text: "Diphyllobothriasis", correct: false },
+      { text: "Leptospirosis", correct: false },
+      { text: "Teniarinhoz", correct: false },
+      { text: "Opisthorchiasis", correct: false },
+    ],
+  },
+  {
+    question: "Please indicate compounds that promote the excretion of metals from the body",
+    answers: [
+      { text: "sterols", correct: false },
+      { text: "pectins", correct: true },
+      { text: "phosphatides", correct: false },
+      { text: "cholesterol", correct: false },
+      { text: "chlorid", correct: false },
+    ],
+  },
+  {
+    question: "What kind of food poisoning, if the clinic notes: temperature 38-40 °, vomiting, abdominal pain, frequent and copious stools, fetid with mucus and blood, tenesmus, pallor of the skin",
+    answers: [
+      { text: "poisoning with pale toadstool", correct: false },
+      { text: "Poisoning by belladonna", correct: false },
+      { text: "botulism", correct: false },
+      { text: "Toxicinfection caused by salmonella", correct: true },
+      { text: "Escherichia coli poisoning", correct: false },
+    ],
+  },
+  {
+    question: "Indicate the average duration of the incubation period in botulism",
+    answers: [
+      { text: "From 30min-2 hours to 5 days", correct: false },
+      { text: "12-72 hours", correct: false },
+      { text: "5-7 days", correct: false },
+      { text: "6-10 days", correct: false },
+      { text: "From 2-3 hours to 10 days", correct: true },
+    ],
+  },
+  {
+    question: "What contributes to the death of salmonella?",
+    answers: [
+      { text: "boiling", correct: true },
+      { text: "smoking", correct: false },
+      { text: "salting", correct: false },
+      { text: "freezing", correct: false },
+      { text: "instillation", correct: false },
+    ],
+  },
+  {
+    question: "What is the optimal ratio of proteins, fats and carbohydrates in the diet for the elderly",
+    answers: [
+      { text: "1:0.8:5", correct: false },
+      { text: "1:0.9:6", correct: false },
+      { text: "1:1:4", correct: true },
+      { text: "1:01:05", correct: false },
+      { text: "1:01:06", correct: false },
+    ],
+  },
+  {
+    question: "What percentage of total dietary carbohydrates should sugar take in the diet of adult persons with mental occupation?",
+    answers: [
+      { text: "36%", correct: false },
+      { text: "20%", correct: true },
+      { text: "15%", correct: false },
+      { text: "40%", correct: false },
+      { text: "55%", correct: false },
+    ],
+  },
+  {
+    question: "What is the physiological need for fats for adults engaged in mental work;",
+    answers: [
+      { text: "4 g/kg body weight", correct: false },
+      { text: "2 g/kg body weight", correct: false },
+      { text: "70g", correct: false },
+      { text: "1 g/kg body weight", correct: true },
+      { text: "6 g/kg body weight", correct: false },
+    ],
+  },
+  {
+    question: "What should be the daily diet",
+    answers: [
+      { text: "breakfast - 10% lunch - 70% dinner - 20%", correct: false },
+      { text: "breakfast - 40% lunch - 30% dinner - 30%", correct: false },
+      { text: "breakfast - 30% lunch - 60% dinner -10%", correct: false },
+      { text: "breakfast - 20% lunch - 70% dinner - 10%", correct: false },
+      { text: "breakfast - 30% lunch - 50% dinner -20%", correct: true },
+    ],
+  },
+  {
+    question: "What is the physiological need of breastfed infants for carbohydrates:",
+    answers: [
+      { text: "13 g/kg", correct: true },
+      { text: "20 g/kg", correct: false },
+      { text: "5 g/kg", correct: false },
+      { text: "150 g", correct: false },
+      { text: "300 g", correct: false },
+    ],
+  },
+
+  {
+    question: "How does the child's body experience an increased need for the following minerals",
+    answers: [
+      { text: "sodium", correct: false },
+      { text: "potassium", correct: false },
+      { text: "calcium", correct: true },
+      { text: "manganese", correct: false },
+      { text: "iron", correct: false },
+    ],
+  },
+  {
+    question: "What is the physiological need for proteins for a 6-month-old baby",
+    answers: [
+      { text: "1-1.5 g/kg body weight", correct: false },
+      { text: "2.6 g/kg body weight", correct: true },
+      { text: "150 g", correct: false },
+      { text: "200 g", correct: false },
+      { text: "250 g", correct: false },
+    ],
+  },
+  {
+    question: "What is the physiological need for protein in adult mental workers who are not involved in sports, are:",
+    answers: [
+      { text: "50 g", correct: false },
+      { text: "80 g", correct: false },
+      { text: "150 g", correct: false },
+      { text: "0.8 g/kg body weight", correct: false },
+      { text: "4 g/kg body weight", correct: true },
+    ],
+  },
+  {
+    question: "In what period is the enrichment of prepared dishes carried out in children's institutions:",
+    answers: [
+      { text: "ascorbic acid is added to 3 meals all year round", correct: true },
+      { text: "adding ascorbic acid to all dishes in the autumn-winter period", correct: false },
+      { text: "ascorbic acid was added to the third dishes in the autumn-winter period", correct: false },
+      { text: "multivitamin preparations added to all meals all year round", correct: false },
+      { text: "iron is added in the autumn-winter period", correct: false },
+    ],
+  },
+  {
+    question: "What are the physiological needs for carbohydrates of adults engaged in physical labor",
+    answers: [
+      { text: "500 g", correct: false },
+      { text: "300 g", correct: false },
+      { text: "15 g/kg", correct: false },
+      { text: "10 g/kg", correct: false },
+      { text: "5 g/kg", correct: true },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "the increase in protein and fat intake", correct: false },
+      { text: "the increase in carbohydrate intake", correct: false },
+      { text: "balanced diet in qualities and quantities", correct: true },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "increased intake of macronutrients", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "the increase in protein and fat intake", correct: false },
+      { text: "adherence to eating regime", correct: true },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "the decrease in carbohydrate intake", correct: false },
+      { text: "increased intake of macronutrients", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "increased intake of macronutrients", correct: false },
+      { text: "the increase in carbohydrate intake", correct: false },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "sufficiency in terms of energy", correct: true },
+      { text: "the increase in protein and carbohydrate intake", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "diversity of food", correct: true },
+      { text: "the decrease in carbohydrate intake", correct: false },
+      { text: "the increase in intake of all nutrients", correct: false },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "increased intake of macronutrients", correct: false },
+    ],
+  },
+  {
+    question: "What are the requirements for the concept of rational nutrition:",
+    answers: [
+      { text: "stereotypity of the diet", correct: false },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "assimilation of food", correct: true },
+      { text: "increase intake of all nutrients", correct: false },
+      { text: "the increase in carbohydrate intake", correct: false },
+    ],
+  },
+
+  {
+    question: "What does the term healthy eating include?",
+    answers: [
+      { text: "increased carbohydrate intake", correct: false },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "decreasing intake of fat and protein", correct: false },
+      { text: "increasing intake of all nutrients", correct: false },
+      { text: "qualitative and quantitative adequacy of nutrients", correct: true },
+    ],
+  },
+  {
+    question: "Requirements to a healthy diet include the following:",
+    answers: [
+      { text: "increasing intake of all nutrients", correct: false },
+      { text: "adherence to eating regime", correct: true },
+      { text: "decreasing intake of fat and protein", correct: false },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "increased carbohydrate intake", correct: false },
+    ],
+  },
+  {
+    question: "What kind of food is included in the requirement of a healthy diet?",
+    answers: [
+      { text: "variety of food", correct: true },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "increase intake of all nutrients", correct: false },
+      { text: "decreasing intake of fat and protein", correct: false },
+      { text: "increased carbohydrate intake", correct: false },
+    ],
+  },
+  {
+    question: "What diet should a healthy person have?",
+    answers: [
+      { text: "Taking optimal amounts of all micro- and micronutrients", correct: false },
+      { text: "The taking right amount of food", correct: false },
+      { text: "The multiplicity of meals", correct: true },
+      { text: "It is systematic taking meal", correct: false },
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What should be the diet?",
+    answers: [
+      { text: "It is adequate diet", correct: false },
+      { text: "It is systematic taking meal", correct: false },
+      { text: "Taking optimal amounts of all micro- and micronutrients", correct: false },
+      { text: "Intervals between meals", correct: true },
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What is the eating regime?",
+    answers: [
+      { text: "The taking right amount of food", correct: false },
+      { text: "Qualitative and quantitative distribution of food on separate meals", correct: true },
+      { text: "It is adequate diet", correct: false },
+      { text: "It is systematic taking meal", correct: false },
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What is the eating regime?",
+    answers: [
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+      { text: "It is adequate diet", correct: false },
+      { text: "The taking right amount of food", correct: false },
+      { text: "Taking optimal amounts of all micro- and micronutrients", correct: false },
+      { text: "The duration and multiplicity of the eating meal", correct: true },
+    ],
+  },
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "direct calorimetry", correct: true },
+      { text: "alimentary energometry", correct: false },
+      { text: "indirect chronometry", correct: false },
+      { text: "mental and physical wok account", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "alimentary energometry", correct: false },
+      { text: "indirect chronometry", correct: false },
+      { text: "respiratory calorimetry", correct: true },
+      { text: "mental and physical wok account", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "mental and physical wok account", correct: false },
+      { text: "alimentary energometry", correct: false },
+      { text: "indirect chronometry", correct: false },
+      { text: "table-chronometry", correct: true },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "alimentary energometry", correct: false },
+      { text: "calorimetric", correct: true },
+      { text: "indirect chronometry", correct: false },
+      { text: "mental and physical wok account", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "energy expenditures for sleeping", correct: false },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "only for catabolic reactions", correct: false },
+      { text: "specific dynamic action of nutrients", correct: false },
+      { text: "energy expenditures for domestic activities", correct: true },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "energy expenditures for professional activities", correct: answerButtons },
+      { text: "the basal metabolic rate", correct: false },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "energy expenditures for sleeping", correct: false },
+      { text: "only for catabolic reactions", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "energy expenditures for sleeping", correct: false },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "energy expenditures for sport activities", correct: true },
+      { text: "specific dynamic action of nutrients", correct: false },
+      { text: "the basal metabolic rate", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "specific dynamic action of nutrients", correct: false },
+      { text: "energy expenditures for mental work", correct: true },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "energy expenditures for sleeping", correct: false },
+      { text: "the basal metabolic rate", correct: false },
+    ],
+  },
+  {
+    question: "The rate of basal metabolism depends on which profession:",
+    answers: [
+      { text: "professions", correct: false },
+      { text: "Air pollution", correct: false },
+      { text: "Altitude above sea level", correct: false },
+      { text: "National food habits", correct: true },
+      { text: "basic exchange", correct: false },
+    ],
+  },
+  {
+    question: "The rate of basal metabolism depends on which profession:",
+    answers: [
+      { text: "Air pollution", correct: false },
+      { text: "Altitude", correct: false },
+      { text: "professions", correct: false },
+      { text: "The quality of drinking water", correct: false },
+      { text: "The climatic conditions", correct: true },
+    ],
+  },
+  {
+    question: "Basal metabolic rate depends on:",
+    answers: [
+      { text: "Body constitution", correct: true },
+      { text: "Profession", correct: false },
+      { text: "Altitude", correct: false },
+      { text: "The quality of drinking water", correct: false },
+      { text: "Air pollution", correct: false },
+    ],
+  },
+  {
+    question: "Basal metabolic rate depends on:",
+    answers: [
+      { text: "Altitude", correct: false },
+      { text: "The quality of drinking water", correct: false },
+      { text: "Age", correct: true },
+      { text: "Air pollution", correct: false },
+      { text: "professions", correct: false },
+    ],
+  },
+  {
+    question: "What morbidity is caused by a constant positive energy balance:",
+    answers: [
+      { text: "Malnutrition", correct: false },
+      { text: "alimentary obesity", correct: true },
+      { text: "Kwashiorkor", correct: false },
+      { text: "taeniasis", correct: false },
+      { text: "shigellosis", correct: false },
+    ],
+  },
+
+  {
+    question: "Prolonged negative energy balance leads to the development of the following disease:",
+    answers: [
+      { text: "Kwashiorkor", correct: false },
+      { text: "Atherosclerosis", correct: false },
+      { text: "Gouter", correct: false },
+      { text: "Alimentary obesity", correct: true },
+      { text: "Alimentary dystrophy", correct: false },
+    ],
+  },
+  {
+    question: "What is a specific dynamic action of nutrients?",
+    answers: [
+      { text: "It is increased energy expenditures during taking and digestion of nutrients", correct: true },
+      { text: "It is the decrease of energy expenditures when taking and digesting meal", correct: false },
+      { text: "It is increased energy expenditures during the working activity", correct: false },
+      { text: "It is reduction in energy expenditures during mental work", correct: false },
+      { text: "Reduced energy consumption during rest and sleep", correct: false },
+    ],
+  },
+  {
+    question: "How many calories are in 1 g of protein:",
+    answers: [
+      { text: "1 kcal", correct: false },
+      { text: "4 kcal", correct: true },
+      { text: "9 kcal", correct: false },
+      { text: "10 kcal", correct: false },
+      { text: "12 kcal", correct: false },
+    ],
+  },
+  {
+    question: "How many calories are in 1 g of carbohydrate:",
+    answers: [
+      { text: "0.5 kcal", correct: false },
+      { text: "1 kcal", correct: false },
+      { text: "2 kcal", correct: false },
+      { text: "2.5 kcal", correct: false },
+      { text: "4 kcal", correct: true },
+    ],
+  },
+  {
+    question: "How many calories are in 1 g of fat is:",
+    answers: [
+      { text: "1 kcal", correct: false },
+      { text: "3.75 kcal", correct: false },
+      { text: "9 kcal", correct: true },
+      { text: "4 kcal", correct: false },
+      { text: "12 kcal", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Alanine", correct: false },
+      { text: "Glycine", correct: false },
+      { text: "Tyrosine", correct: false },
+      { text: "Tryptophan", correct: true },
+      { text: "Cysteine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Isoleucine", correct: true },
+      { text: "Glycine", correct: false },
+      { text: "Cysteine", correct: false },
+      { text: "Tyrosine", correct: false },
+      { text: "Alanine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Proline", correct: false },
+      { text: "Leucine", correct: true },
+      { text: "Serine", correct: false },
+      { text: "Arginine", correct: false },
+      { text: "Tyrosine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Proline", correct: false },
+      { text: "Serine", correct: false },
+      { text: "Arginine", correct: false },
+      { text: "Tyrosine", correct: false },
+      { text: "Valine", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Cysteine", correct: false },
+      { text: "Arginine", correct: false },
+      { text: "Histidine", correct: true },
+      { text: "Alanine", correct: false },
+      { text: "Tyrosine", correct: false },
+    ],
+  },
+ 
  
 
 
