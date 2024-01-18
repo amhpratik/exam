@@ -1201,6 +1201,1019 @@ const questions = [
       { text: "", correct: false }
     ]
   },
+  
+  {
+    question: "What sign of physical development is related to physiometric?",
+    answers: [
+      { text: "condition of the skin", correct: false },
+      { text: "foot shape", correct: false },
+      { text: "body mass", correct: false },
+      { text: "height", correct: false },
+      { text: "muscle strength", correct: true },
+    ],
+  },
+  {
+    question: "What sign of physical development is related to somatoscopic?",
+    answers: [
+      { text: "chest circumference", correct: false },
+      { text: "degree of sexual development", correct: false },
+      { text: "muscle strength", correct: false },
+      { text: "arterial pressure", correct: false },
+      { text: "pulse", correct: true },
+    ],
+  },
+  {
+    question: "What sign of physical development relates to somatometric?",
+    answers: [
+      { text: "muscle strength", correct: false },
+      { text: "lung capacity", correct: false },
+      { text: "height and body weight", correct: true },
+      { text: "fat deposition", correct: false },
+      { text: "sexual development", correct: false },
+    ],
+  },
+  {
+    question: "Which group of children has the lowest prevalence of chronic diseases and functional abnormalities?",
+    answers: [
+      { text: "with an accelerated type of biological development", correct: false },
+      { text: "with a timely type of biological development", correct: true },
+      { text: "with a slow type of biological development", correct: false },
+      { text: "Biological development does not affect", correct: false },
+      { text: "with an accelerated type of physiological development", correct: false },
+    ],
+  },
+  {
+    question: "What rates of age development of children are characterized at the present stage?",
+    answers: [
+      { text: "stabilization", correct: false },
+      { text: "deceleration", correct: false },
+      { text: "acceleration", correct: true },
+      { text: "restabilization", correct: false },
+      { text: "destabilization", correct: false },
+    ],
+  },
+  {
+    question: "How do the rates of growth and development change with age?",
+    answers: [
+      { text: "increase", correct: true },
+      { text: "increases only mentally", correct: false },
+      { text: "decreases", correct: false },
+      { text: "increases and simultaneously decreases", correct: false },
+      { text: "does not change", correct: false },
+    ],
+  },
+  {
+    question: "At what age is there a 'growth leap' in development?",
+    answers: [
+      { text: "infancy", correct: false },
+      { text: "adolescence", correct: false },
+      { text: "preschool age", correct: false },
+      { text: "school age", correct: false },
+      { text: "youth period", correct: true },
+    ],
+  },
+  {
+    question: "What are the processes of acceleration in the development of the child?",
+    answers: [
+      { text: "increase in the average age of puberty", correct: false },
+      { text: "increase in the age of teething", correct: false },
+      { text: "an increase in the average age of completion of growth", correct: true },
+      { text: "increase in average body indicators", correct: false },
+      { text: "do not show up in anything", correct: false },
+    ],
+  },
+  {
+    question: "What are the criteria for the health of children at the individual level?",
+    answers: [
+      { text: "disability", correct: false },
+      { text: "mortality", correct: false },
+      { text: "child nutrition", correct: false },
+      { text: "genealogical history", correct: false },
+      { text: "degree of neuropsychic development", correct: true },
+    ],
+  },
+  {
+    question: "What is the indicator of children's health at the population level?",
+    answers: [
+      { text: "hereditary diseases", correct: false },
+      { text: "fertility", correct: false },
+      { text: "disability", correct: false },
+      { text: "child's lifestyle", correct: false },
+      { text: "climatic and geographical conditions", correct: true },
+    ],
+  },
+
+
+  {
+    question: "Which of the following is true for a child's health?",
+    answers: [
+      { text: "the presence or absence of chronic diseases", correct: true },
+      { text: "health index", correct: false },
+      { text: "actual power state", correct: false },
+      { text: "environmental pollution", correct: false },
+      { text: "child's living conditions", correct: false },
+    ],
+  },
+  {
+    question: "The health of the child is",
+    answers: [
+      { text: "accessibility of education", correct: false },
+      { text: "priority of children's interests", correct: false },
+      { text: "level of material security", correct: false },
+      { text: "absence or presence of morpho-functional changes", correct: false },
+      { text: "actual power state", correct: true },
+    ],
+  },
+  {
+    question: "What refers to uneven growth and development in ontogenesis:",
+    answers: [
+      { text: "the growth and development of each child is controlled by its own genetic program", correct: false },
+      { text: "the older the child, the lower the rate of growth and development", correct: false },
+      { text: "growth rates of boys and girls are not the same", correct: false },
+      { text: "the growth and development rates of different body systems are not the same", correct: true },
+      { text: "accelerated rates ensure the survival of the organism", correct: false },
+    ],
+  },
+  {
+    question: "Sexual dimorphism of growth and development is",
+    answers: [
+      { text: "the growth and development rates of different body systems are not the same", correct: true },
+      { text: "the older the child, the lower the rate of growth and development", correct: false },
+      { text: "growth and development rates of boys and girls are not the same", correct: true },
+      { text: "the growth and development of each child is controlled by its own genetic program", correct: false },
+      { text: "in the process of growth and development, periods of accelerated and slow development are distinguished", correct: false },
+    ],
+  },
+  {
+    question: "List the leading cause of death in children over two years of age:",
+    answers: [
+      { text: "congenital anomalies and malformations", correct: false },
+      { text: "respiratory diseases", correct: false },
+      { text: "diseases of the perinatal period", correct: false },
+      { text: "infectious diseases", correct: false },
+      { text: "injuries, accidents, poisoning", correct: true },
+    ],
+  },
+  {
+    question: "What diseases are the most common causes of death in children in the first year of life",
+    answers: [
+      { text: "congenital anomalies and malformations", correct: true },
+      { text: "respiratory diseases", correct: false },
+      { text: "infectious diseases", correct: false },
+      { text: "injuries, accidents, poisoning", correct: false },
+      { text: "Genetic diseases", correct: false },
+    ],
+  },
+  {
+    question: "What is the most likely risk factor for a decrease in lung capacity:",
+    answers: [
+      { text: "high teaching loads", correct: false },
+      { text: "malnutrition", correct: false },
+      { text: "hereditary predisposition", correct: false },
+      { text: "low physical activity", correct: false },
+      { text: "lack of hardening", correct: true },
+    ],
+  },
+  {
+    question: "What are the features of nervous processes in childhood:",
+    answers: [
+      { text: "longer attention span", correct: false },
+      { text: "excitatory processes predominate over inhibitory processes", correct: false },
+      { text: "concentration processes prevail over irradiation processes", correct: false },
+      { text: "the activity of the left hemisphere predominates", correct: false },
+      { text: "the degree of growth does not affect the nervous process", correct: true },
+    ],
+  },
+  {
+    question: "At what age does the brain develop most intensively?",
+    answers: [
+      { text: "5 - 7 years old", correct: false },
+      { text: "4 - 6 years old", correct: false },
+      { text: "0-3 years old", correct: true },
+      { text: "6 -12 years old", correct: false },
+      { text: "14 years old and over", correct: false },
+    ],
+  },
+  {
+    question: "What are the structural features of the respiratory system in children compared to adults",
+    answers: [
+      { text: "narrower airways", correct: true },
+      { text: "airways are wider", correct: false },
+      { text: "surface of lung alveoli", correct: false },
+      { text: "thoracic breathing predominates", correct: false },
+      { text: "children and adults are similar", correct: false },
+    ],
+  },
+
+
+  {
+    question: "What are the features of the functioning of the respiratory system in children compared to adults:",
+    answers: [
+      { text: "breathing rate is less", correct: false },
+      { text: "respiratory minute volume is greater", correct: true },
+      { text: "during physical activity, the depth of breathing mainly increases", correct: false },
+      { text: "respiration rate does not change", correct: false },
+      { text: "respiratory rate is higher", correct: false },
+    ],
+  },
+  {
+    question: "With what anatomical and physiological features of the skin is the special need for hardening in childhood associated?",
+    answers: [
+      { text: "greater expression of subcutaneous fat", correct: false },
+      { text: "relatively smaller (per 1 kg of body weight) skin surface", correct: true },
+      { text: "deep location of blood vessels", correct: false },
+      { text: "superficial arrangement of blood vessels", correct: false },
+      { text: "unbranched subcutaneous capillary network", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features of the visual analyzer contribute to the formation of myopia in childhood?",
+    answers: [
+      { text: "large bulge of the lens", correct: false },
+      { text: "far-sighted refraction up to 7-10 years", correct: false },
+      { text: "not elastic walls of the eyeballs", correct: true },
+      { text: "prolonged accommodation", correct: false },
+      { text: "strong development of the oculomotor muscles", correct: false },
+    ],
+  },
+  {
+    question: "What measures are taken to prevent scoliosis in schoolchildren",
+    answers: [
+      { text: "correspondence of educational furniture to the height group", correct: true },
+      { text: "control over the nutrition of schoolchildren", correct: false },
+      { text: "room layout", correct: false },
+      { text: "clinical examination of children with posture disorders", correct: false },
+      { text: "local lighting on desks", correct: false },
+    ],
+  },
+  {
+    question: "Which day is an easy day of the week for middle and high school students should be:",
+    answers: [
+      { text: "Monday", correct: false },
+      { text: "Tuesday", correct: false },
+      { text: "Wednesday", correct: false },
+      { text: "Thursday", correct: false },
+      { text: "Friday", correct: true },
+    ],
+  },
+  {
+    question: "How is student seat height determined:",
+    answers: [
+      { text: "student growth", correct: false },
+      { text: "calf length of students", correct: false },
+      { text: "calf length with foot", correct: false },
+      { text: "sitting tall", correct: false },
+      { text: "thigh length", correct: true },
+    ],
+  },
+  {
+    question: "What are the general requirements for school furniture:",
+    answers: [
+      { text: "coloring in light colors", correct: false },
+      { text: "matching student height", correct: true },
+      { text: "ease of students", correct: false },
+      { text: "coloring in dark colors", correct: false },
+      { text: "modern finish, beautiful design", correct: false },
+    ],
+  },
+  {
+    question: "What is the acceleration of growth and development processes called?",
+    answers: [
+      { text: "secular trend", correct: false },
+      { text: "stagnation", correct: false },
+      { text: "deceleration", correct: false },
+      { text: "gracilization", correct: false },
+      { text: "acceleration", correct: true },
+    ],
+  },
+  {
+    question: "How is air velocity measured in a school building?",
+    answers: [
+      { text: "psychrometer", correct: false },
+      { text: "hygrometer", correct: false },
+      { text: "thermometer", correct: false },
+      { text: "catathermomet", correct: false },
+      { text: "barometer", correct: true },
+    ],
+  },
+  {
+    question: "What pathology is school-significant",
+    answers: [
+      { text: "scoliosis", correct: true },
+      { text: "hepatitis", correct: false },
+      { text: "bronchitis", correct: false },
+      { text: "hearing loss", correct: false },
+      { text: "nephropathy", correct: false },
+    ],
+  },
+
+  {
+    question: "What issues are not studied by the subject of hygiene of children and adolescents",
+    answers: [
+      { text: "health and physical development", correct: false },
+      { text: "hygiene of the educational process", correct: false },
+      { text: "work hygiene", correct: true },
+      { text: "sanitary well-being in children's and adolescent institutions", correct: false },
+      { text: "environmental hygiene", correct: false },
+    ],
+  },
+  {
+    question: "What does not apply to modern trends in the study of hygiene of children and adolescents",
+    answers: [
+      { text: "decreased psychological development", correct: true },
+      { text: "reduction of infectious diseases", correct: false },
+      { text: "reduction of allergic reactions", correct: false },
+      { text: "improvement of dermographic parameters", correct: false },
+      { text: "decrease in mortality", correct: false },
+    ],
+  },
+  {
+    question: "What is not a determinant of health",
+    answers: [
+      { text: "Ante deviation - intra postnotal", correct: true },
+      { text: "violation of the environment", correct: false },
+      { text: "body mass", correct: false },
+      { text: "living conditions", correct: false },
+      { text: "family income", correct: false },
+    ],
+  },
+  {
+    question: "What external favorable conditions are not created in the process of upbringing and in the process of teaching children",
+    answers: [
+      { text: "eliminate the possibility of bad habits", correct: false },
+      { text: "improve health", correct: false },
+      { text: "promote physical development", correct: false },
+      { text: "stop overall performance", correct: true },
+      { text: "Improve student achievement", correct: false },
+    ],
+  },
+  {
+    question: "What causes student stress",
+    answers: [
+      { text: "body fatigue", correct: true },
+      { text: "memory improves", correct: false },
+      { text: "positive effect on mental activity", correct: false },
+      { text: "physical activity increases", correct: false },
+      { text: "attention is activated", correct: false },
+    ],
+  },
+  {
+    question: "Which factor is an unfavorable factor, long sitting at a desk at school or at home",
+    answers: [
+      { text: "increased physical activity", correct: false },
+      { text: "positive effect on mental performance", correct: false },
+      { text: "positive effect on physical performance", correct: false },
+      { text: "reduces static load", correct: false },
+      { text: "reduces the body's resistance to adverse environmental influences", correct: true },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not included in the period of childhood",
+    answers: [
+      { text: "newborns 1-10 days old", correct: false },
+      { text: "infants from 10 days to 1 year", correct: false },
+      { text: "late childhood 1 to 3 years", correct: false },
+      { text: "first childhood 4-7 years old", correct: false },
+      { text: "second childhood from 7 years to 12 years", correct: true },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not typical for early childhood",
+    answers: [
+      { text: "rapid development of the central nervous system", correct: false },
+      { text: "children at this age are not able to draw", correct: true },
+      { text: "effectively forming motor skills", correct: false },
+      { text: "significant enlargement of the lower extremities", correct: false },
+      { text: "reducing the roundness of the shape", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not typical for primary school age",
+    answers: [
+      { text: "the muscular system develops intensively", correct: false },
+      { text: "instability of nervous processes", correct: false },
+      { text: "predominance of excitatory processes over inhibition processes", correct: true },
+      { text: "at this age, bone deformity does not occur", correct: false },
+      { text: "relatively rapid decline in attention and fatigue", correct: false },
+    ],
+  },
+  {
+    question: "What anatomical and physiological features are not typical for adolescence (primary school age)",
+    answers: [
+      { text: "increased learning ability", correct: false },
+      { text: "displacement of the pelvic bones when jumping", correct: false },
+      { text: "improved movement coordination", correct: false },
+      { text: "increased height and muscle strength", correct: false },
+      { text: " ", correct: true },
+    ],
+  },
+
+  {
+    question: "What anatomical and physiological features are not typical for senior school age",
+    answers: [
+      { text: "the formation of the musculoskeletal system is completed", correct: false },
+      { text: "increase in body length", correct: false },
+      { text: "significant increase in muscle strength", correct: false },
+      { text: "significant weight gain", correct: false },
+      { text: "development of small muscles is slowed down", correct: true },
+    ],
+  },
+  {
+    question: "Which organ system does not change in the growth and development of the child's body",
+    answers: [
+      { text: "cardiovascular", correct: false },
+      { text: "respiratory system", correct: false },
+      { text: "organ of hearing", correct: false },
+      { text: "endocrine", correct: false },
+      { text: "digestive", correct: true },
+    ],
+  },
+  {
+    question: "What development is not typical for physical development",
+    answers: [
+      { text: "the presence of adipose tissue", correct: false },
+      { text: "ecology", correct: true },
+      { text: "puberty", correct: false },
+      { text: "body build and weight", correct: false },
+      { text: "motor development", correct: false },
+    ],
+  },
+  {
+    question: "What patterns are not typical for physical development",
+    answers: [
+      { text: "the younger the body, the more intensive its growth and development", correct: false },
+      { text: "the processes of growth and development do not proceed evenly", correct: false },
+      { text: "the process of growth and development depending on gender", correct: true },
+      { text: "the process of growth and development proceeds evenly", correct: false },
+      { text: "growth process does not depend on gender", correct: false },
+    ],
+  },
+  {
+    question: "How much sleep should a child under 1 year old",
+    answers: [
+      { text: "17-19 hours with an interval of 1.5-2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 1.5 hours", correct: false },
+      { text: "14-15 hours at night and 1-5 hours during the day", correct: true },
+      { text: "night 12-13 hours and day 1 hour", correct: false },
+    ],
+  },
+  {
+    question: "How much time should a child sleep 3-5 years",
+    answers: [
+      { text: "17-19 hours with an interval of 1.5-2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 1.5 hours", correct: false },
+      { text: "night 12-13 hours and day 1 hour", correct: false },
+      { text: "night 10-10.5 hours and day 2 hours", correct: true },
+      { text: " ", correct: false },
+    ],
+  },
+  {
+    question: "How much time should a child sleep 5-6 years",
+    answers: [
+      { text: "night 10-10.5 hours and day 2 hours", correct: true },
+      { text: "17-19 hours with an interval of 1.5-2 hours", correct: false },
+      { text: "night 10-10.5 hours and day 1.5 hours", correct: false },
+      { text: "14-15 hours at night and 1-5 hours during the day", correct: false },
+      { text: "night 12-13 hours and day 1 hour", correct: false },
+    ],
+  },
+  {
+    question: "What patterns are not typical for physical development",
+    answers: [
+      { text: "endogeneity", correct: true },
+      { text: "exogenous", correct: false },
+      { text: "not reversibility", correct: false },
+      { text: "cyclicality", correct: false },
+      { text: "synchronicity", correct: false },
+    ],
+  },
+  {
+    question: "How is body height measured?",
+    answers: [
+      { text: "Somatoscopic", correct: false },
+      { text: "Somatometria", correct: false },
+      { text: "wooden stadiometer", correct: false },
+      { text: "metal anthropometer", correct: false },
+      { text: "pedobaroacrometer", correct: true },
+    ],
+  },
+  {
+    question: "How is somatometric of chest circumference measured?",
+    answers: [
+      { text: "steel tape measure", correct: false },
+      { text: "centimeter tape measure", correct: false },
+      { text: "measured at rest", correct: false },
+      { text: "measured with a pedobaroacrometer", correct: true },
+      { text: "measured at maximum inhalation and exhalation", correct: false },
+    ],
+  },
+
+  {
+    question: "How is the average thickness of fatty deviations determined?",
+    answers: [
+      { text: "from 0.5 to 1.5cm", correct: false },
+      { text: "from 1.0 to 1.5cm", correct: false },
+      { text: "from 2cm to 2.5cm", correct: false },
+      { text: "from 0.5cm to 2cm", correct: false },
+      { text: "from 1.0 to 2cm", correct: true },
+    ],
+  },
+  {
+    question: "How are the somatometric signs of the skeleton determined",
+    answers: [
+      { text: "big feet", correct: false },
+      { text: "thick skin", correct: false },
+      { text: "stocky", correct: false },
+      { text: "Long hands", correct: true },
+      { text: "thick neck", correct: false },
+    ],
+  },
+  {
+    question: "What breast shape is not typical for somatoscopy",
+    answers: [
+      { text: "cylindrical", correct: false },
+      { text: "thin", correct: false },
+      { text: "conical", correct: false },
+      { text: "flat", correct: true },
+      { text: "barrel-shaped", correct: false },
+    ],
+  },
+  {
+    question: "What is not typical for somatoscopy of the back",
+    answers: [
+      { text: "rounded", correct: false },
+      { text: "lordotic", correct: false },
+      { text: "kyphotic", correct: false },
+      { text: "slouch", correct: true },
+      { text: "normal", correct: false },
+    ],
+  },
+  {
+    question: "What is not characteristic of spinal deformity",
+    answers: [
+      { text: "right-sided and left-sided scoliosis", correct: false },
+      { text: "shoulder asymmetry", correct: false },
+      { text: "Steady tilt right or left", correct: false },
+      { text: "cylindrical curvature of the arm", correct: true },
+      { text: "deep curvature of the shoulders", correct: false },
+    ],
+  },
+  {
+    question: "What method can determine the shape of the feet?",
+    answers: [
+      { text: "center of little finger", correct: false },
+      { text: "point E-base of the thumb", correct: false },
+      { text: "point C-from the end of the heel", correct: false },
+      { text: "point A - between the middle finger", correct: true },
+      { text: "point B - in the middle of the base of the thumb", correct: false },
+    ],
+  },
+  {
+    question: "How is the shape of the foot measured?",
+    answers: [
+      { text: "if only one line is out of bounds", correct: false },
+      { text: "if only the lateral line comes out", correct: false },
+      { text: "if 2-lines do not go beyond the trace", correct: false },
+      { text: "if the medial does not go beyond", correct: false },
+      { text: "if there is one line on the seat", correct: true },
+    ],
+  },
+  {
+    question: "What are the shapes of the human foot?",
+    answers: [
+      { text: "flat feet", correct: true },
+      { text: "x-shaped", correct: false },
+      { text: "o-shaped", correct: false },
+      { text: "wide", correct: false },
+      { text: "mixed", correct: false },
+    ],
+  },
+  {
+    question: "What method determines the Stritter method?",
+    answers: [
+      { text: "pedobaroanthropometer", correct: false },
+      { text: "plantography", correct: true },
+      { text: "strong compass", correct: false },
+      { text: "gas spirometer", correct: false },
+      { text: "weighing", correct: false },
+    ],
+  },
+  {
+    question: "What determines the assessment of puberty boys?",
+    answers: [
+      { text: "hyperactivity", correct: false },
+      { text: "hypothermia", correct: false },
+      { text: "Improves vision", correct: false },
+      { text: "voice change", correct: true },
+      { text: "shrinking thyroid gland", correct: false },
+    ],
+  },
+
+  {
+    question: "What determines the assessment of sexual development in girls?",
+    answers: [
+      { text: "hyperactivity", correct: false },
+      { text: "hypothermia", correct: false },
+      { text: "hoarse voice", correct: false },
+      { text: "enlargement of the thyroid gland", correct: false },
+      { text: "development of mammary glands", correct: true },
+    ],
+  },
+  {
+    question: "What determines lung capacity?",
+    answers: [
+      { text: "strong compass", correct: false },
+      { text: "centimeter tape measure", correct: false },
+      { text: "water spirometer", correct: false },
+      { text: "metal anthropometer", correct: false },
+      { text: "steel tape measure", correct: true },
+    ],
+  },
+  {
+    question: "What determines arm strength?",
+    answers: [
+      { text: "manual dynamometer", correct: true },
+      { text: "strong compass", correct: false },
+      { text: "metal anthropometer", correct: false },
+      { text: "centimeter tape measure", correct: false },
+      { text: "water spirometer", correct: false },
+    ],
+  },
+  {
+    question: "What determines the strength of the back extensors?",
+    answers: [
+      { text: "strong compass", correct: false },
+      { text: "rear dynamometer", correct: true },
+      { text: "centimeter tape measure", correct: false },
+      { text: "water spirometer", correct: false },
+      { text: "metal anthropometer", correct: false },
+    ],
+  },
+  {
+    question: "How is blood pressure determined?",
+    answers: [
+      { text: "metal dynamometer", correct: false },
+      { text: "gas spirometer", correct: false },
+      { text: "manual dynamometer", correct: false },
+      { text: "tonometer", correct: true },
+      { text: "water spirometer", correct: false },
+    ],
+  },
+  {
+    question: "What criteria are not included in the comprehensive assessment of physical development?",
+    answers: [
+      { text: "the state of the main organs and systems", correct: false },
+      { text: "Nervous and mental state", correct: false },
+      { text: "chronic diseases", correct: false },
+      { text: "resistance", correct: false },
+      { text: "puberty", correct: true },
+    ],
+  },
+  {
+    question: "What method of a comprehensive assessment of physical development is a generalized (transverse)?",
+    answers: [
+      { text: "statistical analysis", correct: true },
+      { text: "reveals features of growth", correct: false },
+      { text: "Monitoring chronic diseases", correct: false },
+      { text: "studies the rate of physical development", correct: false },
+      { text: "systematically observes faces for a long time", correct: false },
+    ],
+  },
+  {
+    question: "What method of complex assessment of physical development is individual (longitudinal)?",
+    answers: [
+      { text: "mass study of physical development", correct: false },
+      { text: "reveals features of growth and development of personality", correct: true },
+      { text: "statistical data analysis", correct: false },
+      { text: "study of groups of children", correct: false },
+      { text: "various telechecks", correct: false },
+    ],
+  },
+  {
+    question: "What method is not included in the assessment of physical development?",
+    answers: [
+      { text: "comprehensive health assessment", correct: false },
+      { text: "regression scale method", correct: false },
+      { text: "assessment of puberty", correct: false },
+      { text: "centile method", correct: true },
+      { text: "standard deviation method", correct: false },
+    ],
+  },
+  {
+    question: "How is the result of the standard deviation method determined?",
+    answers: [
+      { text: "narrow", correct: false },
+      { text: "round", correct: false },
+      { text: "high", correct: false },
+      { text: "average", correct: false },
+      { text: "cylindrical", correct: true },
+    ],
+  },
+
+  {
+    question: "What are not regression scale methods?",
+    answers: [
+      { text: "harmonious physical development", correct: false },
+      { text: "disharmonious physical development", correct: false },
+      { text: "very disharmonious development", correct: false },
+      { text: "make correlation array", correct: false },
+      { text: "weight and circumference of the chest does not determine harmony", correct: true },
+    ],
+  },
+  {
+    question: "What does not determine the morphological status of an organism?",
+    answers: [
+      { text: "complete retardation of physical development", correct: false },
+      { text: "rich and disharmonious", correct: false },
+      { text: "advanced physical development", correct: false },
+      { text: "worse and disharmonious", correct: false },
+      { text: "balanced", correct: true },
+    ],
+  },
+  {
+    question: "The physical development of children does not include",
+    answers: [
+      { text: "biological development", correct: false },
+      { text: "Muscle strength and performance", correct: false },
+      { text: "chemical factors", correct: true },
+      { text: "Nutrition", correct: false },
+      { text: "environment", correct: false },
+    ],
+  },
+  {
+    question: "What question will not be included in the study of hygiene of children and adolescents?",
+    answers: [
+      { text: "Hygiene of the educational process", correct: false },
+      { text: "Hygienic bases of physical education", correct: false },
+      { text: "Occupational hygiene", correct: true },
+      { text: "Sanitary well-being", correct: false },
+      { text: "external conditions", correct: false },
+    ],
+  },
+  {
+    question: "What external conditions are not required for the development of the child's body?",
+    answers: [
+      { text: "do not promote physical development", correct: true },
+      { text: "improve health", correct: false },
+      { text: "improve student achievement", correct: false },
+      { text: "improve overall performance", correct: false },
+      { text: "exclude the possibility of harmful effects", correct: false },
+    ],
+  },
+  {
+    question: "Specify anthropometric indicators of physical development",
+    answers: [
+      { text: "lung capacity status", correct: false },
+      { text: "body mass", correct: true },
+      { text: "degree of puberty", correct: false },
+      { text: "muscle strength", correct: false },
+      { text: "posture", correct: false },
+    ],
+  },
+  {
+    question: "What method is used to measure arm muscle strength",
+    answers: [
+      { text: "anthropometer", correct: false },
+      { text: "spirometer", correct: false },
+      { text: "hand dynamometer", correct: true },
+      { text: "backbone dynamometer", correct: false },
+      { text: "thick compasses", correct: false },
+    ],
+  },
+  {
+    question: "Choose from the proposed list the most likely risk factor for neurosis in a child at school age:",
+    answers: [
+      { text: "environmental pollution", correct: false },
+      { text: "malnutrition", correct: false },
+      { text: "irrational organization of the workplace", correct: false },
+      { text: "low physical activity", correct: false },
+      { text: "psycho-emotional stress", correct: true },
+    ],
+  },
+  {
+    question: "At what age is the rate of growth and development the highest?",
+    answers: [
+      { text: "0-1 year", correct: false },
+      { text: "1-3 year", correct: false },
+      { text: "4-7 year", correct: false },
+      { text: "13-16 year", correct: false },
+      { text: "17-21 year", correct: true },
+    ],
+  },
+  {
+    question: "Specify somatoscopic indicators of physical development",
+    answers: [
+      { text: "body length", correct: false },
+      { text: "posture", correct: false },
+      { text: "dental formula", correct: false },
+      { text: "body mass", correct: false },
+      { text: "ossification of the bones of the hand", correct: true },
+    ],
+  },
+
+  {
+    question: "What indicators are used to assess the level of biological maturity of a child?",
+    answers: [
+      { text: "Head circumference", correct: false },
+      { text: "lung capacity", correct: false },
+      { text: "body mass", correct: false },
+      { text: "dental formula", correct: false },
+      { text: "hand muscle strength", correct: true },
+    ],
+  },
+  {
+    question: "Healthy eating is",
+    answers: [
+      { text: "a lot of protein", correct: false },
+      { text: "more meat", correct: false },
+      { text: "less fish", correct: false },
+      { text: "many nutritional supplements", correct: false },
+      { text: "a lot of salt", correct: true },
+    ],
+  },
+  {
+    question: "Which vitamins are water-soluble vitamins",
+    answers: [
+      { text: "Антропометр", correct: false },
+      { text: "В", correct: false },
+      { text: "D", correct: false },
+      { text: "Е", correct: false },
+      { text: "Choline", correct: true },
+    ],
+  },
+  {
+    question: "What is the daily requirement of an adult for vitamin C:",
+    answers: [
+      { text: "10-20mg", correct: false },
+      { text: "20-50mg", correct: false },
+      { text: "50-70mg", correct: false },
+      { text: "70-100mg", correct: false },
+      { text: "120-150mg", correct: true },
+    ],
+  },
+  {
+    question: "What foods can be a source of vitamin B1",
+    answers: [
+      { text: "milk", correct: false },
+      { text: "apples", correct: false },
+      { text: "nuts", correct: false },
+      { text: "beef meat", correct: false },
+      { text: "jams and juices", correct: true },
+    ],
+  },
+  {
+    question: "What are the causes of hypovitaminosis C, in the winter-spring period",
+    answers: [
+      { text: "Decreased reactivity of the body;", correct: false },
+      { text: "Decrease in the amount of vitamin C in foods", correct: false },
+      { text: "Increasing levels of ultraviolet radiation", correct: false },
+      { text: "Low air temperatures;", correct: false },
+      { text: "Low atmospheric pressure", correct: true },
+    ],
+  },
+  {
+    question: "What symptoms of hypervitaminosis A are not",
+    answers: [
+      { text: "Headache;", correct: false },
+      { text: "Loss of appetite;", correct: false },
+      { text: "Hair loss", correct: false },
+      { text: "Pain in the bones, their fragility;", correct: false },
+      { text: "Keratoconjunctivitis.", correct: true },
+    ],
+  },
+  {
+    question: "What is the main criterion for the freshness of milk determined in the laboratory",
+    answers: [
+      { text: "density", correct: false },
+      { text: "acidity", correct: false },
+      { text: "fat content", correct: false },
+      { text: "starch test", correct: false },
+      { text: "test for posterization", correct: true },
+    ],
+  },
+  {
+    question: "Which body stores vitamin A?",
+    answers: [
+      { text: "In the intestines", correct: false },
+      { text: "nervous system", correct: false },
+      { text: "skeletal system", correct: false },
+      { text: "liver", correct: true },
+      { text: "endocrine system", correct: false },
+    ],
+  },
+  {
+    question: "What foods are healthy",
+    answers: [
+      { text: "vegetables and fruits", correct: true },
+      { text: "processed meat", correct: false },
+      { text: "White bread", correct: false },
+      { text: "sweet sparkling water", correct: false },
+      { text: "fast food", correct: false },
+    ],
+  },
+
+  {
+    question: "What symptoms are not typical for vitamin A",
+    answers: [
+      { text: "Keratinization and cyanotic edema of the skin;", correct: false },
+      { text: "Disease cracks in the corners of the mouth", correct: false },
+      { text: "Violation of twilight vision;", correct: false },
+      { text: "Increased bone fragility;", correct: true },
+      { text: "Hair loss", correct: false },
+    ],
+  },
+  {
+    question: "What does not apply to the prevention of toxic infections",
+    answers: [
+      { text: "no need for a lab", correct: false },
+      { text: "food storage", correct: false },
+      { text: "heat treatment", correct: false },
+      { text: "transportation", correct: false },
+      { text: "control", correct: true },
+    ],
+  },
+  {
+    question: "Specify the daily intake reference for fats of a person of working age",
+    answers: [
+      { text: "20-30g", correct: false },
+      { text: "60-154 g", correct: false },
+      { text: "300-350 g", correct: false },
+      { text: "40-60 g", correct: true },
+      { text: "100-220 g", correct: false },
+    ],
+  },
+  {
+    question: "How much energy do we get from 1 g of carbohydrates?",
+    answers: [
+      { text: "12 kcal", correct: false },
+      { text: "9 kcal", correct: false },
+      { text: "1 kcal", correct: true },
+      { text: "2 kcal", correct: false },
+      { text: "4 kcal", correct: false },
+    ],
+  },
+  {
+    question: "What foods are rich in",
+    answers: [
+      { text: "bread", correct: false },
+      { text: "cabbage", correct: false },
+      { text: "beans and peas", correct: true },
+      { text: "beet", correct: false },
+      { text: "potato", correct: false },
+    ],
+  },
+  {
+    question: "Specify the mineral element that participates in hematopoiesis",
+    answers: [
+      { text: "sodium", correct: false },
+      { text: "Potassium", correct: false },
+      { text: "Iodine", correct: false },
+      { text: "Iron", correct: true },
+      { text: "fluorine", correct: false },
+    ],
+  },
+  {
+    question: "What vitamin is used for the improvement of vision?",
+    answers: [
+      { text: "A", correct: true },
+      { text: "C", correct: false },
+      { text: "B12", correct: false },
+      { text: "B6", correct: false },
+      { text: "E", correct: false },
+    ],
+  },
+  {
+    question: "What vitamin is used in the treatment of pernicious anemia, polyneuritis, and radiculitis?",
+    answers: [
+      { text: "A", correct: false },
+      { text: "B12", correct: true },
+      { text: "C", correct: false },
+      { text: "E", correct: false },
+      { text: "cholin", correct: false },
+    ],
+  },
+  {
+    question: "What chemical element in milk cannot fully satisfy the needs of a growing organism",
+    answers: [
+      { text: "Calcium", correct: false },
+      { text: "Phosphorus", correct: false },
+      { text: "Magnesium", correct: false },
+      { text: "Iodine", correct: true },
+      { text: "Iron", correct: false },
+    ],
+  },
+  {
+    question: "Specify the amount of protein in fish",
+    answers: [
+      { text: "2-3%", correct: false },
+      { text: "4-8%", correct: false },
+      { text: "8-21%", correct: false },
+      { text: "28-37%", correct: true },
+      { text: "38-44%", correct: false },
+    ],
+  },
+
             
 ]
 
