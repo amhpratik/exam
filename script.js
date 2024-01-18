@@ -2539,7 +2539,7 @@ const questions = [
   {
     question: "What energy expenditures are adjustable?",
     answers: [
-      { text: "energy expenditures for professional activities", correct: answerButtons },
+      { text: "energy expenditures for professional activities", correct: true },
       { text: "the basal metabolic rate", correct: false },
       { text: "anabolic and catabolic reactions", correct: false },
       { text: "energy expenditures for sleeping", correct: false },
