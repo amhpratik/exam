@@ -2213,7 +2213,1005 @@ const questions = [
       { text: "38-44%", correct: false },
     ],
   },
+  {
+    question: "What helminths are associated with eating vegetables",
+    answers: [
+      { text: "Ascaridosis", correct: false },
+      { text: "Diphyllobothriasis", correct: false },
+      { text: "Leptospirosis", correct: false },
+      { text: "Teniarinhoz", correct: true },
+      { text: "Opisthorchiasis", correct: false },
+    ],
+  },
+  {
+    question: "Please indicate compounds that promote the excretion of metals from the body",
+    answers: [
+      { text: "sterols", correct: false },
+      { text: "pectins", correct: true },
+      { text: "phosphatides", correct: false },
+      { text: "cholesterol", correct: false },
+      { text: "chlorid", correct: false },
+    ],
+  },
+  {
+    question: "What kind of food poisoning, if the clinic notes: temperature 38-40 °, vomiting, abdominal pain, frequent and copious stools, fetid with mucus and blood, tenesmus, pallor of the skin",
+    answers: [
+      { text: "poisoning with pale toadstool", correct: false },
+      { text: "Poisoning by belladonna", correct: false },
+      { text: "botulism", correct: false },
+      { text: "Toxicinfection caused by salmonella", correct: true },
+      { text: "Escherichia coli poisoning", correct: false },
+    ],
+  },
+  {
+    question: "Indicate the average duration of the incubation period in botulism",
+    answers: [
+      { text: "From 30min-2 hours to 5 days", correct: false },
+      { text: "12-72 hours", correct: false },
+      { text: "5-7 days", correct: false },
+      { text: "6-10 days", correct: false },
+      { text: "From 2-3 hours to 10 days", correct: true },
+    ],
+  },
+  {
+    question: "What contributes to the death of salmonella?",
+    answers: [
+      { text: "boiling", correct: false },
+      { text: "smoking", correct: false },
+      { text: "salting", correct: false },
+      { text: "freezing", correct: false },
+      { text: "instillation", correct: true },
+    ],
+  },
+  {
+    question: "What is the optimal ratio of proteins, fats and carbohydrates in the diet for the elderly",
+    answers: [
+      { text: "1:0.8:5", correct: false },
+      { text: "1:0.9:6", correct: false },
+      { text: "1:1:4", correct: false },
+      { text: "1:01:05", correct: false },
+      { text: "1:01:06", correct: true },
+    ],
+  },
+  {
+    question: "What percentage of total dietary carbohydrates should sugar take in the diet of adult persons with mental occupation?",
+    answers: [
+      { text: "36%", correct: false },
+      { text: "20%", correct: true },
+      { text: "15%", correct: false },
+      { text: "40%", correct: false },
+      { text: "55%", correct: false },
+    ],
+  },
+  {
+    question: "What is the physiological need for fats for adults engaged in mental work;",
+    answers: [
+      { text: "4 g/kg body weight", correct: false },
+      { text: "2 g/kg body weight", correct: false },
+      { text: "70g", correct: false },
+      { text: "1 g/kg body weight", correct: true },
+      { text: "6 g/kg body weight", correct: false },
+    ],
+  },
+  {
+    question: "What should be the daily diet",
+    answers: [
+      { text: "breakfast - 10% lunch - 70% dinner - 20%", correct: false },
+      { text: "breakfast - 40% lunch - 30% dinner - 30%", correct: false },
+      { text: "breakfast - 30% lunch - 60% dinner -10%", correct: false },
+      { text: "breakfast - 20% lunch - 70% dinner - 10%", correct: true },
+      { text: "breakfast - 30% lunch - 50% dinner -20%", correct: false },
+    ],
+  },
+  {
+    question: "What is the physiological need of breastfed infants for carbohydrates:",
+    answers: [
+      { text: "13 g/kg", correct: true },
+      { text: "20 g/kg", correct: false },
+      { text: "5 g/kg", correct: false },
+      { text: "150 g", correct: false },
+      { text: "300 g", correct: false },
+    ],
+  },
 
+  {
+    question: "How does the child's body experience an increased need for the following minerals",
+    answers: [
+      { text: "sodium", correct: false },
+      { text: "potassium", correct: false },
+      { text: "calcium", correct: false },
+      { text: "manganese", correct: false },
+      { text: "iron", correct: true },
+    ],
+  },
+  {
+    question: "What is the physiological need for proteins for a 6-month-old baby",
+    answers: [
+      { text: "1-1.5 g/kg body weight", correct: true },
+      { text: "2.6 g/kg body weight", correct: false },
+      { text: "150 g", correct: false },
+      { text: "200 g", correct: false },
+      { text: "250 g", correct: false },
+    ],
+  },
+  {
+    question: "What is the physiological need for protein in adult mental workers who are not involved in sports, are:",
+    answers: [
+      { text: "50 g", correct: false },
+      { text: "80 g", correct: false },
+      { text: "150 g", correct: false },
+      { text: "0.8 g/kg body weight", correct: false },
+      { text: "4 g/kg body weight", correct: true },
+    ],
+  },
+  {
+    question: "In what period is the enrichment of prepared dishes carried out in children's institutions:",
+    answers: [
+      { text: "ascorbic acid is added to 3 meals all year round", correct: false },
+      { text: "adding ascorbic acid to all dishes in the autumn-winter period", correct: false },
+      { text: "ascorbic acid was added to the third dishes in the autumn-winter period", correct: false },
+      { text: "multivitamin preparations added to all meals all year round", correct: false },
+      { text: "iron is added in the autumn-winter period", correct: true },
+    ],
+  },
+  {
+    question: "What are the physiological needs for carbohydrates of adults engaged in physical labor",
+    answers: [
+      { text: "500 g", correct: true },
+      { text: "300 g", correct: false },
+      { text: "15 g/kg", correct: false },
+      { text: "10 g/kg", correct: false },
+      { text: "5 g/kg", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "the increase in protein and fat intake", correct: false },
+      { text: "the increase in carbohydrate intake", correct: false },
+      { text: "balanced diet in qualities and quantities", correct: true },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "increased intake of macronutrients", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "the increase in protein and fat intake", correct: false },
+      { text: "adherence to eating regime", correct: true },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "the decrease in carbohydrate intake", correct: false },
+      { text: "increased intake of macronutrients", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "increased intake of macronutrients", correct: true },
+      { text: "the increase in carbohydrate intake", correct: false },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "sufficiency in terms of energy", correct: false },
+      { text: "the increase in protein and carbohydrate intake", correct: false },
+    ],
+  },
+  {
+    question: "The principles of a healthy diet include:",
+    answers: [
+      { text: "diversity of food", correct: true },
+      { text: "the decrease in carbohydrate intake", correct: false },
+      { text: "the increase in intake of all nutrients", correct: false },
+      { text: "the impact on separate organ rather than on the entire body", correct: false },
+      { text: "increased intake of macronutrients", correct: false },
+    ],
+  },
+  {
+    question: "What are the requirements for the concept of rational nutrition:",
+    answers: [
+      { text: "stereotypity of the diet", correct: false },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "assimilation of food", correct: false },
+      { text: "increase intake of all nutrients", correct: false },
+      { text: "the increase in carbohydrate intake", correct: true },
+    ],
+  },
+
+  {
+    question: "What does the term healthy eating include?",
+    answers: [
+      { text: "increased carbohydrate intake", correct: false },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "decreasing intake of fat and protein", correct: false },
+      { text: "increasing intake of all nutrients", correct: false },
+      { text: "qualitative and quantitative adequacy of nutrients", correct: true },
+    ],
+  },
+  {
+    question: "Requirements to a healthy diet include the following:",
+    answers: [
+      { text: "increasing intake of all nutrients", correct: true },
+      { text: "adherence to eating regime", correct: false },
+      { text: "decreasing intake of fat and protein", correct: false },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "increased carbohydrate intake", correct: false },
+    ],
+  },
+  {
+    question: "What kind of food is included in the requirement of a healthy diet?",
+    answers: [
+      { text: "variety of food", correct: true },
+      { text: "decreasing intake of fat", correct: false },
+      { text: "increase intake of all nutrients", correct: false },
+      { text: "decreasing intake of fat and protein", correct: false },
+      { text: "increased carbohydrate intake", correct: false },
+    ],
+  },
+  {
+    question: "What diet should a healthy person have?",
+    answers: [
+      { text: "Taking optimal amounts of all micro- and micronutrients", correct: true },
+      { text: "The taking right amount of food", correct: false },
+      { text: "The multiplicity of meals", correct: false },
+      { text: "It is systematic taking meal", correct: false },
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What should be the diet?",
+    answers: [
+      { text: "It is adequate diet", correct: false },
+      { text: "It is systematic taking meal", correct: true },
+      { text: "Taking optimal amounts of all micro- and micronutrients", correct: true },
+      { text: "Intervals between meals", correct: false },
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What is the eating regime?",
+    answers: [
+      { text: "The taking right amount of food", correct: false },
+      { text: "Qualitative and quantitative distribution of food on separate meals", correct: true },
+      { text: "It is adequate diet", correct: false },
+      { text: "It is systematic taking meal", correct: false },
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What is the eating regime?",
+    answers: [
+      { text: "reception of the optimal amount of carbohydrates", correct: false },
+      { text: "It is adequate diet", correct: false },
+      { text: "The taking right amount of food", correct: false },
+      { text: "Taking optimal amounts of all micro- and micronutrients", correct: false },
+      { text: "The duration and multiplicity of the eating meal", correct: true },
+    ],
+  },
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "direct calorimetry", correct: true },
+      { text: "alimentary energometry", correct: false },
+      { text: "indirect chronometry", correct: false },
+      { text: "mental and physical wok account", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "alimentary energometry", correct: true },
+      { text: "indirect chronometry", correct: false },
+      { text: "respiratory calorimetry", correct: false },
+      { text: "mental and physical wok account", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "mental and physical wok account", correct: true },
+      { text: "alimentary energometry", correct: false },
+      { text: "indirect chronometry", correct: false },
+      { text: "table-chronometry", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+
+  {
+    question: "What method can be used to measure the daily energy expenditures?",
+    answers: [
+      { text: "alimentary energometry", correct: true },
+      { text: "calorimetric", correct: false },
+      { text: "indirect chronometry", correct: false },
+      { text: "mental and physical wok account", correct: false },
+      { text: "not direct calorimetry", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "energy expenditures for sleeping", correct: false },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "only for catabolic reactions", correct: false },
+      { text: "specific dynamic action of nutrients", correct: true },
+      { text: "energy expenditures for domestic activities", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "energy expenditures for professional activities", correct: false },
+      { text: "the basal metabolic rate", correct: false },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "energy expenditures for sleeping", correct: true },
+      { text: "only for catabolic reactions", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "energy expenditures for sleeping", correct: true },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "energy expenditures for sport activities", correct: false },
+      { text: "specific dynamic action of nutrients", correct: false },
+      { text: "the basal metabolic rate", correct: false },
+    ],
+  },
+  {
+    question: "What energy expenditures are adjustable?",
+    answers: [
+      { text: "specific dynamic action of nutrients", correct: true },
+      { text: "energy expenditures for mental work", correct: false },
+      { text: "anabolic and catabolic reactions", correct: false },
+      { text: "energy expenditures for sleeping", correct: false },
+      { text: "the basal metabolic rate", correct: false },
+    ],
+  },
+  {
+    question: "The rate of basal metabolism depends on which profession:",
+    answers: [
+      { text: "professions", correct: true },
+      { text: "Air pollution", correct: false },
+      { text: "Altitude above sea level", correct: false },
+      { text: "National food habits", correct: false },
+      { text: "basic exchange", correct: false },
+    ],
+  },
+  {
+    question: "The rate of basal metabolism depends on which profession:",
+    answers: [
+      { text: "Air pollution", correct: false },
+      { text: "Altitude", correct: false },
+      { text: "professions", correct: true },
+      { text: "The quality of drinking water", correct: false },
+      { text: "The climatic conditions", correct: false },
+    ],
+  },
+  {
+    question: "Basal metabolic rate depends on:",
+    answers: [
+      { text: "Body constitution", correct: false },
+      { text: "Profession", correct: true },
+      { text: "Altitude", correct: false },
+      { text: "The quality of drinking water", correct: false },
+      { text: "Air pollution", correct: false },
+    ],
+  },
+  {
+    question: "Basal metabolic rate depends on:",
+    answers: [
+      { text: "Altitude", correct: false },
+      { text: "The quality of drinking water", correct: false },
+      { text: "Age", correct: false },
+      { text: "Air pollution", correct: false },
+      { text: "professions", correct: true },
+    ],
+  },
+  {
+    question: "What morbidity is caused by a constant positive energy balance:",
+    answers: [
+      { text: "Malnutrition", correct: false },
+      { text: "alimentary obesity", correct: true },
+      { text: "Kwashiorkor", correct: false },
+      { text: "taeniasis", correct: false },
+      { text: "shigellosis", correct: false },
+    ],
+  },
+
+  {
+    question: "Prolonged negative energy balance leads to the development of the following disease:",
+    answers: [
+      { text: "Kwashiorkor", correct: false },
+      { text: "Atherosclerosis", correct: false },
+      { text: "Gouter", correct: false },
+      { text: "Alimentary obesity", correct: true },
+      { text: "Alimentary dystrophy", correct: false },
+    ],
+  },
+  {
+    question: "What is a specific dynamic action of nutrients?",
+    answers: [
+      { text: "It is increased energy expenditures during taking and digestion of nutrients", correct: true },
+      { text: "It is the decrease of energy expenditures when taking and digesting meal", correct: false },
+      { text: "It is increased energy expenditures during the working activity", correct: false },
+      { text: "It is reduction in energy expenditures during mental work", correct: false },
+      { text: "Reduced energy consumption during rest and sleep", correct: false },
+    ],
+  },
+  {
+    question: "How many calories are in 1 g of protein:",
+    answers: [
+      { text: "1 kcal", correct: false },
+      { text: "4 kcal", correct: true },
+      { text: "9 kcal", correct: false },
+      { text: "10 kcal", correct: false },
+      { text: "12 kcal", correct: false },
+    ],
+  },
+  {
+    question: "How many calories are in 1 g of carbohydrate:",
+    answers: [
+      { text: "0.5 kcal", correct: false },
+      { text: "1 kcal", correct: false },
+      { text: "2 kcal", correct: true },
+      { text: "2.5 kcal", correct: false },
+      { text: "4 kcal", correct: false },
+    ],
+  },
+  {
+    question: "How many calories are in 1 g of fat is:",
+    answers: [
+      { text: "1 kcal", correct: false },
+      { text: "3.75 kcal", correct: false },
+      { text: "9 kcal", correct: true },
+      { text: "4 kcal", correct: false },
+      { text: "12 kcal", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Alanine", correct: false },
+      { text: "Glycine", correct: false },
+      { text: "Tyrosine", correct: false },
+      { text: "Tryptophan", correct: true },
+      { text: "Cysteine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Isoleucine", correct: true },
+      { text: "Glycine", correct: false },
+      { text: "Cysteine", correct: false },
+      { text: "Tyrosine", correct: false },
+      { text: "Alanine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Proline", correct: false },
+      { text: "Leucine", correct: true },
+      { text: "Serine", correct: false },
+      { text: "Arginine", correct: false },
+      { text: "Tyrosine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Proline", correct: false },
+      { text: "Serine", correct: false },
+      { text: "Arginine", correct: false },
+      { text: "Tyrosine", correct: false },
+      { text: "Valine", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential:",
+    answers: [
+      { text: "Cysteine", correct: false },
+      { text: "Arginine", correct: false },
+      { text: "Histidine", correct: true },
+      { text: "Alanine", correct: false },
+      { text: "Tyrosine", correct: false },
+    ],
+  },
+
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Tyrosine", correct: false },
+      { text: "Proline", correct: false },
+      { text: "Serine", correct: false },
+      { text: "Lysine", correct: true },
+      { text: "Arginine", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Methionine", correct: true },
+      { text: "Arginine", correct: true },
+      { text: "Proline", correct: false },
+      { text: "Serine", correct: false },
+      { text: "Cysteine", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Arginine", correct: true },
+      { text: "Alanine", correct: false },
+      { text: "Glycine", correct: false },
+      { text: "Proline", correct: false },
+      { text: "Phenylalanine", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following amino acids is essential?",
+    answers: [
+      { text: "Proline", correct: false },
+      { text: "Threonine", correct: true },
+      { text: "Tyrosine", correct: false },
+      { text: "Cysteine", correct: true },
+      { text: "Arginine", correct: true },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They participate in transport of oxygen", correct: false },
+      { text: "They play genetic value", correct: false },
+      { text: "They give energy", correct: true },
+      { text: "They transport iron", correct: false },
+      { text: "They transport nicotinic acid", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They transport nicotinic acid", correct: true },
+      { text: "They transport iron", correct: true },
+      { text: "They transport selenium", correct: false },
+      { text: "They give plasticity", correct: false },
+      { text: "They play genetic value", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They give plasticity", correct: true },
+      { text: "They transport nicotinic acid", correct: false },
+      { text: "They transport iron", correct: false },
+      { text: "They transport selenium", correct: false },
+      { text: "They play genetic value", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They participate in transport of oxygen", correct: false },
+      { text: "They play thermoregulatory role", correct: false },
+      { text: "They play genetic value", correct: false },
+      { text: "They transport nicotinic acid", correct: true },
+      { text: "They transport iron", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of fats in human nutrition?",
+    answers: [
+      { text: "They play genetic value", correct: false },
+      { text: "They transport selenium", correct: false },
+      { text: "They transport iron", correct: false },
+      { text: "They participate in transport of oxygen", correct: true },
+      { text: "They play protective role", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of polyunsaturated fatty acids?",
+    answers: [
+      { text: "lamb fat", correct: false },
+      { text: "beef fat", correct: false },
+      { text: "vegetable oil", correct: true },
+      { text: "butter", correct: false },
+      { text: "clarified butter", correct: false },
+    ],
+  },
+
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Coniferous needles", correct: false },
+      { text: "Butter", correct: false },
+      { text: "Vegetable oil", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Fish", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Butter", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Vegetables", correct: true },
+      { text: "Liver", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Butter", correct: false },
+      { text: "Fruits", correct: false },
+      { text: "Vegetable oil", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Fish", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin C?",
+    answers: [
+      { text: "Beef", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Butter", correct: false },
+      { text: "Vegetable oil", correct: true },
+      { text: "Berries", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Fruits", correct: false },
+      { text: "Bread", correct: false },
+      { text: "Chicken egg", correct: false },
+      { text: "Berries", correct: false },
+      { text: "Vegetable oil", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Sour cream", correct: false },
+      { text: "Fruits", correct: false },
+      { text: "Vegetables", correct: false },
+      { text: "Vegetable oil", correct: true },
+      { text: "Fruits", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Vegetable oil", correct: true },
+      { text: "Fruits", correct: false },
+      { text: "Berries", correct: false },
+      { text: "Butter", correct: false },
+      { text: "Bread", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Vegetables", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Bread", correct: false },
+      { text: "Berries", correct: false },
+      { text: "Fruits", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin A?",
+    answers: [
+      { text: "Vegetable oil", correct: true },
+      { text: "Bread", correct: false },
+      { text: "Vegetables", correct: false },
+      { text: "Fruits", correct: false },
+      { text: "Cod liver oil", correct: false },
+    ],
+  },
+  {
+    question: "What is the recommended daily allowance of ascorbic acid for adults?",
+    answers: [
+      { text: "2 mg", correct: false },
+      { text: "500-1000 mg", correct: true },
+      { text: "70-100 mg", correct: false },
+      { text: "20-30 mg", correct: false },
+      { text: "150-300 mg", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the recommended daily allowance for retinol?",
+    answers: [
+      { text: "1 mg", correct: true },
+      { text: "1 mkg", correct: false },
+      { text: "1 g", correct: false },
+      { text: "1 mg", correct: true },
+      { text: "1 kg", correct: false },
+    ],
+  },
+  {
+    question: "Which vitamin deficiency has angular stomatitis as a symptom?",
+    answers: [
+      { text: "Thiamine", correct: false },
+      { text: "Pantothenic acid", correct: false },
+      { text: "Nicotinic acid", correct: false },
+      { text: "Riboflavin", correct: true },
+      { text: "Tyrosine", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Fish", correct: false },
+      { text: "Bread", correct: true },
+      { text: "Cod liver oil", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Chicken egg", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Butter", correct: false },
+      { text: "Goat meat", correct: false },
+      { text: "Chicken egg", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Milk", correct: true },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Goat meat", correct: false },
+      { text: "Cod liver oil", correct: false },
+      { text: "Cereals", correct: false },
+      { text: "Beef", correct: true },
+      { text: "Fruits", correct: false },
+    ],
+  },
+  {
+    question: "Which food is the main source of vitamin B:",
+    answers: [
+      { text: "Yeast", correct: true },
+      { text: "Egg’s white", correct: false },
+      { text: "Cod liver oil", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Fish", correct: false },
+    ],
+  },
+  {
+    question: "What compounds are found in bread?",
+    answers: [
+      { text: "Proteins, fats, and carbohydrates", correct: true },
+      { text: "Carbohydrates and fats", correct: false },
+      { text: "Fats and proteins", correct: false },
+      { text: "Carbohydrates and proteins", correct: false },
+      { text: "Vitamins and fats", correct: false },
+    ],
+  },
+  {
+    question: "What compounds are found in milk?",
+    answers: [
+      { text: "Carbohydrates and fats", correct: false },
+      { text: "Only carbohydrates", correct: false },
+      { text: "Proteins and carbohydrates", correct: true },
+      { text: "Only proteins", correct: false },
+      { text: "Proteins and fats", correct: true },
+    ],
+  },
+  {
+    question: "What compounds are found in meat?",
+    answers: [
+      { text: "Proteins", correct: true },
+      { text: "Proteins and fats", correct: true },
+      { text: "Fats and carbohydrates", correct: false },
+      { text: "Proteins and carbohydrates", correct: false },
+      { text: "Carbohydrates", correct: false },
+    ],
+  },
+  {
+    question: "What food product is the richest in linoleic acid?",
+    answers: [
+      { text: "Goose fat", correct: false },
+      { text: "Mutton fat", correct: false },
+      { text: "Vegetable oil", correct: true },
+      { text: "Butter", correct: false },
+      { text: "Bread", correct: false },
+    ],
+  },
+
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Moisture test", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Colorimetry", correct: false },
+      { text: "Fortification tests", correct: false },
+      { text: "Indirect calorimetry", correct: true },
+    ],
+  },
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Gramm test", correct: false },
+      { text: "Indirect calorimetry", correct: true },
+      { text: "Fortification tests", correct: false },
+      { text: "Acidity test", correct: false },
+      { text: "Nessler test", correct: false },
+    ],
+  },
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Indirect calorimetry", correct: true },
+      { text: "Fortification tests", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Colorimetry", correct: false },
+      { text: "Porosity test", correct: false },
+    ],
+  },
+  {
+    question: "What are the methods for assessing the quality of bread:",
+    answers: [
+      { text: "Nessler test", correct: false },
+      { text: "Organoleptic tests", correct: false },
+      { text: "Gramm test", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Fortification tests", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Enriching formulas", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Organoleptic properties", correct: true },
+      { text: "Temperature", correct: false },
+      { text: "Gramm test", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Acidity", correct: false },
+      { text: "Color", correct: false },
+      { text: "Fluoride content", correct: false },
+      { text: "Gramm tests", correct: false },
+      { text: "Temperature", correct: true },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Temperature", correct: true },
+      { text: "Fluoride content", correct: false },
+      { text: "Color", correct: false },
+      { text: "Fat content", correct: false },
+      { text: "Gramm tests", correct: false },
+    ],
+  },
+  {
+    question: "What is an indicator of high-quality milk:",
+    answers: [
+      { text: "Color", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Fluoride content", correct: false },
+      { text: "Gramm tests", correct: false },
+      { text: "Density", correct: false },
+    ],
+  },
+  {
+    question: "How is meat quality determined?",
+    answers: [
+      { text: "Gram test", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Organoleptic tests", correct: false },
+      { text: "Colorimetry", correct: false },
+      { text: "Acidity test", correct: false },
+    ],
+  },
+  {
+    question: "How is meat quality determined?",
+    answers: [
+      { text: "Nessler test", correct: false },
+      { text: "Test for fatness", correct: false },
+      { text: "Andrievsky test", correct: false },
+      { text: "Gramm test", correct: false },
+      { text: "Colorimetry", correct: true },
+    ],
+  },
+  {
+    question: "How is meat quality determined?",
+    answers: [
+      { text: "Test-reaction with the bluestone in a broth", correct: false },
+      { text: "Test for protein", correct: false },
+      { text: "Nessler test", correct: false },
+      { text: "Iodine test", correct: false },
+      { text: "Acidity test", correct: true },
+    ],
+  },
+  {
+    question: "What is the recommended daily intake of calcium:",
+    answers: [
+      { text: "2000 mg", correct: false },
+      { text: "1000 mg", correct: false },
+      { text: "1-2 g", correct: false },
+      { text: "800 mg", correct: false },
+      { text: "500 mg", correct: true },
+    ],
+  },
+  {
+    question: "What foods have the most favorable ratio of Ca and P:",
+    answers: [
+      { text: "fruits", correct: false },
+      { text: "Bread", correct: false },
+      { text: "legumes", correct: false },
+      { text: "buckwheat", correct: false },
+      { text: "cottage cheese", correct: true },
+    ],
+  },
+  {
+    question: "What foods contain iron:",
+    answers: [
+      { text: "sugar", correct: false },
+      { text: "cereals", correct: false },
+      { text: "milk", correct: false },
+      { text: "chokeberry", correct: false },
+      { text: "orange", correct: true },
+    ],
+  },
+  {
+    question: "What foods contain iron:",
+    answers: [
+      { text: "Cote liver oil", correct: true },
+      { text: "Egg’s white", correct: false },
+      { text: "White mushrooms", correct: false },
+      { text: "Beef", correct: false },
+      { text: "Vegetable oil", correct: false },
+    ],
+  },
+  {
+    question: "What foods contain iron:",
+    answers: [
+      { text: "Apples", correct: false },
+      { text: "Milk", correct: false },
+      { text: "Cheese", correct: false },
+      { text: "Cote liver oil", correct: true },
+      { text: "sugar", correct: false },
+    ],
+  },
+  {
+    question: "In what dish is vitamin C preserved better?",
+    answers: [
+      { text: "mashed potatoes", correct: false },
+      { text: "potatoes boiled in their skins", correct: true },
+      { text: "fried potatoes", correct: false },
+      { text: "braised potatoes", correct: false },
+      { text: "potato lacks vitamin C", correct: false },
+    ],
+  },
+  {
+    question: "What diseases can be transmitted through milk?",
+    answers: [
+      { text: "botulism", correct: true },
+      { text: "tetanus", correct: false },
+      { text: "diphyllobothriasis", correct: false },
+      { text: "staphylococcal infection", correct: false },
+      { text: "streptococcal infection", correct: false },
+    ],
+  },
+  {
+    question: "What milk-borne disease do you know?",
+    answers: [
+      { text: "leptospirosis", correct: false },
+      { text: "teniosis", correct: false },
+      { text: "difillobotriosis", correct: false },
+      { text: "tetanus", correct: false },
+      { text: "brucellosis", correct: true },
+    ],
+  },
+  
             
 ]
 
