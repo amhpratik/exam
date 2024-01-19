@@ -1,0 +1,1 @@
+<img src="https://t.bkit.co/w_65aa0564a3b42.gif" />
