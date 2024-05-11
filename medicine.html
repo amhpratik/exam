@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: #415a77;
+    }
+    .button-container {
+        text-align: center;
+        background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+    }
+    .button-container button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .button-container h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid#333;
+    padding-bottom: 26px;
+    text-align: center;}
+
+
+    .btn {
+background: #fff;
+color: #222;
+font-weight: 500;
+width: 100%;
+border: 1px solid #222;
+padding: 10px ;
+margin: 10px 0;
+text-align: center;
+border-radius: 8px;
+cursor:pointer;
+}
+
+.btn:hover:not([disabled]) {
+background: #222;
+color: #fff;
+transition: all 0.3s;
+}
+.btn:disabled { cursor : no-drop;}
+
+
+
+
+</style>
+</head>
+<body>
+    
+
+    <div class="indexbtn">
+        <button class="btn", onclick="openPage('medicine.html')"> 1-100 </button>
+        <button class="btn", onclick="openPage('medicine.html')"> 101-200 </button>
+        <button class="btn", onclick="openPage('medicine.html')"> 201-300 </button>
+        <button class="btn", onclick="openPage('medicine.html')"> 301-400 </button>
+        <button class="btn", onclick="openPage('medicine.html')"> 401-500 </button>
+
+    </div>
+
+    <script>
+        function openPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
