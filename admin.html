@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+<div>
+<input type="text", id="que", placeholder="Question">
+</div>
+<br>
+<div>
+<input type="text", id="one", placeholder="Option1">
+</div>
+<br>
+<div>
+<input type="text"id="two", placeholder="Option2">
+</div>
+<br>
+<div>
+<input type="text"id="three", placeholder="Option3">
+</div>
+<br>
+<div>
+<input type="text"id="four", placeholder="Option4">
+</div>
+<br>         
+<div>
+<input type="text", id="img", placeholder="image file name">
+</div>
+<br>
+
+
+    
+<div>
+    <input type="button", id="btn", value="save">
+    </div>
+</form>
+<br>
+
+<p id="paragraph">
+{ question: "<a id="que1"></a>", <br>
+
+img: "<a id="iimg"></a>", <br>
+
+answers: [ <br>
+
+{ text: "<a id="oone"></a>", correct: <a id="option1">false</a> }, <br>
+ 
+{ text: "<a id="otwo"></a> ", correct:  <a id="option2">false</a> },  <br>
+
+{ text: "<a id="othree"></a>", correct:  <a id="option3">false</a> },  <br>
+
+{ text: "<a id="ofour"></a>", correct:  <a id="option4">false</a> },  <br>
+],  },</p>
+<br>
+<button id="tropt1">one</button>
+<button id="tropt2">two</button>
+<button id="tropt3">three</button>
+<button id="tropt4">four</button>
+
+<br>
+<br>
+<button onclick="copyText()">Copy Text</button>
+<button onclick="refreshPage()">Refresh Site</button>
+
+
+
+
+
+<script>
+const txt1 = document.getElementById('que');
+const txt2 = document.getElementById('one');
+const txt3 = document.getElementById('two');
+const txt4 = document.getElementById('three');
+const txt5 = document.getElementById('four');
+const txt6 = document.getElementById('img');
+const txt7 = document.getElementById('option1')
+
+const btn = document.getElementById('btn');
+
+const que1 = document.getElementById('que1');
+const opt1 = document.getElementById('oone');
+
+
+ function fun1(params) {
+que1.innerHTML = txt1.value;
+oone.innerHTML = txt2.value;
+otwo.innerHTML = txt3.value;
+othree.innerHTML = txt4.value;
+ofour.innerHTML = txt5.value;
+iimg.innerHTML = txt6.value;
+
+}
+
+function fun2(params) {
+    option1.innerHTML = true;}
+    
+    function fun3(params) {
+    option2.innerHTML = true;}
+    
+    function fun4(params) {
+    option3.innerHTML = true;}
+    
+    function fun5(params) {
+    option4.innerHTML = true;}
+    
+    function copyText() {
+            var text = document.getElementById('paragraph').innerText;
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Text copied to clipboard!');
+            }).catch(function(err) {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+
+        function refreshPage() {
+            location.reload(); // Reloads the current page
+        }
+
+
+btn.addEventListener('click',fun1);
+tropt1.addEventListener('click',fun2);
+tropt2.addEventListener('click',fun3);
+tropt3.addEventListener('click',fun4);
+tropt4.addEventListener('click',fun5);
+
+</script>
+
+
+
+</body>
+</html>
