@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: #415a77;
+    }
+    .button-container {
+        text-align: center;
+        background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+    }
+    .button-container button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+.btn {
+    background: #001e4d;
+color: #fff;
+font-weight: 500;
+width: 150px;
+border: 0;
+padding: 10px;
+margin: 20px auto 0;
+border-radius: 4px;
+cursor: pointer;
+
+}
+
+.button-container h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid#333;
+    padding-bottom: 26px;
+    text-align: center;}
+
+
+</style>
+</head>
+<body>
+    
+
+    <div class="button-container">
+        <h1>Sixth Semester MCQs</h1>
+        <button class="btn", onclick="openPage('medicine.html')">Medicine</button>
+        <button class="btn", onclick="openPage('pediatrics.html')">Pediatrics</button>
+    </div>
+
+    <script>
+        function openPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
