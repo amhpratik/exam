@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 201-300 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 201-300 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Yash Bachire</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+    
+            { question: "A 19-year-old boy is found to have pancytopenia, oral leukoplakia, and dystrophy of I nails. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Fanconi anemia", correct: false },
+{ text: "Shwachman-Diamond syndrome ", correct: false },
+{ text: "Diamond Blackfan syndrome", correct: false },
+{ text: "Dyskeratosis congenita", correct: true },
+], },
+
+{ question: "All of the following can cause acquired aplastic anemia except",
+img: "",
+answers: [
+{ text: "Cyclophosphamide", correct: false },
+{ text: "Radiation ", correct: false },
+{ text: "Benzene", correct: false },
+{ text: "Hepatitis A", correct: true },
+], },
+
+{ question: "A 25-year-old lady presented with epistaxis. On clinical examination, the spleen was not palpable. Her Hb=6 g/dL, platelet count= 18,000/µL and white blood cell count is 3000/µL. Image of the bone marrow biopsy is given below. What is the best method of management in this patient?",
+img: "img201-300/Pg235.jpg",
+answers: [
+{ text: "Administer hematopoietic growth factors", correct: false },
+{ text: "Umbilical cord blood transplantation ", correct: false },
+{ text: "Hematopoietic stem cell transplantation", correct: true },
+{ text: "Blood and platelet transfusion", correct: false },
+], },
+
+{ question: "The most common cytogenetic abnormality seen in myelodysplastic syndrome is",
+img: "",
+answers: [
+{ text: " 7q deletion", correct: false },
+{ text: "5q deletion ", correct: true },
+{ text: "Monosomy 5", correct: false },
+{ text: "Monosomy 7", correct: false },
+], },
+
+{ question: "A patient presents with fatigue and a petechial rash for the past 4 weeks. Complete I hemogram shows: Hb - 8 g/dL, platelet count - 70,000/mm3, WBC - 5000/mm3. Bone marrow aspiration reveals mild hypercellularity with 3°/o blasts, dysplastic erythroid and megakaryocytic cells, and 10 °/o ringed sideroblasts. Which classification of the myelodysplastic syndromes does the patient belong to?",
+img: "",
+answers: [
+{ text: "MDS - RS with single lineage dysplasia", correct: false },
+{ text: "MDS- RS with multilineage dysplasia ", correct: false },
+{ text: "MDS with single lineage dysplasia", correct: false },
+{ text: "MDS with multilineage dysplasia", correct: true },
+], },
+
+{ question: "A patient with myelodysplastic syndrome was detected with 5q deletion. Which of the following is the drug of choice for this patient?",
+img: "",
+answers: [
+{ text: "Cyclosporine", correct: false },
+{ text: "Cyclophosphamide ", correct: false },
+{ text: "Thalidomide", correct: false },
+{ text: "Lenalidomide", correct: true },
+], },
+
+{ question: "A young male patient on routine evaluation is found to have a Hb level of 17g/dL. The platelet levels and WBC levels are normal. What will be your next step in the evaluation?",
+img: "",
+answers: [
+{ text: "Perform bone marrow aspiration", correct: false },
+{ text: "Measure RBC mass ", correct: true },
+{ text: "Measure arterial oxygen saturator", correct: false },
+{ text: "Look for JAK2 mutation", correct: false },
+], },
+
+{ question: "A 45-year-old male patient was detected to have a Hb-18 g/dl, hematocrit-54o/o, and an elevated erythropoietin level. Which of the following is the least likely underlying diagnosis?",
+img: "",
+answers: [
+{ text: "Carbon monoxide poisoning", correct: false },
+{ text: "Cerebellar hemangioblastoma ", correct: false },
+{ text: "Renal Cell Carcinoma", correct: false },
+{ text: "Polycythemia vera", correct: true },
+], },
+
+{ question: "The most common myeloproliferative neoplasm is",
+img: "",
+answers: [
+{ text: "Chronic myeloid leukemia", correct: false },
+{ text: "Primary myelofibrosis ", correct: false },
+{ text: "Essential thrombocytosis", correct: false },
+{ text: "Polycythemia vera", correct: true },
+], },
+
+{ question: "The most common cytogenetic abnormality in polycythemia vera is",
+img: "",
+answers: [
+{ text: " JAK6 mutation", correct: false },
+{ text: "JAK2 mutation ", correct: true },
+{ text: "MPL mutation", correct: false },
+{ text: "CAL mutation", correct: false },
+], },
+
+{ question: "Which of the following statements about polycythemia vera is true?",
+img: "",
+answers: [
+{ text: "Risk of thrombosis strongly correlates with the degree of thrombocytosis", correct: false },
+{ text: "Generalized pruritus is a consequence6 of mast cell activation by JAK 2 mutation ", correct: true },
+{ text: "It is protective against H. pylori infection", correct: false },
+{ text: "Acute myeloid leukemia is the most common cause of mortality", correct: false },
+], },
+
+{ question: "Which of the following is not a laboratory feature of polycythemia vera",
+img: "",
+answers: [
+{ text: "Elevated platelet count", correct: false },
+{ text: "Elevated serum lactate dehydrogenase ", correct: false },
+{ text: "Low to normal erythropoietin levels", correct: false },
+{ text: "LOW WBC count", correct: true },
+], },
+
+{ question: "The Janus associated kinase inhibitor used in the treatment of polycythemia vera is",
+img: "",
+answers: [
+{ text: "Dabrafenib", correct: false },
+{ text: "Nilotinib ", correct: false },
+{ text: "Eculizumab", correct: false },
+{ text: "Ruxolitinib", correct: true },
+], },
+
+{ question: "A 55-year-old lady with significant splenomegaly is diagnosed with a myeloproliferative disorder. Which of the following is the least likely diagnosis?",
+img: "",
+answers: [
+{ text: "Essential thrombocythemia", correct: true },
+{ text: "Chronic myeloid leukemia ", correct: false },
+{ text: "Primary myelofibrosis", correct: false },
+{ text: "Polycythemia vera", correct: false },
+], },
+
+{ question: "The most common symptom in multiple myeloma is __ _",
+img: "",
+answers: [
+{ text: "easy fatigability", correct: false },
+{ text: "Bone pain ", correct: true },
+{ text: "Renal failure", correct: false },
+{ text: "Fever", correct: false },
+], },
+
+{ question: "A 72-year-old male presented with complaints of fatiguability and chronic lower back pain. On evaluation, Hemoglobin = 9 g/dl, S. Calcium = 11.5 mg/di, serum M protein = 50 g/dl. Bone marrow biopsy showed 15 % clonal plasma cells. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Multiple Myeloma", correct: true },
+{ text: "Monoclonal Gammopathy of Unknown Significance ", correct: false },
+{ text: "Smoldering Multiple Myeloma", correct: false },
+{ text: "Both Band C", correct: false },
+], },
+
+{ question: "A 68-year-old male with chronic low back pain presented with a urinary tract infection. He was admitted twice in the past 3 months with pneumonia. On examination, he has pallor and bony tenderness. X-ray of his skull is shown below. Which of the following laboratory parameters is consistent with this diagnosis?",
+img: "img201-300/Pg253.jpg",
+answers: [
+{ text: "Hypercalcemia, High alkaline phosphatase and Normal ESR", correct: false },
+{ text: "Hypercalcemia, High alkaline phosphatase, Elevated ESR ", correct: false },
+{ text: "Hypercalcemia, Normal alKaline phosphatase, Normal ESR", correct: false },
+{ text: "Hypercalcemia, Normal alkaline phosphatase, Elevated ESR", correct: true },
+], },
+
+{ question: "Treatment of choice for multiple myeloma is __",
+img: "",
+answers: [
+{ text: "Lenalidomide +Bortezomib+Oexamethasone", correct: true },
+{ text: "Thalidomide + Cyclophosphamide ", correct: false },
+{ text: "Rituximab+ Cyclophosphamide", correct: false },
+{ text: "Borteozomib + Rituximab", correct: false },
+], },
+
+{ question: "Which among the following is proteasome inhibitor?",
+img: "",
+answers: [
+{ text: "Lenalidomide", correct: false },
+{ text: "Rituximab ", correct: false },
+{ text: "Nilotinib", correct: false },
+{ text: "Bortezomib", correct: true },
+], },
+
+{ question: "Which of the following is false about Waldenstrom's macroglobulinemia?",
+img: "",
+answers: [
+{ text: "Bone marrow >10% lymphoplasmacytoid cells", correct: false },
+{ text: "Lytic bone lesions ", correct: true },
+{ text: "M component in serum >30g/L", correct: false },
+{ text: "Hyperviscosity", correct: false },
+], },
+
+{ question: "Seligman's disease is __",
+img: "",
+answers: [
+{ text: "Gamma heavy chain disease", correct: false },
+{ text: "Alpha heavy chain disease ", correct: true },
+{ text: "MU heavy chain disease", correct: false },
+{ text: "Smouldering myeloma", correct: false },
+], },
+
+{ question: "Familial amyloidosis is due to mutation of __",
+img: "",
+answers: [
+{ text: "Acute phase reactant", correct: false },
+{ text: "Transthyretin ", correct: true },
+{ text: "Light chain", correct: false },
+{ text: "Beta 2 microglobulin", correct: false },
+], },
+
+{ question: "The most common organ affected in amyloidosis is __ _",
+img: "",
+answers: [
+{ text: "Heart", correct: false },
+{ text: "Kidney ", correct: true },
+{ text: "Liver", correct: false },
+{ text: "Spleen", correct: false },
+], },
+
+{ question: "The leading cause of death in primary amyloidosis is __",
+img: "",
+answers: [
+{ text: "Renal failure", correct: false },
+{ text: "Cardiac disease ", correct: true },
+{ text: " Liver failure", correct: false },
+{ text: "Sepsis", correct: false },
+], },
+
+{ question: "A 60-year-old male presented with progressive weight loss, generalized edema, and nephrotic range proteinuria, macroglossia and raccoon eyes. What is the most probable diagnosis?",
+img: "",
+answers: [
+{ text: "Waldenstrom's macroglobulinemia", correct: false },
+{ text: "Multiple myeloma ", correct: false },
+{ text: "Amyloidosis", correct: true },
+{ text: "Chronic Lympnocytic LeuKemia", correct: false },
+], },
+
+{ question: "Which of the following is true about Multiple Myeloma?",
+img: "",
+answers: [
+{ text: "All MGUS progresses to Multiple Myeloma.", correct: false },
+{ text: "Hyper viscosity syndrome is common with monoclonal lgG expansion ", correct: false },
+{ text: "Anion gap in the serum is decreased.", correct: true },
+{ text: "Bone scannirg is highly useful for diagnosis", correct: false },
+], },
+
+{ question: "The most common cause of renal failure in multiple myeloma is __ _",
+img: "",
+answers: [
+{ text: "Hyperuricemia", correct: false },
+{ text: "Amyloidosis ", correct: false },
+{ text: "Light chain deposition", correct: false },
+{ text: "Hypercalcemia", correct: true },
+], },
+
+{ question: "A patient with Multiple Myeloma has elevated serum M protein but dipstick for urine I protein is negative. Serum 'M protein' most likely constitutes ___ ?",
+img: "",
+answers: [
+{ text: "Lg M", correct: false },
+{ text: "lg G ", correct: true },
+{ text: "lg A", correct: false },
+{ text: "lg D", correct: false },
+], },
+
+{ question: "Which of the following is seen in multiple myeloma?",
+img: "",
+answers: [
+{ text: "Renal tubular acidosis, Type 1", correct: false },
+{ text: "Renal tubular acidosis, Type 2 ", correct: true },
+{ text: "Renal tubular acidosis, Type 4", correct: false },
+{ text: "None of the above", correct: false },
+], },
+
+{ question: "lmmunophenotype of tumour cells in Multiple Myeloma is ___ ",
+img: "",
+answers: [
+{ text: "CD19", correct: false },
+{ text: "CD38 ", correct: true },
+{ text: "Surface lg M", correct: false },
+{ text: "All of the above", correct: false },
+], },
+
+{ question: "The most powerful predictor of survival in Multiple Myeloma is ____ _",
+img: "",
+answers: [
+{ text: "Percentage of circulating plasma cells", correct: false },
+{ text: "Durie-Salmoru staging system ", correct: false },
+{ text: "Beta-2 microglobu in levels", correct: true },
+{ text: "Lactate dehydrogenase levels", correct: false },
+], },
+
+{ question: "A 60-year-old man presents with fatigue and back pain since 3 months. His investigations reveal the following: Hemoglobin=? g/dl, Total leukocyte count =9000/cu.mm, Serum protein = 6 gm0 /o, Serum albumin = 3.5 g/dl. Serum protein electrophoresis (SPEP) shows the following pattern. What is the most likely diagnosis?",
+img: "img201-300/Pg268.jpg",
+answers: [
+{ text: "Multiple Myetoma", correct: false },
+{ text: "Lymphoplasmacytic lymphoma ", correct: false },
+{ text: "Alpha-1 Antilrypsin deficiency", correct: false },
+{ text: "None of the above", correct: true },
+], },
+
+{ question: "The chromosomal abnormality associated with high risk in Multiple Myeloma is",
+img: "",
+answers: [
+{ text: "t (11,14)", correct: false },
+{ text: " t (6,14) ", correct: false },
+{ text: "1 tp deletion", correct: true },
+{ text: "13q deletion", correct: false },
+], },
+
+{ question: "Which of the following patterns of bleeding is highly suggestive of a coagulation disorder?",
+img: "",
+answers: [
+{ text: "Petechiae", correct: false },
+{ text: "Ecchymosis ", correct: false },
+{ text: "Hemarthrosis", correct: true },
+{ text: "Menorrhagia", correct: false },
+], },
+
+{ question: "Which of the following drugs can cause thrombocytopenia within 24 hours of initial I exposure?",
+img: "",
+answers: [
+{ text: "Acetaminophen", correct: false },
+{ text: "Ampicillin ", correct: false },
+{ text: "Abciximab", correct: true },
+{ text: "Ibuprofen", correct: false },
+], },
+
+{ question: "Which of the following thrombocytopenias is not associated with bleeding?",
+img: "",
+answers: [
+{ text: "Heparin-induced thrombocytopenia", correct: true },
+{ text: "Drug-induced thrombocytopenia ", correct: false },
+{ text: "Inherited thrombocytopenia", correct: false },
+{ text: "All of the above", correct: false },
+], },
+
+{ question: "Which of the following is the most specific test for the diagnosis of heparin-induced • thrombocytopenia?",
+img: "",
+answers: [
+{ text: "Clinical history and examination", correct: false },
+{ text: "Platelet activation assay ", correct: false },
+{ text: "Heparin-PF-4 complex antibody assay", correct: false },
+{ text: "Serotonin release assay", correct: true },
+], },
+
+{ question: "Which of the following cannot be used in the treatment of heparin-induced thrombocytopenia?",
+img: "",
+answers: [
+{ text: "Lepirudin", correct: false },
+{ text: "Danaparoid ", correct: false },
+{ text: "Argatroban", correct: false },
+{ text: "Low molecular weight heparin", correct: true },
+], },
+
+{ question: "Thrombocytopenia, eczema and recurrent infections are seen in _",
+img: "",
+answers: [
+{ text: "Wiskott-Aldrich syndrome", correct: true },
+{ text: "Chediak-Higashi syndrome ", correct: false },
+{ text: "Thrombocytopenia-absent radius syndrome", correct: false },
+{ text: "Hermansky-Pudlak syndrome", correct: false },
+], },
+
+{ question: "Pseudothrombocytopenia is seen in which of the following blood samples?",
+img: "",
+answers: [
+{ text: "EDTA", correct: true },
+{ text: "Sodium citrate ", correct: false },
+{ text: "Heparin", correct: false },
+{ text: "Finger stick", correct: false },
+], },
+
+{ question: "Which of the following is not true regarding Bernard-Soulier syndrome?",
+img: "",
+answers: [
+{ text: "Platelet aggregation tests with epinephrine and ADP are normal", correct: false },
+{ text: "Ristocetin aggregation test is normal ", correct: true },
+{ text: "Peripheral smear shows large platelets", correct: false },
+{ text: "Mild thrombocytopenia is seen", correct: false },
+], },
+
+{ question: "Which of the following is the most common inherited bleeding disorder?",
+img: "",
+answers: [
+{ text: "Hemophilia A", correct: false },
+{ text: "Hemophilia B ", correct: false },
+{ text: "Bernard-Soulier disease", correct: false },
+{ text: "Von Willebrand disease", correct: true },
+], },
+
+{ question: "Autosomal Hemophilia is also called _",
+img: "",
+answers: [
+{ text: "Type 2M von Willebrand disease", correct: false },
+{ text: "Type 2N von Willebrand disease ", correct: true },
+{ text: "Type 2A von Willebrand disease", correct: false },
+{ text: "Type 2B von Willebrand disease", correct: false },
+], },
+
+{ question: "Heyde's syndrome is",
+img: "",
+answers: [
+{ text: "Aortic regurgitation with gastrointestinal bleeding", correct: true },
+{ text: "Aortic stenosis with intracranial bleed ", correct: false },
+{ text: "Aortic stenosis with gastrointestinal bleeding", correct: false },
+{ text: "Aortic regurgitation with intracranial bleed", correct: false },
+], },
+
+{ question: "Which of the following is a disorder of platelet adhesion?",
+img: "",
+answers: [
+{ text: "Bernard Soulier syndrome", correct: true },
+{ text: "Glanzmann's thrombasthenia ", correct: false },
+{ text: "Wiskott Aldrich syndrome", correct: false },
+{ text: "Hermansky Pudlak syndrome", correct: false },
+], },
+
+{ question: "Which of the following laboratory abnormalities is seen in von Willebrand disease?",
+img: "",
+answers: [
+{ text: "Bleeding time is increased", correct: true },
+{ text: "Platelet count is increased ", correct: false },
+{ text: "Prothrombin time is increased", correct: false },
+{ text: "Activated partial thromboplastin time is decreased", correct: false },
+], },
+
+{ question: "Which of the following is the first line of treatment for von Willebrand disease?",
+img: "",
+answers: [
+{ text: "Tranaxemic acid", correct: false },
+{ text: "Factor VIII concentrate ", correct: false },
+{ text: "Von Willebrand factor concentrate", correct: false },
+{ text: "Desmopressin", correct: true },
+], },
+
+{ question: "Which of the following is false regarding Glanzmann's thrombasthenia?",
+img: "",
+answers: [
+{ text: "Platelet aggregation with collagen and ADP is abnormal", correct: false },
+{ text: "Thrombocytopenia is a characteristic feature ", correct: true },
+{ text: " von Willebrand factor levels are normal", correct: false },
+{ text: "Platelets aggregate normally to Ristocetin", correct: false },
+], },
+
+{ question: "Which of the following drugs inhibit ADP mediated platelet aggregation?",
+img: "",
+answers: [
+{ text: "Clopidogrel", correct: false },
+{ text: "Ticlopidine ", correct: false },
+{ text: "Ticagrelor", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+{ question: "The lifespan of a platelet is",
+img: "",
+answers: [
+{ text: "7 days", correct: true },
+{ text: "5 days ", correct: false },
+{ text: "24 hours", correct: false },
+{ text: " 2 weeks", correct: false },
+], },
+
+{ question: "Combined autoimmune hemolytic anemia and idiopathic thrombocytopenic purpura is called",
+img: "",
+answers: [
+{ text: "Evans syndrome", correct: true },
+{ text: "May-Hegglin anomaly ", correct: false },
+{ text: "Fechtner syndrome", correct: false },
+{ text: "Rosenthal syndrome", correct: false },
+], },
+
+{ question: "The most common side effect of enteric coated Aspirin is",
+img: "",
+answers: [
+{ text: "Gastrointestinal symptoms", correct: true },
+{ text: "Aspirin sensitivity ", correct: false },
+{ text: "Aspirin tolerance", correct: false },
+{ text: "None of the above", correct: false },
+], },
+
+{ question: "The mechanism of action of Dipyridamole includ",
+img: "",
+answers: [
+{ text: "increases levels of cyclic AMP in platelets", correct: false },
+{ text: "blocking the reuptake of adenosine ", correct: false },
+{ text: "inhibiting phosphodiesterase mediated cyclic AMP degradation", correct: false },
+{ text: "all of the above", correct: true },
+], },
+
+{ question: "Which of the following anti-platelet drugs is safe in renal failure?",
+img: "",
+answers: [
+{ text: "Abciximab", correct: true },
+{ text: "Eptifibatide ", correct: false },
+{ text: "Tirofiban", correct: false },
+{ text: "None of the above", correct: false },
+], },
+
+{ question: "Plasmapheresis (plasma exchange therapy) is the mainstay of treatment in",
+img: "",
+answers: [
+{ text: "Autoimmune hemolytic anemia", correct: false },
+{ text: "Disseminated intravascular coagulation ", correct: false },
+{ text: "Thrombotic thrombocytopenic purpura", correct: true },
+{ text: "Hemolytic uremic syndrome", correct: false },
+], },
+
+{ question: "Thrombocytopenia is seen in which of the following conditions?",
+img: "",
+answers: [
+{ text: "Platelet storage pool disorder", correct: false },
+{ text: "Wiskott-Aldrich syndrome ", correct: true },
+{ text: "Henoch-Schonlein purpura", correct: false },
+{ text: "Hemophilia", correct: false },
+], },
+
+{ question: "Which of the following is not a feature of thrombotic thrombocytopenic purpura (TTP)?",
+img: "",
+answers: [
+{ text: "Hemolytic anemia", correct: false },
+{ text: "Focal neurological deficits ", correct: false },
+{ text: "Venous thromboembolism", correct: true },
+{ text: "Elevated serum creatinine", correct: false },
+], },
+
+{ question: "Which of the following statements is false regarding thrombotic thrombocytopenic purpura (TTP)?",
+img: "",
+answers: [
+{ text: "There is clinical overlap with hemolytic uremic syndrome", correct: false },
+{ text: "PT and aPTT are prolonged ", correct: true },
+{ text: "It is common in HIV infection", correct: false },
+{ text: "It is seen with Quinine use", correct: false },
+], },
+
+{ question: "Which of the following is the most common inherited cause of venous thrombosis?",
+img: "",
+answers: [
+{ text: "Factor V Leiden mutation", correct: true },
+{ text: "Prothrombin deficiency ", correct: false },
+{ text: "Protein C deficiency", correct: false },
+{ text: "Protein S deficiency", correct: false },
+], },
+
+{ question: "Which of the following qualitative platelet disorders are inherited as autosomal dominant?",
+img: "",
+answers: [
+{ text: "Bernard Soulier syndrome", correct: false },
+{ text: "Glanzman thrombasthenia ", correct: false },
+{ text: "Chediak-Higashi syndrome", correct: false },
+{ text: "Platelet storage pool syndrome", correct: true },
+], },
+
+{ question: "Immune-mediated destruction of platelets is seen in which of the following conditions?",
+img: "",
+answers: [
+{ text: "Glanzmann's thrombasthenia", correct: false },
+{ text: "Hermansky-Pudlak syndrome ", correct: false },
+{ text: "Thrombotic thrombocytopenic purpura", correct: false },
+{ text: "Idiopathic thrombocytopenic purpura", correct: true },
+], },
+
+{ question: "Which of the following statements regarding immune thrombocytopenic purpura is false?",
+img: "",
+answers: [
+{ text: "Acute ITP is more common in children", correct: false },
+{ text: "Lymphocytosis is rare in chronic ITP ", correct: false },
+{ text: "Chronic ITP is commonly seen in males", correct: true },
+{ text: "Spontaneous remission is common in acute ITP", correct: false },
+], },
+
+{ question: "A young woman presents with skin rashes shown in the image below. She also complains of easy bruisability and bleeding from gums. Her CBC report revealed platelet count 15,000/µL, normal RBC and WBC counts. Her peripheral smear was normal. What is the probable diagnosis?",
+img: "img201-300/Pg308.jpg",
+answers: [
+{ text: "Hemolytic uremic syndrome", correct: false },
+{ text: "Thrombotic thrombocytopenic purpura ", correct: false },
+{ text: "Immune thrombocytopenic purpura", correct: true },
+{ text: "Disseminated intravascular coagulation", correct: false },
+], },
+
+{ question: "Two weeks after an upper respiratory tract infection, a 5-year-old presents with ecchymosis and petechiae all over the body. Abdominal examination revealed no hepatosplenomegaly. Platelet count= 15,000/microL and coagulation profile was normal. Which of the following is false regarding this condition?",
+img: "",
+answers: [
+{ text: "Peripheral blood smear is normal", correct: false },
+{ text: "Bone marrow biopsy shows increased megakaryocytes ", correct: false },
+{ text: "Bleeding into the joints is a common manifestation", correct: true },
+{ text: "The condition resolves spontaneously in patients", correct: false },
+], },
+
+{ question: "Which of the following statements is false regarding treatment of Idiopathic thrombocytopenic purpura (ITP)?",
+img: "",
+answers: [
+{ text: "Prednisone or IV anti-D are the first line of treatment", correct: false },
+{ text: "Platelet transfusion is necessary in all patients with chronic ITP ", correct: true },
+{ text: "Splenectomy is indicated in patients who relapse", correct: false },
+{ text: "Romiplostim and Eltrombopag are used in relapse post-splenectomy", correct: false },
+], },
+
+{ question: "Which of the following is the best treatment for Idiopathic thrombocytic purpura ( I ITP)",
+img: "",
+answers: [
+{ text: "IV immunoglobulins", correct: false },
+{ text: "Steroids ", correct: false },
+{ text: "Splenectomy", correct: true },
+{ text: "Blood Transfusion", correct: false },
+], },
+
+{ question: "Identify the rhythm in the following ECG rhythm strip.",
+img: "img201-300/Pg314.jpg",
+answers: [
+{ text: "Atrial fibrillation", correct: false },
+{ text: "Atrial flutter ", correct: false },
+{ text: "Normal sinus rhythm", correct: true },
+{ text: "AV block", correct: false },
+], },
+
+{ question: "Identify the tachycardia depicted in the given ECG.",
+img: "img201-300/Pg316.jpg",
+answers: [
+{ text: "Atrial fibrillation", correct: false },
+{ text: "Atrial flutter ", correct: true },
+{ text: "Ventricular tacnycardia", correct: false },
+{ text: "Ventricular fibrillation", correct: false },
+], },
+
+{ question: "A 50-year-old man was brought to the emergency in an unconscious state. He had a fever for the past two days and is a known case of severe COPD. His ECG is given below. What is the most likely diagnosis?",
+img: "img201-300/Pg317.jpg",
+answers: [
+{ text: "Ventricular tachycardia", correct: false },
+{ text: "Multifocal atrial tachycardia ", correct: true },
+{ text: "Atrial fibrillation", correct: false },
+{ text: "Atrial tachycardia", correct: false },
+], },
+
+{ question: "Paroxysmal supraventricular tachycardias do not include:",
+img: "",
+answers: [
+{ text: "Atrial fibrillation", correct: true },
+{ text: "Atrial tachycardia ", correct: false },
+{ text: "AV nodal reentry tachycardia", correct: false },
+{ text: "AV reentry tachycardia", correct: false },
+], },
+
+{ question: "The drug of choice for PSVT is",
+img: "",
+answers: [
+{ text: "Procainamide", correct: false },
+{ text: "Adenosine ", correct: true },
+{ text: "Verapamil", correct: false },
+{ text: "Propranolol", correct: false },
+], },
+
+{ question: "The ECG of a patient who presented to the ER is as given below. The patient was already given a carotid massage and IV Adenosine but the BP is currently 60/30 mm Hg. What is the next best step of management?",
+img: "",
+answers: [
+{ text: "Repeat inj adenosine 6 mg", correct: false },
+{ text: "lnj amiodarone 300 mg ", correct: false },
+{ text: "Synchronised cardioversion", correct: true },
+{ text: "DC cardioversion", correct: false },
+], },
+
+{ question: "A patient comes with sudden onset palpitations. ECG showed a narrow complex, regular tachycardia without P waves, and a rate of 160 BPM. His Blood pressure is 96/68 mmHg. What is the next step in management?",
+img: "img201-300/Pg321.jpg",
+answers: [
+{ text: "Carotid sinus massage", correct: true },
+{ text: "Adenosine ", correct: false },
+{ text: "Beta blocker", correct: false },
+{ text: "Defibrillator", correct: false },
+], },
+
+{ question: "A 65 year old female patient is brought to the emergency department in a state of unconsciousness. Her BP is 70/50 mm of Hg. Her ECG is shown to you. What would you suggest as the most apt treatment?",
+img: "img201-300/Pg323.jpg",
+answers: [
+{ text: "IV verapamil", correct: false },
+{ text: "IV adenosine ", correct: false },
+{ text: "Carotid massage", correct: true },
+{ text: "DC cardioversion", correct: false },
+], },
+
+{ question: "Identify the false statement about accessory pathways",
+img: "",
+answers: [
+{ text: "Bundle of Kent has antegrade conduction", correct: false },
+{ text: "Concealed pathways have retrograde conduction ", correct: false },
+{ text: "Antegrade conduction causes preexcitation", correct: false },
+{ text: "Retrograde conduction causes preexcitation", correct: true },
+], },
+
+{ question: "The most common reentrant tachycardia caused by an accessory pathway is",
+img: "",
+answers: [
+{ text: "Orthodromrc AV reentry", correct: true },
+{ text: "Antidromic AV reentry ", correct: false },
+{ text: "Atrial fibrillation", correct: false },
+{ text: "AV nodal reentry", correct: false },
+], },
+
+{ question: "A patient with a short PR interval and delta wave on ECG presents to the emergency department with atrial fibrillation and rapid ventricular rate. He is hemodynamically stable. All of the following drugs can be used in the management except ___ _",
+img: "",
+answers: [
+{ text: "Amioelarone", correct: false },
+{ text: "lbutilide ", correct: false },
+{ text: "Procainamide", correct: false },
+{ text: "Verapamil", correct: true },
+], },
+
+{ question: "All of the following are supraventricular tachycardias except:",
+img: "",
+answers: [
+{ text: "AV nodal re-entry tachycardia", correct: false },
+{ text: "Atrioventricular re-entry tachycardia ", correct: false },
+{ text: "Junctional tachycardia", correct: false },
+{ text: "Premature ventricular beats", correct: false },
+], },
+
+{ question: "Which of the following is true regarding sick sinus syndrome?",
+img: "",
+answers: [
+{ text: "Most patients are symptomatic", correct: false },
+{ text: "Most commonly in young patients ", correct: false },
+{ text: "Frequently seen in patients with atrial fibrillation", correct: true },
+{ text: "Treated using beta-blockers", correct: false },
+], },
+
+{ question: "Which of the following conditions presents with a wide QRS complex on the ECG?",
+img: "",
+answers: [
+{ text: "Ventricular tachycardia", correct: true },
+{ text: "Sinus tachycardia ", correct: false },
+{ text: "Junctional tachycardia", correct: false },
+{ text: "Multifocal atrial tachycardia", correct: false },
+], },
+
+{ question: "The most common supraventricular arrhythmia is:",
+img: "",
+answers: [
+{ text: "Paroxysmal supraventricular tachycardia", correct: false },
+{ text: "Sinus tachycardia ", correct: true },
+{ text: "Atrial fibrillation", correct: false },
+{ text: "Junctional tachycardia", correct: false },
+], },
+
+{ question: "Which of the following supraventricular tachycardias presents with irregular RR intervals on the ECG?",
+img: "",
+answers: [
+{ text: "Atrioventricular re-entry tachycardia", correct: false },
+{ text: "AV nodal re-entry tachycardia ", correct: false },
+{ text: "Atrial flutter", correct: false },
+{ text: "Atrial fibrillation", correct: true },
+], },
+
+{ question: "A 65-year-old hypertensive patient presents with dizziness and palpitations following an alcohol binge. His ECG is shown below. What is the most likely diagnosis?",
+img: "img201-300/Pg332.jpg",
+answers: [
+{ text: "Ventricular tachycardia", correct: false },
+{ text: "Focal atrial tachycardia ", correct: false },
+{ text: "Ventricular fibrillation", correct: false },
+{ text: "Atrial fibrillation", correct: true },
+], },
+
+{ question: "A 50-year-old man is brought to the clinic after he experienced palpitations. He has a history of IHD. Which of the following drugs can be used to treat the condition identified on the given ECG:",
+img: "img201-300/Pg334.jpg",
+answers: [
+{ text: "Amiodarone", correct: true },
+{ text: "Verapamil ", correct: false },
+{ text: "Flecainide", correct: false },
+{ text: "Digoxin", correct: false },
+], },
+
+{ question: "A 60-year-old man who is on treatment for chronic AF presents with nausea, dizziness, and anorexia. He has a regular heart rate of 50/min. The most likely cause is:",
+img: "",
+answers: [
+{ text: "Thromboembolic stroke", correct: false },
+{ text: "Myocardial infarction ", correct: false },
+{ text: "Non compliance to treatment", correct: false },
+{ text: "Digitalis toxicity", correct: true },
+], },
+
+{ question: "Which among the following is not a component of CHADS2-VASc score?",
+img: "",
+answers: [
+{ text: "Age > 60 years", correct: true },
+{ text: "Hypertension ", correct: false },
+{ text: "Diabetes", correct: false },
+{ text: "Transient ischemic attack", correct: false },
+], },
+
+{ question: "The pattern of premature ventricular contractions seen in ventricular bigeminy is:",
+img: "",
+answers: [
+{ text: "Two different QRS morphologies", correct: false },
+{ text: "Two successive premature beats ", correct: false },
+{ text: "One premature beat after two normal beats", correct: false },
+{ text: "One premature beat after one normal beat", correct: true },
+], },
+
+{ question: "Which among the following is the cause of the ECG finding shown in the given image",
+img: "img201-300/Pg339.jpg",
+answers: [
+{ text: "Hypomagnesemia", correct: true },
+{ text: "Hypermagnesemia ", correct: false },
+{ text: "HyperKalemia", correct: false },
+{ text: "Hypercalcemia", correct: false },
+], },
+
+{ question: "The ECG of a pregnant lady having pre-eclampsia is shown below. Her vitals are stable. What is the best step in the management of the condition?",
+img: "img201-300/Pg341.jpg",
+answers: [
+{ text: "IV MgS04", correct: true },
+{ text: "IV calcium ", correct: false },
+{ text: "DC Shock", correct: false },
+{ text: "Synchronised cardioversion", correct: false },
+], },
+
+{ question: "Identify the false statement about the bundle of Kent.",
+img: "",
+answers: [
+{ text: "It is slower than AV nodal pathway", correct: true },
+{ text: "It is faster than AV nodal pathway ", correct: false },
+{ text: "Leads to short PR interval", correct: false },
+{ text: "Leads to prolonged QRS duration", correct: false },
+], },
+
+{ question: "The most common location of the accessory pathway in WPW syndrome is:",
+img: "",
+answers: [
+{ text: "Left free wall", correct: true },
+{ text: "Posteroseptal ", correct: false },
+{ text: "Right free wall", correct: false },
+{ text: "Anteroseptal", correct: false },
+], },
+
+{ question: "All are true about the condition shown in the given image except",
+img: "img201-300/Pg344.jpg",
+answers: [
+{ text: "Delta wave is seen in ECG", correct: false },
+{ text: "Can be seen in asymptomatic individuals ", correct: false },
+{ text: "Prevalence increases with age", correct: false },
+{ text: "None of the above", correct: false },
+], },
+
+{ question: "A 30-year-old woman comes to the clinic with complaints of recurrent palpitations and lightheadedness. An ECG was taken and is as shown below. What is the best step in management?",
+img: "img201-300/Pg346.jpg",
+answers: [
+{ text: "DC cardioversion", correct: false },
+{ text: "Carotid Sinus Massage ", correct: false },
+{ text: "Coronary Angiography", correct: false },
+{ text: "Catheter Ablation", correct: true },
+], },
+
+{ question: "Which of the following is seen in Brugada syndrome?",
+img: "",
+answers: [
+{ text: "ST segment elevation in V1-V3", correct: true },
+{ text: "ST segment elevation in V4-V6 ", correct: false },
+{ text: "ST segment elevation in 1, V5, AvL", correct: false },
+{ text: "ST segment elevation in II , Ill AvF", correct: false },
+], },
+
+{ question: "Brugada syndrome is associated with:",
+img: "",
+answers: [
+{ text: "Left bundle branch block", correct: false },
+{ text: "Left anterior fascicular block ", correct: false },
+{ text: "Left posterior fascicular block", correct: false },
+{ text: "Right bundle branch block", correct: true },
+], },
+
+{ question: "Romano-Ward syndrome is:",
+img: "",
+answers: [
+{ text: "Congenital long QT associated with deafness", correct: false },
+{ text: "Congenital long QT without deafness ", correct: true },
+{ text: "Congenital long QT associated with cataract", correct: false },
+{ text: "Congenital long QT without cataract", correct: false },
+], },
+
+{ question: "The ECG given below shows:",
+img: "img201-300/Pg351.jpg",
+answers: [
+{ text: "1st degree AV Block", correct: false },
+{ text: "Mobitz type I ", correct: false },
+{ text: "Mobitz type II", correct: false },
+{ text: "Complete AV Block", correct: false },
+], },
+
+{ question: "Identify the ECG feature of ventricular tachycardia seen in the given image.",
+img: "img201-300/Pg353.jpg",
+answers: [
+{ text: "Fusion beat", correct: true },
+{ text: "Capture beat ", correct: false },
+{ text: "Polymorphic QRS", correct: false },
+{ text: "Triphasic QRS", correct: false },
+], },
+
+{ question: "Which of the following conditions is associated with AV block?",
+img: "",
+answers: [
+{ text: "Hypothyroidism", correct: true },
+{ text: "Cushing's syndrome ", correct: false },
+{ text: "Hyperthyroidism", correct: false },
+{ text: "Pheochromocytoma", correct: false },
+], },
+
+{ question: "A 43-year-old man came to the clinic after experiencing an episode of light· headedness and palpitations. An ECG was taken. What is the diagnosis?",
+img: "img201-300/Pg356.jpg",
+answers: [
+{ text: "Mobitz type II block", correct: false },
+{ text: "Mobitz type I block ", correct: true },
+{ text: "Complete Heart block", correct: false },
+{ text: "1st Degree AV block", correct: false },
+], },
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+
