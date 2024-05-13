@@ -79,11 +79,16 @@ background: #9aeabc;
     background: #ff9393;
     }
 
+   
     #img {
-        height: auto;
-        width: auto;
+        height:auto ;
+        width: 300px;
         margin: auto;
-        max-height: 300px;
-        max-width: 300px;
-        
+        object-fit: contain;
+    }
+
+    @media all and (max-width: 480px)
+    {
+#img {width: 100px;}
+
     }
