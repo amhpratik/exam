@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 1-100 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 1-100 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Rohan Chavan</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+    
+
+            { question: "A 10-year-old boy complains of multiple episodes of acuite severe pain in his fingers and toes which resolved on its own for the past 1 year. Which of the following conditions is he most likely suffering from?",
+img: "",
+answers: [
+{ text: "Alpha – Thalassemia", correct: false },
+{ text: "Beta- Thalassemia ", correct: false },
+{ text: "Sickle cell anemia", correct: true },
+{ text: "Von vvillebrand disease 1", correct: false },
+], },
+
+{ question: "Which of the following best represents laboratory abnormalities seen in intravascular hemolytic anemia?", 
+img: "", 
+answers: [ 
+{ text: "high MCV, low haptoglobin, low LDH, low urinary urcbilinogen", correct: false }, 
+{ text: "high MCV, low haptoglobin, high LDH, high urinary urobilinogen ", correct: true }, 
+{ text: "Low MCV, high haptoglobin, low LDH, low urinary urcbilinogen", correct: false }, 
+{ text: "Low MCV, high haptoglobin, high LDH, high urinary urobilinogen", correct: false }, 
+], },
+
+{ question: "Which of the following is true regarding treatment of Hereditary Spherocytosis?", 
+img: "", 
+answers: [ 
+{ text: "Cholecystectomy is only indicated for patients with clinical cholelithiasis at the time of splenectomy", correct: true }, 
+{ text: "Cholecystectomy cannot be performed via laparoscopic route for patients with HS and pigment gall stones ", correct: false }, 
+{ text: "Splenectomy is indicated in patients with mild and asymptomatic disease only after puberty", correct: false }, 
+{ text: "Lifelong penicillin propnylaxis after splenectomy is mandatory for all aduIt patients", correct: false }, 
+], },
+
+{ question: "The given blood picture can be seen in an inherited condition. The most common mutation implicated in this disease is", 
+img: "img101-200/Pg118.png", 
+answers: [ 
+{ text: "Spectrin", correct: true }, 
+{ text: "Band 4.2 ", correct: false }, 
+{ text: "Band 4.1", correct: false }, 
+{ text: "AnKyrin", correct: false }, 
+], },
+
+{ question: "A 35-year-old male has a single mis-sense point mutation seen in the coding region of the G6PD gene. What is the mode of inheritance of the disease caused by this mutation?", 
+img: "", 
+answers: [ 
+{ text: "Autosomalrecessive", correct: false }, 
+{ text: "Autosomaldominant ", correct: false }, 
+{ text: " X linked recessive", correct: true }, 
+{ text: "X linked dominant", correct: false }, 
+], },
+
+
+{ question: "A 35-year-old male with chronic bacterial prostatitis was treated with Cotrimoxazole. He developed malaise, jaundice, abdominal pain and dark urine. The blood picture is given below. The most likely diagnosis is ", 
+img: "img101-200/Pg120.png", 
+answers: [ 
+{ text: "Hemolytic Uremic syndrome", correct: false }, 
+{ text: "Autoimmune hemolytic anemia ", correct: false }, 
+{ text: "Paroxysmal nocturnal hemoglobinuria", correct: false }, 
+{ text: "Glucose 6 Phosphate dehydrogenase deficiency", correct: true }, 
+], },
+
+
+{ question: "The peripheral smear of a patient is given below. It is characteristic of which of the following conditions?", 
+img: "img101-200/Pg122.png", 
+answers: [ 
+{ text: "Glucose 6 Phosphate dehydrogenasedeficiency", correct: false }, 
+{ text: "Pyruvate kinase deficiency ", correct: false }, 
+{ text: "5'nucleotidasedeficiency", correct: true }, 
+{ text: "Cytochrome b5 reductase deficiency", correct: false }, 
+], },
+
+{ question: "Name the antibody and the site of hemolysis in warm autoimmune hemolyticanemia.", 
+img: "", 
+answers: [ 
+{ text: "lgM and Extavascularhemolysis", correct: false }, 
+{ text: "lgG and extravascular hemolysis ", correct: true }, 
+{ text: "lgM and intravascular hemolysis", correct: false }, 
+{ text: "lgG and intravascular hemolysis", correct: false }, 
+], },
+
+
+{ question: "Autoimmune hemolyticanemia is associated with", 
+img: "", 
+answers: [ 
+{ text: "Post allogenic hematopoietic stem cell transplant (HSCT)", correct: false }, 
+{ text: "Inflammatory bowel disease ", correct: false }, 
+{ text: "Lymphoma", correct: false }, 
+{ text: "All the above", correct: true }, 
+], },
+
+
+{ question: "Which of the following are associated with a positive Coombs test?", 
+img: "", 
+answers: [ 
+{ text: "Paroxysmal cold hemoglobinuria (PCH", correct: false }, 
+{ text: "Paroxysmal nocturnal hemoglobinuria (PNH) ", correct: false }, 
+{ text: "Autoimmunehemolyticanemia", correct: false }, 
+{ text: "Both A& C", correct: true }, 
+], },
+
+
+{ question: "Donath Landsteiner antibody is positive in. _", 
+img: "", 
+answers: [ 
+{ text: "Warm autoimmune haemolytic anaemia", correct: false }, 
+{ text: "Cold autoimmune haemolytic anaemia ", correct: false }, 
+{ text: "Paroxysmalcoldhemoglobinuria", correct: true }, 
+{ text: "Paroxysmal nocturnal hemoglobinuria", correct: false }, 
+], },
+
+
+{ question: "Microangiopathic hemolytic anemia (MAHA) is seen in all except", 
+img: "", 
+answers: [ 
+{ text: "Antiphospholipid antibody syndrome", correct: false }, 
+{ text: "Vasculitis ", correct: false }, 
+{ text: "Prosthetic heart valves", correct: true }, 
+{ text: "Eclampsia", correct: false }, 
+], },
+
+
+{ question: "All are examples of extracorpuscular defects of hemolytic anemia except:", 
+img: "", 
+answers: [ 
+{ text: "Autoimmune hemolytic anemia", correct: false }, 
+{ text: "Paroxysmal nocturnal hemoglobinuria ", correct: true }, 
+{ text: "Familial hemolytic uremic syndrome", correct: false }, 
+{ text: "Microangiopathic hemolytic anemia", correct: false }, 
+], },
+
+
+{ question: "Best prognosis in atypical hemolytic uremic syndrome (HUS) is associated with which of the following mutations?", 
+img: "", 
+answers: [ 
+{ text: "Complement factor H", correct: false }, 
+{ text: "Complement factor I ", correct: false }, 
+{ text: "Compl:ment factor B", correct: false }, 
+{ text: "Membrane cofactor protein", correct: true }, 
+], },
+
+
+{ question: "Which of the following iron chelators have poor oral bioavailability?", 
+img: "", 
+answers: [ 
+{ text: "Deferiprone", correct: false }, 
+{ text: "Deferasirox ", correct: false }, 
+{ text: "Desterrioxamine", correct: true }, 
+{ text: "Both A and B", correct: false }, 
+], },
+
+{ question: "Which of the following tests is the most sensitive in detecting Thalassemia in the population?", 
+img: "", 
+answers: [ 
+{ text: "Cellulose Acetate Hemoglobin Electrophoresis", correct: false }, 
+{ text: "Naked Eye Single Tube Red-cell Osmotic Fragility Test ", correct: true }, 
+{ text: "Eosin 5 Maleimide flow cytometry", correct: false }, 
+{ text: "Fluorescein-labeledproaerolysin", correct: false }, 
+], },
+
+
+{ question: "A 25-year-old lady was incidentally detected to have a hemoglobin of 10g/dl, MCV = 75 fL, MCH = 25 pg. Peripheral smear shows microcytes with target cells. Iron profile,Vitamin 812, and folate levels were found to be normal. Which of the following helps establish the diagnosis in this patient?", 
+img: "", 
+answers: [ 
+{ text: "Free erythorcyte protoporphyrin levels", correct: false }, 
+{ text: "Hemoglobin electrophoresis ", correct: true }, 
+{ text: "Schillingtest", correct: false }, 
+{ text: "Bone marrow biopsy", correct: false }, 
+], },
+
+
+{ question: "Which of the following is the most common clinical manifestation of sickle cell trait?", 
+img: "", 
+answers: [ 
+{ text: "Acute pain crisis", correct: false }, 
+{ text: "Painlesshematuria ", correct: false }, 
+{ text: "Urethralobstruction", correct: false }, 
+{ text: "Isosthenuria", correct: true }, 
+], },
+
+
+{ question: "Which of the following is the most common clinical presentation of sickle cellanemia?", 
+img: "", 
+answers: [ 
+{ text: "Acute pain crisis", correct: true }, 
+{ text: "Splenic sequestration crisis ", correct: false }, 
+{ text: "Acute chest syndrome", correct: false }, 
+{ text: "Cerebrovascular accident", correct: false }, 
+], },
+
+{ question: "Which of the following is true about paroxysmal nocturnal hemoglobinuria (PNH)?", 
+img: "", 
+answers: [ 
+{ text: "Inherited defect in PIG -A", correct: false }, 
+{ text: "Extravascular hemolysis ", correct: false }, 
+{ text: "Deficiency of CD 55 and CD 59", correct: true }, 
+{ text: "Microcytic anaemia", correct: false }, 
+], },
+
+
+{ question: "An example of hemolytic anemia associated with pancytopenia and venous thrombosis is __", 
+img: "", 
+answers: [ 
+{ text: "Schwamman diamond syndrome", correct: false }, 
+{ text: " Pyruvate kinase deficiency ", correct: false }, 
+{ text: "G6PD anemia", correct: false }, 
+{ text: "Paroxysmal nocturnal hemoglobinemia", correct: true }, 
+], },
+
+
+{ question: "The gold standard in the diagnosis of PNH is---", 
+img: "", 
+answers: [ 
+{ text: "Acidified serum (HAM) test", correct: false }, 
+{ text: "FLAER test ", correct: false }, 
+{ text: "Flowcytometry", correct: true }, 
+{ text: "Bone marrow biopsy", correct: false }, 
+], },
+
+
+{ question: "Which of the following monoclonal antibodies are used in the treatment of paroxysmal nocturnal hemoglobinuria?", 
+img: "", 
+answers: [ 
+{ text: "Rituximab", correct: false }, 
+{ text: "Certolizumab ", correct: false }, 
+{ text: "Eculizumab", correct: true }, 
+{ text: "Adalimumab", correct: false }, 
+], },
+
+
+{ question: "Genes encoding for which of the following proteins is most commonly associated with autosomal dominant hereditary spherocytosis?", 
+img: "", 
+answers: [ 
+{ text: "Band3", correct: false }, 
+{ text: "Spectrin ", correct: false }, 
+{ text: "Ankyrin", correct: true }, 
+{ text: " None of the above", correct: false }, 
+], },
+
+
+{ question: "Which of the following is false about mutation in the RBC membrane anion exchange protein?", 
+img: "", 
+answers: [ 
+{ text: "Accounts for majority of cases of Hereditary spherocytosis", correct: true }, 
+{ text: "Missense mutation causes stomatocytosis ", correct: false }, 
+{ text: "Polymorphic mutation protects against falciparum malaria", correct: false }, 
+{ text: "None of the above", correct: false }, 
+], },
+
+
+
+{ question: "Which of the following is the most specific test for the diagnosis of Hereditary Spherocytosis?", 
+img: "", 
+answers: [ 
+{ text: "Eosin-5-maletmldetest", correct: true }, 
+{ text: "Addified glycerol lysis test ", correct: false }, 
+{ text: "Osmoticfragtltlytest", correct: false }, 
+{ text: "NESTROFT test", correct: false }, 
+], },
+
+
+{ question: "Hypoproliferative anemias include all except _", 
+img: "", 
+answers: [ 
+{ text: "Iron deficiency anemia", correct: false }, 
+{ text: "Anemia due to chronic inflammation ", correct: false }, 
+{ text: "Hemolytic anemia", correct: true }, 
+{ text: "Megaloblastic anemia", correct: false }, 
+], },
+
+
+{ question: "The number of iron-binding sites in transferrin is", 
+img: "", 
+answers: [ 
+{ text: "1", correct: false }, 
+{ text: "2 ", correct: true }, 
+{ text: "3", correct: false }, 
+{ text: "4", correct: false }, 
+], },
+
+
+{ question: "Iron absorption is facilitated by all except _", 
+img: "", 
+answers: [ 
+{ text: "Orangejuice", correct: false }, 
+{ text: "AcidicpH ", correct: false }, 
+{ text: "Sugar in diet", correct: false }, 
+{ text: "Oxalic acid", correct: true }, 
+], },
+
+
+{ question: "The earliest sign of iron deficiency anemia is", 
+img: "", 
+answers: [ 
+{ text: "Increase in TIBC", correct: false }, 
+{ text: "Decrease in serum Iron ", correct: false }, 
+{ text: "Decrease in serum ferritin", correct: true }, 
+{ text: "Increase in red cell protoporphyrin", correct: false }, 
+], },
+
+
+{ question: "Which of the following is false regarding the stage of negative iron balance in iron- I deficiency anemia?", 
+img: "", 
+answers: [ 
+{ text: "Decrease in marrow iron stores", correct: false }, 
+{ text: "Decrease in TIBC ", correct: true }, 
+{ text: "Normal RBC morphology", correct: false }, 
+{ text: "Normal serum iron", correct: false }, 
+], },
+
+
+
+{ question: "All of the features can be seen iron-deficiency anemia except _", 
+img: "", 
+answers: [ 
+{ text: "Pica", correct: false }, 
+{ text: "Cheilosis ", correct: false }, 
+{ text: "Koilonychia", correct: false }, 
+{ text: "Jaundice", correct: true }, 
+], },
+
+
+{ question: "Which of the following is not seen in iron deficiency anemia?", 
+img: "", 
+answers: [ 
+{ text: "Hypochromiccells", correct: false }, 
+{ text: "Poikilocytosis ", correct: false }, 
+{ text: "Target cells", correct: false }, 
+{ text: "Spherocytes", correct: true }, 
+], },
+
+
+
+{ question: "A 28-year-old woman with fatiguability is evaluated to have Hb - 6 g/dL, MCV - 67 fl, MCH - 24 pg., and elevated ROW. The most likely diagnosis is __", 
+img: "", 
+answers: [ 
+{ text: "Thalassemia", correct: false }, 
+{ text: "Megaloblasticanemia ", correct: false }, 
+{ text: "Iron deficiency anemia", correct: true }, 
+{ text: "Hypothyroidism", correct: false }, 
+], },
+
+
+{ question: "The chief mediator of anemia of chronic disease is", 
+img: "", 
+answers: [ 
+{ text: "Ferritin", correct: false }, 
+{ text: "DMT1 ", correct: false }, 
+{ text: "Hemojuvelin", correct: false }, 
+{ text: "Hepcidin", correct: true }, 
+], },
+
+{ question: "Normocytic normochromic anemia is seen in", 
+img: "", 
+answers: [ 
+{ text: "Liver disease", correct: false }, 
+{ text: "Kidney disease ", correct: true }, 
+{ text: "Lead toxicity", correct: false }, 
+{ text: "Thalassemia", correct: false }, 
+], },
+
+
+{ question: "A patient with osteomyelitis was found to have Hb 7 gm/dL and MCV - 55 fL, TIBC - 290 μg/dL, S. Ferritin - 250 μg/L, Transferrin saturation - 20%. The likely diagnosis is _", 
+img: "", 
+answers: [ 
+{ text: "Iron deficiency anemia", correct: false }, 
+{ text: "Anemia of chronic disease ", correct: true }, 
+{ text: "Sideroblastic anemia", correct: false }, 
+{ text: "Thalassemia", correct: false }, 
+], },
+
+
+
+{ question: "A 25-year-old woman came to OPD 1 year postpartum. She was treated for iron deficiency anemia while pregnant. Now she is pale and her Hb is Sg/dl and her reticulocyte count is 9°/o. What is her corrected reticulocyte count? (Take normal Hb as 15g/dl)", 
+img: "", 
+answers: [ 
+{ text: "6", correct: false }, 
+{ text: "4.5 ", correct: false }, 
+{ text: "3", correct: true }, 
+{ text: "1", correct: false }, 
+], },
+
+
+
+{ question: "Which of the following is true regarding anemia of chronic kidney disease?", 
+img: "", 
+answers: [ 
+{ text: "Increased serum ferritin", correct: false }, 
+{ text: "increasedTIBC ", correct: false }, 
+{ text: "Increased serum iron", correct: false }, 
+{ text: "Decreased reticulocytes", correct: true }, 
+], },
+
+
+{ question: "Inheritance of sideroblastic anemia is predominantly _", 
+img: "", 
+answers: [ 
+{ text: "Autosomal", correct: false }, 
+{ text: "Polygenic ", correct: false }, 
+{ text: "X linked", correct: true }, 
+{ text: "Mitochondrial", correct: false }, 
+], },
+
+
+{ question: "Which of the following is false about sideroblastic anemia?", 
+img: "", 
+answers: [ 
+{ text: "Erythroidhyperplasia", correct: false }, 
+{ text: "Serum iron low ", correct: true }, 
+{ text: "Transferrin saturation high", correct: false }, 
+{ text: "Dimorphic blood picture", correct: false }, 
+], },
+
+
+{ question: "Ringed sideroblasts have iron deposited in", 
+img: "", 
+answers: [ 
+{ text: "Lysosome", correct: false }, 
+{ text: "Ribosome ", correct: false }, 
+{ text: "Mitochondria", correct: true }, 
+{ text: "Endoplasmic reticulum", correct: false }, 
+], },
+
+
+
+{ question: "Which of the following drugs is known to cause sideroblastic anemia?", 
+img: "", 
+answers: [ 
+{ text: "cyclophosphamide", correct: false }, 
+{ text: "chloramphenicol ", correct: true }, 
+{ text: "Ethionamide", correct: false }, 
+{ text: "Rifampicin", correct: false }, 
+], },
+
+
+{ question: "What does the red cell distribution width (RDW) deal with?", 
+img: "", 
+answers: [ 
+{ text: "Hypochromia", correct: false }, 
+{ text: "Anisocytosis ", correct: true }, 
+{ text: "Poikilocytosis", correct: false }, 
+{ text: "Anisochromia", correct: false }, 
+], },
+
+
+
+{ question: "The following blood picture is seen in _", 
+img: "img101-200/Pg164.png", 
+answers: [ 
+{ text: ". Liver disease", correct: false }, 
+{ text: "Post-splenectomy ", correct: false }, 
+{ text: "Hemoglobin c disease", correct: false }, 
+{ text: " All of the above", correct: true }, 
+], },
+
+
+{ question: "The following blood picture is seen in _", 
+img: "img101-200/Pg165.png", 
+answers: [
+{ text: "Thalassemia", correct: false }, 
+{ text: "Autoimmune hemolysis ", correct: true }, 
+{ text: "Iron deficiency anaemia", correct: false }, 
+{ text: "Lead poisoning", correct: false }, 
+], },
+
+
+
+{ question: "Dacrocytes are seen in _", 
+img: "", 
+answers: [ 
+{ text: "Myelodysplasia", correct: false }, 
+{ text: "Myelofibrosis ", correct: false }, 
+{ text: "Thalessemia", correct: false }, 
+{ text: "All of the above", correct: true }, 
+], },
+
+
+{ question: "Howell-Jolly bodies are seen in all except _", 
+img: "", 
+answers: [ 
+{ text: "Hyposplenism", correct: false }, 
+{ text: "Postsplenectomy ", correct: false }, 
+{ text: "Lead poisoning", correct: true }, 
+{ text: "Dyshematopoesis", correct: false }, 
+], },
+
+
+
+{ question: "Iron absorption takes place in the", 
+img: "", 
+answers: [ 
+{ text: "Proximal small intestine under basic condition", correct: false }, 
+{ text: "Proximal small intestine under acidic condition ", correct: true }, 
+{ text: "Distal small intestine under basic condition", correct: false }, 
+{ text: "Distal small intestine under acidic condition", correct: false }, 
+], },
+
+
+{ question: "Transport of iron across brush border intestinal cell is facilitated by", 
+img: "", 
+answers: [ 
+{ text: "Ferroportin", correct: false }, 
+{ text: "Nramp 2 ", correct: false }, 
+{ text: "DMT1", correct: false }, 
+{ text: "Both B & C", correct: true }, 
+], },
+
+
+{ question: "Epstein-Barr virus (EBV) is an etiological agent for all the following except __", 
+img: "", 
+answers: [ 
+{ text: "Hodgkin'slymphoma", correct: false }, 
+{ text: "Primary diffuse large B cell lymphoma of the CNS ", correct: false }, 
+{ text: "Post-organtransplantlymphoma", correct: false }, 
+{ text: "Primary effusion lymphoma", correct: true }, 
+], },
+
+
+{ question: "Which one of the following statements is true about Burkitt lymphoma?", 
+img: "", 
+answers: [ 
+{ text: "Ki-67 staining is less than 40%", correct: false }, 
+{ text: "Most patients present with an intraabdominal mass ", correct: true }, 
+{ text: "Expectant management is the treatment modality of choice", correct: false }, 
+{ text: "Both b and c", correct: false }, 
+], },
+
+
+{ question: "The underlying factor implicated in salivary gland MALToma is", 
+img: "", 
+answers: [ 
+{ text: "Helicobacter pylori", correct: false }, 
+{ text: "Epstein-Barrvirus ", correct: false }, 
+{ text: "Sjogren's syndrome", correct: true }, 
+{ text: "Scleroderma", correct: false }, 
+], },
+
+
+{ question: "Which of the following does not classify as a T-cell lymphoma?", 
+img: "", 
+answers: [ 
+{ text: "Hairy cell leukemia", correct: true }, 
+{ text: "Mycosis fungoides ", correct: false }, 
+{ text: "Anaplastic large cell lymphoma", correct: false }, 
+{ text: "Null cell lymphoma", correct: false }, 
+], },
+
+
+{ question: "Which of the following is the most likely clinical diagnosis of a patient with peripheral smear findings as shown below?", 
+img: "img101-200/Pg178.png", 
+answers: [ 
+{ text: "Mantle cell lymphoma", correct: false }, 
+{ text: "PeripheralTcelllymphoma ", correct: false }, 
+{ text: "Anaplastic large cell lymphoma", correct: false }, 
+{ text: "Adult T cell leukemia/lymphoma", correct: true }, 
+], },
+
+
+{ question: "Which of the following tests distinguish hairy cell leukemia from other B cell malignancies with 100°/o sensitivity and specificity?", 
+img: "", 
+answers: [ 
+{ text: "Hairy cells on a Wright-stained peripheral blood smear", correct: false }, 
+{ text: "Annexin A1 on bone marrow specimens ", correct: true }, 
+{ text: "Positive tartarate-resistant acid phosphatase (TRAP) stain", correct: false }, 
+{ text: "All of the above", correct: false }, 
+], },
+
+
+
+{ question: "Hairy-cell leukemia is associated with atypical infections of which of the following micro-organisms?", 
+img: "", 
+answers: [ 
+{ text: "Parvovirus B 19", correct: false }, 
+{ text: "Mycoplasma pneumoniae ", correct: false }, 
+{ text: "Mycobacterium avium intracellulare", correct: true }, 
+{ text: "Chlamydia pneumoniae", correct: false }, 
+], },
+
+
+
+{ question: "The drug of choice for the treatment of hairy cell leukemia is:", 
+img: "", 
+answers: [ 
+{ text: "Vemurafenib", correct: false }, 
+{ text: "Pentostatin ", correct: false }, 
+{ text: "Interferon alpha", correct: false }, 
+{ text: "Cladribine", correct: true }, 
+], },
+
+
+{ question: "The subtype of Hodgkin's lymphoma most commonly observed in India is", 
+img: "", 
+answers: [ 
+{ text: "Nodular sclerosing Hodgkin's lymphoma", correct: false }, 
+{ text: "Mixed cellularity classical Hodgkin's lymphoma ", correct: true }, 
+{ text: "Lymphocyte-rich classical Hodgkin's lymphoma", correct: false }, 
+{ text: "Hairy cell leukemia", correct: false }, 
+], },
+
+
+{ question: "Which of the following subtypes is distinct from classical Hodgkin lymphoma (HL)?", 
+img: "", 
+answers: [ 
+{ text: "Nodularsclerosing", correct: false }, 
+{ text: "Lymphocytedepleted ", correct: false }, 
+{ text: "Nodular lymphocyte predominant", correct: true }, 
+{ text: "Lymphocyte-rich", correct: false }, 
+], },
+
+
+{ question: "The most common non-Hodgkin lymphoma in India is ___", 
+img: "", 
+answers: [ 
+{ text: "Burkitt's lymphoma", correct: false }, 
+{ text: "Diffuse large B-cell lymphoma ", correct: true }, 
+{ text: "Mantecelllymphoma", correct: false }, 
+{ text: "Marginal zone lymphoma", correct: false }, 
+], },
+
+
+{ question: "The most commonly observed clinical presentation of Hodgkin's lymphoma is", 
+img: "", 
+answers: [ 
+{ text: "Supraclavicular lymphadenopathy", correct: true }, 
+{ text: "Axillary lymphactenopathy ", correct: false }, 
+{ text: "Inguinal lymphadenopathy", correct: false }, 
+{ text: "Mectiastinal mass", correct: false }, 
+], },
+
+
+{ question: "The paraneoplastic syndrome associated with Hodgkin's disease is", 
+img: "", 
+answers: [ 
+{ text: "Syndrome of inappropriate ADH secretion", correct: false }, 
+{ text: "Lambert-Eaton syndrome ", correct: false }, 
+{ text: "Subacute cerebellar degeneration", correct: true }, 
+{ text: "Superficial migratory thrombophlebitis", correct: false }, 
+], },
+
+
+
+{ question: "Lacunar Reed-Sternberg cell is observed in", 
+img: "", 
+answers: [ 
+{ text: "lymphocyte-depleted Hodgkin's disease", correct: false }, 
+{ text: "lymphocyte-rich Hodgkin's disease ", correct: false }, 
+{ text: "Nodular Sclerosis classical Hodgkin’s disease", correct: true }, 
+{ text: "None of the above", correct: false }, 
+], },
+
+
+{ question: "Which one of the following statements is true about Hodgkin's lymphoma?", 
+img: "", 
+answers: [ 
+{ text: "Reed-Sternberg cell is specific to Hodgkin's disease", correct: false }, 
+{ text: "Classical Hodgkin's lymphoma is implicated with CD20 positive results ", correct: false }, 
+{ text: "Central nervous system is the most common site of Extranodal disease", correct: false }, 
+{ text: "PET-CT is the most reliable technique tor staging Hodgkin's lymphoma", correct: true }, 
+], },
+
+
+
+{ question: "A 68-year-old male patient presented with fever, night sweats, and weight loss for 2 months. Upon clinical examination, non-tender, rubbery lymph nodes were palpable in the supraclavicular and inguinal regions on both sides. Biopsy results indicated the presence of Reed-Sternberg cells and a background infiltrate of reactive cells having been diagnosed. According to Ann Arbor Staging, this patient is categorized as", 
+img: "", 
+answers: [ 
+{ text: "StageIIA", correct: false }, 
+{ text: "StageIIB ", correct: false }, 
+{ text: "Stage Ill A", correct: false }, 
+{ text: "Stage Ill B", correct: true }, 
+], },
+
+
+{ question: "All of the following are poor prognostic factors in early or advanced Hodgkin's lymphoma with the exception of", 
+img: "", 
+answers: [ 
+{ text: "Hemoglobin less than 10.5", correct: false }, 
+{ text: "ESR less than 30 mm/hr ", correct: true }, 
+{ text: "Extranodal disease", correct: false }, 
+{ text: "B symptoms", correct: false }, 
+], },
+
+
+{ question: "The treatment of choice for the early-stage Hodgkin's lymphoma with unfavourable prognosis includes", 
+img: "", 
+answers: [ 
+{ text: "R- CHOP regimen", correct: false }, 
+{ text: "ABVD ", correct: false }, 
+{ text: "ABVD + field radiation", correct: true }, 
+{ text: " R-CHOP regimen + field radiation", correct: false }, 
+], },
+
+
+
+{ question: "A 55-year-old male presented with fatigue and dragging sensation in the left upper abdomen. Physical examination revealed massive splenomegaly and no lymphadenopathy. Laboratory investigations indicated the occurrence of pancytopenia. lmmunohistochemical staining of the tumour cells tested positive for CD19, CD22, CD11c, CD25, CD103 and CD123. Bone marrow aspirate yielded a 'dry tap'. What is the most likely clinical diagnosis?", 
+img: "", 
+answers: [ 
+{ text: "Myelofibrosis", correct: false }, 
+{ text: "Splenic marginal zone lymphoma ", correct: false }, 
+{ text: "Multiplemyeloma", correct: false }, 
+{ text: "Hairy cell leukemia", correct: true }, 
+], },
+
+
+
+{ question: "t(8;14) is associated with which of the following lymphoid malignancies?", 
+img: "", 
+answers: [ 
+{ text: "Follicularlymphoma", correct: false }, 
+{ text: "Mantle cell lymphoma ", correct: false }, 
+{ text: "Burkitts lymphoma", correct: true }, 
+{ text: "Diffuse large cell lymphoma", correct: false }, 
+], },
+
+
+{ question: "All the following lymphoid neoplasms are correctly matched with their etiological agents except ___", 
+img: "", 
+answers: [ 
+{ text: "H. pylori infection - Extra nodal marginal cell lymphoma", correct: false }, 
+{ text: "Gluten-sensitive enteropathy - Intestinal T-cell lymphomas ", correct: false }, 
+{ text: "Breast implants -Anaplastic large cell lymphoma", correct: false }, 
+{ text: "Human Immunodeficiency Virus - Lymphoplasmacytic lymphoma", correct: true }, 
+], },
+
+
+
+{ question: "Which of the following options are indicative of a match between Non-Hodgkin's lymphoma and its corresponding grade?", 
+img: "", 
+answers: [ 
+{ text: "Small lymphocytic lymphoma - High grade", correct: false }, 
+{ text: "Diffuse large B cell lymphoma - Low grade ", correct: false }, 
+{ text: "Follicular lymphoma - Intermediate grade", correct: false }, 
+{ text: "BurKitt's lymphoma· High grade", correct: true }, 
+], },
+
+
+{ question: "The most common extra nodal site for Non-Hodgkin's lymphoma is ____ _", 
+img: "", 
+answers: [ 
+{ text: "Centralnervoussystem", correct: false }, 
+{ text: "Stomach ", correct: true }, 
+{ text: "Small intestine", correct: false }, 
+{ text: "Oesophagus", correct: false }, 
+], },
+
+
+{ question: "The prognosis of Non-Hodgkin's Lymphoma is best assessed by __", 
+img: "", 
+answers: [ 
+{ text: "Ann Arbor staging", correct: false }, 
+{ text: "Rai and Binet score ", correct: false }, 
+{ text: "International Prognostic Index", correct: true }, 
+{ text: "All of the above", correct: false }, 
+], },
+
+
+{ question: "A 63-year-old male presents with two months medical history of fatigue, fever and night sweats. Upon examination, generalized painless lymphadenopathy and splenomegaly are diagnosed. Hemoglobin - 10g/dl, WBC count -1, 50,000/cu.mm and platelet count is 2,50,000/cu.mm. lmmunohistochemical observations shows CD19+, CD20+, CD21 +, C22+, CD23 (-),CD 5+. Which of the following is the most likely diagnosis with respect to the patient's condition?", 
+img: "", 
+answers: [ 
+{ text: "Small lymphocytic lymphoma", correct: false }, 
+{ text: "Follicularcelllymphoma ", correct: false }, 
+{ text: "Burkitt's lymphoma", correct: false }, 
+{ text: "Mantle cell lymphoma", correct: true }, 
+], },
+
+
+
+{ question: "Which of the following lymphomas and corresponding cytogenetics are incorrectly matched?", 
+img: "", 
+answers: [ 
+{ text: "Mantle cell lymphoma - t (11; 14)", correct: false }, 
+{ text: "Follicular lymphoma - t (14;18) ", correct: false }, 
+{ text: "Diffuse large B cell lymphoma - t (14;18}", correct: false }, 
+{ text: "Burkitt's lymphoma -t (18;14)", correct: true }, 
+], },
+
+
+
+{ question: "A 59-year-old lady visits the OPD for a regular check-up. She denies having any medical complaints. Upon clinical examination, painless lymphadenopathy in the cervical, axillary and inguinal regions were observed. There was no Hepatosplenomegaly. Complete blood count was found to be normal. Lymph node biopsy showed effacement of nodal architecture with centrocytes and centroblasts. Which of the following immunophenotypic panels confirm this diagnosis?", 
+img: "", 
+answers: [ 
+{ text: "CD19, CD23, CD5", correct: false }, 
+{ text: "CD19,CD22,CD5 ", correct: false }, 
+{ text: "CD19, CF79a, CD10, TdT", correct: false }, 
+{ text: "CD 19, CD79a, CD 20, CD10, CD 23,BCL-2", correct: true }, 
+], },
+
+
+
+{ question: "Which of the following statements about Diffuse large 8-cell lymphoma (DLBCL) is false?", 
+img: "", 
+answers: [ 
+{ text: "It is a high-grade aggressive lymphoma", correct: false }, 
+{ text: "It is commonly associated with BCL-6 chromosomal rearrangements ", correct: false }, 
+{ text: "It is associated with CNS lymphoma and intravascular lymphoma", correct: false }, 
+{ text: "It does not present with extra nodal or bone marrow involvement", correct: true }, 
+], },
+
+
+{ question: "The peripheral blood smear shown below is most suggestive of which of the following?", 
+img: "img101-200/Pg207.png", 
+answers: [ 
+{ text: "Thalassemia", correct: false }, 
+{ text: "Megaloblastic anemia ", correct: true }, 
+{ text: "G6PD deficiency", correct: false }, 
+{ text: "Sickle cell anemia", correct: false }, 
+], },
+
+
+{ question: "Which of the following gastric biopsy findings are found in a patient suffering from I pernicious anemia?", 
+img: "", 
+answers: [ 
+{ text: "H. pylori infection", correct: false }, 
+{ text: "Mixed inflammatory cell infiltrate ", correct: false }, 
+{ text: "Both A and B", correct: true }, 
+{ text: "Hypertrophy of fundus", correct: false }, 
+], },
+
+
+{ question: "Pernicious anemia is not pre-malignant for which of the following conditions?", 
+img: "", 
+answers: [ 
+{ text: "Gastric adenocarcinoma, intestinal type", correct: false }, 
+{ text: "Gastric adenocarcinoma, mixed type ", correct: true }, 
+{ text: "Gastric carcinoid tumors", correct: false }, 
+{ text: "None of the above", correct: false }, 
+], },
+
+
+
+{ question: "Which of the following is the most common cause of folate deficiency?", 
+img: "", 
+answers: [ 
+{ text: "Malabsorption", correct: false }, 
+{ text: "Nutritional ", correct: true }, 
+{ text: "Deficiency of folate binding protein", correct: false }, 
+{ text: "Deficiency of enzyme DHF reductase", correct: false }, 
+], },
+
+
+
+{ question: "Monoglutamates of dietary folates are absorbed from -------?", 
+img: "", 
+answers: [ 
+{ text: "upper small intestine", correct: true }, 
+{ text: "mid-smallintestine ", correct: false }, 
+{ text: "terminal ileum", correct: false }, 
+{ text: "ascending colon", correct: false }, 
+], },
+
+
+
+{ question: "A patient with megaloblastic anemia was treated with folate supplements. The patient's signs of anemia resolved but the patient continued to complain of poor memory, numbness and tingling in the extremities. You suspect that the patient was originally misdiagnosed. Which of the following is the patient's underlying condition?", 
+img: "", 
+answers: [ 
+{ text: "Vitamin B12 deficiency", correct: true }, 
+{ text: "Folatedeficiency ", correct: false }, 
+{ text: "Lead poisoning", correct: false }, 
+{ text: "Chronic alcoholism", correct: false }, 
+], },
+
+
+
+{ question: "A 30-year-old female with a past medical history of generalized seizures controlled with I phenytoin therapy. She had mild pallor on physical examination. Lab values reveal Hb - 9.8 g/dl, MCV - 106 fL, Platelets - 1,80,000/cu.mm, leukocytes - 7800/cu.mm. Which of the following supplementations could have prevented this anemia?", 
+img: "", 
+answers: [ 
+{ text: "Iron", correct: false }, 
+{ text: "VitaminB12 ", correct: false }, 
+{ text: "VitaminB6", correct: false }, 
+{ text: "Folic acid", correct: true }, 
+], },
+
+
+{ question: "What is the recommended prophylactic dose of folic acid in women with a history of a previous fetus with a neural tube defect?", 
+img: "", 
+answers: [ 
+{ text: "400 μg pre-conceptionally and in first trimester", correct: false }, 
+{ text: "400 μg pre-conceptionally and throughout pregnancy ", correct: false }, 
+{ text: "5 mg pre-conceptionally and throughout pregnancy", correct: true }, 
+{ text: "5 mg pre-conceptionally and in first trimester", correct: false }, 
+], },
+
+
+{ question: "Which of the following is false regarding lmerslund-Grasbeck syndrome (IGS)?", 
+img: "", 
+answers: [ 
+{ text: "Congenital cobalamin malabsorption", correct: false }, 
+{ text: "Mutation of gene AMN ", correct: false }, 
+{ text: "Autosomal-dominant disorder", correct: true }, 
+{ text: "Associated with non-specific proteinuria", correct: false }, 
+], },
+
+
+{ question: "Which of the following conditions do not affect absorption of Cobalamin?", 
+img: "", 
+answers: [ 
+{ text: "Tropical sprue", correct: false }, 
+{ text: "Crohn's disease ", correct: false }, 
+{ text: "Diphyllobothrium latum infection", correct: false }, 
+{ text: "Ancylostoma duodenale infection", correct: true }, 
+], },
+
+
+
+{ question: "Which of the following is not associated with cyanocobalamin deficiency?", 
+img: "", 
+answers: [ 
+{ text: "Glossitis", correct: false }, 
+{ text: "Conjugated hyperbilirubinemia ", correct: true }, 
+{ text: "Skinhyperpigmentation", correct: false }, 
+{ text: "Mild fever", correct: false }, 
+], },
+
+
+
+{ question: "The red blood cell indices of a 56-year-old male patient with a hemoglobin of 9g/dl are as follows: Mean corpuscular volume (MCV) = 112fL and Mean corpuscular hemoglobin concentration (MCHC) = 34 g/dl. Which of the following is the most likely diagnosis?", 
+img: "", 
+answers: [ 
+{ text: "Folate deficiency", correct: true }, 
+{ text: "Sideroblastic anemia ", correct: false }, 
+{ text: "Beta-thalassemia", correct: false }, 
+{ text: "Iron deficiency anemia", correct: false }, 
+], },
+
+
+{ question: "Which of the following drugs is not associated with megaloblastic anemia?", 
+img: "", 
+answers: [ 
+{ text: "Trimethoprim", correct: false }, 
+{ text: "Phenytoin ", correct: false }, 
+{ text: "Tetracycline", correct: false }, 
+{ text: "Temafloxacin", correct: true }, 
+], },
+
+
+{ question: "A 45-year-old lady with a history of epilepsy is well controlled with long-term anticonvulsant therapy. Her hemoglobin is 10g/dl, MCV = 110 fl, MCH = 40 pg, and MCHC = 34 g/dl. Which of the following is least likely to be this patient's anticonvulsant?", 
+img: "", 
+answers: [ 
+{ text: "Lamotrigine", correct: true }, 
+{ text: "Phenytoin ", correct: false }, 
+{ text: "Primidone", correct: false }, 
+{ text: "Amobarbital", correct: false }, 
+], },
+
+
+{ question: "58-Co labeled cobalamin was administered to a 65-yr-old female. 24-hr urinary excretion of radiolabeled cobalamin was found to be less than 10o/o. Which of the following conditions is the likely diagnosis?", 
+img: "", 
+answers: [ 
+{ text: "Pernicious anemia", correct: false }, 
+{ text: "Chronic pancreatitis ", correct: false }, 
+{ text: "Both A and B", correct: true }, 
+{ text: "Normal individual", correct: false }, 
+], },
+
+
+{ question: "A child presents with megaloblastic anemia that is unresponsive to vitamin C, vitamin B12, and folic acid, but responsive to uridine. What do you suspect?", 
+img: "", 
+answers: [ 
+{ text: "Thiaminedeficiency", correct: false }, 
+{ text: "Liver disease ", correct: false }, 
+{ text: "Pernicious anemia", correct: false }, 
+{ text: "Orotic aciduria", correct: true }, 
+], },
+
+
+{ question: "Which of the following antibodies are detected in patients with deficiency of intrinsic factor of 'Castle'?", 
+img: "", 
+answers: [ 
+{ text: "Anti-intrinsic factor antibody, type-I", correct: false }, 
+{ text: "Anti-intrinsic factor antibody, type-I I ", correct: false }, 
+{ text: "Anti-parietalcellantibody", correct: false }, 
+{ text: "All of the above", correct: true }, 
+], },
+
+
+{ question: "According to World Health Organisation (WHO) 2016 classification, which of the following is not a chronic myeloproliferative neoplasm?", 
+img: "", 
+answers: [ 
+{ text: "Chrome myeloid leukemia", correct: false }, 
+{ text: "Chronic eosinophilic leukemia not otherwise specified ", correct: false }, 
+{ text: "Essential thrombocythemia", correct: false }, 
+{ text: "Chronic lymphocytic leukemia", correct: true }, 
+], },
+
+
+{ question: "Which of the following is the first-line drug for cytoreductive therapy in essential thrombocythemia?", 
+img: "", 
+answers: [ 
+{ text: "Anagrelide", correct: false }, 
+{ text: "Busulfan ", correct: false }, 
+{ text: "Interferon alpha", correct: false }, 
+{ text: "Hydroxyurea", correct: true }, 
+], },
+
+
+{ question: "A 60-year-old male patient presented with anemia and hepatosplenomegaly. Peripheral smear showed teardrop cells, nucleated RBCs, and giant abnormal platelets. Bone marrow biopsy is given below. The most likely diagnosis is", 
+img: "img101-200/Pg230.png", 
+answers: [ 
+{ text: "Polycythemia vera", correct: false }, 
+{ text: "Essential thrombocythemia ", correct: false }, 
+{ text: "Primary myelofibrosis", correct: true }, 
+{ text: "Chronic myeloid leukemia", correct: false }, 
+], },
+
+
+
+{ question: "Pancytopenia with a hypercellular marrow is seen in all except", 
+img: "", 
+answers: [ 
+{ text: "Paroxysmal nocturnal hemoglobinuria", correct: false }, 
+{ text: "Fanconi Anemia ", correct: true }, 
+{ text: "Megaloblasticanemia", correct: false }, 
+{ text: "Myelodysplastic syndrome", correct: false }, 
+], },
+
+
+{ question: "A 19-year-old boy is found to have pancytopenia, oral leukoplakia, and dystrophy of I nails. What is the most likely diagnosis?", 
+img: "", 
+answers: [ 
+{ text: "Fanconi anemia", correct: false }, 
+{ text: "Shwachman-Diamond syndrome ", correct: false }, 
+{ text: "Diamond Blackfan syndrome", correct: false }, 
+{ text: "Dyskeratosis congenita", correct: true }, 
+], },
+
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+
