@@ -1,54 +1,35 @@
-<DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 1-100 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <title> M 1-100 </title>
-            <link rel="stylesheet" href="style.css">
-
-
-        </head>
-
-  <body>
-
+<body>
     <div class="app">
         <h1>Medicine Test Que 1-100 </h1>
         <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
         <h3 id="notice">This Set Of Questions Is Uploaded By - Gaurav Jadhav</h3>
-
-<!-- 
-        <h3> <a href="https://drive.google.com/drive/folders/1cnuKPVLiOK9tLarKvMC02xpVyMYekLRN?usp=drive_link" ;
-                style="padding: 5px ; color: blue;">Reference </a>
-            <a href="remaining.html" ; style="padding: 5px; color: blue; "> Remaining Ques </a>
-        </h3> -->
-
-
-
-
         <div class="quiz">
-
             <h2 id="question">Question goes here</h2>
-
+            <img id="img">
             <div id="answer-buttons">
                 <button class="btn"> Answer 1 </button>
                 <button class="btn"> Answer 2 </button>
                 <button class="btn"> Answer 3 </button>
                 <button class="btn"> Answer 4 </button>
                 <button class="btn"> Answer 5 </button>
-
             </div>
-
             <button id="next-btn">Next</button>
-
         </div>
     </div>
 
-
-
     <script>
-const questions = [
+        const questions = [
+            // Your array of questions here
     
 { question: "The most common leukemia in adults is ____",
 img: "",
@@ -88,7 +69,7 @@ answers: [
 ], },
 
 { question: "A 65 yr old male presents with fatigue, fever, and cytopenias. Peripheral smear stained with peroxidase is shown below. The most likely diagnosis is _",
-img: "page no. 5",
+img: "img1-100/pageno5.png",
 answers: [
 { text: "AML", correct: true },
 { text: " ALL ", correct: false },
@@ -274,7 +255,7 @@ answers: [
 
 
 { question: "Examination of the oral cavity of a patient with acute myeloid leukemia (AML) revealedthe findings shown in the picture below. Which of the following is the most likely subtypeof AML in this patient?",
-img: "page no. 25",
+img: "img1-100/pg25.png",
 answers: [
 { text: "M7", correct: false },
 { text: "M5 ", correct: true },
@@ -554,7 +535,7 @@ answers: [
 
 
 { question: "Below is the chest X-ray image obtained for a neonate on day 7 of life who developed heart failure later. What is the most probable diagnosis?",
-img: "page no.59",
+img: "img1-100/pg59.png",
 answers: [
 { text: "Tetralogy of Fallot", correct: false },
 { text: "Ventricular septal defect ", correct: false },
@@ -564,7 +545,7 @@ answers: [
 
 
 { question: "Of the following, all are findings of the condition in the below chest X-ray except:",
-img: "page no.60",
+img: "img1-100/pg60.png",
 answers: [
 { text: "Increased pulmonary blood flow", correct: false },
 { text: "Narrow vascular pedicle ", correct: false },
@@ -966,7 +947,7 @@ answers: [
 
 
 { question: "All the following are seen in the clinical condition depicted by the blood picture I except __ _",
-img: "page no.107",
+img: "img1-100/pg107.png",
 answers: [
 { text: "Reticulocytosis", correct: false },
 { text: ". Howell jolly bodies ", correct: false },
@@ -1058,102 +1039,107 @@ answers: [
 ], },
 
 
-    
-             
-]
-
-const questionElement = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons");
-const nextButton = document.getElementById("next-btn");
-
-let currentQuestionIndex = 0;
-let score = 0;
-
-function startQuiz (){
-    currentQuestionIndex = 0;
-    score = 0;
-    nextButton.innerHTML = "Next";
-    showQuestion();
-}
-
-function showQuestion() {
-    resetState();
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
-
-currentQuestion.answers.forEach(answer => {
-    const button = document.createElement("button");
-    button.innerHTML = answer.text;
-    button.classList.add("btn");
-    answerButtons.appendChild(button);
-    
-    if(answer.correct){
-        button.dataset.correct = answer.correct;  
-    }
-    button.addEventListener("click", selectAnswer)
-
-})
-}
 
 
-function resetState(){
-nextButton.style.display = "none";
-while(answerButtons.firstChild){
-answerButtons.removeChild(answerButtons.firstChild);
 
-}
-}
+        ];
 
-function selectAnswer(e){
 
-    const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
-    if(isCorrect){
-        selectedBtn.classList.add("correct");
-        score++;
-    } else{
-    selectedBtn.classList.add("inCorrect")
-    }
-    Array.from(answerButtons.children).forEach(button => {
-        if(button.dataset.correct === "true"){
-        button.classList.add("correct");
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
         }
-        button.disabled = true;
-    });
-    nextButton.style.display = "block";
-}
 
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-function showScore(){
-    resetState();
-    questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
-    nextButton.innerHTML = "Solve Again";
-    nextButton.style.display = "block"
-}
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
 
-function handleNextButton(){
-    currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length){
-        showQuestion();
-    } else { showScore()}
-}
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
 
-nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < questions.length) {
-    handleNextButton();
-    } else{
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
         startQuiz();
-    }
-});
-
-startQuiz();
-
-
-
-
 
     </script>
 </body>
 
 </html>
+
+
