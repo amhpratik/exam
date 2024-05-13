@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Verification</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #message {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Enter Your Email ID</h1>
+    <form onsubmit="return checkEmail()">
+      <input type="email" id="emailInput" placeholder="Enter your email">
+      <button type="submit">Enter</button>
+    </form>
+    <p id="message">Access Denied</p>
+  </div>
+
+  <script>
+    function checkEmail() {
+      var emailInput = document.getElementById('emailInput');
+      var email = emailInput.value;
+      var allowedEmails = 
+        ['email1@example.com', 'email2@example.com', 'email3@example.com'];
+
+      if (allowedEmails.includes(email)) {
+        setTimeout(function() {
+          window.location.href = 'home.html';
+        }, 100); // Redirect after a short delay to ensure form submission
+        return false; // Prevent default form submission
+      } else {
+        document.getElementById('message').style.display = 'block';
+        setTimeout(function() {
+          document.getElementById('message').style.display = 'none';
+          emailInput.value = ''; // Clear the text box
+        }, 5000);
+        return false; // Prevent form submission
+      }
+    }
+  </script>
+</body>
+</html>
+
