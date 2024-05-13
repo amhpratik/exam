@@ -69,7 +69,7 @@ padding: 10px;
 margin: 20px auto 0;
 border-radius: 4px;
 cursor: pointer;
-display: none;
+display:none;
 }
 
 .correct{
@@ -77,4 +77,13 @@ background: #9aeabc;
 }
 .inCorrect{
     background: #ff9393;
+    }
+
+    #img {
+        height: auto;
+        width: auto;
+        margin: auto;
+        max-height: 300px;
+        max-width: 300px;
+        
     }
