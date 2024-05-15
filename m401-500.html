@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 401-500 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 401-500 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Vartika Singh</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+           
+            { question: "QT prolongation is seen in all except _",
+img: "",
+answers: [
+{ text: "Hypothermia", correct: false },
+{ text: "Digitalis toxicity ", correct: true },
+{ text: "Hypocalcemia", correct: false },
+{ text: "Romano ward syndrome", correct: false },
+], },
+
+
+{ question: "What is the normal duration of PR interval?",
+img: "",
+answers: [
+{ text: "A. 0.12 -0.2 seconds", correct: true },
+{ text: "0.04- 0.1 seconds ", correct: false },
+{ text: "0.20 - 0.44 second", correct: false },
+{ text: "0.25 -0. 40 seconds", correct: false },
+], },
+
+
+{ question: "Hypercalcemia in ECG is diagnosed by",
+img: "",
+answers: [
+{ text: "Increased QT interval", correct: false },
+{ text: "Decreased QT interval ", correct: true },
+{ text: "Increased PR interval", correct: false },
+{ text: " Tall T waves", correct: false },
+], },
+
+
+{ question: "Osborn waves in ECG are seen in",
+img: "",
+answers: [
+{ text: "Hypothyroidism", correct: false },
+{ text: "Hypothyroidism ", correct: true },
+{ text: "Hypocalcemia", correct: false },
+{ text: " Hypokalemia", correct: false },
+], },
+
+
+{ question: "In left-sided massive pneumothorax, all of the following ECG changes are seen except _",
+img: "",
+answers: [
+{ text: "Reduced R wave amplitude", correct: false },
+{ text: " Precordial T wave inversion ", correct: false },
+{ text: "Decreased QRS amplitude", correct: false },
+{ text: "Left axis deviation", correct: true },
+], },
+
+
+{ question: "What is the normal QRS interval",
+img: "",
+answers: [
+{ text: ". < 0.20 seconds", correct: false },
+{ text: ". < 0.25 seconds ", correct: false },
+{ text: "< 0.11 seconds", correct: true },
+{ text: "< 0.15seconds", correct: false },
+], },
+
+
+{ question: "A normal ECG is shown in the figure below. Which lead does it represent?",
+img: "img401-501/page 500.png",
+answers: [
+{ text: "A. aVL", correct: false },
+{ text: "B. aVR ", correct: true },
+{ text: "C. V1", correct: false },
+{ text: "D. V6", correct: false },
+], },
+
+
+{ question: "In a normal ECG, a biphasic P wave is seen in",
+img: "",
+answers: [
+{ text: "A. Leads II and V2", correct: false },
+{ text: "B. Leads II and V1 ", correct: false },
+{ text: "C. Lead V1", correct: true },
+{ text: "D. Lead V5", correct: false },
+], },
+
+
+{ question: "Which of the following leads would show maximum R wave with the cardiac axis as +90 degrees?",
+img: "",
+answers: [
+{ text: "A. Lead aVF", correct: true },
+{ text: "B. Lead aVL ", correct: false },
+{ text: "C. Lead I", correct: false },
+{ text: "D. Lead II", correct: false },
+], },
+
+
+{ question: "Pseudo P Pulmonale is seen in",
+img: "",
+answers: [
+{ text: " Hypokalemia", correct: true },
+{ text: ". Hyponatremia ", correct: false },
+{ text: ". Hypocalcemia", correct: false },
+{ text: " Hypercalcemia", correct: false },
+], },
+
+
+{ question: "A 45-year-old male patient with a long-standing history of rheumatic heart disease comes to the clinic with complaints of dyspnea. On auscultation, a mid-diastolic murmur is heard. His ECG tracing is shown. What is the finding",
+img: "img401-501/page 506.png",
+answers: [
+{ text: "A. Rabbit ear pattern", correct: false },
+{ text: "B. P mitrale ", correct: true },
+{ text: "C. P pulmonale", correct: false },
+{ text: "D. Delta wave", correct: false },
+], },
+
+
+
+{ question: "A man, aged 67 years, with a history of COPD now complains of swelling in both feet for 6 months and dyspnoea on exertion and dry cough for 1 week. An ECG was done and the lead II showed this pattern. Which of the following options is responsible for this ECG finding?",
+img: "img401-501/page 508.png",
+answers: [
+{ text: "A. Right atrial overload", correct: true },
+{ text: "B. Left atrial overload ", correct: false },
+{ text: "C. Right ventricular hypertrophy", correct: false },
+{ text: "D. Left ventricular hypertroph", correct: false },
+], },
+
+
+{ question: "All of the following are features of right-sided heart failure except",
+img: "",
+answers: [
+{ text: ". Pulsatile liver", correct: false },
+{ text: "Raised JVP ", correct: false },
+{ text: " Positive hepatojugular reflux", correct: false },
+{ text: "Increased PCWP", correct: true },
+], },
+
+
+
+{ question: "For a patient with heart failure, which of the following is not used as an inotropic agent?",
+img: "",
+answers: [
+{ text: ". Levosimendan", correct: false },
+{ text: " Milrinone ", correct: false },
+{ text: " Omecamtiv Mecarbil", correct: false },
+{ text: " Nesiritide", correct: true },
+], },
+
+
+{ question: "Which of the following beta-blockers are preferred for use in patients with heart failure with reduced ejection fraction",
+img: "",
+answers: [
+{ text: ". tenolol", correct: false },
+{ text: ". Nebrvolol ", correct: false },
+{ text: "C. Esmolol", correct: false },
+{ text: ". Bisoprolol", correct: true },
+], },
+
+
+{ question: "Which of the following drugs does not reduce mortality in patients with heart failure with reduced ejection fraction (HFrEF)?",
+img: "",
+answers: [
+{ text: ". Digoxin", correct: true },
+{ text: ". Beta blockers ", correct: false },
+{ text: ". ACE inhibitors", correct: false },
+{ text: " Hydralazine + isosorbide dinitrate", correct: false },
+], },
+
+
+{ question: "A 45-year-old female patient has NYHA class Ill heart failure with dyspnea, pedal edema and K+ levels of 5.5 mg0 /o and creatinine 1.1 mg0 /o. Which of the following drugs can be used in this patient?",
+img: "",
+answers: [
+{ text: ". Digoxin", correct: false },
+{ text: ". Spironolactone ", correct: false },
+{ text: " Enalapril", correct: false },
+{ text: "Furosemide", correct: true },
+], },
+
+
+{ question: "All of the following are used in the management of acute cardiogenic pulmonary edema except",
+img: "",
+answers: [
+{ text: " Digoxin", correct: true },
+{ text: " Morphine ", correct: false },
+{ text: "Furosemide", correct: false },
+{ text: "Positive pressure ventilation", correct: false },
+], },
+
+
+{ question: "What is type Ill cardiorenal syndrome?",
+img: "",
+answers: [
+{ text: ". Abrupt worsening of cardiac function leading to acute kidney injury", correct: false },
+{ text: ". Chronic abnonnalities in cardiac function causing chronic kidney disease ", correct: false },
+{ text: ". Abrupt worsening of renal function leading to acute cardiac disorder", correct: true },
+{ text: " Chronic kidney disease leading to decreased cardiac function", correct: false },
+], },
+
+
+
+
+{ question: "Who comes under category Ill non-heart-beating donor?",
+img: "",
+answers: [
+{ text: ". A patient who died during transportation to the hospital", correct: false },
+{ text: " A patient who died after failed resuscitation after reaching the hospital ", correct: false },
+{ text: " patient who was brought dead to the hospital", correct: false },
+{ text: " A patient who is awaiting death in the hospital", correct: true },
+], },
+
+
+{ question: "A 70-year-old male with a known history of DM and HTN on regular medications presents with a history of progressively worsening dyspnoea on exertion. On examination, there is elevated JVP, positive hepatojugular reflux, crackles at the lung bases, hepatomegaly, ascites, and pedal oedema. What is your provisional diagnosis?",
+img: "",
+answers: [
+{ text: ". Heart failure", correct: true },
+{ text: "Hypertrophic cardiomyopathy ", correct: false },
+{ text: " Mitral regurgitation", correct: false },
+{ text: ". Portal hypertension", correct: false },
+], },
+
+
+{ question: "Which of the following is not a radiological finding of left heart failure?",
+img: "",
+answers: [
+{ text: ". Kerley b lines", correct: false },
+{ text: ". Focal oligaemia ", correct: true },
+{ text: ". Increased venous blood in lung", correct: false },
+{ text: ". change in upper lobe circulation", correct: false },
+], },
+{ question: "Heart failure with reduced ejection fraction is ejection fraction <=__",
+img: "",
+answers: [
+{ text: ". 30%", correct: false },
+{ text: " 40% ", correct: true },
+{ text: ". 50%", correct: false },
+{ text: " 60%", correct: false },
+], },
+
+ { question: "A 65-year-old male patient came with complaints of episodes of shortness of breath and coughing at night which awakens him from sleep. On examination, distended neck veins were observed and S3 was heard on auscultation. Which of the following biomarkers can be used for the diagnosis in this patient?",
+img: "",
+answers: [
+{ text: "Brain natriuretic peptide (BNP)", correct: true },
+{ text: " Atrial natriuretic peptide (ANP) ", correct: false },
+{ text: " Endothelin-1 (ET-1)", correct: false },
+{ text: "Adrenomedullin", correct: false },
+], },
+
+
+{ question: "Falsely low values of BNP can be seen in",
+img: "",
+answers: [
+{ text: "Advanced age", correct: false },
+{ text: "Female patients ", correct: false },
+{ text: "Obesity", correct: true },
+{ text: " Renal impairments", correct: false },
+], },
+
+
+{ question: "Which of the following is a newer biomarker to assess the prognosis in heart failure patients?",
+img: "",
+answers: [
+{ text: " Soluble ST-2", correct: true },
+{ text: "lipocalin 2 ", correct: false },
+{ text: " IL 18", correct: false },
+{ text: " Galectin 2", correct: false },
+], },
+
+
+{ question: "A patient is diagnosed with heart failure with an ejection fraction < 40o/o. What is the treatment of choice in this patient if the euvolemic status has been achieved?",
+img: "",
+answers: [
+{ text: "ACE inhibitors + Diuretics", correct: false },
+{ text: "ACE inhibitors+ Beta blockers ", correct: true },
+{ text: " ACE inhibitors + ARBs", correct: false },
+{ text: "ACE inhibitors+ CCBs", correct: false },
+], },
+
+
+{ question: "Which of the following drugs is US FDA approved for the treatment of heart failure?",
+img: "",
+answers: [
+{ text: " Bosentan", correct: false },
+{ text: " Sacubitri/valsartan ", correct: true },
+{ text: " Omapatrilat", correct: false },
+{ text: "Moxonidine", correct: false },
+], },
+
+
+{ question: "Which of the following drugs is a selective myosin activatorWhich of the following drugs is a selective myosin activator",
+img: "",
+answers: [
+{ text: " Istaroxime", correct: false },
+{ text: " Omecamtiv Mecarbil ", correct: true },
+{ text: " Carperitide", correct: false },
+{ text: ". Milrinone", correct: false },
+], },
+
+
+{ question: "Which of the following drugs used in heart failure is an inhibitor of if current in the sinoatrial node?",
+img: "",
+answers: [
+{ text: " Omapatrilat", correct: false },
+{ text: " lvabradine ", correct: true },
+{ text: ". Nesiritide", correct: false },
+{ text: " Levosimendan", correct: false },
+], },
+
+
+{ question: "Which among the following is not a cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: " Ebstein anomaly", correct: false },
+{ text: " Ventricular septal defect with pulmonic stenosis ", correct: false },
+{ text: ". Pulmonary AV malformation", correct: false },
+{ text: " Infundibular stenosis", correct: true },
+], },
+
+
+{ question: "The most common type of total anomalous pulmonary venous connection is",
+img: "",
+answers: [
+{ text: ". Supracardiac", correct: true },
+{ text: ". Cardiac ", correct: false },
+{ text: "Intracardiac", correct: false },
+{ text: " Mixed", correct: false },
+], },
+
+
+
+{ question: "A 1-day old infant born at full term by an uncomplicated spontaneous vaginal delivery was noted to have cyanosis of the oral mucosa. Chest x-ray revealed a snowman appearance of the cardiac silhouette. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: ". Transposition of great arteries", correct: false },
+{ text: "Truncus arteriosus ", correct: false },
+{ text: ". Tricuspid atresia", correct: false },
+{ text: " Total anomalous pulmonary venous connection", correct: true },
+], },
+
+
+{ question: "",
+img: "",
+answers: [
+{ text: "", correct: false },
+{ text: " ", correct: true },
+{ text: "", correct: false },
+{ text: "", correct: false },
+], },
+
+
+{ question: "Below is the chest X-ray image obtained for a neonate on day 7 of life who developed heart failure later. What is the most probable diagnosis?",
+img: "img401-501/page 555.png",
+answers: [
+{ text: " Tetralogy of Fallot", correct: false },
+{ text: " Ventricular septal defect ", correct: false },
+{ text: ". Total anomalous pulmonary venous connection", correct: false },
+{ text: ". Transposition of great arteries", correct: true },
+], },
+
+
+
+{ question: "Of the following, all are findings of the condition in the below chest X-ray except:",
+img: "img401-501/page 123.png",
+answers: [
+{ text: ". Increased pulmonary blood flow", correct: false },
+{ text: ". Narrow vascular pedicle ", correct: false },
+{ text: ". Right atrial enlargement", correct: false },
+{ text: ". Pulmonary venous hypertension", correct: true },
+], },
+
+
+{ question: "Which among the following lesions is commonly seen in Ebstein anomaly?",
+img: "",
+answers: [
+{ text: " Mitral regurgitation", correct: false },
+{ text: " Tricuspid regurgitation ", correct: true },
+{ text: " Mitral stenosis", correct: false },
+{ text: ". Tricuspid stenosis", correct: false },
+], },
+
+
+{ question: "The given X-ray image is seen in __",
+img: "img401-501/page 111.png",
+answers: [
+{ text: " Partial anomalous pulmonary venous return", correct: false },
+{ text: ". Total anomalous pulmonary venous return ", correct: false },
+{ text: "ndocardial cushion defects", correct: false },
+{ text: " Ebstein anomaly", correct: true },
+], },
+
+
+{ question: "Which of the following is the most common cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: ". Tetralogy of Fallot", correct: true },
+{ text: ". Transposition of Great Arteries ", correct: false },
+{ text: "C. Tricuspid Atresia", correct: false },
+{ text: " Total Anomalous Pulmonary Venous", correct: false },
+], },
+
+
+{ question: "All are seen in tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: ". Ventricular septal defect", correct: false },
+{ text: ". Right ventricular hypertrophy ", correct: false },
+{ text: " Atrial septal defect", correct: true },
+{ text: ". Pulmonary stenosis", correct: false },
+], },
+
+
+{ question: "All of the following are features of tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Soft P2 ", correct: false },
+{ text: ". large ascending aorta ", correct: false },
+{ text: ". large 'a' waves in jugular venous pulse", correct: false },
+{ text: " Cardiomegaly", correct: true },
+], },
+
+
+{ question: "A child with tetralogy of Fallot feels comfortable in a squatting position as soon as he gets dyspneic. All of the following are true except ___ _",
+img: "",
+answers: [
+{ text: " A It increases the systemic vascular resistance", correct: false },
+{ text: "B. It increases the magnitude of right-to-left shunt ", correct: true },
+{ text: ". Leads to trapping of deoxygenated blood in lower limbs", correct: false },
+{ text: ". Both A and C", correct: false },
+], },
+
+
+{ question: "Blalock-Taussig shunt is done between ___ _",
+img: "",
+answers: [
+{ text: "Subclavian artery to pulmonary artery", correct: true },
+{ text: ". Aorta to pulmonary vein ", correct: false },
+{ text: " Aorta to pulmonary artery", correct: false },
+{ text: "Subclavian vein t0 pulmonary artery", correct: false },
+], },
+
+
+
+{ question: "Which of the following is a component of the pentalogy of Fallot?",
+img: "",
+answers: [
+{ text: " Atrial septal detect", correct: true },
+{ text: " Patent ductus arteriosus ", correct: false },
+{ text: " Coarctation of the aorta", correct: false },
+{ text: " Left ventricular hypertrophy", correct: false },
+], },
+
+
+{ question: "A 6-month-old child with tetralogy of Fallot develops cyanotic spell initiated by crying. Which of the following drugs would you avoid?",
+img: "",
+answers: [
+{ text: " Sodium bicarbonate", correct: false },
+{ text: ". Propranolol ", correct: false },
+{ text: "Phenylephrine", correct: false },
+{ text: ". Isoprenaline", correct: true },
+], },
+
+
+
+{ question: "Which of the following is not a feature of Eisenmenger's syndrome?",
+img: "",
+answers: [
+{ text: ". Right ventricular hypertrophy", correct: false },
+{ text: "Bidirectional flow of blood ", correct: false },
+{ text: ". Obstructive pulmonary hypertension", correct: false },
+{ text: "redominant left to right shunt", correct: true },
+], },
+
+
+
+{ question: "A 42-year-old male patient is diagnosed with infective endocarditis. The vegetations are most likely to be present on:",
+img: "",
+answers: [
+{ text: " Aortic valve", correct: false },
+{ text: " Pulmonary valve ", correct: false },
+{ text: " Mitral valve", correct: true },
+{ text: "Tricuspid valve", correct: false },
+], },
+
+
+
+{ question: "The most common cause of culture negative infective endocarditis is. __",
+img: "",
+answers: [
+{ text: ". Coxiella burnetii", correct: false },
+{ text: ". HACEK group of organisms ", correct: false },
+{ text: " Fungal endocarditis", correct: false },
+{ text: " Prior antibiotic use", correct: true },
+], },
+
+
+{ question: "An 80-year-old woman with a background of moderate aortic stenosis presents with a 2-week history of fatigue, weight loss, and night sweats. Blood tests revealed Hb level of 9.9 g/dl, white cell count of 16.0 x 10^9 /L and CRP level of 187 mg/L. Echocardiogram showed the presence of an intracardiac mass on the mitral valve. Blood cultures showed growth of Streptococcus gallolyticus bacteria. What is the additional investigation that should be performed in the given condition?",
+img: "",
+answers: [
+{ text: " Hysteroscopy", correct: false },
+{ text: ". Cystoscopy ", correct: false },
+{ text: " Colonoscopy", correct: true },
+{ text: " Bronchoscopy", correct: false },
+], },
+
+
+{ question: "In which of the following conditions transesophageal echocardiography is preferred over transthoracic echocardiography?",
+img: "",
+answers: [
+{ text: " Vegetations more than 2mm in diameter", correct: false },
+{ text: " Prosthetic valve endocarditis ", correct: true },
+{ text: " Endocarditis in IV drug users", correct: false },
+{ text: ". All of the above", correct: false },
+], },
+
+
+{ question: "Among the given cardiac conditions, which has the least risk of developing infective endocarditis?",
+img: "",
+answers: [
+{ text: ". Atrial septal defect", correct: true },
+{ text: ". Ventricular septal defect ", correct: false },
+{ text: " Patent ductus arteriosus", correct: false },
+{ text: " Tetralogy of Fallot", correct: false },
+], },
+
+
+{ question: "A 50-year-old female patient underwent mitral valve replacement for severe MR 5 years ago. She is now posted for an elective colonoscopy, for evaluation of altered bowel habits. What is the recommended prophylaxis for this patient?",
+img: "",
+answers: [
+{ text: "Amoxicillin, 2g orally, taken 30 to 60 minutes before the procedure", correct: false },
+{ text: ". Clindamycin 600mg orally, taken 30 to 60 minutes before the procedure ", correct: false },
+{ text: " Ampicillin, 2g IM or IV 30 to 60 minutes before the procedure", correct: false },
+{ text: " No antibiotic prophylaxis required", correct: true },
+], },
+
+
+{ question: " According to the guidelines published by the American Heart Association and the European Society of Cardiology, antibiotic prophylaxis is appropriate for each of the following situations before invasive dental procedures except",
+img: "",
+answers: [
+{ text: ". A patient with palliative shunt for cyanotic CHD", correct: false },
+{ text: ". A patient with previous coronary artery bypass graft surgery ", correct: true },
+{ text: " Patient with valvulopathy post cardiac transplantation", correct: false },
+{ text: "A patient with prosthetic heart valve", correct: false },
+], },
+
+
+{ question: " 45-year-old previously healthy male patient presented with fever, chills and fatigue. On admission, his body temperature was 38.5 degree Celsius. Two days later, he developed a new regurgitant murmur. The echocardiogram confirmed the presence of vegetation in the posterior leaflet of mitral valve. His blood culture obtained was positive for gram-positive cocci in chains. What is the treatment for the given condition?",
+img: "",
+answers: [
+{ text: " Ampicillin with gentamicin", correct: false },
+{ text: " Penicillin with gentamicin ", correct: true },
+{ text: ". Vancomycin", correct: false },
+{ text: " Clarithromycin", correct: false },
+], },
+
+
+{ question: "The causative organism of acute rheumatic fever is __ ",
+img: "",
+answers: [
+{ text: " Group A Strepococcus", correct: true },
+{ text: "Group B Strepococcus ", correct: false },
+{ text: " Group c Strepococcus", correct: false },
+{ text: ". Group D Strepococcus", correct: false },
+], },
+
+
+{ question: "Which is the most common clinical feature of acute rheumatic fever?",
+img: "",
+answers: [
+{ text: "Polyarthritis", correct: true },
+{ text: "B. Carditis ", correct: false },
+{ text: ". Chorea", correct: false },
+{ text: ". erythema marginatum", correct: false },
+], },
+
+
+
+{ question: "Which of the following is a feature of Sydenham's chorea?",
+img: "",
+answers: [
+{ text: " Always associated with arthritis", correct: false },
+{ text: ". Affects mainly the head and upper limbs ", correct: true },
+{ text: "ccurs within 3 weeks of streptococcal infection", correct: false },
+{ text: ". Only restricted to one half of the body", correct: false },
+], },
+
+
+{ question: "Which is not a cardiac manifestation of infective endocarditis?",
+img: "",
+answers: [
+{ text: " Impaired conduction system", correct: false },
+{ text: " Heart failure ", correct: false },
+{ text: " Perivalvular abscess", correct: false },
+{ text: ". Roth's spots", correct: true },
+], },
+
+
+{ question: "Which of the following is a feature of subcutaneous nodules in acute rheumatic fever?",
+img: "",
+answers: [
+{ text: ". Painful", correct: false },
+{ text: ". Early manifestation ", correct: false },
+{ text: ". Common in hands and feet", correct: true },
+{ text: ". All of the above", correct: false },
+], },
+
+
+{ question: "The major criteria for the diagnosis of rheumatic fever, according to modified Jones criteria 2015 is __",
+img: "",
+answers: [
+{ text: ". Prolonged PR interval", correct: false },
+{ text: ". Fever ", correct: false },
+{ text: " Monoarthralgia", correct: false },
+{ text: " Erythema marginatum", correct: true },
+], },
+
+
+{ question: "Which of the following is a minor criterion for the diagnosis of acute rheumatic fever according to modified Jones criteria?",
+img: "",
+answers: [
+{ text: ". Elevated ESR", correct: true },
+{ text: " Subcutaneous nodules ", correct: false },
+{ text: " Evidence of group A streptococcal infection", correct: false },
+{ text: ". All of the above", correct: false },
+], },
+
+
+{ question: "A 47-year-old female patient with a previous history of rheumatic fever, now presented with pain and swelling in her lower extremities which is more severe in her right knee. On examination, her body temperature is 39 degrees Celsius and laboratory investigations show elevated ESR. She denies any history of trauma. Which among the following is not a feature of joint pain seen in this condition?",
+img: "",
+answers: [
+{ text: " Migratory arthritis", correct: false },
+{ text: ". Mainly involves large joints ", correct: false },
+{ text: "Symmetric involvement", correct: true },
+{ text: " Good response to salicylates", correct: false },
+], },
+
+
+{ question: "The drug used for refractory intractable rheumatic chorea is:",
+img: "",
+answers: [
+{ text: " Diazepam", correct: false },
+{ text: ". Haloperido ", correct: false },
+{ text: " Sodium valproate", correct: true },
+{ text: ". Probenecid", correct: false },
+], },
+
+
+{ question: "A 30-year-old patient presented to the clinic with the skin lesions as shown in the image. On examination, body temperature is 38.5 degrees Celsius, ESR and ASLO titers are elevated. What is true about the finding shown in the image below?",
+img: "page 111",
+answers: [
+{ text: ". Pruritic", correct: false },
+{ text: " Mainly involves tile face ", correct: false },
+{ text: ". Disappears after hot shower", correct: false },
+{ text: " Generally occurs in patients with carditis", correct: true },
+], },
+
+
+{ question: "Evidence of preceding streptococcal infection is essential for making diagnosis of acute rheumatic fever, except in ?",
+img: "",
+answers: [
+{ text: "Polyarthritis", correct: false },
+{ text: "Subcutaenous nodules ", correct: false },
+{ text: " Erythema marginatum", correct: false },
+{ text: "Chorea", correct: true },
+], },
+
+
+{ question: "The prevalence of rheumatic valvular heart disease peaks between:",
+img: "",
+answers: [
+{ text: " 5-15 years", correct: false },
+{ text: ". 15-25 years ", correct: false },
+{ text: " 25-40 years", correct: true },
+{ text: ". >40 years", correct: false },
+], },
+
+
+{ question: "Characteristic initial valvular manifestation in acute rheumatic fever is:",
+img: "",
+answers: [
+{ text: ". Mitral stenosis", correct: false },
+{ text: ". Aortic stenosis ", correct: false },
+{ text: " Mitral regurgitation", correct: true },
+{ text: " Aortic regurgitation", correct: false },
+], },
+
+
+{ question: "A 12-year-old boy is admitted with fever and polyarthritis. His ESR on admission was 80mm/hr. There was no clinical/subclinical carditis. A diagnosis of acute rheumatic fever was made and treatment initmated. How long will you put the patient on secondary prophylaxis?",
+img: "",
+answers: [
+{ text: " 5 years or until 21 years of age", correct: true },
+{ text: "10 years or until 21 years of age ", correct: false },
+{ text: " 10 years or until 40 years of age", correct: false },
+{ text: ". Lifelong", correct: false },
+], },
+
+
+{ question: "Which of the following is not included in the minor criteria of Modified Duke Criteria for clinical diagnosis of infective endocarditis?",
+img: "",
+answers: [
+{ text: ". History of injection drug use", correct: false },
+{ text: " Immunological evidence of glomerulonephritis ", correct: false },
+{ text: " Positive blood culture but not meeting the major criterion", correct: false },
+{ text: " Positive echocardiogram not meeting major criteria", correct: true },
+], },
+
+
+{ question: "A 43-year-old patient presented with spikes of fever and difficulty in breathing. Transesophageal echo revealed vegetations in the heart. The culture was positive for Burkholderia cepacia. Which of the following is the first line of management?",
+img: "",
+answers: [
+{ text: ". Aminoglycosides and colistin", correct: false },
+{ text: " Cotrimoxazole with 3rd generation cephalosporin ", correct: true },
+{ text: ". Cefepime and tigecycline", correct: false },
+{ text: "Carbepenams and 3rd generation cephalosporins", correct: false },
+], },
+
+
+{ question: "According to Modified Duke criteria for the diagnosis of infective endocarditis, a single positive blood culture is included in the major criteria for which organism?",
+img: "",
+answers: [
+{ text: ". Coagulase negative staphylococcus aureus", correct: false },
+{ text: " Coxiella burnetii ", correct: true },
+{ text: " Viridans Streptococci", correct: false },
+{ text: " HACEK group", correct: false },
+], },
+
+
+
+{ question: "A 45-year-old male patient with a medical history of active intravenous drug use presented to the hospital with prolonged fever and new-onset seizures. The fever is present since 2 weeks and did not come down despite a short course of antibiotics on an outpatient basis. On examination, the patient has a body temperature of 38.7°C. Laboratory investigations showed leucocytosis and elevated CRP. Transthoracic echocardiography (TTE) obtained on admission showed a 1.5 cm vegetation on the tricuspid valve. Multiple painless skin lesions are present on the hands as shown in the image below. These lesions are known as:",
+img: "img401-501/page 222.png",
+answers: [
+{ text: ". Osier's node", correct: false },
+{ text: " Janeway lesion ", correct: true },
+{ text: " Roth's spot", correct: false },
+{ text: ". Pink rim rashes", correct: false },
+], },
+
+
+{ question: "True about the vegetations seen in infective endocarditis is:",
+img: "",
+answers: [
+{ text: " Present mainly along the lines of closure", correct: false },
+{ text: " Present on both side of valve leafiets ", correct: false },
+{ text: ". Extend into the chordae", correct: true },
+{ text: ". Do not embolise", correct: false },
+], },
+
+
+{ question: "The recommended procedure for collecting samples for blood culture in infective endocarditis is:",
+img: "",
+answers: [
+{ text: " 2 cuhure sets separated by atleast 1 hour", correct: false },
+{ text: " 2 culture sets separated by atleast 2 hours ", correct: false },
+{ text: ". 3 culture sets with first and last sample drawn atleast 2 hours apar", correct: false },
+{ text: ". 3 culture sets with first and last sample drawn atleast 1 hour apart", correct: true },
+], },
+
+
+
+{ question: "A patient develops prosthetic valve endocarditis 2 years after prosthetic valve surgery. Which of the following organism is the most likely cause?",
+img: "",
+answers: [
+{ text: ". Streptococci", correct: true },
+{ text: ". Staphylococcus aureus ", correct: false },
+{ text: " Coagulase negative staphylococci", correct: false },
+{ text: "HACEK organisms", correct: false },
+], },
+
+
+{ question: "A 38-year-old IV drug abuser presents with a 1-week history of malaise, fatigue, and rigors. His temperature on admission was 38.50 C. Examination revealed a pansystolic murmur which was loudest at the left sternal edge. Three sets of blood cultures were taken. Which organism is most likely to be found in his blood cultures?",
+img: "",
+answers: [
+{ text: ". Streptococcus sanguis", correct: false },
+{ text: " B. Enterococcus faecium ", correct: false },
+{ text: " Coxiella burnetii", correct: false },
+{ text: ". Staphylococcus aureus", correct: true },
+], },
+
+
+{ question: "Which among the following is not a cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: " Ebstein anomaly", correct: false },
+{ text: " Ventricular septal defect with pulmonic stenosis ", correct: false },
+{ text: " Pulmonary AV malformation", correct: false },
+{ text: ". Infundibular stenosis", correct: true },
+], },
+
+
+{ question: "The most common type of total anomalous pulmonary venous connection is",
+img: "",
+answers: [
+{ text: " Supracardiac", correct: true },
+{ text: " Cardiac ", correct: false },
+{ text: " Intracardiac", correct: false },
+{ text: ". Mixed", correct: false },
+], },
+
+
+{ question: "A 1-day old infant born at full term by an uncomplicated spontaneous vaginal delivery was noted to have cyanosis of the oral mucosa. Chest x-ray revealed a snowman appearance of the cardiac silhouette. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: ". Transposition of great arteries", correct: false },
+{ text: " Truncus arteriosus ", correct: false },
+{ text: " Tricuspid atresia", correct: false },
+{ text: " Total anomalous pulmonary venous connection", correct: true },
+], },
+
+
+{ question: "A 5-day-old, full-term male infant was severely cyanotic at birth. Prostaglandin E1 was administered initially, followed by balloon atrial septostomy, which showed improvement in oxygenation. The most likely diagnosis is __ _",
+img: "",
+answers: [
+{ text: " Tetralogy of Fallot", correct: false },
+{ text: ". Transposition of great arteries ", correct: true },
+{ text: ". Truncus arteriosus", correct: false },
+{ text: ". Tricuspid atresia", correct: false },
+], },
+
+
+{ question: "Below is the chest X-ray image obtained for a neonate on day 7 of life who developed heart failure later. What is the most probable diagnosis?",
+img: "img401-501/pic 1.png",
+answers: [
+{ text: " Tetralogy of Fallot", correct: false },
+{ text: " Ventricular septal defect ", correct: false },
+{ text: " Total anomalous pulmonary venous connection", correct: false },
+{ text: ". Transposition of great arteries", correct: true },
+], },
+
+
+{ question: "Of the following, all are findings of the condition in the below chest X-ray except:",
+img: "img401-501/page 601.png",
+answers: [
+{ text: " Increased pulmonary blood flow", correct: false },
+{ text: "Narrow vascular pedicle ", correct: false },
+{ text: "Right atrial enlargement", correct: false },
+{ text: "Pulmonary venous hypertension", correct: true },
+], },
+
+
+{ question: "Which among the following lesions is commonly seen in Ebstein anomaly",
+img: "",
+answers: [
+{ text: " Mitral regurgitation", correct: false },
+{ text: "Tricuspid regurgitation ", correct: true },
+{ text: "Mitral stenosis", correct: false },
+{ text: " Tricuspid stenosis", correct: false },
+], },
+
+
+{ question: "The given X-ray image is seen in __",
+img: "img401-501/page 603.png",
+answers: [
+{ text: " Partial anomalous pulmonary venous return", correct: false },
+{ text: "Total anomalous pulmonary venous return ", correct: false },
+{ text: "Endocardial cushion defects", correct: false },
+{ text: "Ebstein anomaly", correct: true },
+], },
+
+
+{ question: "A 24-year-old woman with bipolar disorder on lithium therapy expresses intent to conceive. She must be advised to stop the drug due to the risk of development of which of the following conditions in the fetus?",
+img: "",
+answers: [
+{ text: " Ebstein anomaly", correct: true },
+{ text: "VACTERAL defects ", correct: false },
+{ text: "Coarctation of aorta", correct: false },
+{ text: "Supravalvular aortic stenosis", correct: false },
+], },
+
+
+{ question: "A cyanotic new born is suspected of having congenital heart disease. He has an increased left ventricular impulse and a holosystolic murmur along the left sternal border. ECG shows left axis deviation and left ventricular hypertrophy. Which of the following is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: " Transposition or Great Arteries", correct: false },
+{ text: " Truncus arter1osus ", correct: false },
+{ text: "Tricuspid atresia", correct: true },
+{ text: "Tetrology of Fallot", correct: false },
+], },
+
+
+{ question: "A newborn on day 1 was noted to have tachypnoea and cyanosis. Examination revealed a single second heart sound and a holosystolic murmur along the left sternal border. Which of the following cardiac features would make the diagnosis of tricuspid atresia unlikely?",
+img: "",
+answers: [
+{ text: "Left axis deviation on ECG", correct: false },
+{ text: "Himalayan P waves on ECG ", correct: false },
+{ text: "Ventricular septal defect on echo", correct: false },
+{ text: "Left ventricular hypoplasia on echo", correct: true },
+], },
+
+
+{ question: "Which of the following is the most common cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: "Tetralogy of Fallot", correct: true },
+{ text: "Transposition of Great Arteries ", correct: false },
+{ text: "Tricuspid Atresia", correct: false },
+{ text: "Total Anomalous Pulmonary Venous", correct: false },
+], },
+
+
+{ question: "All of the following can cause recurrent pulmonary infection, except (1) Ventricular septal defect (2) Atrial septal defect (3) Tetrology of Fallot (4) Tricuspid atresia",
+img: "",
+answers: [
+{ text: "1 and 2", correct: false },
+{ text: "2, 3 and 4 ", correct: false },
+{ text: "3 and 4", correct: true },
+{ text: " 1, 2, and 3 ", correct: false },
+], },
+
+
+{ question: "A 1-day old boy is admitted in neonatal ICU with cyanosis. This infant who was born at term after an uncomplicated delivery developed cyanosis after 2 hours. Pulse oximetry shows 80% not improving with 100 % O2. Records show continuous machinery murmur was heard at birth but not anymore. Which of the following can be done?",
+img: "",
+answers: [
+{ text: " Intubation with 100%", correct: false },
+{ text: "Indomethacin ", correct: false },
+{ text: " RBC transfusio", correct: false },
+{ text: " Prostaglandin E1", correct: true },
+], },
+
+
+{ question: "The given chest X-ray is suggestive of:",
+img: "img401-501/page 613.png",
+answers: [
+{ text: "Tetralogy of Fallot", correct: true },
+{ text: "Atrial septal defect ", correct: false },
+{ text: "Ventricular septal defect", correct: false },
+{ text: " Ebstein's anomaly", correct: false },
+], },
+
+
+{ question: "All are seen in tetralogy of Fallot except _",
+img: "",
+answers: [
+{ text: "Ventricular septal defect", correct: false },
+{ text: "Right ventricular hypertrophy ", correct: false },
+{ text: " Atrial septal defect", correct: true },
+{ text: "Pulmonary stenosis", correct: false },
+], },
+
+
+{ question: "",
+img: "",
+answers: [
+{ text: "", correct: false },
+{ text: " ", correct: false },
+{ text: "", correct: true },
+{ text: "", correct: false },
+], },
+
+
+{ question: "A child with tetralogy of Fallot feels comfortable in a squatting position as soon as he gets dyspneic. All of the following are true except ___ ",
+img: "",
+answers: [
+{ text: "A It increases the systemic vascular resistance", correct: false },
+{ text: "It increases the magnitude of right-to-left shunt ", correct: true },
+{ text: "Leads to trapping of deoxygenated blood in lower limbs", correct: false },
+{ text: "Both A and C", correct: false },
+], },
+
+
+{ question: "Blalock-Taussig shunt is done between ___",
+img: "",
+answers: [
+{ text: "Subclavian artery to pulmonary artery", correct: true },
+{ text: " Aorta to pulmonary vein ", correct: false },
+{ text: "Aorta to pulmonary artery", correct: false },
+{ text: "Subclavian vein t0 pulmonary artery", correct: false },
+], },
+
+
+{ question: "Which of the following is a component of the pentalogy of Fallot?",
+img: "",
+answers: [
+{ text: "Atrial septal detect", correct: true },
+{ text: "Patent ductus arteriosus ", correct: false },
+{ text: "Coarctation of the aorta", correct: false },
+{ text: "Left ventricular hypertrophy", correct: false },
+], },
+
+
+{ question: "A 6-month-old child with tetralogy of Fallot develops cyanotic spell initiated by crying. Which of the following drugs would you avoid?",
+img: "",
+answers: [
+{ text: "A Sodium bicarbonate", correct: false },
+{ text: "Propranolol ", correct: false },
+{ text: "Phenylephrine", correct: false },
+{ text: "Isoprenaline", correct: true },
+], },
+
+
+{ question: "What is the defined duration for the diagnosis of acute pericarditis?",
+img: "",
+answers: [
+{ text: "<2 weeks", correct: false },
+{ text: " <4 weeks ", correct: false },
+{ text: "<6 weeks", correct: true },
+{ text: "<8 weeks", correct: false },
+], },
+
+
+{ question: "Which of the following is a differentiating feature between cardiac tamponade and tension pneumothorax?",
+img: "",
+answers: [
+{ text: ". Breath sounds ", correct: true },
+{ text: "Muffled heart sounds ", correct: false },
+{ text: "Increased heart rate", correct: false },
+{ text: "Raised JVP", correct: false },
+], },
+
+
+
+
+
+
+
+
+
+
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+
