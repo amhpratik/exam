@@ -1,85 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Medicine</title>
-<style>
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background: #415a77;
-    }
-    .button-container {
-        text-align: center;
-        background: #fff;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 15px;
-    padding: 30px;
-    }
-    .button-container button {
-        margin: 10px;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    
+    <style>
+        body {
+            background-color: #f0f7ff; /* Light blue background */
+        }
 
-    .button-container h1 {
-    font-size: 25px;
-    color: #001e4d;
-    font-weight: 600;
-    border-bottom: 1px solid#333;
-    padding-bottom: 26px;
-    text-align: center;}
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
 
+        .button-container .button {
+            padding: 20px 30px; /* Increased button height */
+            font-size: 20px;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            background-color: #415a77; /* Green button color */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            width: 80%; /* Full width for smaller screens */
+        }
 
-    .btn {
-background: #fff;
-color: #222;
-font-weight: 500;
-width: 100%;
-border: 1px solid #222;
-padding: 10px ;
-margin: 10px 0;
-text-align: center;
-border-radius: 8px;
-cursor:pointer;
-}
+        @media (min-width: 768px) {
+            .button-container .button {
+                width: calc(25% - 30px); /* Two buttons in a row for larger screens */
+            }
+        }
 
-.btn:hover:not([disabled]) {
-background: #222;
-color: #fff;
-transition: all 0.3s;
-}
-.btn:disabled { cursor : no-drop;}
+        .button-container .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            background-color: #2f4156  ; /* Darker green on hover */
+        }
+    </style>
+</head>
 
 
-
-
-</style>
 </head>
 <body>
-    
-
-    <div class="indexbtn">
-        <button class="btn", onclick="openPage('m1-100.html')"> 1-100 </button>
-        <button class="btn", onclick="openPage('m101-200.html')"> 101-200 </button>
-        <button class="btn", onclick="openPage('m201-300.html')"> 201-300 </button>
-        <button class="btn", onclick="openPage('m301-400.html')"> 301-400 </button>
-        <button class="btn", onclick="openPage('medicine.html')"> 401-500 </button>
-
+    <div class="button-container">
+        <button class="button" onclick="openPage('m1-100.html')">1-100</button>
+        <button class="button" onclick="openPage('m101-200.html')">101-200</button>
+        <button class="button" onclick="openPage('m201-300.html')">201-300</button>
+        <button class="button" onclick="openPage('m301-400.html')">301-400</button>
+        <button class="button" onclick="openPage('m401-500.html')">401-500</button>
+        <button class="button" onclick="openPage('m501-600.html')">501-600</button>
+        <-- <button class="button" onclick="openPage('m601-700.html')">601-700</button>
+        <button class="button" onclick="openPage('m701-800.html')">701-800</button>
+        <button class="button" onclick="openPage('m801-900.html')">801-900</button>
+        <button class="button" onclick="openPage('m901-1000.html')">901-1000</button>
+        <button class="button" onclick="openPage('')">1001-1100</button>
+        <button class="button" onclick="openPage('')">1101-1200</button>
+        <button class="button" onclick="openPage('')">1201-1300</button>
+        <button class="button" onclick="openPage('')">1301-1400</button>
+        <button class="button" onclick="openPage('')">1401-1500</button>
+        <button class="button" onclick="openPage('')">1501-1600</button>
+        <button class="button" onclick="openPage('')">1601-1700</button>
+        <button class="button" onclick="openPage('')">1701-1800</button>
+        <button class="button" onclick="openPage('')">1801-1900</button> -->
     </div>
 
     <script>
-        function openPage(pageUrl) {
+       function openPage(pageUrl) {
             window.location.href = pageUrl;
         }
     </script>
 </body>
 </html>
+
