@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 501-600 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 501-600 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Rakshita Sharma</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+           
+            { question: "A young motorist sustained injuries in a major road traffic accident. He was found to have fractures of the left femur and left humerus. He also had fractures of multiple ribs anteriorly on both sides. On examination, his blood pressure was 80/60 mmHg and heart rate was 140/min. The patient was agitated, restless, and tachypneic. Jugular veins were distended. Air entry was adequate in both lung fields. Heart sounds were barely audible. Femoral pulses were weakly palpable, but distally, no pulsations could be felt. On a priority basis, what would be the immediate intervention?",
+img: "",
+answers: [
+{ text: "Rapid blood transfusion", correct: false },
+{ text: " Urgent pericardial tap ", correct: true },
+{ text: " Intercostal tube drainage on both sides", correct: false },
+{ text: " Fixation of left femur and repair of femoral arter", correct: false },
+], },
+
+
+{ question: "Kussmaul's sign is seen in all of the following except __ ",
+img: "",
+answers: [
+{ text: " Restrictive cardiomyopathy", correct: false },
+{ text: "Cardiac tamponade ", correct: true },
+{ text: "Cardiac tamponade", correct: false },
+{ text: "Right ventricular infarct", correct: false },
+], },
+
+
+{ question: " A 20-year-old man reported to the emergency department with respiratory distress and hypotension following a trauma. He has subcutaneous emphysema and there is an absence of air entry into the right side of the lungs. What is the next best step?",
+img: "",
+answers: [
+{ text: " Start IV fluids with large bore cannula", correct: false },
+{ text: " Needle decompression into the 5th intercostal space anterior to the midaxillary line ", correct: true },
+{ text: " Take the patient to the ICU and intubate him", correct: false },
+{ text: " Start positive pressure ventilation", correct: false },
+], },
+
+
+{ question: " Which of the following is not a feature of pericardial Friction rub?",
+img: "",
+answers: [
+{ text: " Pathognomonic of acute pericarditis", correct: false },
+{ text: " A very high pitched sound ", correct: false },
+{ text: "Best heard with the patient in left lateral position", correct: true },
+{ text: " Loudest at the lower left sternal border", correct: false },
+], },
+
+
+{ question: " Which of the following statements about ECG findings in acute pericarditis is correct?",
+img: "",
+answers: [
+{ text: " ST-segment elevations with a convex upward configuration are seen", correct: false },
+{ text: " PR-segment depressions are seen early in the disease progression ", correct: true },
+{ text: " Reciprocal ST-segment depressions are noted in all corresponding leads", correct: false },
+{ text: "T wave inversions develop concurrently with ST-segment elevations", correct: false },
+], },
+
+
+{ question: "A patch of dullness with increased vocal fremitus beneath the angle of the left scapula due to the compression of the base of the lung by the pericardial fluid is called __",
+img: "",
+answers: [
+{ text: "Auenbrugger's sign", correct: false },
+{ text: "Moschcowitz's sign ", correct: false },
+{ text: " Dressler's sign", correct: false },
+{ text: " Ewart's sign", correct: true },
+], },
+
+
+{ question: " Which of the following is not a feature of Beck's triad?",
+img: "",
+answers: [
+{ text: " Pulsus paradoxus", correct: true },
+{ text: " Hypotension ", correct: false },
+{ text: " Muffled heart sounds", correct: false },
+{ text: " Raised JVP", correct: false },
+], },
+
+
+{ question: " An intern is asked to measure the blood pressure of a patient with cardiac tamponade. He/she should ask the patient to",
+img: "",
+answers: [
+{ text: " Hold breath", correct: false },
+{ text: " Take rapid shallow breaths ", correct: false },
+{ text: "Take long deep breaths", correct: false },
+{ text: " Breathe normally", correct: true },
+], },
+
+
+{ question: " A 26-year-old male patient, an accident victim started developing breathing difficulty. On examination, his BP was 80/58mmHg and pulses were feeble, JVP was found to be elevated and heart sounds were muffled. What of the following JVP findings is most likely to be seen in the given clinical scenario?",
+img: "",
+answers: [
+{ text: " Absent x and prominent y descent", correct: false },
+{ text: " Prominent x and absent y descent ", correct: true },
+{ text: " Prominent x and y descents", correct: false },
+{ text: " Absent x and y descents", correct: false },
+], },
+
+
+{ question: " A patient with dizziness and breathing difficulty came to the emergency department. The ECG is given below. What is the most probable diagnosis?",
+img: "img501-600/pg 634.png",
+answers: [
+{ text: "Acute pericarditis", correct: false },
+{ text: " Constrictive pericarditis ", correct: false },
+{ text: "Cardiac tamponade", correct: true },
+{ text: "Restrictive cardiomyopathy", correct: false },
+], },
+
+
+{ question: "A 25-year-old road traffic accident victim presents with chest pain and breathlessness. On examination, his BP was 80/60mmHg.On inspection, his neck veins were distended and on auscultation, his heart sounds were muffled. Which of the following clinical features is unlikely to be seen in this patient?",
+img: "",
+answers: [
+{ text: ". Pulsus paradoxus", correct: false },
+{ text: " Prominent x descent on JVP ", correct: false },
+{ text: "Absent y descent on JVP", correct: false },
+{ text: "Pericardial knock", correct: true },
+], },
+
+
+{ question: " The mean pulmonary arterial pressure in pulmonary hypertension is?",
+img: "",
+answers: [
+{ text: " >25 mmHg", correct: true },
+{ text: " >20mmHg ", correct: false },
+{ text: " >32mmHg", correct: false },
+{ text: ">30mmHg", correct: false },
+], },
+
+
+{ question: " Which among the following genes is implicated as a prime cause of pulmonary arterial hypertension?",
+img: "",
+answers: [
+{ text: " Endothelin", correct: false },
+{ text: " PAX - 11 ", correct: false },
+{ text: "Bone morphogenetic protein receptor 2", correct: true },
+{ text: " Homebox gene", correct: false },
+], },
+
+
+{ question: " Which among the following is not a component of pulmonary arterial hypertension?",
+img: "",
+answers: [
+{ text: " Mean pulmonary arterial pressure >/= 25mm Hg", correct: false },
+{ text: " Pulmonary capillary wedge pressure ", correct: true },
+{ text: " Left atrial pressure", correct: false },
+{ text: "Pulmonary vascular resistance > 3 Wood units", correct: false },
+], },
+
+
+{ question: " Which among the following is not a finding of pulmonary hypertension on chest X- ray?",
+img: "",
+answers: [
+{ text: " Enlarged central pulmonary artery", correct: false },
+{ text: " Pruning of distal pulmonary vasculature ", correct: false },
+{ text: " Right ventricular enlargement", correct: false },
+{ text: " None of the above", correct: true },
+], },
+
+
+{ question: " Which among the following is the gold standard in diagnosing pulmonary hypertension?",
+img: "",
+answers: [
+{ text: " Echocardiogram", correct: false },
+{ text: " Electrocardiogram ", correct: false },
+{ text: "Right heart catherization", correct: true },
+{ text: " Cardio pulmonary exercise test", correct: false },
+], },
+
+
+{ question: "A 32-year-old female patient presents with gradually worsening shortness of breath, fatigue, and exertional chest pain. On auscultation, a loud P2 is heard. Pulmonary function tests reveal isolated reduction in DLCO. She also tells that her family members have similar findings and genetic testing has revealed a mutation in the BMPR2 gene. Based on suspicion, which of the following therapies is this patient most likely to benefit from?",
+img: "",
+answers: [
+{ text: "Bronchidilator", correct: false },
+{ text: "Vasodilator ", correct: true },
+{ text: " Nitric oxide inhibitor", correct: false },
+{ text: " lmmunosuppressants", correct: false },
+], },
+
+
+{ question: " Which among the following group of drugs is not used in managing pulmonary hypertension?",
+img: "",
+answers: [
+{ text: " Phosphodiesterase type-5 inhibitors", correct: false },
+{ text: " Prostanoids ", correct: false },
+{ text: "ACE inhibitors", correct: true },
+{ text: " Endothelin receptor antagonists", correct: false },
+], },
+
+
+{ question: " The most common cause of valvular heart disease in developing countries is ___",
+img: "",
+answers: [
+{ text: " Rheumatic fever", correct: true },
+{ text: " Infective endocarditis ", correct: false },
+{ text: " Congenital", correct: false },
+{ text: " Idiopathic", correct: false },
+], },
+
+
+{ question: " Barlow's syndrome refers to _ _",
+img: "",
+answers: [
+{ text: " Carcinoid of heart", correct: false },
+{ text: " Mitral valve prolapse ", correct: true },
+{ text: " Aortic regurgitation", correct: false },
+{ text: " Hypertrophic cardiomyopathy", correct: false },
+], },
+
+
+{ question: " Carvallo's sign is associated with the murmur of __ _",
+img: "",
+answers: [
+{ text: " Mitral stenosis", correct: false },
+{ text: " Tricuspid regurgitation ", correct: true },
+{ text: " Pulmonary regurgitation", correct: false },
+{ text: " Aortic stenosis", correct: false },
+], },
+
+
+{ question: " Which of the following is a feature of acute mitral regurgitation?",
+img: "",
+answers: [
+{ text: " Prominent v wave in JVP", correct: true },
+{ text: " It is caused due to mitral valve prolapse ", correct: false },
+{ text: " S3 is commonly heard", correct: false },
+{ text: " Left atrium is more compliant", correct: false },
+], },
+
+
+{ question: " The severity of mitral regurgitation can be assessed by:",
+img: "",
+answers: [
+{ text: " Intensity of murmur", correct: false },
+{ text: " Ejection click ", correct: false },
+{ text: " Wide split of S2", correct: true },
+{ text: " Loud S1", correct: false },
+], },
+
+
+{ question: " A 65-year-old male patient presented with chest pain, exertional dyspnea and syncope. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: " Tricuspid regurgitation", correct: false },
+{ text: " Aortic regurgitation ", correct: false },
+{ text: " Mitral stenosis", correct: false },
+{ text: " Aortic stenosis", correct: true },
+], },
+
+
+{ question: "Which among the following conditions is most likely to produce the murmur depicted below?",
+img: "img501-600/pg 650.png",
+answers: [
+{ text: " Mitral Stenosis", correct: false },
+{ text: " Mitral Regurgitation ", correct: false },
+{ text: " Aortic Stenosis", correct: true },
+{ text: " Aortic Stenosis", correct: false },
+], },
+
+
+{ question: " Which of the following features does not signify severe aortic stenosis?",
+img: "",
+answers: [
+{ text: " Pulsus parvus ettardus", correct: false },
+{ text: " Single S2 ", correct: false },
+{ text: " Late peaking of murmur", correct: false },
+{ text: " Wide splitting of S2 ", correct: true },
+], },
+
+
+{ question: " Which of the following conditions is not associated with aortic regurgitation?",
+img: "",
+answers: [
+{ text: "Ankylosing spondylitis", correct: false },
+{ text: "Marfan's syndrome ", correct: false },
+{ text: "Acute MI", correct: true },
+{ text: " Bicuspid aortic valve", correct: false },
+], },
+
+
+{ question: " Which of the following is a feature of early diastolic murmur heard in aortic regurgitation?",
+img: "",
+answers: [
+{ text: " Crescendo-decrescendo murmur", correct: false },
+{ text: " Best heard in inspiration ", correct: false },
+{ text: " High pitched diastolic murmur", correct: true },
+{ text: " Severity correlates with intensity of murmur", correct: false },
+], },
+
+
+{ question: " What is the size of mitral orifice in a normal adult?",
+img: "",
+answers: [
+{ text: " 4-6sq mm", correct: false },
+{ text: " 4-6sq mm ", correct: true },
+{ text: " 6-8 sq mm", correct: false },
+{ text: " 6-8 sq cm", correct: false },
+], },
+
+
+{ question: " Which of the following is the criteria for severe aortic regurgitation, in transthoracic doppler echocardiography?",
+img: "",
+answers: [
+{ text: " Effective regurgitant orifice <0.3 sq. cm", correct: false },
+{ text: "Regurgitant volume >60mL/ beat ", correct: true },
+{ text: " Regurgitant fraction more than 60%", correct: false },
+{ text: "Vena contracta <0.6 cm", correct: false },
+], },
+
+
+{ question: " Treatment of choice in symptomatic acute severe AR is __ ",
+img: "",
+answers: [
+{ text: "Beta blockers", correct: false },
+{ text: "Beta blockers ", correct: true },
+{ text: " Periodic monitoring", correct: false },
+{ text: " Digoxin therapy", correct: false },
+], },
+
+
+{ question: " A patient has enlarged neck veins, hepatomegaly and a holosystolic murmur along the lower left sternal margin. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: " Tricuspid regurgitation", correct: false },
+{ text: "Mitral regurgitation ", correct: true },
+{ text: " Left heart failure", correct: false },
+{ text: " Right heart failure", correct: false },
+], },
+
+
+{ question: " The murmur shown below is seen in __",
+img: "img501-600/pg 661.png",
+answers: [
+{ text: " MR", correct: false },
+{ text: " MR, TR ", correct: false },
+{ text: " MR, TR, VSD", correct: true },
+{ text: " MR, VSD, AS", correct: false },
+], },
+
+
+{ question: " A patient has Right upper limb BP of 180/95 mm Hg and Left upper limb BP of 130/90 mm Hg. He also has early diastolic murmur in right 2nd Intercostal space. Which of the following would be least likely to be associated with these findings?",
+img: "",
+answers: [
+{ text: " Supravalvular aortic stenosis", correct: true },
+{ text: "Coarctation of aorta ", correct: false },
+{ text: " TaKayasu arteritis", correct: false },
+{ text: "Aortic dissection", correct: false },
+], },
+
+
+{ question: " A 45-year-old woman is diagnosed with mitral stenosis. Which of the following clinical features is least likely to be seen in this patient?",
+img: "",
+answers: [
+{ text: " Pulmonary artery hypertension", correct: false },
+{ text: " Tricuspid regurgitation ", correct: false },
+{ text: "Right ventricular hypertrophy", correct: false },
+{ text: " Left ventricular hypertrophy", correct: true },
+], },
+
+
+{ question: " A 45-year-old male patient comes to the clinic with 3 months history of breathlessness. The patient was diagnosed with mitral stenosis. Which of the following findings is not heard on auscultation?",
+img: "",
+answers: [
+{ text: " Diastolic murmur", correct: false },
+{ text: "Mid systolic click ", correct: true },
+{ text: " Opening snap", correct: false },
+{ text: "Pansystolic murmur", correct: false },
+], },
+
+
+{ question: " A 48-year-old female patient was admitted to hospital due to breathlessness. She had dyspnea on exertion for three months. The dyspnea further worsened and she later developed breathlessness even to normal daily activities. She died on the 3rd day following admission. The image of the autopsy of heart is shown below. Identify the condition.",
+img: "img501-600/pg 666.png",
+answers: [
+{ text: " Mitral Stenosis", correct: true },
+{ text: "Mitral Regurgitation ", correct: false },
+{ text: "Tricuspid Stenosis", correct: false },
+{ text: " Tricuspid Regurgitation", correct: false },
+], },
+
+
+{ question: " 62-year-old female patient presented with breathlessness for 5 months. She is unable to carry out her day to day activities and also has difficulty in sleeping. On examination, she has parasternal heave, and on auscultation, opening snap is heard followed by a low pitched rumbling diastolic murmur. Which of the following findings indicate the increased severity of the given condition?",
+img: "",
+answers: [
+{ text: "Loud S1", correct: false },
+{ text: " Soft P2 ", correct: false },
+{ text: " Decreased A2· Opening Snap interva", correct: true },
+{ text: " Decreased duration of murmur", correct: false },
+], },
+
+
+{ question: "Which cardiac chamber enlargement is seen in case of mitral stenosis on chest X ray?",
+img: "",
+answers: [
+{ text: " Left atrium", correct: true },
+{ text: " Right atrium ", correct: false },
+{ text: " Left ventricle", correct: false },
+{ text: " Right ventricle", correct: false },
+], },
+
+
+{ question: " In symptomatic cases of MS, valvotomy is indicated if __",
+img: "",
+answers: [
+{ text: " Mitral orifice is< 0.8 sq cm", correct: false },
+{ text: "Mitral orifice is < 1 sq cm ", correct: false },
+{ text: " Mitral orifice is< 1.5 sq cm", correct: true },
+{ text: "In all patients who are symptomatic", correct: false },
+], },
+
+
+{ question: "26-year-old Rima was referred to the physician by a psychiatrist for the complaints of palpitations. Detailed history revealed the presence of chest pain, which was substernal and not related to exercise. On auscultation, mid-systolic clicks were audible. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: " Unstable angina", correct: false },
+{ text: " Aortic stenosis ", correct: false },
+{ text: " Mitral valve prolapse", correct: true },
+{ text: " Mitral valve prolapse", correct: false },
+], },
+
+
+{ question: "The most common cause of adrenal insufficiency in India is",
+img: "",
+answers: [
+{ text: "Tuberculosis", correct: true },
+{ text: " HIV ", correct: false },
+{ text: " Post-partum pituitary insufficiency", correct: false },
+{ text: " Autoimmune adrenal insufficiency", correct: false },
+], },
+
+
+{ question: " The drug of choice for the treatment of acute adrenal insufficiency in a patient with I previously known adrenal insufficiency is",
+img: "",
+answers: [
+{ text: "Norepinephrine", correct: true },
+{ text: " Hydrocortisone ", correct: false },
+{ text: "Dexamethasone", correct: false },
+{ text: "Fludrocortisone", correct: false },
+], },
+
+
+{ question: " The most common cause of mineralocorticoid excess is",
+img: "",
+answers: [
+{ text: " Bilateral micronodular adrenal hyperplasia", correct: true },
+{ text: "Unilateral adrenal hyperplasia {Conn's syndrome) ", correct: false },
+{ text: " Congenital adrenal nyperplasia", correct: false },
+{ text: " liddle's syndrome", correct: false },
+], },
+
+
+{ question: "Conn's syndrome is associated with all of the following clinical features except",
+img: "",
+answers: [
+{ text: " Hypertension", correct: false },
+{ text: " Hypokalemia ", correct: false },
+{ text: " Edema", correct: true },
+{ text: " Muscle weakness", correct: false },
+], },
+
+
+{ question: " Decreased plasma renin activity is seen in",
+img: "",
+answers: [
+{ text: "Primary hyperaldosteronism", correct: true },
+{ text: " Bartter syndrome ", correct: false },
+{ text: " Pregnancy-induced hypertension", correct: false },
+{ text: " Secondary aldosteronism", correct: false },
+], },
+
+
+{ question: " The clinical investigation of choice in a patient with hypertension and hypokalemia is",
+img: "",
+answers: [
+{ text: " ACTH Stimulation Test", correct: false },
+{ text: " 24h Catecholamine Urine Testing ", correct: false },
+{ text: " Octreoscan", correct: false },
+{ text: " Aldosterone-Renin Ratio", correct: true },
+], },
+
+
+{ question: " Which of the following options does not meet the diagnostic criteria for primary I hyperaldosteronism?",
+img: "",
+answers: [
+{ text: " Diastolic hypertension without edema", correct: false },
+{ text: " Presence of metabolic acidosis ", correct: true },
+{ text: " Low plasma renin activity that is not stimulated by volume depletion", correct: false },
+{ text: "Hyperaldosteronism which is not suppressed by volume expansion", correct: false },
+], },
+
+
+{ question: " Addison's disease is commonly associated with",
+img: "",
+answers: [
+{ text: "Autoimmune adrenalitis", correct: true },
+{ text: " Adrenocortical carcinoma ", correct: false },
+{ text: " Hypernephroma", correct: false },
+{ text: " Medullary carcinoma thyroid", correct: false },
+], },
+
+
+{ question: " All of the following syndromes are associated with primary adrenal insufficiency except",
+img: "",
+answers: [
+{ text: " Autoimmune Polyglandular Syndrome Type 1", correct: false },
+{ text: " Autoimmune Polyglandular Syndrome Type 2 ", correct: false },
+{ text: "Triple-A Syndrome", correct: false },
+{ text: " MEN4 Syndrome", correct: true },
+], },
+
+
+{ question: " Addison's disease is characterized by all of the following symptoms except",
+img: "",
+answers: [
+{ text: " Hyperglycemia", correct: true },
+{ text: " Hyponatremia ", correct: false },
+{ text: " Hyperkalemia", correct: false },
+{ text: " Hypotension", correct: false },
+], },
+
+
+{ question: " The most common biochemical abnormality associated with adrenal insufficiency at I presentation is",
+img: "",
+answers: [
+{ text: " Hypernatremia", correct: false },
+{ text: " Hypokalemia ", correct: false },
+{ text: " Hyponatremia", correct: true },
+{ text: "Hyperkalemia", correct: false },
+], },
+
+
+{ question: "Which of the following features are not associated with glucocorticoid deficiency?",
+img: "",
+answers: [
+{ text: " Hyponatremia", correct: false },
+{ text: " Postural hypotension ", correct: false },
+{ text: "Fever", correct: false },
+{ text: "Hyperkalemia", correct: true },
+], },
+
+
+{ question: "Which of the following clinical symptoms are not observed in secondary adrenal insufficiency?",
+img: "",
+answers: [
+{ text: " Pigmentation", correct: true },
+{ text: " Postural hypotension ", correct: false },
+{ text: "Hypoglycemia", correct: false },
+{ text: " Lassitude", correct: false },
+], },
+
+
+{ question: "With respect to Addisonian pigmentation, all of the following statements are true except",
+img: "",
+answers: [
+{ text: " Presence of moles and scars", correct: true },
+{ text: " Represented by palmar creases ", correct: false },
+{ text: " Does not affect the oral mucosa", correct: false },
+{ text: " Decreased fibrosis", correct: false },
+], },
+
+
+{ question: " In Addison's disease, the most commonly implemented test for clinical diagnosis is",
+img: "",
+answers: [
+{ text: " Serum Na+, K +. Renin", correct: false },
+{ text: " Serum Na+, K+, Saline Suppression Test ", correct: false },
+{ text: " Determination of Plasma ACTH levels", correct: false },
+{ text: " ACTH Stimulation Test", correct: true },
+], },
+
+
+{ question: " Pituitary MRls in adrenal insufficiency are indicated in:",
+img: "",
+answers: [
+{ text: "High Renin and Low Aldosterone levels", correct: false },
+{ text: " High ACTH levels ", correct: false },
+{ text: " Low Renin and High Aldosterone levels", correct: false },
+{ text: " Normal Renin and Aldosterone levels", correct: true },
+], },
+
+
+{ question: " The most common cause of Cushing's syndrome is",
+img: "",
+answers: [
+{ text: " Pituitary adenoma", correct: false },
+{ text: " Adrenal adenoma ", correct: false },
+{ text: " Ectopic ACTH", correct: false },
+{ text: " Iatrogenic corticosteroids", correct: true },
+], },
+
+
+{ question: " The basal ACTH level is highest in __ _",
+img: "",
+answers: [
+{ text: " ACTH-secreting pituitary adenoma", correct: false },
+{ text: "Ectopic source of ACTH ", correct: true },
+{ text: "Adrenal adenoma", correct: false },
+{ text: " Iatrogenic hypercortisolism", correct: false },
+], },
+
+
+{ question: " CRH responsiveness and residual ACTH suppression by high-dose dexamethasone I is seen in hypercortisolism due to",
+img: "",
+answers: [
+{ text: " Bronchial carcinoid", correct: false },
+{ text: "Small cell lung cancer ", correct: false },
+{ text: " Pituitary corticotroph adenoma", correct: true },
+{ text: " Adrenocortical adenoma", correct: false },
+], },
+
+
+{ question: " Mrs.Rani, a 50-year-old woman after the initial investigations is diagnosed to have Cushing's I syndrome. Further detailed investigations revealed a Petrosal/ Peripheral ACTH ratio > 2. What is the treatment of choice in this patient?",
+img: "",
+answers: [
+{ text: " Bilateral adrenalectomy", correct: false },
+{ text: "Transsphenoidal pituitary surgery ", correct: true },
+{ text: "Removal of ectopic tumor", correct: false },
+{ text: " Metyrapone", correct: false },
+], },
+
+{ question: " The investigation of choice in ACTH-dependent Cushing's syndrome is",
+img: "",
+answers: [
+{ text: " MRI", correct: true },
+{ text: " CRH Stimulalion Test ", correct: false },
+{ text: "High-dose Dexamethasone Suppression Test", correct: false },
+{ text: " Inferior Petrosal Sinus Sampling", correct: false },
+], },
+
+
+{ question: "The management of Cushing's syndrome is by:",
+img: "",
+answers: [
+{ text: " Mitotane", correct: false },
+{ text: " Metyrapone ", correct: false },
+{ text: "Ketoconazole", correct: false },
+{ text: " All of the above", correct: true },
+], },
+
+
+{ question: " Which of the following drugs is an adrenolytic agent in the management of adrenocortical carcinoma?",
+img: "",
+answers: [
+{ text: " Mitotane", correct: true },
+{ text: " Metyrapone ", correct: false },
+{ text: " Ketoconazole", correct: false },
+{ text: " Trilostane", correct: false },
+], },
+
+
+{ question: " Which of the following is a possible complication of B/L adrenalectomy?",
+img: "",
+answers: [
+{ text: " Sheehan's syndrome", correct: false },
+{ text: "Cushing's syndrome ", correct: false },
+{ text: " Watemouse-Friderichsen syndrome", correct: false },
+{ text: "Nelson's syndrome", correct: true },
+], },
+
+
+{ question: " Which of the following is not a cause of Pseudo-Cushing's syndrome?",
+img: "",
+answers: [
+{ text: " Obesity", correct: false },
+{ text: "Alcoholism ", correct: false },
+{ text: "Depression", correct: false },
+{ text: " Medullary thyroid cancer", correct: true },
+], },
+
+
+{ question: " Cushing's syndrome is commonly caused by __ _",
+img: "",
+answers: [
+{ text: " Adrenal adenoma", correct: false },
+{ text: " Adrenal hyperplasia ", correct: false },
+{ text: " Ectopic ACTH production", correct: true },
+{ text: " Adrenal carcinoma", correct: false },
+], },
+
+
+{ question: "ACTH-dependent Cushing's syndrome is caused by",
+img: "",
+answers: [
+{ text: "cushing's cusease", correct: true },
+{ text: " Aarenal aaenoma ", correct: false },
+{ text: "Adrenocortical carcinoma", correct: false },
+{ text: " McCune-Albright Syndrome", correct: false },
+], },
+
+
+{ question: " Which of the following clinical features is not a characteristic of Cushing's syndrome?",
+img: "",
+answers: [
+{ text: " Truncal obesity", correct: false },
+{ text: " Osteoporosis ", correct: false },
+{ text: " Distal myopathy", correct: true },
+{ text: " Glucose intolerance", correct: false },
+], },
+
+
+{ question: " The following conditions are commonly associated with Cushing's syndrome except",
+img: "",
+answers: [
+{ text: "Hypokalemia", correct: false },
+{ text: " Hypoglycemia ", correct: true },
+{ text: " Frank psychosis", correct: false },
+{ text: " Hypertension", correct: false },
+], },
+
+
+{ question: " All of the following statements are true about Cushing's syndrome except",
+img: "",
+answers: [
+{ text: " It is commonly associated with MEN1 syndrome", correct: true },
+{ text: " Bronchial carcinoid is a possible cause ", correct: false },
+{ text: " It is characterized by hypokalemia", correct: false },
+{ text: " It is associated with incident coronar heart disease", correct: false },
+], },
+
+
+{ question: " A 28-year-old woman had put on 10kg of weight over a period of 3 years. She was I diagnosed with oligomenorrhea followed by amenorrhea for 8 months. Her blood pressure was recorded at 160/90 mm Hg. Which of the following would the most appropriate choice of clinical investigation with respect to her condition?",
+img: "",
+answers: [
+{ text: " Determination of serum electrotyte level", correct: false },
+{ text: "Single midnight serum cortisol measurement ", correct: true },
+{ text: " Plasma testosterone determination and USG examination", correct: false },
+{ text: " None of the above", correct: false },
+], },
+
+
+{ question: " A chronic smoker presented with mild hemoptysis. He had a medical history of hypertension and obesity. Laboratory data indicated a rise in the ACTH level which was not suppressed by high-dose dexamethasone. The possible cause of Cushing's syndrome in this patient is __ _",
+img: "",
+answers: [
+{ text: " MEN1 syndrome", correct: false },
+{ text: " Pituitary adenoma ", correct: false },
+{ text: "Adrenal cortical adenoma", correct: false },
+{ text: " Ectopic ACTH-secreting tumor", correct: true },
+], },
+
+
+{ question: " Mr.Anand, a middle-aged man presents with hypertension, increasing weight gain, moon facies, and easy I bruisability. On examination, the following clinical feature is seen. The physician suspects Cushing's syndrome. The screening tests for the diagnosis of Cushing's syndrome include all of the following except",
+img: "",
+answers: [
+{ text: " Midnight plasma cortisol measurement", correct: false },
+{ text: " Determination of plasma ACTH levels ", correct: true },
+{ text: " 24-h urinary free cortisol excretion measurement", correct: false },
+{ text: " Overnight dexamethasone suppression test", correct: false },
+], },
+
+
+{ question: " The symptoms of diabetes include all except __ _",
+img: "",
+answers: [
+{ text: " Polyuria", correct: false },
+{ text: " Polydipsia ", correct: false },
+{ text: " Weight gain", correct: true },
+{ text: "Weight loss", correct: false },
+], },
+
+
+{ question: " Which of the following establishes a diagnosis of diabetes mellitus?",
+img: "",
+answers: [
+{ text: " FPG 1 oo mg/di and 2 hour PP plasma glucose of 140 mg/di", correct: false },
+{ text: " FPG 125 mg/di and 2 hour PP plasma glucose of 199 mg/di ", correct: false },
+{ text: " Symptoms of diabetes and a random blood glucose of 190 mg/di", correct: false },
+{ text: " HbA1>6.5 %", correct: true },
+], },
+
+
+{ question: " Mr. Mohan, a 50-year-old man presents to his physician for routine health evaluation. I He reports that he frequently feels thirsty and wakes up at night to urinate. He takes no medications but has a family history of OM. The physician suspects OM in him. To confirm the diagnosis, all of the following tests can be employed except,",
+img: "",
+answers: [
+{ text: " Random blood glucose test", correct: false },
+{ text: " D-Xylose absorption test ", correct: true },
+{ text: " Oral glucose tolerance test", correct: false },
+{ text: "Fasting blood glucose test", correct: false },
+], },
+
+
+{ question: " Impaired glucose tolerance is clinically indicated by __",
+img: "",
+answers: [
+{ text: " Fasting Plasma Glucose levels between 100 and 125 mg/dl", correct: false },
+{ text: "Random Glucose levels between 140 and 199 mg/dl ", correct: false },
+{ text: " Plasma Glucose levels between 140 and 199 mgldL following Oral Glucose Tolerance test", correct: true },
+{ text: " Fasting Plasma Glucose levels between 100 and 199 mgldL", correct: false },
+], },
+
+
+{ question: " HbA 1 c level in blood is attributed to",
+img: "",
+answers: [
+{ text: " An acute rise in the sugar level", correct: false },
+{ text: " Hepatitis c infection ", correct: false },
+{ text: " Long-term blood sugar level", correct: true },
+{ text: " Marker of Hepatitis B in a carrier", correct: false },
+], },
+
+{ question: " Which among the following statements is true about the ADA recommendations for I the screening of diabetes mellitus?",
+img: "",
+answers: [
+{ text: "All individuals > 45 years must undergo screening in every 3 years", correct: true },
+{ text: " All individuals >50 years must undergo screening in every 5 years ", correct: false },
+{ text: " Oral Glucose Tolerance Test to be used", correct: false },
+{ text: " Random blood glucose levels to be determined", correct: false },
+], },
+
+
+{ question: " A middle-aged obese female patient has recently been diagnosed with type 2 OM. The best initial drug of choice for the clinical management of type 2 diabetes mellitus in obese patients is __ _",
+img: "",
+answers: [
+{ text: " Metformin", correct: true },
+{ text: " Sulfonylurea ", correct: false },
+{ text: " Meglitinide", correct: false },
+{ text: " Sitagliptin", correct: false },
+], },
+
+
+{ question: " A type 2 OM patient on oral hypoglycemic agents (OHA) is brought to the ER by her relatives after she suffered a brief, seizure-like episode. On examination, the patient had low levels of consciousness, and investigations showed hypoglycemia. Which of the following drugs most likely played a role in the patient's current presentation?",
+img: "",
+answers: [
+{ text: " Metformin", correct: false },
+{ text: " Pioglitazone ", correct: false },
+{ text: " Sitagliptin", correct: false },
+{ text: " Repaglinide", correct: true },
+], },
+
+
+{ question: " Drugs which can be used in the treatment of both Type 1 and Type 2 diabetes mellitus include all of the following with the exception of",
+img: "",
+answers: [
+{ text: " Acarbose", correct: false },
+{ text: "Pramlintide ", correct: false },
+{ text: " Mettormin", correct: true },
+{ text: " Insulin", correct: false },
+], },
+
+
+{ question: " A 40-year-old male patient is suffering from Type 2 diabetes mellitus and hypertension. The hypertensive drug which is not favorable for application on this patient is",
+img: "",
+answers: [
+{ text: " Hydrochlorothiazide", correct: true },
+{ text: "Losartan ", correct: false },
+{ text: "Lisinopril", correct: false },
+{ text: "Trandolapril", correct: false },
+], },
+
+
+{ question: " A Type 2 diabetic patient following treatment complains of frequent urination, fever, I and burning micturition. Which of the following drugs is most likely responsible for the aforementioned effects?",
+img: "",
+answers: [
+{ text: " Dapagliflozin", correct: true },
+{ text: "Metformin ", correct: false },
+{ text: " Glipizide", correct: false },
+{ text: " Exenatide", correct: false },
+], },
+
+
+{ question: " Raju, a 4-year-old boy is brought by his worried mother. She says that he urinates 10 times a day and is always drinking water. She also reports that despite eating more than his brother did at the same age, he is not gaining any weight. After the initial workup, he is diagnosed with type - 1 diabetes mellitus. Which of the following statements is true about this condition?",
+img: "",
+answers: [
+{ text: "It is an autoimmune disease", correct: true },
+{ text: " It is non-insulin dependent ", correct: false },
+{ text: " It is not associated with thyroid disorder", correct: false },
+{ text: " Insulin-resistance is the hallmark for pathogenesis", correct: false },
+], },
+
+
+{ question: " To which of the following type of agents does the ultra-short-acting insulin belong?",
+img: "",
+answers: [
+{ text: " Lente", correct: false },
+{ text: " Detemir ", correct: false },
+{ text: " Glargine", correct: false },
+{ text: " Glulisine", correct: true },
+], },
+
+
+{ question: " Which of the following is a form of inhalable insulin?",
+img: "",
+answers: [
+{ text: " Detemir", correct: false },
+{ text: " Degludec ", correct: false },
+{ text: " Afrezza", correct: true },
+{ text: " Glul isine", correct: false },
+], },
+
+
+{ question: " Mr.John, a known diabetic patient presents to the ER with confusion, vomiting, and I abdominal pain. His blood sugar levels were elevated and he was diagnosed to have OKA. He was administered with insulin, which of the following conditions is most likely to occur?",
+img: "",
+answers: [
+{ text: " Hypernatremia", correct: false },
+{ text: " Hyperkalemia ", correct: false },
+{ text: "Hypokalemia", correct: true },
+{ text: "Hypercalcemia", correct: false },
+], },
+
+
+{ question: "Dawn Phenomenion is clinically suspected whe111 a patient shows one of the following blood findings. Identify the findings associated with this medical condition",
+img: "",
+answers: [
+{ text: "Early morning hyperglycemia with hypoglycemia at 3 am", correct: false },
+{ text: " Early morning hypoglycemia with normal blood glucose levels at 3 am ", correct: false },
+{ text: " Early morning hyperglycemia with normal blood glucose levels at 3 am", correct: true },
+{ text: "Early morning hypoglycemia with hyperglycemia at 3 am", correct: false },
+], },
+
+
+{ question: " Insulin resistance is said to have developed when the required insulin dosage is",
+img: "",
+answers: [
+{ text: " > 200 units per day", correct: true },
+{ text: " > 100 unit per day ", correct: false },
+{ text: " > 150 units per day", correct: false },
+{ text: " None", correct: false },
+], },
+
+
+{ question: " A 10-year-old child with a known case of type 1 OM presents with confusion. The blood glucose level is 353 mg/di and pH-7.0. What is the metabolic abnormality?",
+img: "",
+answers: [
+{ text: " Respiratory acidosis", correct: false },
+{ text: " Metabolic alkalosis ", correct: false },
+{ text: " Metabolic acidosis", correct: true },
+{ text: " Respiratory alkalosis", correct: false },
+], },
+
+
+
+{ question: "The value of TG and VLDL are high in chronic diabetes because of which of the following reasons",
+img: "",
+answers: [
+{ text: " Increased activity of lipoprotein lipase and decreased activity of hormone sensitive lipase", correct: false },
+{ text: " Increased activity of hormone sensitive lipase and decreased lipoprotein lipase activity ", correct: true },
+{ text: " Increase in peripheral function of LDL receptors", correct: false },
+{ text: " Increased activity of hormone sensitive lipase and decreased lipoprotein lipase activity", correct: false },
+], },
+
+
+{ question: " The major susceptible gene for Type 1 diabetes mellitus is located on chromosome",
+img: "",
+answers: [
+{ text: " 1", correct: false },
+{ text: " 4 ", correct: false },
+{ text: " 6", correct: true },
+{ text: " 12", correct: false },
+], },
+
+
+{ question: " The percentage of concordance between identical twins in Type 2 diabetes mellitus is between ---",
+img: "",
+answers: [
+{ text: " 20 and 40", correct: false },
+{ text: " 30 and 60 ", correct: false },
+{ text: " 50 and 70", correct: false },
+{ text: " 70 and 90", correct: true },
+], },
+{ question: " In Type 2 diabetes mellitus, an increase in the fasting plasma glucose level is predominantly due to:",
+img: "",
+answers: [
+{ text: " Increased hepatic glucose output", correct: true },
+{ text: " Decreased peripheral utilization of glucose ", correct: false },
+{ text: " Decreased glucagon", correct: false },
+{ text: " Increased :somatostatin", correct: false },
+], },
+
+
+{ question: " All of the following statements are true regarding Maturity Onset Diabetes of the Young (MODY) except",
+img: "",
+answers: [
+{ text: " It is an autosomal-dominant trait", correct: false },
+{ text: " MODY 4 is the most common form ", correct: true },
+{ text: " Diabetic Ketoacidosis is uncommon", correct: false },
+{ text: " lnsulinopenia is present", correct: false },
+], },
+
+
+{ question: " Type 1 diabetes affects only the younger age group. This statement is proved false by",
+img: "",
+answers: [
+{ text: " MODY", correct: false },
+{ text: " Latent diabetes ", correct: false },
+{ text: " Brittle diabetes", correct: false },
+{ text: " Latent autoimmune diabetes", correct: true },
+], },
+
+
+{ question: " Which of the following is least likely to be associated with Diabetes ?",
+img: "",
+answers: [
+{ text: "Hemochromatosis", correct: false },
+{ text: " Prader Willi syndrome ", correct: false },
+{ text: " Joubert syndrome", correct: true },
+{ text: " Friedrich's Ataxia", correct: false },
+], },
+
+
+
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+
