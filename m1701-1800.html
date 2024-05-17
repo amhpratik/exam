@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 1701-1800 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 1701-1800 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Ainam</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+            { question: "A 30-year-old male presents with diarrhoea, confusion, high-grade fever, and bilateral pneumonitis. Which pathogenic agent is suspected?",
+img: "img1701-1800/pg2077.png",
+answers: [
+{ text: " Legionella", correct: true },
+{ text: "Pneumocystis jiroveciii ", correct: false },
+{ text: " Pseudomonas aeruginosa", correct: false },
+{ text: "Streptococcus pneumoniae", correct: false },
+], },
+
+{ question: "Urinary antigen detection test is recommended for diagnosis of:",
+img: "",
+answers: [
+{ text: "Mycoplasma pneumonia", correct: false },
+{ text: "Chlamydia pneumonia ", correct: false },
+{ text: "Streptococcus pneumonia", correct: false },
+{ text: "Streptococcus pneumoniae", correct: true },
+], },
+
+{ question: "A 26-year-old male presents to the OPD with fever, headache, and unilateral swelling of the parotid gland. Ear examination showed vesicles on the tympanic membrane and lymphadenopathy was present. The patient has a history of throat infection. The patient also complained of multiple joint pains and cough with scanty sputum. A chest x-ray was done. Which is the most likely causative organism for this condition?",
+img: "img1601-1700/pg2077.png",
+answers: [
+{ text: "Pneumococcus", correct: false },
+{ text: "Mycoplasma ", correct: true },
+{ text: "Legionella", correct: false },
+{ text: " Chlamydia", correct: false },
+], },
+
+
+{ question: "Which of the following is not true about Mycoplasma pneumonia?",
+img: "",
+answers: [
+{ text: "Cannot be cultured routinely", correct: false },
+{ text: "Diffuse infiltration of lungs is seen ", correct: false },
+{ text: " Cefotaxime is the drug of choice", correct: true },
+{ text: " Serology is useful in diagnosis", correct: false },
+], },
+
+{ question: "A 46-year-old chronic alcoholic male presents to the OPD with fever, headache, shortness of breath, chest pain, and productive cough for the last two days. On examination respiratory rate of 30/ min and heart rate of 120/ min was observed. On examination there was bronchial breathing on the right side, increased VF, increased VR, and dull note on percussion. A chest x-ray was done. Which is the most likely causative agent?",
+img: "img1701-1800/pg2079.png",
+answers: [
+{ text: "Streptococcus pneumoniae", correct: false },
+{ text: " Klebsiella pneumoniae ", correct: false },
+{ text: "Pseudomonas aeruginosa", correct: true },
+{ text: "Haemophilus influenza", correct: false },
+], },
+
+{ question: "A 3-month-old male child was brought with a history of fever and respiratory distress. Suspecting pneumonia, a chest X-ray was ordered. Which of the following is the most likely causative organism?",
+img: "img1701-1800/pg2081.png",
+answers: [
+{ text: " Klebsiella pneumoniae", correct: false },
+{ text: " Streptococcus pneumoniae ", correct: false },
+{ text: "Mycoplasma pneumoniae", correct: false },
+{ text: " Staphylococcus aureus", correct: true },
+], },
+
+{ question: "The best biomarker for lobar pneumonia is __ _",
+img: "",
+answers: [
+{ text: "CRP", correct: false },
+{ text: " Procalcitonin ", correct: true },
+{ text: " Fibrinogen", correct: false },
+{ text: " Serum amyloid", correct: false },
+], },
+
+{ question: "On performing a pulmonary function test, reduction in FEV1/FVC is characteristic of:",
+img: "",
+answers: [
+{ text: "Restriet1ve disease", correct: false },
+{ text: "Obstructive disease ", correct: true },
+{ text: "Normal lung function", correct: false },
+{ text: "Interstitial lung disease", correct: false },
+], },
+
+{ question: "A flow-volume loop is given below. Which is the most likely diagnosis?",
+img: "img1701-1800/pg2084.png",
+answers: [
+{ text: "Obstructive airway disease", correct: false },
+{ text: "Restrictive airway disease ", correct: false },
+{ text: "Tracheal stenosis", correct: true },
+{ text: " Vocal cord paralysis", correct: false },
+], },
+
+{ question: "The flow-volume curve after spirometry in patient 1 is given below. The most likely I diagnosis in this patient is __ _",
+img: "img1701-1800/pg2087.png",
+answers: [
+{ text: "Endobroncnial neoplasm", correct: false },
+{ text: "Bronctlial Astnma ", correct: false },
+{ text: " Myasthenia gravis", correct: true },
+{ text: "Empnysema", correct: false },
+], },
+
+{ question: "A 66-year-old smoker presents with chronic productive cough and progressive dyspnea for 2 years. Physical examination revealed a barrel chest and poor air entry. Which of the following will not be seen?",
+img: "",
+answers: [
+{ text: "Normal residual volume", correct: true },
+{ text: " Decreased FEV1 ", correct: false },
+{ text: "Normal vital capacity", correct: false },
+{ text: "Decreased FEV1/FVC", correct: false },
+], },
+
+{ question: "An 8-year-old boy presents with intermittent wheeze, cough, and has a family history I of asthma. Spirometry was performed. Which of the following would be false regarding the results?",
+img: "",
+answers: [
+{ text: "Decreased forced expiratory volume in one second (FEV1 )", correct: false },
+{ text: "Increased residual volume (RV) ", correct: false },
+{ text: "Decreased mean expiratory flow rate (MEFR)", correct: false },
+{ text: " Decreased diffusion capacity", correct: true },
+], },
+
+{ question: "Decreased maximum mid- expiratory flow rate (MMFR) is seen in obstruction of __",
+img: "",
+answers: [
+{ text: " Trachea", correct: false },
+{ text: " Large airways ", correct: false },
+{ text: "Small airways", correct: true },
+{ text: "Both a and b", correct: false },
+], },
+
+{ question: "Which of the following diseases would have low FEV1 and FVC with a normal FEV1/FVC ratio?",
+img: "",
+answers: [
+{ text: "Bronclliectasis", correct: false },
+{ text: "Astllma ", correct: false },
+{ text: "Pleural effusion", correct: true },
+{ text: "COPD", correct: false },
+], },
+
+{ question: "A 76-year-old retired worker from a granite quarry has progressive dyspnea and a I chronic cough. He has never smoked cigarettes. Clhest x-ray revealed nodular fibrosis and egg-shell calcifications. Which of the following1 pattern of PFT can be expected in this patient?",
+img: "",
+answers: [
+{ text: "FEV1/FVC decreases, compliance decreases", correct: false },
+{ text: "FEV1 /FVC increases and compliance increases ", correct: false },
+{ text: "FEV1 /FVC decreases and compliance increases", correct: false },
+{ text: "FEV1/FVC increases and compliance decreases", correct: true },
+], },
+
+{ question: "A 72-year-old man presents with mild shortness of breath. A chest radiograph revealed bi-basilar reticular markings. Lung biopsy shows usual interstitial pneumonia. Which of the following is likely to be increased?",
+img: "",
+answers: [
+{ text: "Total vital capacity", correct: false },
+{ text: "Forced vttal capacity (FVC) ", correct: false },
+{ text: " lung compliance", correct: false },
+{ text: " Alveolar arterial difference in Pa02", correct: true },
+], },
+
+{ question: "In which of the following condition is diffusing capacity of the lungs for carbon monoxide (DLCO) decreased?",
+img: "",
+answers: [
+{ text: "Interstitial lung disease", correct: false },
+{ text: " Emphysema ", correct: false },
+{ text: " Bronchiolitis obliterans", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+{ question: "A 30-year-old diagnosed with limited cutaneous systemic sclerosis (scleroderma) 14 I years back presents with breathlessness. Her PFT is as follows. What is the most probable diagnosis?",
+img: "img1701-1800/pg2096.png",
+answers: [
+{ text: "Pulmonary artery hypertension", correct: true },
+{ text: " Interstitial lung disease ", correct: false },
+{ text: "Congestive heart failure", correct: false },
+{ text: "Bronchiectasis", correct: false },
+], },
+
+{ question: "Which among the following is not a cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: " Ebstein anomaly", correct: false },
+{ text: "Ventricular septal defect with pulmonic stenosis ", correct: false },
+{ text: " Pulmonary AV malformation", correct: false },
+{ text: "Infundibular stenosis", correct: true },
+], },
+
+{ question: "The most common type of total anomalous pulmonary venous connection is",
+img: "",
+answers: [
+{ text: " Supracardiac", correct: true },
+{ text: "Cardiac ", correct: false },
+{ text: " Intracardiac", correct: false },
+{ text: "Mixed", correct: false },
+], },
+
+{ question: "A 1-day old infant born at full term by an uncomplicated spontaneous vaginal delivery was noted to have cyanosis of the oral mucosa. Chest x-ray revealed a snowman appearance of the cardiac silhouette. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: " Transposition of great arteries", correct: false },
+{ text: " Truncus arteriosus ", correct: false },
+{ text: " Tricuspid atresia", correct: false },
+{ text: "Total anomalous pulmonary venous connection", correct: true },
+], },
+
+{ question: "A 5-day-old, full-term male infant was severely cyanotic at birth. Prostaglandin E1 was administered initially, followed by balloon atrial septostomy, which showed improvement in oxygenation. The most likely diagnosis is __ _",
+img: "",
+answers: [
+{ text: " Tetralogy of Fallot", correct: false },
+{ text: "Transposition of great arteries ", correct: true },
+{ text: " Truncus arteriosus", correct: false },
+{ text: " Tricuspid atresia", correct: false },
+], },
+
+{ question: "Below is the chest X-ray image obtained for a neonate on day 7 of life who developed heart failure later. What is the most probable diagnosis?",
+img: "img1701-1800/pg2105.png",
+answers: [
+{ text: "Tetralogy of Fallot", correct: false },
+{ text: "Ventricular septal defect ", correct: false },
+{ text: " Total anomalous pulmonary venous connection", correct: false },
+{ text: "Transposition of great arteries", correct: true },
+], },
+
+{ question: "Which of the following is the most common cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: "Tetralogy of Fallot", correct: true },
+{ text: "Transposition of Great Arteries ", correct: false },
+{ text: " Tricuspid Atresia", correct: false },
+{ text: "Total Anomalous Pulmonary Venous", correct: false },
+], },
+
+{ question: "All are seen in tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Ventricular septal defect", correct: false },
+{ text: "Right ventricular hypertrophy ", correct: false },
+{ text: "Atrial septal defect", correct: true },
+{ text: "Pulmonary stenosis", correct: false },
+], },
+
+{ question: "All of the following are features of tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Soft P2", correct: false },
+{ text: " large ascending aorta ", correct: false },
+{ text: "Cardiomegaly", correct: true },
+{ text: "large 'a' waves in jugular venous pulse ", correct: false },
+], },
+
+{ question: "A child with tetralogy of Fallot feels comfortable in a squatting position as soon as he gets dyspneic. All of the following are true except ___ _",
+img: "",
+answers: [
+{ text: "A It increases the systemic vascular resistance", correct: false },
+{ text: "It increases the magnitude of right-to-left shunt ", correct: true },
+{ text: "Leads to trapping of deoxygenated blood in lower limbs", correct: false },
+{ text: "Both A and C", correct: false },
+], },
+
+{ question: "Blalock-Taussig shunt is done between ___ _",
+img: "",
+answers: [
+{ text: "Subclavian artery to pulmonary artery", correct: true },
+{ text: " Aorta to pulmonary vein ", correct: false },
+{ text: "Aorta to pulmonary artery", correct: false },
+{ text: "Subclavian vein t0 pulmonary artery", correct: false },
+], },
+
+{ question: "Which of the following is a component of the pentalogy of Fallot?",
+img: "",
+answers: [
+{ text: " Atrial septal detect", correct: true },
+{ text: "Patent ductus arteriosus ", correct: false },
+{ text: " Coarctation of the aorta", correct: false },
+{ text: " Left ventricular hypertrophy", correct: false },
+], },
+
+{ question: "A 6-month-old child with tetralogy of Fallot develops cyanotic spell initiated by crying. Which of the following drugs would you avoid?",
+img: "",
+answers: [
+{ text: "A Sodium bicarbonate", correct: false },
+{ text: " Propranolol ", correct: false },
+{ text: "Phenylephrine", correct: false },
+{ text: "Isoprenaline", correct: true },
+], },
+
+{ question: "Which of the following is not a feature of Eisenmenger's syndrome?",
+img: "",
+answers: [
+{ text: "Right ventricular hypertrophy", correct: false },
+{ text: "Bidirectional flow of blood ", correct: false },
+{ text: "Obstructive pulmonary hypertension", correct: false },
+{ text: "Predominant left to right shunt", correct: true },
+], },
+
+{ question: "Sleep apnea is defined as a temporary pause in breathing during sleep lasting at least",
+img: "",
+answers: [
+{ text: "30 seconds", correct: false },
+{ text: "20 seconds ", correct: false },
+{ text: "15 seconds", correct: false },
+{ text: " 10 seconds", correct: true },
+], },
+
+{ question: "Which of the following is not a component of polysomnography?",
+img: "",
+answers: [
+{ text: "EEG", correct: false },
+{ text: "Skeletal muscle activation ", correct: false },
+{ text: " Peripheral pulse oximetry", correct: false },
+{ text: "Arterial blood gases", correct: true },
+], },
+
+{ question: "Which of the following is not characteristic of central apnea?",
+img: "",
+answers: [
+{ text: "Transient cessation of neural drive to all respiratory muscles", correct: false },
+{ text: "Associated with Cheyne Stokes breathing ", correct: false },
+{ text: " Is due to decreased sensitivity to pC02", correct: true },
+{ text: " Can be induced by CPAP at high pressure", correct: false },
+], },
+
+{ question: "All of the following drugs are risk factors for the development of central sleep apnoea I except __",
+img: "",
+answers: [
+{ text: "Opioids", correct: false },
+{ text: " Strychnine ", correct: true },
+{ text: "Barbiturates", correct: false },
+{ text: "Gelsemium", correct: false },
+], },
+
+{ question: "A 58-year-old man presents with insomnia and frequent awakenings at night. He has had 3 hospitalisations for decompensated congestive heart failure (CHF) in the past year. He states that he frequently falls asleep during the day if he is not active. His wife reports that his breathing at night has changed accompanied by snoring. Polysomnography was done and the following breathing pattern was noticed. What is it called?",
+img: "img1701-1800/pg2118.png",
+answers: [
+{ text: "Hyperventilation respiration", correct: false },
+{ text: "Cheyne-Stokes respiration ", correct: true },
+{ text: "Kussmaul's respiration", correct: false },
+{ text: "Biol's respiration", correct: false },
+], },
+
+{ question: "A 40-year-old man presents with daytime sleepiness and impaired concentration and I memory. On examination, his BMI is 41 kg/m2, blood pressure is 160/100 mm of Hg. His awake arterial blood gas analysis shows bicarbonate - 30 mEq/L, PaC02 - 50 mmHg, Pa02 - 66 mmHg. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Obstructive sleep apnea", correct: false },
+{ text: "Narcolepsy ", correct: false },
+{ text: "Obesity hypoventilation syndrome", correct: true },
+{ text: " COPD", correct: false },
+], },
+
+
+{ question: "Sleep apnea MCQ 7 A 43-year-old obese man presents with loud chronic snoring and gasping episodes I during sleep. His wife has witnessed episodic apnoea. He reports unrefreshing sleep, multiple awakenings from sleep, and morning headaches. He has excessive daytime sleepiness, which is interfering with his daily activities, and he narrowly avoided being involved in a motor vehicle accident. His memory is also affected. He is being treated for hypertension, gastro-oesophageal reflux, and type 2 diabetes. What else would be the ideal therapy for his symptoms?",
+img: "",
+answers: [
+{ text: "Supplemental oxygenation therapy", correct: false },
+{ text: "Uvulopalatopharyngoplasty ", correct: false },
+{ text: "Continuous positive airway pressure therapy (CPAP)", correct: true },
+{ text: " Implantable neuro-stimulation of tile hypoglossal nerve", correct: false },
+], },
+
+{ question: "Which of the following is not a component of Syndrome Z?",
+img: "",
+answers: [
+{ text: "Obstructive Sleep Apnea", correct: false },
+{ text: "Blood pressure more than 130/85 mmHg ", correct: false },
+{ text: "Fasting triglycelide more than150mg/dl", correct: false },
+{ text: "LDL more than 100mg/dl", correct: true },
+], },
+
+{ question: "The most common inflammatory myopathy seen in the elderly is _",
+img: "",
+answers: [
+{ text: "Polymyositis", correct: false },
+{ text: "Dermatomyositis ", correct: false },
+{ text: "Inclusion body myositis", correct: true },
+{ text: "Necrotizing autoimmune myopathy", correct: false },
+], },
+
+{ question: "A 35-year-old female is recently diagnosed with dermatomyositis. Positive titers of which of the following antibodies are associated with mechanic's hand?",
+img: "",
+answers: [
+{ text: " Anti-Mi-1", correct: false },
+{ text: "Anti. -Jo1 ", correct: true },
+{ text: " Anti PM/SCL", correct: false },
+{ text: "Anti 155/140", correct: false },
+], },
+
+{ question: "Autoantibody seen in dermatomyositis associated with malignancy is _",
+img: "",
+answers: [
+{ text: " Anti-Mi-2", correct: false },
+{ text: "Anti- Jo1 ", correct: false },
+{ text: "Anti PM/SCL", correct: false },
+{ text: "Anti 155/140", correct: true },
+], },
+
+{ question: "Specific antibody in overlap syndrome of Dermatomyositis with systemic sclerosis is?",
+img: "",
+answers: [
+{ text: "Anti - Jo 1", correct: false },
+{ text: "Anti PM/Scl ", correct: true },
+{ text: "Anti centromere", correct: false },
+{ text: "U3-RNP", correct: false },
+], },
+
+{ question: "A 40-year-old male patient complains that he is too weak to climb stairs or brush his hair. He denies any headaches or changes in vision. A muscle biopsy reveals perimysial inflammation and perifascicular atrophy. Which of the following is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Inclusion body myositis", correct: false },
+{ text: "Dermatomyositis ", correct: true },
+{ text: "Polymyositis", correct: false },
+{ text: "Necrotizing autoimmune myopathy", correct: false },
+], },
+
+{ question: "Which of the following myopathies is generally resistant to immunosuppressive therapies?",
+img: "",
+answers: [
+{ text: "Dermatomyositis", correct: false },
+{ text: "Polymyositis ", correct: false },
+{ text: " Inclusion body myositis", correct: true },
+{ text: " None of the above", correct: false },
+], },
+
+{ question: "A 35-year-old woman presents with severe generalized body ache, fatigue, sleep disturbances, and low mood for the past 4 months. Increased pain sensitivity and tender bony prominences are noted on examination. Laboratory and radiological investigations show normal results. What is the most probable diagnosis? ",
+img: "",
+answers: [
+{ text: "Polymyositis", correct: false },
+{ text: "Systemic lupus erythematosus ", correct: false },
+{ text: "Depression", correct: false },
+{ text: "Fibromyalgia", correct: true },
+], },
+
+{ question: "Which of the following statements is false about Fibromyalgia?",
+img: "",
+answers: [
+{ text: "More common in females", correct: false },
+{ text: " Aerobic exercise improves symptoms ", correct: false },
+{ text: "SPECT studies show hyperperfusion of the thalamus", correct: true },
+{ text: "Opioid analgesics are ineffective in pain management", correct: false },
+], },
+
+{ question: "Which of the following predominantly presents as asymmetric muscle weakness?",
+img: "",
+answers: [
+{ text: "Polymyositis", correct: false },
+{ text: "Dermatomyositis ", correct: false },
+{ text: "Inclusion Body myositis", correct: true },
+{ text: "Hypothyroid myopathy", correct: false },
+], },
+
+{ question: "Which of the following group of muscles are spared in inflammatory myopathies?",
+img: "",
+answers: [
+{ text: " Ocular muscles", correct: true },
+{ text: " Pharyngeal muscles ", correct: false },
+{ text: " Neck flexors", correct: false },
+{ text: "Quadriceps muscles", correct: false },
+], },
+
+{ question: "Which inflammatory myopathy is most frequently associated with autoimmune diseases?",
+img: "",
+answers: [
+{ text: "Inclusion body myositis", correct: false },
+{ text: "Polymyositis ", correct: true },
+{ text: "Dermatomyositis", correct: false },
+{ text: "Necrotizing autoimmune myopathy", correct: false },
+], },
+
+{ question: "A 50-year-old female patient, who is a known case of ovarian cancer, presents with difficulty in activities like climbing stairs, getting up from the chair, combing hair, etc. The following characteristic sign was found on examination. The most probable diagnosis is:",
+img: "img1701-1800/pg2134.png",
+answers: [
+{ text: " Systemic lupus erythematosis", correct: false },
+{ text: "Dermatomyositis ", correct: true },
+{ text: "Systemic sclerosis", correct: false },
+{ text: "Cushing syndrome", correct: false },
+], },
+
+{ question: "Pathognomonic sign of dermatomyositis is",
+img: "",
+answers: [
+{ text: "Gottron's papules", correct: true },
+{ text: " Poikiloderma ", correct: false },
+{ text: "Mechanic's hand", correct: false },
+{ text: "Shawl sign", correct: false },
+], },
+
+{ question: "A 55-year-old woman presents with complaints of difficulty in climbing up the stairs and standing up from a chair for the past few months. Which of the following findings in this patient would help in differentiating between dermatomyositis and polymyositis?",
+img: "",
+answers: [
+{ text: "Elevated creatine kinase", correct: false },
+{ text: "Interstitial lung disease ", correct: false },
+{ text: " Erythematous rash", correct: true },
+{ text: "Involvement of proximal muscles", correct: false },
+], },
+
+{ question: "A 50-year-old woman was recently diagnosed with dermatomyositis, she needs to be screened for:",
+img: "",
+answers: [
+{ text: "Diabetes mellitus", correct: false },
+{ text: "Malignancy ", correct: true },
+{ text: " HIV", correct: false },
+{ text: "All of the above", correct: false },
+], },
+
+{ question: "Initial investigation of choice in Inflammatory myositis is:",
+img: "",
+answers: [
+{ text: " ESR", correct: false },
+{ text: " Creatine kinase (CK) ", correct: true },
+{ text: "Electromyogram (EMG)", correct: false },
+{ text: "Biopsy", correct: false },
+], },
+
+{ question: "All of the following are true about gout except __",
+img: "",
+answers: [
+{ text: "The crystals are positively birefringent", correct: true },
+{ text: "Pyrazinamide can precipitate gout ", correct: false },
+{ text: "More common in males", correct: false },
+{ text: " Most commonly involves the first MTP joint", correct: false },
+], },
+
+{ question: "Antihypertensive of choice in patients with gout is __",
+img: "",
+answers: [
+{ text: "Hyorochlorthiazide", correct: false },
+{ text: "Metolazone ", correct: false },
+{ text: "Losartan", correct: true },
+{ text: "Furosemide", correct: false },
+], },
+
+{ question: "The most commonly affected joint in calcium pyrophosphate disease (CPPD) is---",
+img: "",
+answers: [
+{ text: " Wrist", correct: false },
+{ text: "knee ", correct: true },
+{ text: "Metacarpophalangeal joint", correct: false },
+{ text: " Metatarsophalangeal joint", correct: false },
+], },
+
+{ question: "A diagnosis of gouty arthritis is made after aspiration of the synovial fluid and polarised light microscopy shows negatively birefringent needle-shaped crystals. These crystals are",
+img: "",
+answers: [
+{ text: "Calcium apatite", correct: false },
+{ text: "Monosodium urate crystals ", correct: true },
+{ text: " Calcium pyrophosphate crystals", correct: false },
+{ text: "Calcium Oxalate crystals", correct: false },
+], },
+
+{ question: "Which of the following synovial fluid crystals cannot be identified using polarized light microscopy?",
+img: "",
+answers: [
+{ text: "Monosodium urate", correct: false },
+{ text: "Calcium pyrophosphate ", correct: false },
+{ text: " Calcium apatite", correct: true },
+{ text: "Calcium oxalate", correct: false },
+], },
+
+{ question: "Gout can be precipitated by all of the following drugs except __",
+img: "",
+answers: [
+{ text: "Furosemide", correct: false },
+{ text: "High dose salicylates ", correct: true },
+{ text: "Cyclosporine", correct: false },
+{ text: "Pyrazinamide", correct: false },
+], },
+
+{ question: "Martel's sign on X-Ray is seen in __",
+img: "",
+answers: [
+{ text: "Osteoarthritis", correct: false },
+{ text: "Gout ", correct: true },
+{ text: "Pseudogout", correct: false },
+{ text: "Rheumatoid arthritis", correct: false },
+], },
+
+{ question: "A 52-year-old man presents with complaints of severe joint pain on his big toe with multiple such episodes in the past. Chronic gout is suspected and an ultrasound of the first metatarsophalangeal joint is performed. What is the characteristic finding depicted in the following image?",
+img: "img1701-1800/pg2152.png",
+answers: [
+{ text: " Accordion sign", correct: false },
+{ text: " Linguine sign ", correct: false },
+{ text: "Double contour sign", correct: true },
+{ text: "Water lily sign", correct: false },
+], },
+
+{ question: "Mr. Shyam, who came with complaints of severe pain in his proximal interphalangeal joint of the right second toe has been diagnosed with acute gout. Which of the following drugs cannot be used in the treatment of this patient?",
+img: "",
+answers: [
+{ text: " Indomethacin", correct: false },
+{ text: "Prednisone ", correct: false },
+{ text: "Allopurinol", correct: true },
+{ text: " Colchicine", correct: false },
+], },
+
+{ question: "The mechanism of action of colchicine in gout is __",
+img: "",
+answers: [
+{ text: " Decreasing uric acid production", correct: false },
+{ text: "Increasing uric acid excretion ", correct: false },
+{ text: "Inhibiting cyclooxygenase enzyme", correct: false },
+{ text: "Preventing granulocyte migration", correct: true },
+], },
+
+{ question: "A 46-year-old male patient comes with complaints of severe left great toe pain. History is significant for similar episodes in the past year. A picture of his left foot is shown below. Which of the following interventions is best for the long-term treatment of this condition?",
+img: "img1701-1800/pg2155.png",
+answers: [
+{ text: "Probenecid", correct: false },
+{ text: "Colchicine ", correct: false },
+{ text: "Allopurinol", correct: true },
+{ text: " NSAIDS", correct: false },
+], },
+
+{ question: "Which among the following is not a cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: "Ebstein anomaly", correct: false },
+{ text: "Ventricular septal defect with pulmonic stenosis ", correct: false },
+{ text: "Pulmonary AV malformation", correct: false },
+{ text: "Infundibular stenosis", correct: true },
+], },
+
+{ question: "The most common type of total anomalous pulmonary venous connection is",
+img: "",
+answers: [
+{ text: "Supracardiac", correct: true },
+{ text: " Cardiac ", correct: false },
+{ text: "Intracardiac", correct: false },
+{ text: " Mixed", correct: false },
+], },
+
+{ question: "A 1-day old infant born at full term by an uncomplicated spontaneous vaginal delivery was noted to have cyanosis of the oral mucosa. Chest x-ray revealed a snowman appearance of the cardiac silhouette. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Transposition of great arteries", correct: false },
+{ text: "Truncus arteriosus ", correct: false },
+{ text: "Tricuspid atresia", correct: false },
+{ text: "Total anomalous pulmonary venous connection", correct: true },
+], },
+
+{ question: "A 5-day-old, full-term male infant was severely cyanotic at birth. Prostaglandin E1 was administered initially, followed by balloon atrial septostomy, which showed improvement in oxygenation. The most likely diagnosis is __ _",
+img: "",
+answers: [
+{ text: " Tetralogy of Fallot", correct: false },
+{ text: "Transposition of great arteries ", correct: true },
+{ text: "Truncus arteriosus", correct: false },
+{ text: "Tricuspid atresia", correct: false },
+], },
+
+{ question: "Below is the chest X-ray image obtained for a neonate on day 7 of life who developed heart failure later. What is the most probable diagnosis?",
+img: "img1701-1800/pg2164.png",
+answers: [
+{ text: "Tetralogy of Fallot", correct: false },
+{ text: " Ventricular septal defect ", correct: false },
+{ text: " Total anomalous pulmonary venous connection", correct: false },
+{ text: "Transposition of great arteries", correct: true },
+], },
+
+{ question: "Of the following, all are findings of the condition in the below chest X-ray except:",
+img: "img1701-1800/pg2165.png",
+answers: [
+{ text: "Increased pulmonary blood flow", correct: false },
+{ text: " Narrow vascular pedicle ", correct: false },
+{ text: " Right atrial enlargement", correct: false },
+{ text: "Pulmonary venous hypertension", correct: true },
+], },
+
+{ question: "Which among the following lesions is commonly seen in Ebstein anomaly?",
+img: "",
+answers: [
+{ text: "Mitral regurgitation", correct: false },
+{ text: "Tricuspid regurgitation ", correct: true },
+{ text: "Mitral stenosis", correct: false },
+{ text: "Tricuspid stenosis", correct: false },
+], },
+
+{ question: "The given X-ray image is seen in __",
+img: "img1701-1800/pg2167.png",
+answers: [
+{ text: " Partial anomalous pulmonary venous return", correct: false },
+{ text: "Total anomalous pulmonary venous return ", correct: false },
+{ text: "Endocardial cushion defects", correct: false },
+{ text: "Ebstein anomaly", correct: true },
+], },
+
+{ question: "Which of the following is the most common cyanotic congenital heart disease? ",
+img: "",
+answers: [
+{ text: "Tetralogy of Fallot", correct: true },
+{ text: "Transposition of Great Arteries ", correct: false },
+{ text: "Tricuspid Atresia", correct: false },
+{ text: " Total Anomalous Pulmonary Venous", correct: false },
+], },
+
+{ question: "All are seen in tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Ventricular septal defect", correct: false },
+{ text: "Right ventricular hypertrophy ", correct: false },
+{ text: " Atrial septal defect", correct: true },
+{ text: "Pulmonary stenosis", correct: false },
+], },
+
+{ question: "All of the following are features of tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Soft P2", correct: false },
+{ text: "large ascending aorta ", correct: false },
+{ text: "Cardiomegaly", correct: true },
+{ text: " large 'a' waves in jugular venous pulse", correct: false },
+], },
+
+{ question: "A child with tetralogy of Fallot feels comfortable in a squatting position as soon as he gets dyspneic. All of the following are true except ___ _",
+img: "",
+answers: [
+{ text: "It increases the systemic vascular resistance", correct: false },
+{ text: "It increases the magnitude of right-to-left shunt ", correct: true },
+{ text: " Leads to trapping of deoxygenated blood in lower limbs", correct: false },
+{ text: " Both A and C", correct: false },
+], },
+
+{ question: "Blalock-Taussig shunt is done between ___ _",
+img: "",
+answers: [
+{ text: "Subclavian artery to pulmonary artery", correct: true },
+{ text: " Aorta to pulmonary vein ", correct: false },
+{ text: "Aorta to pulmonary artery", correct: false },
+{ text: "Subclavian vein t0 pulmonary artery", correct: false },
+], },
+
+{ question: "Which of the following is a component of the pentalogy of Fallot?",
+img: "",
+answers: [
+{ text: "Atrial septal detect", correct: true },
+{ text: " Patent ductus arteriosus ", correct: false },
+{ text: " Coarctation of the aorta", correct: false },
+{ text: " Left ventricular hypertrophy", correct: false },
+], },
+
+{ question: "A 6-month-old child with tetralogy of Fallot develops cyanotic spell initiated by crying. Which of the following drugs would you avoid?",
+img: "",
+answers: [
+{ text: "Sodium bicarbonate", correct: false },
+{ text: "Propranolol ", correct: false },
+{ text: "Phenylephrine", correct: false },
+{ text: "Isoprenaline", correct: true },
+], },
+
+{ question: "Which of the following is not a feature of Eisenmenger's syndrome?",
+img: "",
+answers: [
+{ text: " Right ventricular hypertrophy", correct: false },
+{ text: "Bidirectional flow of blood ", correct: false },
+{ text: "Obstructive pulmonary hypertension", correct: false },
+{ text: "Predominant left to right shunt", correct: true },
+], },
+
+{ question: "HLA associated with rheumatoid arthritis is",
+img: "",
+answers: [
+{ text: "HLAB27", correct: false },
+{ text: "HLA DR4 ", correct: true },
+{ text: "HLA DR3", correct: false },
+{ text: "HLA 851", correct: false },
+], },
+
+{ question: "All the following may be seen in rheumatoid arthritis except __",
+img: "",
+answers: [
+{ text: "Hyperandrogenism", correct: true },
+{ text: " Hip fractures ", correct: false },
+{ text: "Osteoporosis", correct: false },
+{ text: "Congestive heart failure", correct: false },
+], },
+
+{ question: "All of the following characteristics are found in pleural effusion fluid of a Rheumatoid Arthritis patient except:",
+img: "",
+answers: [
+{ text: "RA factor", correct: false },
+{ text: "High glucose ", correct: true },
+{ text: "Cholesterol crystals", correct: false },
+{ text: "High LDH", correct: false },
+], },
+
+{ question: "Which of the following radiological features differentiate rheumatoid arthritis from SLE?",
+img: "",
+answers: [
+{ text: " Juxta-articular osteoporosis", correct: false },
+{ text: "Elevated ESR ", correct: false },
+{ text: "Articular erosions on X ray", correct: true },
+{ text: "swelling of PIP Joint", correct: false },
+], },
+
+{ question: "The most common cause of death in patients with rheumatoid arthritis is __ _",
+img: "",
+answers: [
+{ text: " Interstitial lung disease", correct: false },
+{ text: "Coronary artery disease ", correct: true },
+{ text: "Secondary infections", correct: false },
+{ text: "Stroke", correct: false },
+], },
+
+{ question: "You suspect rheumatoid arthritis in a patient presenting with pain in her hands and having swelling and tenderness in proximal interphalangeal and metacarpophalangeal joints. What is the most specific marker for this patient's condition?",
+img: "",
+answers: [
+{ text: "Anti-nuclear antibodies", correct: false },
+{ text: " Rheumatoid factor ", correct: false },
+{ text: "Anti- CCP antibody", correct: true },
+{ text: "Anti dsDNA antibody", correct: false },
+], },
+
+{ question: "A 42-year-old woman has been diagnosed with rheumatoid arthritis. Which of the following is the drug of choice for the treatment in this patient?",
+img: "",
+answers: [
+{ text: " Hydroxychloroquine", correct: false },
+{ text: "Sulfasalazine ", correct: false },
+{ text: "Methotrexate", correct: true },
+{ text: " lnftiximab", correct: false },
+], },
+
+{ question: "A patient with rheumatoid arthritis has been treated with methotrexate and low-dose corticosteroids for 4 months. The disease still progresses. What is your recommendation for further management of this patient?",
+img: "",
+answers: [
+{ text: "Stop oral methotrexate and start parenteral methotrexate", correct: false },
+{ text: "Add sultasalazine and hydroxychloroquine ", correct: true },
+{ text: " Continue corticosteroids and methotrexate", correct: false },
+{ text: "Start only anti-TNF alpha agents", correct: false },
+], },
+
+{ question: "The janus kinase inhibitor used in rheumatoid arthritis is __ _",
+img: "",
+answers: [
+{ text: " AnaKinra", correct: false },
+{ text: " Tocilizumab ", correct: false },
+{ text: " Abatacept", correct: false },
+{ text: " Tofacitinib", correct: true },
+], },
+
+{ question: "Which of the following OMARO is a category X drug in pregnancy?",
+img: "",
+answers: [
+{ text: "Rituximab", correct: false },
+{ text: "Leflunomide ", correct: true },
+{ text: " Hydroxychloroquine", correct: false },
+{ text: "Etanercept", correct: false },
+], },
+
+{ question: "Which of the following drugs is not used in rheumatoid arthritis?",
+img: "",
+answers: [
+{ text: "Febuxostat", correct: true },
+{ text: "Leflunomide ", correct: false },
+{ text: "Etanercept", correct: false },
+{ text: "Methotrexate", correct: false },
+], },
+
+{ question: "Which part of the spine is most commonly affected in rheumatoid arthritis?",
+img: "",
+answers: [
+{ text: "Cervical", correct: true },
+{ text: " Thoracic ", correct: false },
+{ text: "Lumbar ", correct: false },
+{ text: "Sacral", correct: false },
+], },
+
+{ question: "The rheumatoid factor most commonly measured in the laboratory is __ _",
+img: "",
+answers: [
+{ text: "lg M", correct: true },
+{ text: "lg G ", correct: false },
+{ text: "lg A", correct: false },
+{ text: "lg D", correct: false },
+], },
+
+{ question: "A 34-year old woman comes with complaints of pain and swelling in her hands and wrists. On examination, I the following deformity is seen. Identify the deformity depicted in the image",
+img: "img1701-1800/pg2191.png",
+answers: [
+{ text: "Swan neck deformity", correct: false },
+{ text: "Boutonniere deformity ", correct: true },
+{ text: "z line deformity", correct: false },
+{ text: " Trigger finger", correct: false },
+], },
+
+{ question: "A patient presents to your clinic with the following deformity. In which of the following conditions is the deformity seen?",
+img: "img1701-1800/pg2194.png",
+answers: [
+{ text: " Osteoarthritis", correct: false },
+{ text: "Gout ", correct: false },
+{ text: "Rheumatoid arthritis", correct: true },
+{ text: "Pseudo gout", correct: false },
+], },
+
+{ question: "An elderly woman presents with a chronic history of pain in the small joints of hands with a stiffness of joints in the early hours of the day. The image of the patient's hands is given below. What is the most likely diagnosis?",
+img: "img1701-1800/pg2196.png",
+answers: [
+{ text: "Rheumatoid Arthritis", correct: true },
+{ text: "Osteoarthritis ", correct: false },
+{ text: " Complex Regional Pain Syndrome", correct: false },
+{ text: "Villonodular synovitis", correct: false },
+], },
+
+{ question: "The most common extra articular manifestation of rheumatoid arthritis is:",
+img: "",
+answers: [
+{ text: "Subcutaneous nodule", correct: true },
+{ text: " Sjogren's syndrome ", correct: false },
+{ text: "Felty's syndrome", correct: false },
+{ text: "Vasculitis", correct: false },
+], },
+
+{ question: "The most common cardiac valvular lesion in rheumatoid arthritis is __________",
+img: "",
+answers: [
+{ text: "Mitral regurgitation", correct: true },
+{ text: "Tricuspid regurgitation ", correct: false },
+{ text: " Aortic regurgit3tion", correct: false },
+{ text: "Pulmonary regurgitation", correct: false },
+], },
+
+
+
+            
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+

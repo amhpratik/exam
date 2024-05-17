@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 1101-1200 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 1101-1200 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Kasturi</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+         
+            { question: "All of the following skin findings indicate endocrine abnormalities except",
+img: "",
+answers: [
+{ text: "Acanthosis nigricans", correct: false },
+{ text: "Diffuse hyperpigmentation ", correct: false },
+{ text: "Casal's necklace", correct: true },
+{ text: "Purple striae", correct: false },
+], },
+
+
+{ question: "Petechiae is best defined as:",
+img: "",
+answers: [
+{ text: "Large extravasation of blood in the skin", correct: false },
+{ text: "Dilatation of arterioles under the skin ", correct: false },
+{ text: "Skin hemorrhages measuring 1·2 mm", correct: true },
+{ text: "Skin hemorhages measuring 3-4 mm", correct: false },
+], }, 
+
+
+{ question: "A 28-year-old woman presented to the clinic with the lesions shown below. Which of the following conditions is/are associated with this the lesion?",
+img: "img1101-1200/pg1385.png",
+answers: [
+{ text: "Thyrotoxicosis", correct: false },
+{ text: "Pregnancy ", correct: false },
+{ text: "Chronic liver disease", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+
+{ question: "A 30-year-old man presented with the finding shown in the given image. Which among the following conditions is least likely to cause this presentation?",
+img: "img1101-1200/pg1386.png",
+answers: [
+{ text: "Endocarditis", correct: false },
+{ text: "Bronchiectasis ", correct: false },
+{ text: "Tricuspid atresia", correct: false },
+{ text: "Aortic dissection", correct: true },
+], },
+
+
+{ question: "A 35-year-old rheumatic heart disease patient now presents with fever, Jane way lesions, and Roth spots. Which of the following findings is most likely to be seen in the nails of this patient?",
+img: "",
+answers: [
+{ text: "Pachyonychia", correct: false },
+{ text: "Koilonychia ", correct: false },
+{ text: "Cyanosis", correct: false },
+{ text: "Splinter hemorrhages", correct: true },
+], },
+
+
+{ question: "Coronaviruses are ---",
+img: "",
+answers: [
+{ text: "Naked helically symmetrical viruses", correct: false },
+{ text: "Enveloped Icosahedrally symmetrical viruses ", correct: false },
+{ text: "Enveloped helically symmetrical viruses", correct: true },
+{ text: "Variably enveloped viruses with a complex symmetry", correct: false },
+], },
+
+
+{ question: "You would classify all of the following patients as having major risk factors for severe COVID-19 except",
+img: "",
+answers: [
+{ text: "A 19 year old female undergoing dialysis for CKD", correct: false },
+{ text: "A 49 year old male who has recently undergone liver transplantation ", correct: false },
+{ text: "A 42 year old man who had malaria months ago", correct: true },
+{ text: "A 65 year old male with no comorbidities", correct: false },
+], },
+
+
+{ question: "For collecting a nasopharyngeal specimen for testing COVID-19, the patient's head I should be tilted back:",
+img: "",
+answers: [
+{ text: "30 degrees", correct: false },
+{ text: "45 degrees ", correct: false },
+{ text: "70 degrees ", correct: true },
+{ text: "15 degrees", correct: false },
+], },
+
+
+{ question: "False statements about the sample collection for COVID-19 testing are: 1. Oropharyngeal sample is collected using a calcium alginate swab 2. The nasal swab is placed in the same viral transport media tube containing the throat swab 3. Swab is rubbed over the tonsillar pillars and posterior oropharynx for oropharyngeal swab 4. Swab is inserted upwards into the palate for nasopharyngeal swab",
+img: "",
+answers: [
+{ text: "1,4", correct: true },
+{ text: "2,4 ", correct: false },
+{ text: "1,3", correct: false },
+{ text: "2,3", correct: false },
+], },
+
+
+{ question: "False statements about the sample collection for COVID-19 testing are: 1. Oropharyngeal sample is collected using a calcium alginate swab 2. The nasal swab is placed in the same viral transport media tube containing the throat swab 3. Swab is rubbed over the tonsillar pillars and posterior oropharynx for oropharyngeal swab 4. Swab is inserted upwards into the palate for nasopharyngeal swab",
+img: "",
+answers: [
+{ text: "1,4", correct: true },
+{ text: "2,4 ", correct: false },
+{ text: "1,3", correct: false },
+{ text: "2,3", correct: false },
+], },
+
+
+{ question: "Specimen handling for molecular testing of SARS CoV 2 would require",
+img: "",
+answers: [
+{ text: "BSL 1", correct: false },
+{ text: "BSL 2 ", correct: true },
+{ text: "BSL 3", correct: false },
+{ text: "BSL 4", correct: false },
+], },
+
+
+{ question: "Which of the following is the gold standard investigation for diagnosis of COVID-19?",
+img: "",
+answers: [
+{ text: "CUA", correct: false },
+{ text: "ELISA ", correct: false },
+{ text: "Rapid antigen test", correct: false },
+{ text: "RT-PCR", correct: true },
+], },
+
+
+{ question: "Choose the correct statements regarding testing of COVID-19 1.All newborns must be tested I 2.All pregnant women must be tested for COVID-19 in first trimester 3.A single positive RT·PCR test is considered confirmatory without repeat testing 4.Any individual can voluntarily subject themself to COVID-19 test",
+img: "",
+answers: [
+{ text: "2,3", correct: false },
+{ text: "1,4 ", correct: false },
+{ text: "1,3", correct: false },
+{ text: "3,4", correct: true },
+], },
+
+
+{ question: "A woman, whose husband has tested positive for COVID-19, comes to the clinic with a negative report on the Rapid Antigen Test. She is currently asymptomatic. What will be the next step?",
+img: "",
+answers: [
+{ text: "Retest with Rapid Antigen Test after days", correct: false },
+{ text: "Retest with RT-PCR after 5 days ", correct: false },
+{ text: "Retest with RT-PCR immediately", correct: false },
+{ text: "Retest with RT-PCR if symptoms develop", correct: true },
+], },
+
+
+{ question: "The paper-based Covid-19 test kit developed by the Council of Scientific & Industrial I Research (CSIR) and Institute of Genomics and Integrative Biology (IGIB) that is approved by ICMR is __ _",
+img: "",
+answers: [
+{ text: "TRUNAT", correct: false },
+{ text: "FELUDA ", correct: true },
+{ text: "CBNAAT", correct: false },
+{ text: "Q COVID-19Ag Test", correct: false },
+], },
+
+
+{ question: "The indigenous COVID-19 lgG antibody detection ELISA test kit developed by ICMR I and NIV is called------------",
+img: "",
+answers: [
+{ text: "COVID Nischay ELISA", correct: false },
+{ text: "COVID Aarogya ELISA ", correct: false },
+{ text: "COVID Kavach ELISA", correct: true },
+{ text: "COVID Sankalp ELISA", correct: false },
+], },
+
+
+{ question: "The receptor used by the SARS-CoV-2 to gain entry into cells is",
+img: "",
+answers: [
+{ text: "Angiotensin-converting enzyme 1", correct: false },
+{ text: "Angiotensin-converting enzyme 2 ", correct: true },
+{ text: "Dipeptidylpeptidase 2", correct: false },
+{ text: "Dipeptidylpeptidase 4", correct: false },
+], },
+
+
+{ question: "Your friend Sanjeev attends a family function. His aunt, who also travelled to the I function in the same car, tests positive for COVID-19 the following day. What is your advice for Sanjeev?",
+img: "",
+answers: [
+{ text: "Home isolation for 28 days", correct: false },
+{ text: "Home quarantine for 14 days ", correct: true },
+{ text: "Home quarantine for 17 days", correct: false },
+{ text: "Home isolation for 1 O days", correct: false },
+], },
+
+
+{ question: "Pranav is diagnosed with COVID-19 by a positive RT-PCR test. He has very mild symptoms only and wishes to be treated on an outpatient basis. Which of the following will be your recommendation?",
+img: "",
+answers: [
+{ text: "Home isolation for 17 days since the onset of symptoms", correct: true },
+{ text: "Home quarantine for 14 days since the onset of symptoms ", correct: false },
+{ text: "Home isolation for 14 days since the onset of symptoms", correct: false },
+{ text: "Home quarantine for 17 days since the onset of symptoms", correct: false },
+], },
+
+
+{ question: "A 25 year old male with a COVID -19 positive test comes to the hospital. Examination findings are suggestive of pneumonia and his vitals are as follows PR: 90/min, BP: 134/88 mmHg, RR: 22/min and Sp02: 88%. What will you advise the patient?",
+img: "",
+answers: [
+{ text: "Home quarantine", correct: false },
+{ text: "Administration of paracetamol ", correct: false },
+{ text: "Oxygen support", correct: false },
+{ text: "Admit to dedicated COVIU Hospital", correct: true },
+], },
+
+
+{ question: "A 37-year-old male presents with a history of fever and cough for 2 days. He is living I with his wife who recently tested positive for COVID-19 and has been under home isolation. On examination, pulse is 110/min, BP is 78/58 mmHg, the temperature is 101.3 F, RR is 28 and Sp02 is 90%. Which of the following is not recommended in this patient's management?",
+img: "",
+answers: [
+{ text: "Awake proning", correct: true },
+{ text: "Administration of paracetamol ", correct: false },
+{ text: "Oxygen support", correct: false },
+{ text: "Prophylactic LMW heparin", correct: false },
+], },
+
+
+{ question: "A 42-year-old man who was under home isolation after testing positive for COVID- 19, develops breathing difficulty and is brought to the ER. The patient is alert and responsive, but is breathing rapidly. Sp02 is measured to be 86%. He is administered oxygen via a face mask with a reservoir bag with a flow rate of 10 L/min. After a trial of one hour, his Sp02 is 88°/o. What is the next step in management?",
+img: "",
+answers: [
+{ text: "Increase flow rate to 15 U/min", correct: false },
+{ text: "High-flow nasal cannula oxygen therapy ", correct: true },
+{ text: "Endotracheal intubation", correct: false },
+{ text: "No specific intervention necessary", correct: false },
+], },
+
+
+{ question: "An 84-year-old man is being treated in the ICU for sepsis induced respiratory failure I secondary to COVID-19. What is the maximum tidal volume setting permissible for his mechanical ventilation? (PBW-predicted body weight)",
+img: "",
+answers: [
+{ text: "4 ml/kg PBW", correct: false },
+{ text: "6 ml/kg PBW ", correct: false },
+{ text: "8 ml/kg PBW", correct: true },
+{ text: "10 ml/kg PBW", correct: false },
+], },
+
+
+{ question: "You notice that a 64 year old diabetic male with COVID-19 is desaturating and decide to place him on NIV. He still worsens over time. Hence, you Intubate and manually ventilate him before placing him on a mechanical ventilator. After a few hours the saturation suddenly drops and you suspect a tubal block as the cause and hence perform closed suctioning. He fails to respond and goes into cardiac arrest following which you perform CPR to revive him. You would expect significant aerosol generation during all of the following except:",
+img: "",
+answers: [
+{ text: "Non Invasive Ventilation (NIV)", correct: false },
+{ text: "Manual Ventilation ", correct: false },
+{ text: "Closed Suctioning", correct: true },
+{ text: "Cardiopulmonary Resuscitation", correct: false },
+], },
+
+
+{ question: "A 50 year old man recovering from COVID-19 disease comes to your clinic with the following presentation. He does not give a history of exposure to cold and his medical history is otherwise unremarkable. What would you suspect ?",
+img: "img1101-1200/pg1409.png",
+answers: [
+{ text: "Chilblains", correct: false },
+{ text: "COVID toes ", correct: true },
+{ text: "Varicella", correct: false },
+{ text: "Eczema", correct: false },
+], },
+
+
+{ question: "Which among the following is least likely to be seen in a patient of COVID-19?",
+img: "",
+answers: [
+{ text: "Elevated transaminases", correct: false },
+{ text: "Elevated fibrinogen ", correct: false },
+{ text: "Lymphocytosis", correct: true },
+{ text: "Prolonged prothrombin time", correct: false },
+], },
+
+
+{ question: "Which of the following is the most commonly seen pattern in chest CT of a patient I with COVID-19?",
+img: "",
+answers: [
+{ text: "Interlobular septal thickenings", correct: false },
+{ text: "Air bronchograms ", correct: false },
+{ text: "Ground glass opacity", correct: true },
+{ text: "Crazy paving pattern", correct: false },
+], },
+
+
+{ question: "Which viral structure determines the infectious nature and host specificity of SARSIll CoV-2?",
+img: "",
+answers: [
+{ text: "Envelope", correct: false },
+{ text: "Spike ", correct: true },
+{ text: "Nucleocapsid", correct: false },
+{ text: "Membrane", correct: false },
+], },
+
+
+{ question: "A 38-year-old female presents with a history of fever and cough since 3 days and hemoptysis since 1 day. She has no other comorbid illnesses. On examination, pulse rate is 96 bpm, BP is 118/70 mm Hg, temperature is 100.4 degree F, RR is 15/min and Sp02 is 96%. CT scan shows localised ground-glass opacity in the left posterior lobe of the lung. Which of the following is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Tuberculosis", correct: false },
+{ text: "Necrotising pneumonia ", correct: false },
+{ text: "COVID-19", correct: true },
+{ text: "Invasive aspergillosis", correct: false },
+], },
+
+
+{ question: "Increased concentrations of which of the following is not a poor prognostic marker in COVID-19 infection?",
+img: "",
+answers: [
+{ text: "Gfycosylated ferritin", correct: true },
+{ text: "C-reaclive protein ", correct: false },
+{ text: "N-terminal pro-BNP", correct: false },
+{ text: "Procalcitonin", correct: false },
+], },
+
+
+{ question: "Which of the following is the most common lung pathology seen during the autopsy I of patients succumbing to COVID 19 infection?",
+img: "",
+answers: [
+{ text: "Pulmonary infarction", correct: false },
+{ text: "Endothelial injury ", correct: false },
+{ text: "Diffuse Alveolar Damage", correct: true },
+{ text: "Fibrin clots", correct: false },
+], },
+
+
+{ question: "In the treatment of COVID 19, Hydroxychloroquine (HCQ) should be avoided in patients with",
+img: "",
+answers: [
+{ text: "History of unexplained syncope", correct: false },
+{ text: "Severe disease ", correct: false },
+{ text: "QT prolongation >480 ms", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+
+{ question: "Which of the following anticoagulation agents is recommended for use in COVID I patients with end-stage renal disease?",
+img: "",
+answers: [
+{ text: "Unfractionated heparin", correct: true },
+{ text: "LMWH ", correct: false },
+{ text: "Warrarin", correct: false },
+{ text: "Dabigatran", correct: false },
+], },
+
+
+{ question: "The guidelines panel of the WHO recently recommended against using which of the I following drugs in hospitalised COVID patients?",
+img: "",
+answers: [
+{ text: "Bamlanivimab", correct: false },
+{ text: "Remdesivir ", correct: true },
+{ text: "Favipiravir", correct: false },
+{ text: "Unfractionated heparin", correct: false },
+], },
+
+
+{ question: "The investigational drug for COVID 19, Tocilizumab acts by _ _ _",
+img: "",
+answers: [
+{ text: "Interleukin 1 inhibition", correct: false },
+{ text: "Interleukin 6 inhibition ", correct: true },
+{ text: "TNF alpha inhibition", correct: false },
+{ text: "Janus kinase inhibition", correct: false },
+], },
+
+
+{ question: "Choose the false statement regarding Convalescent plasma therapy in COVID 19.",
+img: "",
+answers: [
+{ text: "Use should be avoided in patients with lgA deficiency or immunoglobulin allergy", correct: false },
+{ text: "Plasma lgG titer (against S-protein RBD) above 1 :640 should be used ", correct: false },
+{ text: "Recipients should be closely monitored for several homs post-transfusion", correct: false },
+{ text: "Convalescent plasma therapy is useful only in severe COVIO 19 cases", correct: true },
+], },
+
+
+{ question: "The drug that has shown to reduce mortality in COVID 19 is",
+img: "",
+answers: [
+{ text: "Remdesivir", correct: false },
+{ text: "Corticosteroids ", correct: true },
+{ text: "Hydroxychloroquine", correct: false },
+{ text: "Protease inhibitors", correct: false },
+], },
+
+
+{ question: "A G2P1 woman presents to the clinic at 36 weeks of gestation. Her husband was COVID positive and now she has been tested positive for COVID 19. She has no other medical problems complicating her pregnancy. Which of the following is true regarding the management of this patient?",
+img: "",
+answers: [
+{ text: "C-section is the preferred mode of delivery", correct: false },
+{ text: "Epidural analgesia is not recommended ", correct: false },
+{ text: "Vigorous IV fluid therapy recommended during labour", correct: false },
+{ text: "Aim to keep oxygen saturation more than 94% during labour", correct: true },
+], },
+
+
+{ question: "Which of the following is not a mode of transmission of SARS-CoV-2?",
+img: "",
+answers: [
+{ text: "Droplet transmission", correct: false },
+{ text: "Fomite transmission ", correct: false },
+{ text: "Airborne-droplet nuclei transmission", correct: false },
+{ text: "Vector-borne transmission", correct: true },
+], },
+
+
+{ question: "A 35 year old man suffering from severe COVID-19 infection is showing signs of I improvement. Which of the following is correct before discharging him?",
+img: "",
+answers: [
+{ text: "Discharge after 7 days from symptom onset & no fever for 3 days", correct: false },
+{ text: "Discharge after 10 days from symptom onset & no fever for 3 days ", correct: false },
+{ text: "Discharge if Sp02>98% on 2 consecutive days", correct: false },
+{ text: "Discharge if repeat RT·PCR testing is negative", correct: true },
+], },
+
+
+{ question: "Which of the following is a criterion for discharge in a patient with mild COVID-19 I infection?",
+img: "",
+answers: [
+{ text: "Discharge after 7 days from symptom onset & no fever for 3 days", correct: false },
+{ text: "Discharge after 1O days from symptom onset & no fever for 3 days ", correct: true },
+{ text: "Discharge if repeat consecutive days", correct: false },
+{ text: "Discharge if repeat RT-PCR testing is negative", correct: false },
+], },
+
+
+{ question: "Arrange in order the sequence of putting on a PPE 1.Coverall 2.First pair of gloves I 3.Shoe cover 4.N-95 mask",
+img: "",
+answers: [
+{ text: "2>1>3>4", correct: true },
+{ text: "1>2>3>4 ", correct: false },
+{ text: "1>2>4>3", correct: false },
+{ text: "2>1>4>3", correct: false },
+], },
+
+
+{ question: "While doffing, what is the first component of the PPE that you would remove?",
+img: "",
+answers: [
+{ text: "Goggles", correct: false },
+{ text: "Shoe covers ", correct: true },
+{ text: "Face shield", correct: false },
+{ text: "Gloves", correct: false },
+], },
+
+
+{ question: "The following are considered clean areas of a Personal Protective Equipment (PPE) I except",
+img: "",
+answers: [
+{ text: "Earpiece/ ties of the mask", correct: false },
+{ text: "Inside the mask ", correct: false },
+{ text: "Front of face shield", correct: true },
+{ text: "Back of isolation gown", correct: false },
+], },
+
+
+{ question: "After your COVID ICU shift, you would dispose of your face shield in ___ _",
+img: "",
+answers: [
+{ text: "Red bin", correct: true },
+{ text: "Black bag ", correct: false },
+{ text: "Yellow bin", correct: false },
+{ text: "White bag", correct: false },
+], },
+
+
+{ question: "Which of the following is recommended for cleaning and disinfecting a healthcare I facility against COVID 19?",
+img: "",
+answers: [
+{ text: "1% formaldehyde", correct: false },
+{ text: "1 % glutaraldehyde ", correct: false },
+{ text: "35% isopropyl alcohol", correct: false },
+{ text: "1% sodium hypochlorite", correct: true },
+], },
+
+
+{ question: "Identify the wrong match regarding COVID 19 vaccines",
+img: "",
+answers: [
+{ text: "Pfizer - mRNA based vaccine", correct: false },
+{ text: "Covaxin - Inactivated vaccine ", correct: false },
+{ text: "Moderna - Recombinant DNA vaccine", correct: true },
+{ text: "AstraZeneca - Non-replicating viral vector vaccine", correct: false },
+], },
+
+
+{ question: "A 15 year old girl presents with a history of persistent fever for 5 days, abdominal I pain, diarrhea and rashes for 4 days. On examination, her vitals are HR: 11 O/min, BP: 80/60 mm Hg and RR: 20/min. Cervical nodes are found to be enlarged bilaterally. On further enquiry, it is found that she has recently recovered from COVID-19 infection. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Kawasaki disease", correct: false },
+{ text: "Multisystem inflammatory syndrome in children ", correct: true },
+{ text: "Bacterial sepsis", correct: false },
+{ text: "Scarlet fever", correct: false },
+], },
+
+
+{ question: "Which of the following genes increases the risk of collapsing glomerulopathy in I COVID-19 patients?",
+img: "",
+answers: [
+{ text: "NPHS1", correct: false },
+{ text: "ACTN4 ", correct: false },
+{ text: "APOL1", correct: true },
+{ text: "TRPC6", correct: false },
+], },
+
+
+{ question: "The incubation period of SARS-CoV-2 infection ranges from",
+img: "",
+answers: [
+{ text: "12-24 days", correct: false },
+{ text: "2-3 weekks ", correct: false },
+{ text: "3-6 weeks", correct: false },
+{ text: "1-14 days", correct: true },
+], },
+
+
+{ question: "Which of the following inflammatory markers is of prognostic significance in COVID- 19 patients?",
+img: "",
+answers: [
+{ text: "IL-6", correct: true },
+{ text: "ESR ", correct: false },
+{ text: "NLR", correct: false },
+{ text: "PCT", correct: false },
+], },
+
+
+{ question: "The COVID-19 outbreak is a type of------",
+img: "",
+answers: [
+{ text: "Propagated epidemic", correct: true },
+{ text: "Point source, single exposure ", correct: false },
+{ text: "Point source, multiple exposures", correct: false },
+{ text: "Slow epidemic", correct: false },
+], },
+
+
+{ question: "Which of the following symptoms are included in the definition of suspect case of I SARS-CoV-2 according to the NCDC(National Center for Disease Control)?",
+img: "",
+answers: [
+{ text: "Loss of taste", correct: false },
+{ text: "Loss of smell ", correct: false },
+{ text: "Loss of appetite", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+
+{ question: "Which of the below is not considered a probable case of SARS-CoV-2 according to the NCDC (National Center for Disease Control)?",
+img: "",
+answers: [
+{ text: "An asymptomatic person with laboratory confirmation of SARS·CoV-2 infection", correct: true },
+{ text: "A suspect case who is a contact of a confirmed case ", correct: false },
+{ text: "An asymptomatic person who is a high risk contact of a confirmed case", correct: false },
+{ text: "Clinically suspected by a physician", correct: false },
+], },
+
+
+{ question: "Which of the following people would you not classify as a high risk contact of SARS- I CoV2?",
+img: "",
+answers: [
+{ text: "A family member who lives in the same household as the patient", correct: false },
+{ text: "A passenger in close proximity with a symptomatic patient for 6 hours and the patient later tested possible ", correct: false },
+{ text: "A doctor who examined the patient with a PPE", correct: true },
+{ text: "A sanitary worker who cleaned the linens of the patient", correct: false },
+], },
+
+
+{ question: "The approximate time interval between HIV infection & manifestation of AIDS is?",
+img: "",
+answers: [
+{ text: "7.5 years", correct: false },
+{ text: "10 years ", correct: true },
+{ text: "12 years", correct: false },
+{ text: "11 years", correct: false },
+], },
+
+
+{ question: "Which of the following is a multicentric neoplasm of vascular origin in a patient with AIDS?",
+img: "",
+answers: [
+{ text: "Bacillary angiomatosis", correct: false },
+{ text: "Kaposi sarcoma ", correct: true },
+{ text: "Primary CNS Lymphoma", correct: false },
+{ text: "Burkitt's Lymphoma", correct: false },
+], },
+
+
+{ question: "A 45-year-old HIV-positive female presented with a raised violaceous papule on the right foot. Biopsy & Wrath in-Starry stain demonstrated the causative organism. Which of the following is the causative organism?",
+img: "",
+answers: [
+{ text: "Bartonella hensiae", correct: true },
+{ text: "HHV8 ", correct: false },
+{ text: "Bartonella quintana", correct: false },
+{ text: "EBV", correct: false },
+], },
+
+
+{ question: "A 35-year-old HIV-positive male has been diagnosed with Pneumocystis jiroveci pneumonia (PCP). Primary prophylaxis for this condition is recommended to be started at CD4 T cell % of",
+img: "",
+answers: [
+{ text: "<25%", correct: false },
+{ text: "<7% ", correct: false },
+{ text: "<15%", correct: true },
+{ text: "<10%", correct: false },
+], },
+
+
+{ question: "Which of the following is false regarding Pneumocystis jirovecii pneumonia (PCP)?",
+img: "",
+answers: [
+{ text: "Glucocorticoids are indicated if Pao2<70 mmhg or with an A-a gradient >35 mmHg", correct: false },
+{ text: "Recent oropharyngeal candidiasis is an indication for prophylaxis ", correct: false },
+{ text: "Elevation of LOH is a common finding", correct: false },
+{ text: "Aerosolized pentamidine is used in the treatment.", correct: true },
+], },
+
+
+{ question: "A woman with HIV was brought in to the emergency ward after an episode of generalized tonic-clonic seizures. There is no history of fever, night sweats, and weight loss. MRI was done and the image is shown below. Which of the following is the most likely diagnosis?",
+img: "img1101-1200/pg1452.png",
+answers: [
+{ text: "Cryptococcal meningitis", correct: false },
+{ text: "Primary central nervous system lymphoma ", correct: false },
+{ text: "Cerebral toxoplasmosis", correct: true },
+{ text: "Progressive multifocal leukoencephalopathy", correct: false },
+], },
+
+
+{ question: "The majority of cases of CMV retinitis occur in HIV-infected patients with a CD4+ T cell count of< /μI.",
+img: "",
+answers: [
+{ text: "< 25", correct: false },
+{ text: "<50 ", correct: true },
+{ text: "<150", correct: false },
+{ text: "<250", correct: false },
+], },
+
+
+{ question: "A 42-year-old HIV-positive male presents with 2 weeks of cough, fever, night sweats, weight loss and diarrhea. He is not on cART and has a CD4 count of",
+img: "",
+answers: [
+{ text: "Cytomegalovirus", correct: false },
+{ text: "Candidiasis ", correct: false },
+{ text: "Mycobacterium avium complex", correct: true },
+{ text: "Pneumocystis jiroveci", correct: false },
+], },
+
+
+{ question: "All of the following are AIDS defining illnesses except",
+img: "",
+answers: [
+{ text: "Encephalopathy attributed to HIV", correct: false },
+{ text: "Invasive Cervical cancer ", correct: false },
+{ text: "Mycobacterium tuberculosis of any site", correct: false },
+{ text: "Candida oral thrush", correct: true },
+], },
+
+
+{ question: "Which of the following statements about HIV is true?",
+img: "",
+answers: [
+{ text: "HIV-2 is more pathogenic than HIV -1", correct: false },
+{ text: "HIV-1 subtype c is the most common form worldwide ", correct: true },
+{ text: "HIV-2 is prevalent worldwide", correct: false },
+{ text: "Donated blood is not screened for HIV- 2", correct: false },
+], },
+
+
+{ question: "Certain individuals are resistant to HIV infection due to ___",
+img: "",
+answers: [
+{ text: "CXCR4 2q21 mutation", correct: false },
+{ text: "HLA s*35 ", correct: false },
+{ text: "CCR5 delta 32 mutation", correct: true },
+{ text: "DC-SIGN", correct: false },
+], },
+
+
+{ question: "Exposure to which of the following modes of transmission carries the highest risk of acquiring HIV?",
+img: "",
+answers: [
+{ text: "Needle sharing during injection drug abuse", correct: false },
+{ text: "Blood transfusion ", correct: true },
+{ text: "Unprotected sexual intercourse", correct: false },
+{ text: "Breastfeeding", correct: false },
+], },
+
+
+{ question: "Unexplained persistent parotid enlargement in an HIV infected child is characterized in which stage of HIV disease according to WHO?",
+img: "",
+answers: [
+{ text: "Stage 1", correct: false },
+{ text: "Stage 2 ", correct: true },
+{ text: "Stage 3", correct: false },
+{ text: "Stage 4", correct: false },
+], },
+
+
+{ question: "An HIV-positive individual presents with the following. What is the diagnosis & WHO clinical stage of HIV?",
+img: "img1101-1200/pg1465.png",
+answers: [
+{ text: "Oral candidiasis & WHO Stage 2", correct: false },
+{ text: "Oral hairy leukoplakia & WHO Stage 3 ", correct: false },
+{ text: "oral candidiasis & WHO Stage 3", correct: true },
+{ text: "oral hairy 1eukoplaKia & WHO Stage 2", correct: false },
+], },
+
+
+{ question: "Which of the following is the most common opportunistic infection in HIV-infected individuals?",
+img: "",
+answers: [
+{ text: "Mycobacterium tuberculosis", correct: true },
+{ text: "Disseminated candidiasis ", correct: false },
+{ text: "CMV", correct: false },
+{ text: "Pneumocystis jiroveci", correct: false },
+], },
+
+
+{ question: "A previously untreated HIV positive patient is diagnosed with Mycobacterial tuberculosis infection and treatment is started. The patient began to feel better, 2 weeks into treatment the patient suddenly complains of high fever, severe malaise, headache, worsening cough, and tender nodes in the neck. Which of the following explanations is the most likely in this case?",
+img: "",
+answers: [
+{ text: "Resistance to Anti-Tubercular Therapy", correct: false },
+{ text: "Concurrent treatment with Anti· Retroviral Therapy ", correct: true },
+{ text: "Bacterial endotoxin release due death of TB bacilli", correct: false },
+{ text: "Hypersensitivity reaction to lsoniazid", correct: false },
+], },
+
+
+{ question: "Which organism is the leading cause of meningitis in AIDS?",
+img: "",
+answers: [
+{ text: "Streptococcus pneumoniae", correct: false },
+{ text: "Herpes Simplex Virus ", correct: false },
+{ text: "Toxoplasma gondii", correct: false },
+{ text: "Cryptococcus neoformans", correct: true },
+], },
+
+
+{ question: "Which of the following is true about acute HIV syndrome?",
+img: "",
+answers: [
+{ text: "Incubation period for acute HIV syndrome is around 1 week", correct: false },
+{ text: "Weight loss is not seen ", correct: false },
+{ text: "Virus is transmissible", correct: true },
+{ text: "Opportunistic Infections do not occur", correct: false },
+], },
+
+
+{ question: "A 54-year-old HIV positive female has a Hb of 8gm/dl. Combination ART preparations including which of the following drugs should be avoided?",
+img: "",
+answers: [
+{ text: "Zidovudine", correct: true },
+{ text: "Tenofovir ", correct: false },
+{ text: "Raltegravir", correct: false },
+{ text: "Emtricitabine", correct: false },
+], },
+
+
+{ question: "An individual positive for HIV-1 infection was started on a cART regimen of Tenofovir- Emtricitabine-Efavirenz. After 6 months, failure to treatment was established and attributed to Efavirenz resistance. Which drug of the same class can be used instead?",
+img: "",
+answers: [
+{ text: "Delavirdine", correct: false },
+{ text: "Nevirapine ", correct: false },
+{ text: "Nelfinavir", correct: false },
+{ text: "Etravirine", correct: true },
+], },
+
+
+{ question: "A 35-year-old HIV-positive man on cART for about 2 weeks complains of dizziness and occasionally waking up at nights due to abnormal vivid dreaming. Which of the following cART regimens is the patient most likely on?",
+img: "",
+answers: [
+{ text: "Tenofovir - Lamivudine - Dolutegravir", correct: false },
+{ text: "Zidovudine - Emtricitabine - Nevirapine ", correct: false },
+{ text: "Tenofovir· Emtricitabine - Efavirenz", correct: true },
+{ text: "Zidovudine - Lamivudine - Lopinavir", correct: false },
+], },
+
+
+{ question: "A 36-year-old HIV-positive man on cART is presented as below. Which of the following is the most like cause?",
+img: "img1101-1200/pg1474.png",
+answers: [
+{ text: "Abacavir", correct: false },
+{ text: "Entecavir ", correct: false },
+{ text: "Nelfinavir", correct: true },
+{ text: "Adefovir", correct: false },
+], },
+
+
+{ question: "Which of the following is false about protease inhibitors in the treatment of HIV?",
+img: "",
+answers: [
+{ text: "Afazanavir has the lowest propensity to increase total cholesterol & triglyceride levels", correct: false },
+{ text: "Tipranavir is used in sub-therapeutic doses as a pharmacodynamic booster of other Protease Inhibitors in cART ", correct: true },
+{ text: "lndinavir can cause nephrclithiasis when adequate hydration is not maintained", correct: false },
+{ text: "Ritonavir is a potent inhibitor of the CYP3A4 isoform of P450 & may alter levels of many other drugs.", correct: false },
+], },
+
+
+{ question: "Diagnostic test of choice for HIV in a baby born to an HIV-infected mother is __ _",
+img: "",
+answers: [
+{ text: "HIV DNA PCR", correct: true },
+{ text: "Cord Blood ELISA ", correct: false },
+{ text: "Western Blot", correct: false },
+{ text: "3rd Generation ELISA", correct: false },
+], },
+
+
+{ question: "HIV-2 is intrinsically resistant to:",
+img: "",
+answers: [
+{ text: "Nucleoside Reverse Transcriptase Inhibitors", correct: false },
+{ text: "Nucleotide Reverse Transcriptase Inhibitors ", correct: false },
+{ text: "Non-Nucleoside Reverse Transcriptase Inhibitors", correct: true },
+{ text: "lntegrase Strand Transfer Inhibitors", correct: false },
+], },
+
+
+{ question: "A woman is diagnosed to be positive for HIV in her first trimester. What is the appropriate management?",
+img: "",
+answers: [
+{ text: "Start ART immediately and continue till 6 weeks after delivery", correct: false },
+{ text: "Start ART after 1st trimester and continue life-Jong. ", correct: false },
+{ text: "Start ART immediately and continue life-Jong", correct: true },
+{ text: "Start ART after 1st trimester and continue till 6 weeks after delivery", correct: false },
+], },
+
+
+{ question: "A 26-year-old woman who is HIV positive and not on ART delivers a healthy looking male baby weighing about 3 kgs. Which of the following is recommended by NACO with regard to feeding of the baby?",
+img: "",
+answers: [
+{ text: "No Breast-feeding", correct: false },
+{ text: "Minimal Breast-feeding with complementary feeding ", correct: false },
+{ text: "Exclusive Breast-feeding", correct: true },
+{ text: "Safe & sustainable alternative formula feeds", correct: false },
+], },
+
+
+{ question: "WHO recommends Co-Trimoxazole prophylaxis at ___ _",
+img: "",
+answers: [
+{ text: "Any CD4 count or WHO cli1ical stage", correct: false },
+{ text: "CD4 count <500 and /or WHO stage 3/4 ", correct: false },
+{ text: "CD4 count <350 and /or WHO stage 3/4", correct: true },
+{ text: "CD4 count <150 and /or WHO stage 3/4", correct: false },
+], },
+
+
+{ question: "Which of the following is true about 4th Generation serological testing for HIV?",
+img: "",
+answers: [
+{ text: "It is used to confirm the diagnosis of HIV", correct: false },
+{ text: "It detects HIV antibodies & antigen ", correct: true },
+{ text: "It has a lower sensitivity compared to 1st generation HIV test", correct: false },
+{ text: "It cannot be used to detect HIV-2 antibodies", correct: false },
+], },
+
+
+{ question: "A postgraduate student is assisting in the emergency trauma surgery of an I HIV-infected person noted to have severe Oropharyngeal candidiasis. He suffers a bleeding puncture wound on his right index finger, through the glove. Which of the following is correct regarding post-exposure prophylaxis for HIV in this situation?",
+img: "",
+answers: [
+{ text: "Zidovudine + Lamivudine for 4 weeks", correct: false },
+{ text: "Lamivudine + Tenofovir + Efavirenz for 4 weeks ", correct: false },
+{ text: "Lamivudine + Tenofovir + Dolutegravir for 4 weeks", correct: true },
+{ text: "Tenofovir + Lamivudine + Nevirapine for 4 weeks", correct: false },
+], },
+
+
+{ question: "Diagnostic test for Tuberculosis in HIV-positive people is __ _",
+img: "",
+answers: [
+{ text: "Cartridge based nucleic acid amiplification test", correct: true },
+{ text: "Sputum microscopy & AFB staining ", correct: false },
+{ text: "Interferon gamma release assay", correct: false },
+{ text: "lineimmunoassay", correct: false },
+], },
+
+
+{ question: "The ideal timing of steroid therapy in primary CNS lymphoma is:",
+img: "",
+answers: [
+{ text: "1 day before performing a biopsy", correct: false },
+{ text: "Just before obtaining the sample for a biopsy ", correct: false },
+{ text: "Only after obtaining a biopsy", correct: true },
+{ text: "There is no specific ideal timing", correct: false },
+], },
+
+
+{ question: "The most commonly used confirmatory test for HIV is __ _",
+img: "",
+answers: [
+{ text: "Radio-immunoprecipitation assay (RIPA)", correct: false },
+{ text: "p24 antigen capture assay ", correct: false },
+{ text: "HIV RNA nucleic acid testing (NAT)", correct: false },
+{ text: "Western blot (WB)", correct: true },
+], },
+
+
+{ question: "Antiretroviral Therapy (ART) in HIV-infected individuals should be initiated at __ _",
+img: "",
+answers: [
+{ text: "CD4 count <500 cells/ul and/or who clinical stage 3/4", correct: false },
+{ text: "CD4 count <350 cells/ul and/or who clinical stage 3/4 ", correct: false },
+{ text: "CD4 count <200 cells/ul and/or who clinical stage 3/4", correct: false },
+{ text: "Any CD4 count regardless of WHO clinical stage", correct: true },
+], },
+
+
+{ question: "A 46-year-old HIV-positive man presented with acute boring abdominal pain. Serum Lipase levels were noted to be grossly elevated. Which of the following is the most likely cause?",
+img: "",
+answers: [
+{ text: "Nevirapine", correct: false },
+{ text: "Didanosine ", correct: true },
+{ text: "Emtricitabine", correct: false },
+{ text: "Stavudine", correct: false },
+], },
+
+
+{ question: "Which among the following is the only Antiretroviral administered parenterally?",
+img: "",
+answers: [
+{ text: "Emtricitabine", correct: false },
+{ text: "Elvitegravir ", correct: false },
+{ text: "Enfuvirtide", correct: true },
+{ text: "Efavirenz", correct: false },
+], },
+
+
+{ question: "Which among the following antiretroviral drugs is not used in HIV & Hepatitis B coinfection?",
+img: "",
+answers: [
+{ text: "Tenofovir", correct: false },
+{ text: "Abacavir ", correct: true },
+{ text: "Lamivudine", correct: false },
+{ text: "Emtricitabine", correct: false },
+], },
+
+
+{ question: "Screening of patients for HLA- 85701 is recommended before initiation of which of the following antiretroviral drugs?",
+img: "",
+answers: [
+{ text: "Tenofovir", correct: false },
+{ text: "Abacavir ", correct: true },
+{ text: "Zidovudine", correct: false },
+{ text: "Lamivudine", correct: false },
+], },
+
+
+{ question: "A 48-year-old man with a chronic history of improperly controlled T2DM & Hypertension has developed moderately increased albuminuria. He has also been diagnosed with HIV infection recently. cART preparations including which of the following drugs should be avoided?",
+img: "",
+answers: [
+{ text: "Tenofovir", correct: true },
+{ text: "Lamivudine ", correct: false },
+{ text: "Emtricttabine", correct: false },
+{ text: "Dolutegravir", correct: false },
+], },
+
+
+{ question: "Lower motor neuron lesions are associated with",
+img: "",
+answers: [
+{ text: "Fasciculalions", correct: true },
+{ text: "Spasticity ", correct: false },
+{ text: "Clonus", correct: false },
+{ text: "Preserved reflexes in atrophic muscles", correct: false },
+], },
+
+
+{ question: "Clinical feature not seen in amyotrophic lateral sclerosis (ALS) is",
+img: "",
+answers: [
+{ text: "Tongue fasciculations", correct: false },
+{ text: "Spastic dysarthria ", correct: false },
+{ text: "Inappropriate laughing or crying", correct: false },
+{ text: "Bowel and bladder dysfunction", correct: true },
+], },
+
+
+{ question: "Confirmatory test of choice for amyotrophic lateral sclerosis (ALS) is",
+img: "",
+answers: [
+{ text: "MRI", correct: false },
+{ text: "CSF analysis ", correct: false },
+{ text: "Muscle", correct: false },
+{ text: "None of the above", correct: true },
+], },
+
+
+{ question: "Which of the following is the only drug known to improve survival in amyotrophic lateral sclerosis (ALS)?",
+img: "",
+answers: [
+{ text: "Fingolimod", correct: false },
+{ text: "Riluzole ", correct: true },
+{ text: "Tocilizumab", correct: false },
+{ text: "None of the above", correct: false },
+], },
+
+
+{ question: "Which of the following is not a mechanism of action of riluzole?",
+img: "",
+answers: [
+{ text: "Inhibition of glutamate release", correct: false },
+{ text: "Inhibition of GABA reuptake ", correct: true },
+{ text: "NMDA glutamate receptor antagonism", correct: false },
+{ text: "Kainate glutamate receptor antagonism", correct: false },
+], },
+
+
+{ question: "The novel free-radical scavenger approved for use in amyotrophic lateral sclerosis (ALS) is",
+img: "",
+answers: [
+{ text: "Riluzole", correct: false },
+{ text: "Edaravone ", correct: true },
+{ text: "Arimoclomol", correct: false },
+{ text: "Tirasemtiy", correct: false },
+], },
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M 1301-1400 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que 1301-1400 </h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Shraddha</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+            { question: "Suspended distribution of sensory deficit is a feature of __",
+img: "",
+answers: [
+{ text: "Tabes dorsalis", correct: false },
+{ text: "Foramen magnum syndrome ", correct: false },
+{ text: "Syringomyelia", correct: true },
+{ text: "Brown Sequard Syndrome", correct: false },
+], },
+{ question: "Mrs. Meena presents with 'Around the clock' pattern of weakness. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Brown-Sequard Syndrome", correct: false },
+{ text: "Central cord syndrome ", correct: false },
+{ text: "Anterior spinal artery syndrome", correct: false },
+{ text: "Foramen Magnum syndrome", correct: true },
+], },
+{ question: "Anterior spinal artery thrombosis is characterized by all of the following, except",
+img: "",
+answers: [
+{ text: "Loss of pain and touch", correct: false },
+{ text: "Loss of vibration sense ", correct: true },
+{ text: "Loss of power in the lower limb", correct: false },
+{ text: "Sphincter dysfunction", correct: false },
+], },
+{ question: "All of the following are the features of the extramedullary tumor, except ___",
+img: "",
+answers: [
+{ text: "AbnormalCSF", correct: false },
+{ text: "Sacral sparing ", correct: true },
+{ text: "Spastic weakness of lower limos", correct: false },
+{ text: "Radicular pain", correct: false },
+], },
+{ question: "Subacute combined degeneration is due to deficiency of",
+img: "",
+answers: [
+{ text: "B9", correct: false },
+{ text: "B1 ", correct: false },
+{ text: "B12", correct: true },
+{ text: "B6", correct: false },
+], },
+{ question: "A patient with a history of a backache for 10 days, has now presented with sudden onset difficulty in micturition and defaecation. There was no history of a cough or fever previously. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Pott's Spine", correct: false },
+{ text: "Gullian Barre Syndrome ", correct: false },
+{ text: "Cauda Equina Syndrome", correct: true },
+{ text: "Muttiple Sclerosis", correct: false },
+], },
+{ question: "Quadriplegia and weakness of the diaphragm are associated with spinal cord lesion at the level of spinal segments.",
+img: "",
+answers: [
+{ text: "C1- C4", correct: true },
+{ text: "C5 - C6 ", correct: false },
+{ text: "C7", correct: false },
+{ text: "C8", correct: false },
+], },
+{ question: "Beevor's sign is noted in a patient who has spinal cord injury. This localizes the spinal cord injury at",
+img: "",
+answers: [
+{ text: "T7 - T8", correct: false },
+{ text: "T8 - T9 ", correct: false },
+{ text: "T9-T10", correct: true },
+{ text: "T10 - T11", correct: false },
+], },
+{ question: "Mr. Raju has a spinal cord lesion at the level of L2- L4 spinal nerve roots. All of the following may be seen in this patient except ___",
+img: "",
+answers: [
+{ text: "Paralyze flexion and adduction of the thigh", correct: false },
+{ text: "Paralyze flexion at the knee ", correct: true },
+{ text: "Weaken leg extension at the Knee", correct: false },
+{ text: "Abollsh the patellar reflex", correct: false },
+], },
+{ question: "The clinical features of the conus medullaris syndrome include 1. Bilateral saddle anesthesia 2. Bladder and bowel dysfunction 3. Impotence 4. Absence of anal reflex",
+img: "",
+answers: [
+{ text: "1, 2, 3, and 4", correct: true },
+{ text: "1, 2, and 3 ", correct: false },
+{ text: "2, 3, and 4", correct: false },
+{ text: "1,2and4", correct: false },
+], },
+{ question: "Which of the following conditions will you suspect in a patient who has a loss of bladder control early in the progression of the disease?",
+img: "",
+answers: [
+{ text: "Cauda equina syndrome", correct: false },
+{ text: "Conus medullaris syndrome ", correct: true },
+{ text: "Guillian Barre syndrome", correct: false },
+{ text: "Amyotrophic lateral sclerosis", correct: false },
+], },
+{ question: "A patient presented with weakness of lower limbs and urinary retention. Differential diagnosis of conus medullaris syndrome and cauda equina syndrome is considered. Which of the following features will help you make a diagnosis of conus medullaris syndrome?",
+img: "",
+answers: [
+{ text: "Radicular pain", correct: false },
+{ text: "Lower motor neuron injury ", correct: false },
+{ text: "Symmetric weakness of lower limbs", correct: true },
+{ text: "Urinary retention", correct: false },
+], },
+{ question: "Which is the characteristic pattern seen in Brown Sequard syndrome?",
+img: "",
+answers: [
+{ text: "Contralateral loss of joint sense and position", correct: false },
+{ text: "Contralateral loss of pain sensation ", correct: true },
+{ text: "Ipsilateral loss of complete sensory functions", correct: false },
+{ text: "Contralateral motor functions", correct: false },
+], },
+{ question: "The type of sensation lost on the same side in Brown-Sequard syndrome is",
+img: "",
+answers: [
+{ text: "Pain", correct: false },
+{ text: "Crude touch ", correct: false },
+{ text: "Proprioception", correct: true },
+{ text: "Temperature", correct: false },
+], },
+{ question: "Which among the following is not a cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: "Ebstein anomaly", correct: false },
+{ text: "Ventricular septal defect with pulmonic stenosis ", correct: false },
+{ text: "Pulmonary AV malformation", correct: false },
+{ text: "Infundibular stenosis", correct: true },
+], },
+{ question: "The most common type of total anomalous pulmonary venous connection is",
+img: "",
+answers: [
+{ text: "Supracardiac", correct: true },
+{ text: "Cardiac ", correct: false },
+{ text: "Intracardiac", correct: false },
+{ text: "Mixed", correct: false },
+], },
+{ question: "Which of the following is the most common cyanotic congenital heart disease?",
+img: "",
+answers: [
+{ text: "Tetralogy of Fallot", correct: true },
+{ text: "Transposition of Great Arteries ", correct: false },
+{ text: "Tricuspid Atresia", correct: false },
+{ text: "Total Anomalous Pulmonary Venous", correct: false },
+], },
+{ question: "All are seen in tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Ventricular septal defect", correct: false },
+{ text: "Right ventricular hypertrophy ", correct: false },
+{ text: "Atrial septal defect", correct: true },
+{ text: "Pulmonary stenosis", correct: false },
+], },
+{ question: "All of the following are features of tetralogy of Fallot except __ _",
+img: "",
+answers: [
+{ text: "Soft P2", correct: false },
+{ text: "large ascending aorta ", correct: false },
+{ text: "Cardiomegaly", correct: true },
+{ text: "large 'a' waves in jugular venous pulse", correct: false },
+], },
+{ question: "A child with tetralogy of Fallot feels comfortable in a squatting position as soon as he gets dyspneic. All of the following are true except ___ _",
+img: "",
+answers: [
+{ text: "A It increases the systemic vascular resistance", correct: false },
+{ text: "It increases the magnitude of right-to-left shunt ", correct: true },
+{ text: "Leads to trapping of deoxygenated blood in lower limbs", correct: false },
+{ text: "Both A and C", correct: false },
+], },
+{ question: "Blalock-Taussig shunt is done between ___ _",
+img: "",
+answers: [
+{ text: "Subclavian artery to pulmonary artery", correct: true },
+{ text: " Aorta to pulmonary vein ", correct: false },
+{ text: "Aorta to pulmonary artery", correct: false },
+{ text: "Subclavian vein to pulmonary artery", correct: false },
+], },
+{ question: "Which of the following is a component of the pentalogy of Fallot?",
+img: "",
+answers: [
+{ text: "Atrial septal detect", correct: true },
+{ text: "Patent ductus arteriosus ", correct: false },
+{ text: "Coarctation of the aorta", correct: false },
+{ text: "Left ventricular hypertrophy", correct: false },
+], },
+{ question: "A 6-month-old child with tetralogy of Fallot develops cyanotic spell initiated by crying. Which of the following drugs would you avoid?",
+img: "",
+answers: [
+{ text: "A Sodium bicarbonate", correct: false },
+{ text: " Propranolol ", correct: false },
+{ text: "Phenylephrine", correct: false },
+{ text: "Isoprenaline", correct: true },
+], },
+{ question: "Which of the following is not a feature of Eisenmenger's syndrome?",
+img: "",
+answers: [
+{ text: "Right ventricular hypertrophy", correct: false },
+{ text: "Bidirectional flow of blood ", correct: false },
+{ text: "Obstructive pulmonary hypertension", correct: false },
+{ text: "Predominant left to right shunt", correct: true },
+], },
+{ question: "All are true about Gullian-Barre syndrome except ___",
+img: "",
+answers: [
+{ text: "Inflammatory", correct: false },
+{ text: "Descending paralysis ", correct: true },
+{ text: "Plasmapheresis is a treatment method", correct: false },
+{ text: "Demyelinating", correct: false },
+], },
+{ question: "The triad of Miller-Fisher syndrome (MFS) includes all of the following except __",
+img: "",
+answers: [
+{ text: "Ataxia", correct: false },
+{ text: "Weakness ", correct: true },
+{ text: "Areflexia", correct: false },
+{ text: "Ophthalmoplegia", correct: false },
+], },
+{ question: "In Guillian-Barre syndrome, the acute inflammatory demyelinating polyneuropathy (AIDP) variant differs from acute motor axonal neuropathy (AMAN), in that, in the latter, the complement deposition along with lgG antibodies occurs at __",
+img: "",
+answers: [
+{ text: "Nodes of Ranvier", correct: true },
+{ text: "Neuromuscular junction ", correct: false },
+{ text: "Oligodendrocytes", correct: false },
+{ text: "Schwann cells", correct: false },
+], },
+{ question: "Mr.Dinesh presents with complaints of lower extremity weakness. He initially noticed difficulty climbing the stairs and now he is unable to stand. He gives a history of bloody diarrhea a few weeks ago. The physician suspects a case of Guillain- Barre syndrome. Which of the following are expected to be elevated in the CSF of this patient?",
+img: "",
+answers: [
+{ text: "Lymphocytes", correct: false },
+{ text: "Leucocytes ", correct: false },
+{ text: "Glucose", correct: false },
+{ text: "Proteins", correct: true },
+], },
+{ question: "Which of the following is recommended for initial therapy in the treatment of GuillianBarre syndrome (GBS)?",
+img: "",
+answers: [
+{ text: "Glucocorticoids", correct: false },
+{ text: "Immunosuppresive agents ", correct: false },
+{ text: "IV Immunoglobulin", correct: true },
+{ text: "Plasmapheresis", correct: false },
+], },
+{ question: "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) is suspected when",
+img: "",
+answers: [
+{ text: "GBS deteriorates >5 weeks after onset or relapses at least three times", correct: false },
+{ text: "GBS deteriorates >5 weeks after onset or relapses at least two times ", correct: false },
+{ text: "GBS deteriorates >8 weeks after onset or relapses at least three times", correct: true },
+{ text: "GBS deteriorates >9 weeks after onset or relapses at least two times", correct: false },
+], },
+{ question: "Mr.Bharat has been diagnosed with chronic inflammatory demyelinating polyneuropathy (ClOP). All of the following can be used for treatment except",
+img: "",
+answers: [
+{ text: " IVIg", correct: false },
+{ text: "Plasmapheresis ", correct: false },
+{ text: "NSAIDs", correct: true },
+{ text: "Glucocorticoids", correct: false },
+], },
+{ question: " All are associated with Chronic inflammatory demyelinating polyneuropathy (CIDP) Except---",
+img: "",
+answers: [
+{ text: "Diabetic mellitus", correct: false },
+{ text: "Systemic lupus erythematosus (SLE) ", correct: false },
+{ text: "Lymphoma", correct: false },
+{ text: "Hepatitis A infection", correct: true },
+], },
+{ question: "Chronic inflammatory demyelinating polyneuropathy (CIDP) show all the following finding in Nerve conduction study except. ___",
+img: "",
+answers: [
+{ text: "Low amplitude", correct: true },
+{ text: "Decreased conduction velocity ", correct: false },
+{ text: "Increased distal latency", correct: false },
+{ text: "Conduction block", correct: false },
+], },
+{ question: "All are true about chronic inflammatory demyelinating polyneuropathy (CIDP) except---",
+img: "",
+answers: [
+{ text: " Symptoms present for > 9 weeks duration", correct: false },
+{ text: "Relapse at least 3 times in a patient with Guillain-barre syndrome ", correct: false },
+{ text: "Symmetrical weakness", correct: false },
+{ text: "Small nerve fibers are affected more than large fibers", correct: true },
+], },
+{ question: "Indication for biopsy in chronic inflammatory demyelinating polyneuropathy (CIDP) is/are ___ _",
+img: "",
+answers: [
+{ text: "Diagnosisnotclear", correct: false },
+{ text: "Other causes of polyneuropathy is not able to rule out ", correct: false },
+{ text: "Electromyography (EMG) shows axonal involvement", correct: false },
+{ text: "All the above", correct: true },
+], },
+{ question: "Which of the following statements is false about Guillian-Barre syndrome?",
+img: "",
+answers: [
+{ text: "It is an autoimmune disease", correct: false },
+{ text: "characterised by ascending paralysis ", correct: false },
+{ text: "Bladder dysfunction is usually severe and appears early in the course", correct: true },
+{ text: "Lower cranial nerves are involved causing bulbar paralysis", correct: false },
+], },
+{ question: "Which of the followings statements are true with reference to neuropathy seen in multiple myeloma?",
+img: "",
+answers: [
+{ text: "Polyneuropathy is seen in half of the cases of multiple myeloma which exhibits osteoporotic bone lesions", correct: false },
+{ text: "Polyneuropathy is seen in 5% cases of myeloma with osteosclerotic features ", correct: false },
+{ text: "The pattern of neuropathy is sensorimotor", correct: true },
+{ text: "Successful suppression of the myeloma may reverse severe neuropathy", correct: false },
+], },
+{ question: "The most common pattern of peripheral neuropathy in polyarteritis nodosa(PAN) is",
+img: "",
+answers: [
+{ text: "Pure motor neuropathy", correct: false },
+{ text: "Pure sensory neuropathy ", correct: false },
+{ text: "Symmetric motor-sensory neuropathy", correct: false },
+{ text: "Mononeuropathy multiplex", correct: true },
+], },
+{ question: "Which of the following sensory deficit/s is severe in Guillain-Barre syndrome?",
+img: "",
+answers: [
+{ text: "Loss of pain", correct: false },
+{ text: "Loss of temperature ", correct: false },
+{ text: "Loss of proprioception", correct: true },
+{ text: "All of the above", correct: false },
+], },
+{ question: "A 23 year old patient comes with rapidly progressing symmetric ascending paralysis since 2 days. Nerve conduction studies are consistent with demyelination. He is found to have an elevated protein level in his CSF. Which of the following autonomic disturbance is common in Guillian-Barre syndrome (GBS)?",
+img: "",
+answers: [
+{ text: "Postural hypotension", correct: true },
+{ text: "Postural hypertension ", correct: false },
+{ text: "Diarrhea", correct: false },
+{ text: "Headache", correct: false },
+], },
+{ question: "Which of the following is the most common type of Guillian-Barre syndrome (GBS)?",
+img: "",
+answers: [
+{ text: "Acute motor axonal neuropathy (AMAN)", correct: false },
+{ text: "Acute inflammatory demyelinating polyneuropathy (AIDP) ", correct: true },
+{ text: "Acute motor sensory axonal neuropathy (AMSAN)", correct: false },
+{ text: "Miller Fisher syndrome (MFS)", correct: false },
+], },
+{ question: " Which of the following is the most common antecedent infectious cause of Guillain- Barre syndrome?",
+img: "",
+answers: [
+{ text: "HIV", correct: false },
+{ text: "Mycoplasma pneumoniae ", correct: false },
+{ text: "Campylobacter jejuni", correct: true },
+{ text: "Epstein Barr virus", correct: false },
+], },
+{ question: " Which of the following autoantibody isotype is involved in the pathogenesis of Guillian Barre Syndrome(GBS)?",
+img: "",
+answers: [
+{ text: "IgA", correct: false },
+{ text: "lgG ", correct: true },
+{ text: "lgM", correct: false },
+{ text: "lgD", correct: false },
+], },
+{ question: "The physician suspects a case of Guillain-Barre syndrome due to antecedent infection with campylobacter jejuni in a child with complaints of lower extremity weakness and tingling. The autoantibodies due to C.jejuni infection are most commonly directed against ___ _",
+img: "",
+answers: [
+{ text: "GM1", correct: true },
+{ text: "GD1a ", correct: false },
+{ text: "GD1b", correct: false },
+{ text: "Ga1Nac-GD1a", correct: false },
+], },
+{ question: "Which of the following types of Guillain-Barre syndrome most commonly affects the pediatric agte group?",
+img: "",
+answers: [
+{ text: "Acute motor axonal neuropathy (AMAN)", correct: true },
+{ text: "Acute inflammatory demyelinating polyneuropatny (AIDP) ", correct: false },
+{ text: "Acute motor sensory axonal neuropathy (AMSAN)", correct: false },
+{ text: "None of the above", correct: false },
+], },
+{ question: "The most common type of headache is __ _",
+img: "",
+answers: [
+{ text: "Migraine With aura", correct: false },
+{ text: "Tension-type headache(TTH) ", correct: true },
+{ text: "Migraine without aura", correct: false },
+{ text: "Primary excise headache", correct: false },
+], },
+{ question: "A 26-year-old woman has been suffering from migraine. She has 1-2 episodes every I week significantly affecting her quality of life. All of the following drugs can be used in the prophylaxis of migraine in this patient except",
+img: "",
+answers: [
+{ text: "Propranolol", correct: false },
+{ text: "Amitriptyline ", correct: false },
+{ text: "Sumatriptan", correct: true },
+{ text: "Valproate", correct: false },
+], },
+{ question: "Sumatriptan is contraindicated in all the condition except __ _",
+img: "",
+answers: [
+{ text: "Ergot alkaloids in last one week", correct: true },
+{ text: "Pregnancy ", correct: false },
+{ text: "Cerebrovascular disease", correct: false },
+{ text: "Coronary artery disease", correct: false },
+], },
+{ question: "MIDAS Questionnaire is used for",
+img: "",
+answers: [
+{ text: "To asses severity of migraine", correct: false },
+{ text: "To asses disability of migraine ", correct: true },
+{ text: "To asses treatment of migraine", correct: false },
+{ text: "All the above", correct: false },
+], },
+{ question: "Which of the following is used in the preventive treatment of chronic migraine?",
+img: "",
+answers: [
+{ text: "Onabotulinum toxin A", correct: true },
+{ text: "Sumatriptan ", correct: false },
+{ text: "Metoclopramide", correct: false },
+{ text: "Ergotamine", correct: false },
+], },
+{ question: "____ is not a trigeminal autonomic cephalalgia?",
+img: "",
+answers: [
+{ text: "Cluster head ache", correct: false },
+{ text: "SUNA ", correct: false },
+{ text: "Paroxysmaltlemicrania", correct: false },
+{ text: "Nummular headache", correct: true },
+], },
+{ question: "All are true about trigeminal autonomic cephalgia except __",
+img: "",
+answers: [
+{ text: "Cluster head ache is more common in males", correct: false },
+{ text: "Short-lasting unilateral neuralgiform headache with conjunctiva! injection and tearing (SUNCT) has highest attacl< frequency rate ", correct: false },
+{ text: "lidocaine is effective in SUNCT", correct: false },
+{ text: "Cutaneous trigger is seen in cluster headache", correct: true },
+], },
+{ question: "lndomethacin responsive headache is ___ _",
+img: "",
+answers: [
+{ text: "Paroxysmal hemicranias", correct: true },
+{ text: "Cluster headache ", correct: false },
+{ text: "Short-lasting unilateral neuralgiform headache (SUNCT)", correct: false },
+{ text: "Trigeminal Neuralgia", correct: false },
+], },
+{ question: "A 40-year-old male is diagnosed to have Short-lasting unilateral neuralgiform headache attacks with conjunctival Injection and tearing (SUN CT). It can be distinguished from trigeminal neuralgia by the presence of all except __ _",
+img: "",
+answers: [
+{ text: "Lacnmahon", correct: false },
+{ text: "Nasal congestion ", correct: false },
+{ text: "Conjuctival injection", correct: false },
+{ text: "Short lived attacks of excruciating stabbing pain", correct: true },
+], },
+{ question: "A 34-year-old man presents with complaints of recurrent excruciating stabbing headaches on the left side of the head. He has been experiencing this every day for the last week and the episodes last for about an hour. He also says his left eye waters and he experiences a runny nose during these episodes. He denies any nausea and vomiting and has no significant past medical history. All of the following can be used in the prophylaxis of this condition except",
+img: "",
+answers: [
+{ text: "Verapamil", correct: false },
+{ text: "Lndomethacin ", correct: true },
+{ text: "Steroids", correct: false },
+{ text: "Lithium", correct: false },
+], },
+{ question: "All are true about trigeminal neuralgia except ___ _",
+img: "",
+answers: [
+{ text: "More common in females", correct: false },
+{ text: "Pain along V2 and V3 division of trigeminal nerve ", correct: false },
+{ text: " Deep seated pain", correct: true },
+{ text: "No objective signs of sensory toss", correct: false },
+], },
+{ question: "Most common cause of secondary headache is ___ _",
+img: "",
+answers: [
+{ text: "Head injury", correct: false },
+{ text: "Systemic infection ", correct: true },
+{ text: "Vascular disorders", correct: false },
+{ text: "Brain tumor", correct: false },
+], },
+{ question: "Causes of thunderclap headache are all except",
+img: "",
+answers: [
+{ text: "Subdural hemorrhage", correct: true },
+{ text: "Subarachnoid hemorrhage ", correct: false },
+{ text: "Acute hydrocephalus", correct: false },
+{ text: "Pituitary apoplexy", correct: false },
+], },
+{ question: "A patient came to casualty complaining of a severe headache. On examination, there was no I focal neurological defect. However, neck rigidity was present. The causality medical officer ordered an emergency CT. The diagnosis is ___ _",
+img: "img1301-1400/pg1683.png",
+answers: [
+{ text: "Subdural hemorrhage", correct: false },
+{ text: "Pituitary apoplexy ", correct: false },
+{ text: "Subarachnoid hemorrhage", correct: true },
+{ text: "Pituitary carcinomaS", correct: false },
+], },
+{ question: "Which of the following is not a feature of tension type headache (TTH)",
+img: "",
+answers: [
+{ text: "Chronicity", correct: false },
+{ text: "Bilaterality ", correct: false },
+{ text: "Tight band-like discomfort", correct: false },
+{ text: "Nausea", correct: true },
+], },
+{ question: "Mr.Rajesh comes with complaints of non-pulsatile headache of tightening quality on I both sides of his forehead. He describes it as wearing a tight cap. He has no nausea, photophobia, or phonophobia. All of the following drugs can be used in the treatment of this condition except",
+img: "",
+answers: [
+{ text: "Aspirin", correct: false },
+{ text: "Sumatriptan ", correct: true },
+{ text: "Acetaminophen", correct: false },
+{ text: "Naproxen", correct: false },
+], },
+{ question: "A 41-year-old male patient has a 4-year history of severe excruciating episodic headaches on the left side. Most episodes were accompanied by ipsilateral lacrimation, conjunctiva! injection, and rhinorrhea. There are no cutaneous triggers, it does not respond to indomethacin and attacks may be triggered by alcohol. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Trigeminal neuralgia", correct: false },
+{ text: "Cluster headache ", correct: true },
+{ text: "SUNCT", correct: false },
+{ text: "Paroxysmal hemicranias", correct: false },
+], },
+{ question: "A 26-year old woman presents with a unilateral throbbing headache associated with I nausea and vomiting. She has had similar episodes in the past where the headache usually lasts for 1-2 days. Bright light increases her discomfort and she prefers sitting in a dark room. What is the most common positive visual aura seen by patients during an attack of this condition?",
+img: "",
+answers: [
+{ text: "Scotoma", correct: false },
+{ text: "Zig zag lines ", correct: true },
+{ text: "Transient loss of vision", correct: false },
+{ text: "Key hole vision", correct: false },
+], },
+{ question: "You observe a senior doctor prescribing fremanezumab, a cytokine antagonist to a I patient for the prevention of migraines. What is the cytokine associated with this condition?",
+img: "",
+answers: [
+{ text: "Interleukin 1", correct: false },
+{ text: "Calcitonin gene-related peptide(CGRP) ", correct: true },
+{ text: "Leukotriene84", correct: false },
+{ text: "Leukotriene D", correct: false },
+], },
+{ question: "Familial hemiplegic migraine (FHM) is due to defective __ _",
+img: "",
+answers: [
+{ text: "Voltage-gated calcium channel gene", correct: false },
+{ text: "Sodium potassium ATPase gene ", correct: false },
+{ text: "Voltage galed sodium channel", correct: false },
+{ text: "All the above", correct: true },
+], },
+{ question: "Most effective triptans for moderate to severe acute migraine is ___",
+img: "",
+answers: [
+{ text: "Sumatriptan", correct: false },
+{ text: "Rizatriptan ", correct: true },
+{ text: "Frovotriptan", correct: false },
+{ text: "Naratriptan", correct: false },
+], },
+{ question: "Which of the following disease pathogenesis primarily involves the marked structure?",
+img: "img1301-1400/pg1693.png",
+answers: [
+{ text: "Paralysis agitans", correct: true },
+{ text: "Depression ", correct: false },
+{ text: "Alzheimer’s", correct: false },
+{ text: "Huntington chorea", correct: false },
+], },
+{ question: "Which of the following is a non-ergot dopamine agonist?",
+img: "",
+answers: [
+{ text: "Bromocriptine", correct: false },
+{ text: "Apomorphine ", correct: true },
+{ text: "Cabergoline", correct: false },
+{ text: "Pergoilde", correct: false },
+], },
+{ question: "A 75-year-old patient with an 8-year history of Parkinson's disease comes to the hospital. The patient complains of increasing stiffness and slowness from the past 1 hour. He is now completely unable to move and is unable to speak too. He takes his levodopa-carbidopa every day, and his last dose was 4 hours back. What is the rescue agent for this patient?",
+img: "",
+answers: [
+{ text: "Levodopa", correct: false },
+{ text: "Carbidopa ", correct: false },
+{ text: "Apomorphine", correct: true },
+{ text: "Selegillene", correct: false },
+], },
+{ question: "The drug with some disease-modifying action in Parkinson's disease is _",
+img: "",
+answers: [
+{ text: "Levodopa", correct: false },
+{ text: "Carbidopa ", correct: false },
+{ text: "Apomorphine", correct: false },
+{ text: "Selegiline", correct: true },
+], },
+{ question: "All are true regarding the management of non-motor symptoms in Parkinson's disease except that _",
+img: "",
+answers: [
+{ text: "Depression should not be treated with antidepressants", correct: true },
+{ text: "Restless leg syndrome is treated by dopamine agonist. ", correct: false },
+{ text: "Sialorrhea can be managed by anticholinergics", correct: false },
+{ text: " Low doses of fludrocortisone or midodrine provide control for most cases of autonomic symptoms", correct: false },
+], },
+{ question: "All are true about levodopa-induced motor complications except _",
+img: "",
+answers: [
+{ text: "More likely to occur in males", correct: true },
+{ text: "Younger individual with severe disease ", correct: false },
+{ text: "With higher doses of levodopa", correct: false },
+{ text: "Transient, stereotypic Rhythmic movements that predominantly involve the lower extremities", correct: false },
+], },
+{ question: "Which among the following drugs is associated with pathologic gambling, hypersexuality, and compulsive eating and shopping as adverse effects?",
+img: "",
+answers: [
+{ text: "Dopamine precursor", correct: false },
+{ text: "Dopamine agonist ", correct: true },
+{ text: "Dopamine depletors", correct: false },
+{ text: "Dopamine antagonist", correct: false },
+], },
+{ question: "A patient with Parkinson's disease has been scheduled to undergo deep brain stimulation. What is the target site for this procedure?",
+img: "",
+answers: [
+{ text: "Subthalamic nucleus and globus pallidus internus", correct: true },
+{ text: "Subthalamic nucleus and globus pallidus extern us ", correct: false },
+{ text: "Substantia nigra pars compacta and globus pallidus externus", correct: false },
+{ text: "Substantia nigra pars reticulata and globus pallidus internus", correct: false },
+], },
+{ question: "The commonest cause of secondary parkinsonism is",
+img: "",
+answers: [
+{ text: "Infection", correct: false },
+{ text: "Vascular ", correct: false },
+{ text: "Neuroleptics", correct: true },
+{ text: "Trauma", correct: false },
+], },
+{ question: "___ is an example of a Parkinson plus syndrome",
+img: "",
+answers: [
+{ text: "Progressive Supranuclear Palsy", correct: true },
+{ text: "Dementia pugilistica ", correct: false },
+{ text: "Post-encephalitic PD", correct: false },
+{ text: "Drug-induced Parkinsonism", correct: false },
+], },
+{ question: "Which among the following is not suggestive of atypical parkinsonism?",
+img: "",
+answers: [
+{ text: "Late speech and gait impairment", correct: true },
+{ text: "Absence of rest tremor ", correct: false },
+{ text: "Poor or nor response to levodopa", correct: false },
+{ text: "No motor asymmetry", correct: false },
+], },
+{ question: "Most common gene mutation in familial Parkinson's disease is",
+img: "",
+answers: [
+{ text: "Leucine-rich repeat kinase 2 (LRRK2)", correct: true },
+{ text: "Parkin ", correct: false },
+{ text: "Alpha-synuclein (SNCA) gene missense mutation", correct: false },
+{ text: "PTEN-induced putative kinase 1 (PINK1)", correct: false },
+], },
+{ question: "A 60-year-old man presented with Parkinsonism and cerebellar features. MRI showed the 'hot cross buns' sign. He is most likely to have _",
+img: "",
+answers: [
+{ text: "Drug induced parkinsonism", correct: false },
+{ text: "Multiple systems atrophy ", correct: true },
+{ text: "Dementia pugilistica", correct: false },
+{ text: "Progressive supranuclear palsy", correct: false },
+], },
+{ question: "A patient presenting in mid-60s with vertical gaze palsy and early falls as well as the following picture on MRI, most likely has _",
+img: "img1301-1400/pg1710.png",
+answers: [
+{ text: "Corticobasal ganglionic degeneration", correct: false },
+{ text: "Perinaud's syndrome ", correct: false },
+{ text: "Weber's syndrome", correct: false },
+{ text: "Progressive supranuclear palsy", correct: true },
+], },
+{ question: "Which of the following is not an example of secondary parkinsonism? Which of the following is not an example of secondary parkinsonism?",
+img: "",
+answers: [
+{ text: "Corticobasal syndrome", correct: true },
+{ text: "Dementia pugilistica ", correct: false },
+{ text: "Post-encephalitic PD", correct: false },
+{ text: "Drug-induced Parkinsonism", correct: false },
+], },
+{ question: "An 8 yr old girl exhibits rapid, semi-purposeful, graceful, dance-like, involuntary I movements. This is an example of _",
+img: "",
+answers: [
+{ text: "Tremor", correct: false },
+{ text: "Myoclonus ", correct: false },
+{ text: "Chorea", correct: true },
+{ text: "Athetosis", correct: false },
+], },
+{ question: "A 52-year-old male patient diagnosed with stroke exhibits wild, flinging movements on his right side. This is due to a lesion in the",
+img: "",
+answers: [
+{ text: "Caudate nucleus", correct: false },
+{ text: "Putamen ", correct: false },
+{ text: "Subthalamic nucleus", correct: true },
+{ text: "Substantia Niagra", correct: false },
+], },
+{ question: "The most common acute drug-induced movement disorder is _",
+img: "",
+answers: [
+{ text: "Akathisia", correct: false },
+{ text: "Dystonia ", correct: true },
+{ text: "Tardive Dyskinesia", correct: false },
+{ text: "Myoclonus", correct: false },
+], },
+{ question: "Most common movement disorder is",
+img: "",
+answers: [
+{ text: "Dystonia", correct: false },
+{ text: "Chorea ", correct: false },
+{ text: "Athetosis", correct: false },
+{ text: "Essential tremor", correct: true },
+], },
+{ question: "A 65-year-old man presents with a tremor in both hands that worsens when he's trying to eat or write something. No tremor is observed at rest. He says he drinks wine to reduce the tremor and it gets worse when he is stressed. His father also had similar symptoms. Which of the following drugs can be used to control this essential tremor?",
+img: "",
+answers: [
+{ text: "Valproate", correct: false },
+{ text: "Levetiracetam ", correct: false },
+{ text: "Primidone", correct: true },
+{ text: "Salbutamol", correct: false },
+], },
+{ question: "A 70-year-old male patient is scheduled to undergo deep brain stimulation for essential tremor. What is the target site for the procedure?",
+img: "",
+answers: [
+{ text: "Subthalamic nucleus and globus pallidus intern us", correct: false },
+{ text: "Anterior limb of internal capsule ", correct: false },
+{ text: "Substantia nigra pars compacta", correct: false },
+{ text: "Ventral intermediate (VIM) nucleus of thalamus", correct: true },
+], },
+{ question: "All are true about Huntington's disease except _",
+img: "",
+answers: [
+{ text: "Autosomal dominant inheritance", correct: false },
+{ text: "Trinucliotide repeat of CAG sequence ", correct: false },
+{ text: "Westphal akinetic varient has good", correct: true },
+{ text: "Early onset cognitive impairement seen", correct: false },
+], },
+{ question: "All of the following are features of Parkinson's disease except",
+img: "",
+answers: [
+{ text: "Bradykinesia", correct: false },
+{ text: "Tremor ", correct: false },
+{ text: "Exaggerated deep tendon reflexes", correct: false },
+{ text: "Micrographia", correct: true },
+], },
+{ question: "St. Vitus' dance is the other name for",
+img: "",
+answers: [
+{ text: "Huntington’s chorea", correct: false },
+{ text: "Sydenham's chorea ", correct: true },
+{ text: "Athetosis", correct: false },
+{ text: "Hemibalismus", correct: false },
+], },
+{ question: "All are true about restless leg syndrome except. __",
+img: "",
+answers: [
+{ text: "An urge to move the legs", correct: false },
+{ text: "Accompanied by an unpleasant sensation in the legs ", correct: false },
+{ text: "Symptoms that begin or worsen with activity", correct: true },
+{ text: "Partial or complete relief by movement", correct: false },
+], },
+{ question: "All of the following are the core clinical features for the diagnosis of Lewy body dementia except:",
+img: "",
+answers: [
+{ text: "Fluctuating cognition", correct: false },
+{ text: "Recurrent visual hallucinations ", correct: false },
+{ text: "REM sleep behavior disorder", correct: false },
+{ text: "Orthostatic hypotension", correct: true },
+], },
+{ question: "A 66-year-old man comes with complaints of tremor in his right hand. The tremor is I most apparent at rest and improves with movement. He also says that he has difficulty initiating movements and his wife says his movements have been slow. On examination, rigidity is observed to passive arm movement and shuffling gait with a stooped posture is noticed. Which of the following statements is false regarding the pathology of this condition?",
+img: "",
+answers: [
+{ text: "Substantia nigra pars reticulata is unaffected by the disease process", correct: false },
+{ text: "Decreased striatal dopamine ", correct: false },
+{ text: "Degeneration of dopaminergic neurons in the substantia nigra pars compacta", correct: false },
+{ text: "Lewy bodies which contain degenerated tau protein are seen", correct: true },
+], },
+{ question: "The frequency of resting tremor in Parkinson's disease is",
+img: "",
+answers: [
+{ text: "4-6 Hz", correct: true },
+{ text: " 8-10 Hz ", correct: false },
+{ text: "10-12 Hz", correct: false },
+{ text: "20 Hz", correct: false },
+], },
+{ question: "A patient diagnosed with Parkinson's disease has been sent to you for psychiatric evaluation. What is the psychiatric disturbance that is most likely to be seen in this patient?",
+img: "",
+answers: [
+{ text: "Anxiety", correct: false },
+{ text: "Depression ", correct: true },
+{ text: "Abulia", correct: false },
+{ text: "Visual hallucination", correct: false },
+], },
+{ question: "All of the following drugs cause secondary Parkinsonism except _",
+img: "",
+answers: [
+{ text: "Metoclopramide", correct: false },
+{ text: "Bezatropine ", correct: true },
+{ text: "α-Methyldopa", correct: false },
+{ text: "Tetrabenazine", correct: false },
+], },
+{ question: "___ is a peripheral decarboxylase inhibitor.",
+img: "",
+answers: [
+{ text: "Benserazide", correct: true },
+{ text: "Benztropine ", correct: false },
+{ text: "Tetrabenazine", correct: false },
+{ text: "Trihexyphenidyl", correct: false },
+], },
+{ question: "Which of the following symptoms is relieved by treatment with levodopa in a patient with Parkinson's disease?",
+img: "",
+answers: [
+{ text: "Freezing", correct: false },
+{ text: "Falling ", correct: false },
+{ text: "Autonomic dysfunction", correct: false },
+{ text: "Bradykinesia", correct: true },
+], },
+{ question: "Which of the following statements is NOT true regarding demyelinating disorders? ",
+img: "",
+answers: [
+{ text: "They are immune-mediated", correct: false },
+{ text: "Commonly presents in adulthood ", correct: false },
+{ text: "Multiple sclerosis is the most common demyelinating disorder", correct: false },
+{ text: "Includes biochemical abnormality of myelin", correct: true },
+], },
+{ question: "A 35-year-old patient with a history of multiple sclerosis comes to the hospital due to an exacerbation of her symptoms. An MRI image is shown below. What is this sign called?",
+img: "img1301-1400/pg1736.png",
+answers: [
+{ text: "Black holes", correct: false },
+{ text: "Molar tooth sign ", correct: false },
+{ text: "Tram-tracKsign", correct: false },
+{ text: "Dawson's fingers", correct: true },
+], },
+
+
+
+            
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+
