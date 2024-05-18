@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M2 101-200</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que M2 M2 101-200</h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Mayank</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+
+            { question: "Which ofthese is incorrect aboutosmotic fragility test?",
+img: "",
+answers: [
+{ text: "Increased in hereditary spherocytosis", correct: false },
+{ text: "Decrease in thalassemia ", correct: false },
+{ text: "Hemolysis on exposure to hypertonic saline environment", correct: true },
+{ text: "Osmotic fragility decreased in iron deficiency", correct: false },
+], }, 
+
+
+
+{ question: "Regarding anemia ofchronic diseases, all are true except:",
+img: "",
+answers: [
+{ text: "Decreased serum Fe", correct: false },
+{ text: "Decreased ferritin ", correct: true },
+{ text: "Decreased total Fe binding capacity", correct: false },
+{ text: "Increased bone marrow Fe", correct: false },
+], },
+
+
+{ question: "A 43 yr old female presentingto med opd with complaints offatigue, weakness, and shortness ofbreath with minimal activity. Her friends and family havetold her she appears pale, and combinedwith her recent symptomsshehasdecided to getchecked out. She also states that she has noticed her hair and fingernails becomingextremelythin and brittle, causing even mareconcern. The patient first started noticing these symptomsa fewmonthsagoandthey have been getting progressively worse. Uponinitial assessment, her mucosal membranes andconjunctivae are pale. Considering the abovescenario the mostsensitive and specific test to diagnose this particular typeofdeficiency anemia is:",
+img: "",
+answers: [
+{ text: "Serum iron level", correct: false },
+{ text: "Serum ferritin level ", correct: true },
+{ text: "Serumtransferring receptor populati", correct: false },
+{ text: "Transferring saturation ", correct: false },
+], },
+
+
+{ question: "Which Is NOT true about iron deficiency anemia?",
+img: "",
+answers: [
+{ text: "Hyper-segmented neutrophils", correct: true },
+{ text: "Microcytosis precedes hypochromia ", correct: false },
+{ text: "MCHC<50%", correct: false },
+{ text: "Commonest cause ofanemia in India", correct: false },
+], },
+
+
+{ question: "A 23-year-old male presented with nose bleed. Lab parameters showHb=5 g/dl g/dl, Platelet count=23,000/mm3and absolute neutrophil count 176/mm3. Bonemarrowis hypocellular with fatty infiltration. All of following statements aretrue regardingthis condition except",
+img: "",
+answers: [
+{ text: "Can be cured by Hematopoietic stemcell transplantation", correct: false },
+{ text: "Lymphadenopathyand splenomegalyarehighly typical ", correct: true },
+{ text: "Bleeding is the mostcommon symptom", correct: false },
+{ text: "Immunosuppressantsaregiven to curethe disease", correct: false },
+], },
+
+
+{ question: "All are correct regarding managementof Hereditary Spherocytosis EXCEPT:",
+img: "",
+answers: [
+{ text: "Splenectomy is indicated in all moderate cases after puberty", correct: false },
+{ text: "Avoid Splenectomy in mild cases. ", correct: false },
+{ text: "Cholecystectomyshould be performed vialaparoscopic route whenclinically indicated.", correct: false },
+{ text: "Lifelong penicillin prophylaxis after splenectomy is mandatory", correct: true },
+], },
+
+
+{ question: "A 65-year-old man has anemia, splenomegaly, and extramedullary hematopoiesis. He has experienced easy fatigability, weight loss, and weakness. Bone marrowbiopsy reveals marked proliferation of fibrous tissue (myelofibrosis)Which ofthe following isa characteristicfinding in this disorder?",
+img: "",
+answers: [
+{ text: "Depletion ofbonemarrow megskaryocytes", correct: false },
+{ text: "Teardrop-shaped erythrocytes ", correct: true },
+{ text: "Autosplenectomy", correct: false },
+{ text: "Neoplastic plasma cells in the bone marrow", correct: false },
+], },
+
+
+{ question: "A 20 yearoldsailor presents to emergencywith atypical symptoms, if you'rethe attending physician handling this casetorule out Mycoplasma infection in this patient, which ofthe following do you think is the besttest?",
+img: "",
+answers: [
+{ text: "PCR ofrespiratory secretions", correct: true },
+{ text: "Gramstain of transtracheal aspirate ", correct: false },
+{ text: "Gramstain of transtracheal aspirate", correct: false },
+{ text: "CXR", correct: false },
+], },
+
+
+{ question: "Which of the following drug can begiven ina case ofcombined gonococcal and nongonococcal cervicitis?",
+img: "",
+answers: [
+{ text: "Ceftriaxone", correct: false },
+{ text: "Azithromycin ", correct: true },
+{ text: "Ciprofloxacin", correct: false },
+{ text: "Cefixime", correct: false },
+], },
+
+{ question: "A 49 yearoldmale presented with ulcerative lesions in lower limbs (given below) associated with progressive pain, arthralgias, purulent discharge and abnormal gait. He was also reported to havegeneralized hypore?exia, thenar and hypothenar neural atrophy, painless nodules on forehead. Whatwill be your nextstep in managingthis case?",
+img: "",
+answers: [
+{ text: "Steroids ", correct: false },
+{ text: "Lenalidomide ", correct: false },
+{ text: "Clofazimine", correct: false },
+{ text: "Exchange transfusion", correct: true },
+], },
+
+
+{ question: "32 yearoldfemalewho had nacho cheesethenight before, presented tothe emergencydepartment with complaints ofdiplopia, followed by dyspnoea, chest tightness, congestion, and dysphagia. The patient was resuscitated and initial investigationsweredone.The edrophonium tensilon test and lumbar puncture cameouttobenegative. The botulinum toxin testwas positive. The mostpotenttoxin produced in the given condition is?",
+img: "",
+answers: [
+{ text: "A", correct: true },
+{ text: "C ", correct: false },
+{ text: "D", correct: false },
+{ text: "F", correct: false },
+], },
+
+
+{ question: "A 47 yearoldmale, who isa suspected case ofleprosywith Type1 reaction has cometoOPD.On examination, the patient was afebrile. Peripheral nerves, including the greater auricular, radial cutaneous, ulnar, and commonperaneal nerves, wereall thickened bilaterally, with tenderness ofthe radial cutaneous and ulnar nerves bilaterally. Examination oftheskin revealed multiple asymmetric and well-demarcated raised, erythematous plaques across the chest, abdomenarms, back, legs, and face, with reduced sensation to pinprick inall lesions. Whatwill be your DOC forthis patient?",
+img: "",
+answers: [
+{ text: "Systemic steroids ", correct: true },
+{ text: "Clofazimine ", correct: false },
+{ text: "Thalidomide", correct: false },
+{ text: "Chloroquine", correct: false },
+], },
+
+
+{ question: "A 15-year-old boy presentstoyou witha history of fever, altered sensorium, and purpuric rash fortwo days. On examination, the patient is found stuporous. He hasa BP of90/60 mm Hg and extensive palpable purpura overthe legs. Which ofthefollowingwould bethe mostappropriate initial choice of antibiotic?",
+img: "",
+answers: [
+{ text: "Vancomycin", correct: false },
+{ text: "PenicillinG ", correct: false },
+{ text: "Ciprofloxacin", correct: false },
+{ text: "Ceftriaxone", correct: true },
+], },
+
+
+{ question: "A 26 yearoldpresents with history suggestive oftuberculosis. On examination he has pleural effusion. All of the following parameters will be used foranalysis of pleural fluid except?",
+img: "",
+answers: [
+{ text: "GeneXPERT", correct: false },
+{ text: "LDH ", correct: false },
+{ text: "Albumin", correct: true },
+{ text: "ADA", correct: false },
+], },
+
+{ question: "A 27 yearoldwoman,who wasa treated foracute rheumaticfever, whenshewas 8 yearsoldhas comeupforregular follow up. Uponexamination, there is Changingcharacterofa murmurwith joint pain and embolic phenomenon. Identify the diagnosis ofthis patient?",
+img: "",
+answers: [
+{ text: "Mitral stenosis", correct: false },
+{ text: "SABE ", correct: true },
+{ text: "Rheumatoid arthritis", correct: false },
+{ text: "Aortic regurgitation", correct: false },
+], },
+
+{ question: "You'rean intern in the ward,you'regoing through thecasefile ofa patient with tuberculous meningitis. Which ofthe following thingsyou won'tsee in the history and physical examination and laboratoryfindings?",
+img: "",
+answers: [
+{ text: "Normal CSFsugar", correct: false },
+{ text: "Communicating hydrocephalus ", correct: false },
+{ text: "Cerebral infarction", correct: false },
+{ text: "Tuberculoma after treatment means drug failure", correct: true },
+], },
+
+{ question: "10 yearoldmale patient, who is currently undergoingATT treatment has comeforfollow-up. In which ofthe following conditions, you won'tstop offending ATT drug permanently?",
+img: "",
+answers: [
+{ text: "Gout", correct: false },
+{ text: "AutoimmuneThrombocytopenia ", correct: false },
+{ text: "Optic neuritis", correct: false },
+{ text: "Hepatitis ", correct: true },
+], },
+
+{ question: "Interferon gammarelease assay measures IFNrelease against which M.TB antigen:",
+img: "",
+answers: [
+{ text: "ESAT6", correct: true },
+{ text: "ESAT7 ", correct: false },
+{ text: "CF 11", correct: false },
+{ text: "CF 12", correct: false },
+], },
+
+{ question: "A patient has cometoOPD with CT scan findings of caseousTB cavity in the upper pole ofthe Left kidney. Whatis the earliest and often the only presentation ofTB kidney?",
+img: "",
+answers: [
+{ text: " Increased frequency ofurine", correct: true },
+{ text: "Colicky pain ", correct: false },
+{ text: "Hematuria", correct: false },
+{ text: "Renal calculi", correct: false },
+], },
+
+{ question: "A patient who has beentreated forTB with full course ofATT is now symptom free. In which ofthefollowing conditions this patient has the highest relative risk of developingTB again?",
+img: "",
+answers: [
+{ text: "Diabetes ", correct: false },
+{ text: "Recent infection ", correct: false },
+{ text: "Post transplantation ", correct: true },
+{ text: "Malnutrition ", correct: false },
+], },
+
+{ question: "Marktheincorrect statement about Gonococcal infections in males: 1. Acute urethritis is the mostcommon clinical manifestation 2. Epididymitis is an uncommon complication 3. The discharge initially is profuse and purulent 4. Balanitis may develop in uncircumcised men",
+img: "",
+answers: [
+{ text: "1, 2,3", correct: false },
+{ text: "Only 3 ", correct: true },
+{ text: "1,3,4", correct: false },
+{ text: "Only 4", correct: false },
+], },
+
+
+
+{ question: "There is no correlation betweenX-ray appearance and clinical state of the patient with pneumonia in:",
+img: "",
+answers: [
+{ text: "Mycoplasma ", correct: true },
+{ text: "Freidlanders ", correct: false },
+{ text: "Pneumococal ", correct: false },
+{ text: "Staphylococcal", correct: false },
+], },
+
+{ question: "You'rethe Postgraduate on dutyforthe day, you've finished yourroundsand started to write discharge notesforthe patients. While discharginga patient of meningitis due to H. influenzae, whatis the essential stepyou will do:",
+img: "",
+answers: [
+{ text: "EEG", correct: false },
+{ text: "Assess developmental milestones ", correct: false },
+{ text: "Bilateral evoked auditory response", correct: true },
+{ text: "Refer for physiotherapy ", correct: false },
+], },
+
+{ question: "A 33 yearoldfemalewithfamily history of inflammatory bowel disease (IBD) presents with5 day history of profuse, bloodydiarrhoea. If this isa case of severe clostridium difficile, all are useful for managementofthis caseexcept:",
+img: "",
+answers: [
+{ text: "Intravenous Metronidazole", correct: false },
+{ text: "Neomycin enema ", correct: true },
+{ text: "Fecal transplant", correct: false },
+{ text: "Tigecycline", correct: false },
+], },
+
+{ question: "Which ofthefollowing is associated with Streptococcus? 1. Rheumaticfever 2. Scarlet fever 3. Acute GN 4.Scalded skin syndrome",
+img: "",
+answers: [
+{ text: "1,2,3", correct: true },
+{ text: "1,3,4 ", correct: false },
+{ text: "2,3,4", correct: false },
+{ text: "1,2,3,4", correct: false },
+], },
+
+{ question: "A patient who has undergone upperGI endoscopyforanaemia evaluation, has been diagnosed with H.pylori infection via immuno-histochemicalstaining of gastric biopsy. The following statements arecorrect for Helicobacter pylori except:",
+img: "",
+answers: [
+{ text: "It shows positive urease test", correct: false },
+{ text: "It is spiral gram negative flagellate ", correct: false },
+{ text: "It can invadetissue toa great depth", correct: true },
+{ text: "It is linked with duodenal ulcer", correct: false },
+], },
+
+
+{ question: "Pontiac fever is caused by:",
+img: "",
+answers: [
+{ text: "Marbugvirus", correct: false },
+{ text: "Legionella ", correct: true },
+{ text: "Tuberculosis bacilli", correct: false },
+{ text: "Sindbis virus", correct: false },
+], },
+
+{ question: "A 50 yearoldwomanis on immunosuppressivetherapywith steroids post kidneytransplantation. She present with3 day history offever, headacheand confusion. LP reveals 200 PMN cells/cu.mm with elevated CSF protein. India ink preparation slide is shown.Whatis the diagnosis?",
+img: "imgm2-101-200/pg78.png",
+answers: [
+{ text: "Pneumococcal meningitis", correct: true },
+{ text: "Cryptococcal meningitis ", correct: false },
+{ text: "Aseptic meningitis", correct: false },
+{ text: "Cerebral toxoplasmosis", correct: false },
+], },
+
+
+{ question: "A 38 yearoldsexually active male, presents with fever, chills, malaise, and multiple cutaneous lesions with purulent secretion thatcovered hisface, scalp, and body. Whichofthefollowing you won'texpect in Hutchinson triad.",
+img: "",
+answers: [
+{ text: "Interstitial keratitis", correct: false },
+{ text: "Eight cranial nerve deafness ", correct: false },
+{ text: "Hutchison teeth", correct: false },
+{ text: "Mulberry teeth", correct: true },
+], },
+
+{ question: "A 28 yearoldmale presents withthe given histopathological finding. Whichof thefollowing is FALSE aboutthegiven condition?",
+img: "imgm2-101-200/pg 89.png",
+answers: [
+{ text: "Non suppurative, painless Lymphadenopathy", correct: true },
+{ text: "Maculo-papularrash or petechial rash ", correct: false },
+{ text: "Lymphocytosis is usually demonstrable, with >1O%atypical lymphocytes", correct: false },
+{ text: "Transient bilateral upper lid Edema", correct: false },
+], },
+
+{ question: "A 38 yearoldmale non-smoker patient presented toOPD with Flulike symptoms. Uponfurther investigations, there is evidence ofconsolidation in lung. Identify the pathogen causingthis",
+img: "",
+answers: [
+{ text: "Klebsiella", correct: false },
+{ text: "Staph aureus ", correct: true },
+{ text: "Streptococcus", correct: false },
+{ text: "Pseudomonas", correct: false },
+], },
+
+
+{ question: "Investigation of choice for neurosyphilis:",
+img: "",
+answers: [
+{ text: "VDRL", correct: true },
+{ text: "FTA-ABS ", correct: false },
+{ text: "RPR", correct: false },
+{ text: "TPI", correct: false },
+], },
+
+{ question: "You're an intern inthe Ob& GyneOPD.A 29yearoldprimigravid patient has come forconsult followinga visit toa person who hasbeen beenadmitted forthe treatment ofMeningococcal meningitis. Which is the drugofchoicefor prophylaxis forthis patient?",
+img: "",
+answers: [
+{ text: "Penicillin ", correct: false },
+{ text: "Ceftriaxone ", correct: true },
+{ text: "Rifampicin", correct: false },
+{ text: "Ampicillin", correct: false },
+], },
+
+
+{ question: "Ina diagnosed lepromatous leprosy patient, the treatmentwas started. After intake to drugskin lesions and fever developwithin few days. Which type of hypersensitivity reaction leads to this manifestation?",
+img: "",
+answers: [
+{ text: "Type 4", correct: false },
+{ text: "Type 2 ", correct: false },
+{ text: " Type 3", correct: true },
+{ text: "Type 1", correct: false },
+], },
+
+
+{ question: "A 28 yearoldsexually active male, has comeupwith positive report of HIV. Whatwill be the initial presentation for the given case, if you're startingART on this consult?",
+img: "",
+answers: [
+{ text: "Primary CNS lymphoma", correct: false },
+{ text: "Kaposi sarcoma ", correct: false },
+{ text: "Bacterial pneumonia", correct: true },
+{ text: "Extrapulmonary tuberculosis", correct: false },
+], },
+
+{ question: "A group ofmedical students are celebrating the birthday ofone oftheir classmates. Everyone is giving birthday bumpstothebirthday boy, one ofthe classmates bit him as part ofthe celebration. Which ofthefDllowing medication you'll use in managingthis case?",
+img: "",
+answers: [
+{ text: "Ampicillin plus sulbactam", correct: true },
+{ text: "Clindamycin plusTMP-5MX ", correct: false },
+{ text: "Fluoroquinolone", correct: false },
+{ text: "Doxycycline", correct: false },
+], },
+
+
+{ question: "A 45 year-old HIV-positive male presented with multiple red hemangioma-like lesions. Biopsy specimens showclusters of bacilli thatstain positively with the Warthin- Starrystain. Which ofthefollowing could be the causative organism?",
+img: "",
+answers: [
+{ text: "Bartonella quintana", correct: false },
+{ text: "HHV8 ", correct: false },
+{ text: "Bartonella henslae", correct: true },
+{ text: "EBV", correct: false },
+], },
+
+
+{ question: "A 26 years oldmalepresented witha red raised progressive rash associated with burning and itching of7 days, fever of2 days, and severeglobal headache of3 daysduration. The rash (image given below) initially sta%ed overthe inner aspect ofhisleR arm and gradually over the next2—3 days similar-looking rashes appearedtoinvolve histrunk, left thigh, neck, and leR leg. The given condition is characterized by:",
+img: "imgm2-101-200/pg 111.png",
+answers: [
+{ text: "Caused Borrelia recurrentis", correct: false },
+{ text: "Erythema migrans is seen onlyin complicated cases ", correct: false },
+{ text: "It isa tick borne illness which is rarely seen inthewest", correct: false },
+{ text: "Poly-articularArthritis and oligo articular arthritis ", correct: true },
+], },
+
+
+{ question: "2O-year oldcollege student presented with C7O fever, sorethroat, malaise. On examination cervical lymphadenopathy present. Patient have no past history of travelling. Few days backhewas diagnosed with streptococcal pharyngitis bya local physician forwhich IM ampicillin was given astreatment. What is the etiology ofgiven rash?",
+img: "",
+answers: [
+{ text: "Fifth disease", correct: false },
+{ text: "Exanthematous drug eruption ", correct: true },
+{ text: "Chikungunya fever", correct: false },
+{ text: "Rubeola", correct: false },
+], },
+
+
+{ question: "A 22yrs femalewas admitted in emergencywith c/onausea, vomiting, and waterydiarrhoea since4 days. He is also having low gradefever. He was hospitalised and treated symptomatically and was beingrelieved and discharged. His blood samplesweresentforculture; reports ofwhich pt. brought duringhis follow up - which showedthepresence of clostridium perfringens. Beinghis physician whatshould be your next instruction to such patient",
+img: "",
+answers: [
+{ text: "IV penicillin therapy plus colonoscopy.", correct: false },
+{ text: "Return for blood culture. ", correct: false },
+{ text: "Return for IV penicillin therapy.", correct: true },
+{ text: "IV penicillin therapy plus echocardiography.", correct: false },
+], },
+
+{ question: "After returningfroma birthday party, within 6-8 hoursa groupof7 friends begantodevelop non bloodydiarrhoea which was associated with cramping abdominal pain and fever.They were admitted in emergencydepartmentand thestool samplesweresent and reports showedthepresence of5aImoneIIa enteritidis. All are true statements except",
+img: "",
+answers: [
+{ text: "There is no vaccine available for this illness", correct: false },
+{ text: "They causes typhoid fever ", correct: true },
+{ text: "Antibiotic therapy is not indicated.", correct: false },
+{ text: "Bacteraemia occurs in < 10% of cases.", correct: false },
+], },
+
+
+{ question: "Markthetruestatements regarding Barter syndrome - 1. Urinary calcium increased 2. Hypokalemic alkalosis 3. Mineralocorticoid antagonist can be used. 4. NormaltolowBlood pressure",
+img: "",
+answers: [
+{ text: "1 and3 aretrue", correct: false },
+{ text: "2,3 and 4 are true ", correct: false },
+{ text: "1,2 and 4 are true", correct: true },
+{ text: "1, 2,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "Markthetruestatements regarding Gitelman Syndrome - 1. Hypokalemic metabolic alkalosis 2. Mimicsthiazide diuretics 3. Hypercalciuria 4.Generally milder clinical course",
+img: "",
+answers: [
+{ text: "1 and3 aretrue", correct: false },
+{ text: "1,3 and 4 are true ", correct: false },
+{ text: "1,2 and 4 are true", correct: true },
+{ text: "2,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "Markthefalse statements: 1. Gitelman‘s syndrome is less common than Barter's syndrome 2. Barter's syndrome hasmilderclinical courseascomparedtoGitelman's syndrome 3. Gitelman‘s syndrome presents in early age 4.Gitelman's syndrome is characterized by prominent neuromuscular signs and symptoms ",
+img: "",
+answers: [
+{ text: "1,2 and 3 are false", correct: true },
+{ text: "2 and 3 are false ", correct: false },
+{ text: "2 and 4 are false", correct: false },
+{ text: "1,2 and 4 are false", correct: false },
+], },
+
+
+{ question: "A 17 year malepatient presented toopd with deafness and blood in urine. He is k7c/o CKD and is on treatmentforthat. His maternal uncle has the samedisease. He was referred to opthalmology departmenttolookforthe presence of Lenticonus. Clinical diagnosis is?",
+img: "",
+answers: [
+{ text: "Alport's Syndrome", correct: true },
+{ text: "Goodpasture Syndrome ", correct: false },
+{ text: "IgAnephropathy", correct: false },
+{ text: "Tuberointerstitial nephritis ", correct: false },
+], },
+
+{ question: "A 20 years male presented toopd with complain ofHeadache, drowsiness and palpitations. O/E - BP = 160/110 mm Hg, Pulse = 86 bpm. ECG showedflattenedT waves. Serumelectrolytes reveal K” = 2.9 mEq/L, Bicarbonate = 34 mEq/L.A diagnosis ofHypokalemic metabolic alkalosis with severe hypertension was made.Whichoffollowing is the likely cause ofthis condition?",
+img: "",
+answers: [
+{ text: "Liddle syndrome", correct: true },
+{ text: "Bartter syndrome ", correct: false },
+{ text: "Gitelman syndrome", correct: false },
+{ text: "Renal tubular acidosis ", correct: false },
+], },
+
+
+{ question: "A 4-year-old girl presented with urinary infection with E.coli, pus cells in urine, dilatation of left ureter with hydroureter micturating cysto-urethrogram showsa filling defect in the bladder. Whatis the likely diagnosis?",
+img: "",
+answers: [
+{ text: "Sacrococcygeal teratoma", correct: false },
+{ text: "Ureterocele ", correct: true },
+{ text: "VUR", correct: false },
+{ text: "P.U.V", correct: false },
+], },
+
+
+{ question: "A 28yrs old, male patient presented with a history oftwo episodes ofhematemesis overa period of48hours. Therewas no history of acid peptic disease, NSAID intake, or chronic liver disease. On examination, hisheart rate was 110/min & notedtobe pallor. On upper GI endoscopy, findings revealeda persistent caliber artery. All of the following are true about persistent caliber artery except?",
+img: "",
+answers: [
+{ text: "Thermal coagulation is an effective option for the management", correct: false },
+{ text: "Angiographic embolization is useful ", correct: false },
+{ text: "Bleeds via pinpoint mucosal erosion", correct: false },
+{ text: "Deep enteroscopy is useful", correct: true },
+], },
+
+
+{ question: "A 33-year-old malecamewith complaints of1 episode ofbloodyvomiting suggesting acute upperGIbleeding. Which ofthefollowing would betheleast commoncause in patients of acute upper GI bleeding?",
+img: "",
+answers: [
+{ text: "Mallory Weiss tear", correct: false },
+{ text: "Ulcer ", correct: false },
+{ text: "Varices ", correct: false },
+{ text: "Vascular ectasia", correct: true },
+], },
+
+{ question: "50 Yearoldman becamedizzy while passing stool and noticed fresh blood in stool. Previous two concurrent colonoscopic examinations donefor routine screening ofcarcinoma colon werenormal. Whatis the mostlikely cause ofbleed?",
+img: "",
+answers: [
+{ text: "Early carcinoma colon", correct: false },
+{ text: "Sigmoid diverticulitis ", correct: false },
+{ text: "Microscopic colitis", correct: false },
+{ text: "Dilatation of veins ofcolon", correct: true },
+], },
+
+
+{ question: "A 28-year-old female presented with complaints of2 episodes of hematemesis. Initial investigations revealed, Hb of7.2gms%. She was advised to havea UGI endoscopy done. Whichofthefollowing finding on upper GIendoscopy indicates the least chances ofre-bleeding after hematemesis episodes?",
+img: "",
+answers: [
+{ text: "Adherent clot on ulcer", correct: false },
+{ text: "Clean based ulcer ", correct: true },
+{ text: "Gastric ulcer with AV malformation", correct: false },
+{ text: "Visible bleedingvessel.", correct: false },
+], },
+
+
+{ question: "Which ofthefollowing statements are correct about Dieulafoys Lesion? 1. Single large tortuous arteriole inthe submucosawhich bleeds 2. Strongly associated with peptic ulcer 3. Mastcommonlylocated at the lesser curvature 4.Diagnosis is madebyendoscopy butis difficult due to intermittent bleeding",
+img: "",
+answers: [
+{ text: "1, 2,3 only", correct: false },
+{ text: "1, 3,4 only ", correct: true },
+{ text: "2 & 4 only", correct: false },
+{ text: "All", correct: false },
+], },
+
+
+{ question: "A 2-year-old malechild was brought in by his parents witha history of passing bloodystools, not associated with abdominal pain or discomfort. Whichof thefollowing is the mostcommoncause ofhematochezia inchildren of this age group?",
+img: "",
+answers: [
+{ text: "Rectal polyp", correct: true },
+{ text: "Meckel's diverticulum ", correct: false },
+{ text: "Necrotizing enterocolitis", correct: false },
+{ text: "Acute gastritis ", correct: false },
+], },
+
+{ question: "A middle-aged male presented witha history of2 episodes ofhematemesis over48 hours is diagnosed asa case of upper GIbleeding. Which ofthefollowing is useful asa prognostic scale in such patients?",
+img: "",
+answers: [
+{ text: "Rockall score", correct: true },
+{ text: "Gleason score ", correct: false },
+{ text: "West Haven criteria", correct: false },
+{ text: "Truelove& witts score", correct: false },
+], },
+
+
+{ question: "A 36-year-old female presented with complaints ofgeneralized itching& difficulty in swallowing both solid& liquid foodsforthe past 6months. She also complained ofnausea& vomiting associated with worsening dysphagia for the past2 weeks. On endoscopy, characteristic ’Trachealization of esophagus’ is seen. Whatis the diagnosis?",
+img: "",
+answers: [
+{ text: "Eosinophilic esophagus", correct: true },
+{ text: "Schatzki ring ", correct: false },
+{ text: "GERD", correct: false },
+{ text: "Herpessimplex esophagitis", correct: false },
+], },
+
+
+{ question: "A middle-aged female presented with complaints ofdysphagia& squeezing type ofpain overthechest. On barium swallow, characteristic 'corkscrew appearance’ is seen on X-ray. Which of thefollowing would betheapprDpriate management option for this patient?",
+img: "",
+answers: [
+{ text: "Pneumatic dilatation", correct: false },
+{ text: "Oxybutynin ", correct: false },
+{ text: "Nitrates", correct: true },
+{ text: "Botulinum toxin and pneumatic dilation", correct: false },
+], },
+
+
+{ question: "You are an intern, posted ina rural PHC. A 26-year-old male presented with complaints ofburningsensation overthe chest, usually ahereating associated with regurgitation of food orsore liquid. You prescribed him PPI& advised the patient forfollow-up. All of the following statements true regardingthe above condition except?",
+img: "",
+answers: [
+{ text: "Occursduringtransient relaxation of LES.", correct: false },
+{ text: "Can present with nocturnal cough ", correct: false },
+{ text: "Bicarbonate secreted by esophageal mucosa neutralizes the acid", correct: true },
+{ text: "Erosive esophagitis atthe esophagogastricjunction is the hallmark ofGERD", correct: false },
+], },
+
+
+{ question: "Identify the endoscopic image?",
+img: "imgm2-101-200/pg 165.png",
+answers: [
+{ text: "Caustic burn", correct: false },
+{ text: "Eosinophilic esophagitis ", correct: true },
+{ text: "Pseudomembranouscolitis", correct: false },
+{ text: "Normal esophagus", correct: false },
+], },
+
+
+{ question: "Which ofthefollowing is the Gold standard Investigation for Achalasia cardia?",
+img: "",
+answers: [
+{ text: "Esophageal manometry", correct: true },
+{ text: "Barium swallow ", correct: false },
+{ text: "Endoscopy ", correct: false },
+{ text: "Endoscopic ultrasound ", correct: false },
+], },
+
+{ question: "A 25-year-old female presented with complaints ofprogressive dysphagia, especially to liquid foodsforthe past 6monthsassociated with regurgitation of food. On barium swallow, characteristic appearance is seenan X-ray as shownin the image below. Which ofthefollowing is the mostcommoncomplication in this condition?",
+img: "imgm2-101-200/pg 169.png",
+answers: [
+{ text: "Recurrent pulmonary infections", correct: true },
+{ text: "Stricture of esophagus ", correct: false },
+{ text: "Pleurisy", correct: false },
+{ text: "Peptic ulcer", correct: false },
+], },
+
+{ question: "The threshold forprophylactic platelet transfusion is platelets/ yL.",
+img: "",
+answers: [
+{ text: "5000", correct: false },
+{ text: "10000 ", correct: true },
+{ text: "15000", correct: false },
+{ text: "50000", correct: false },
+], },
+
+
+{ question: "Non progressive dysphagia ina ladywith a sensation ofsomethingstuck in the throat and worsened byintake of cold drinks is suggestive of?",
+img: "",
+answers: [
+{ text: "Diffuse esophageal spasm", correct: true },
+{ text: "Upper esophageal web ", correct: false },
+{ text: "Achalasia", correct: false },
+{ text: "Scleroderma", correct: false },
+], },
+
+
+{ question: "Which ofthefollowing statements are true regarding PlummerVinson syndrome? 1. Esophageal webs 2. Premalignant 3. Commonin elderly male 4. Dysphagia",
+img: "",
+answers: [
+{ text: "1,2,3 only", correct: false },
+{ text: "2, 3,4 only ", correct: false },
+{ text: "1, 2,4 only", correct: true },
+{ text: "All", correct: false },
+], },
+
+
+{ question: "A vasopressin analogue does notproduce therapeutic effect through vasopressin V2 receptor in which ofthefollowing:",
+img: "",
+answers: [
+{ text: "Central diabetes insipidus", correct: false },
+{ text: "Bleeding oesophageal varices ", correct: true },
+{ text: "TypeI von Willoebrand's disease", correct: false },
+{ text: "Primary nocturnal enuresis", correct: false },
+], },
+
+
+{ question: "The test shown belowhasbeen performed ona stool sample producing blue colour. Comment onnthe test being done?",
+img: "imgm2-101-200/pg 186.png",
+answers: [
+{ text: "Guaiac test", correct: true },
+{ text: "Ehrlich test ", correct: false },
+{ text: "Fouchet's test", correct: false },
+{ text: "Molisch test", correct: false },
+], },
+
+
+{ question: "A 25 yearoldman has pigmented macules overthe palms, soles and oral mucosa. He also has anemia and abdominal pain. Which one ofthe following is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Cushing's syndrome", correct: false },
+{ text: "Albright's syndrome ", correct: false },
+{ text: "Peutz-jegher's Syndrome", correct: true },
+{ text: "Incontinentia pigmenti", correct: false },
+], },
+
+
+{ question: "35 yearahaspresented with2 episodes ofhematemesis. On examination his pulse rate is 100/minwith BP of90/60 mm Hg.Perabdomenexamination showsspleen palpable3 cm belowcostal margin. Which is true aboutthis patient?",
+img: "",
+answers: [
+{ text: "Elevated CRP and Low C3", correct: false },
+{ text: "Mostcommonsite of bleeding is First partofduodenum ", correct: false },
+{ text: "Urgent Elective intubation of patient", correct: false },
+{ text: "The increased pressure ofportal vein pressure should be lowered with octreotide", correct: true },
+], },
+
+
+{ question: "A 40 yearoldimmunocompromised patient develops multiple ulcers in the oesophagus leading to painful swallowing. The biopsyfromthe oesophagus is s",
+img: "imgm2-101-200/pg 194.png",
+answers: [
+{ text: "CMV", correct: true },
+{ text: "Candida ", correct: false },
+{ text: "Eosinophilic esophagitis ", correct: false },
+{ text: "Herpes", correct: false },
+], },
+
+{ question: "A middle-aged immunocompromised male presented with complaints of odynophagia& progressive dysphagia. Examination ofthe oropharynx reveals no evidence ofthrush. On endoscopic evaluation, the characteristic ’Punched outulcer’ is seen in the esophagus. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Herpetic esophagitis", correct: true },
+{ text: "CMV esophagitis ", correct: false },
+{ text: "Eosinophilic esophagitis", correct: false },
+{ text: "Candida esophagitis", correct: false },
+], },
+
+
+{ question: "A 34-year-old male presented with history of constipation associated with intermittent painless episodes ofpassing blood in stools suggesting lowerGI Bleeding. Which ofthefollowing is the mastcommoncause ofLowerGIT bleeding in adults? O Diverticulitis B Ulcerative colitis",
+img: "",
+answers: [
+{ text: "Diverticulitis", correct: true },
+{ text: "Ulcerative colitis ", correct: false },
+{ text: "Angiodysplasia colon", correct: false },
+{ text: "Colorectal cancer", correct: false },
+], },
+
+
+{ question: "A patient in ICU was given blood transfusion.3 hours later SpO2is reduced to75% with respiratory difficulty. CVP is 15cmwaterand PCWPis 25mmHg.CXRis shown below. What should be the diagnosis?",
+img: "imgm2-101-200/pg 200.jepg",
+answers: [
+{ text: "Tension pneumothorax", correct: false },
+{ text: "Transfusion related acute lung injury ", correct: false },
+{ text: "Transfusion associated circulatory overload", correct: true },
+{ text: "Mismatched blood transfusion", correct: false },
+], },
+
+
+{ question: "Markthetruestatements regarding Blood transfusion - 1. Complete Packed RBC transfusion within4 hours ofissue fromtheblood bank 2. Complete Platelet concentrate transfusion within1 hourofissue from theblood bank 3. Complete FFPtransfusion within half hourofissue fromtheblood bank 4.Complete Cryoprecipitatetransfusion within halfhourofissue fromtheblood bank",
+img: "",
+answers: [
+{ text: "1 and2 aretrue", correct: false },
+{ text: "1,2 and4 aretrue ", correct: false },
+{ text: "1,3 and 4 are true", correct: true },
+{ text: "2 and4 are true", correct: false },
+], },
+
+
+{ question: "Major complications ofmassive blood transfusion are - 1. Hyperthermia 2.Hyperkalemia 3. Coagulopathy 4.Hypocalcemia",
+img: "",
+answers: [
+{ text: "1,2 and 3", correct: false },
+{ text: "2,3 and 4 ", correct: true },
+{ text: "2and 4", correct: false },
+{ text: "1 and 3", correct: false },
+], },
+
+{ question: "A 30-year-old malewas given blood transfusion inthe O.T. following which he develops tachycardia, hypotension BP- 70/40 mm ofHg,and hematuria within 10 minutes ofstartingthe transfusion. The mastprobable cause is?",
+img: "",
+answers: [
+{ text: "Anesthetic drughypersensitivity", correct: false },
+{ text: "Disseminated lntravascular Coagulation ", correct: false },
+{ text: "Graft Vs Host Disease", correct: false },
+{ text: "ABO incompatibility", correct: true },
+], },
+
+
+{ question: "A 16 years oldThalassemia patient presented in medicine opd ofABC medical college for follow up. She complained ofweaknessand shortness ofbreath. CBC showed Mbtobe6 gm%. Theconsultant planned totransfuse2 units of blood. On duty Intern was sentto blood banktoarrangethe blood. The blood bankpersonnel told the intern that the blood units available are in storage fora longtime. Which offollowing is the likely complication oftransfusing prolonged stored blood?",
+img: "",
+answers: [
+{ text: "Citrate intoxication", correct: false },
+{ text: "Potassium toxicity ", correct: true },
+{ text: "Circulatory overload", correct: false },
+{ text: "Haemorrhagic diathesis", correct: false },
+], },
+
+
+{ question: "Markthetruestatements regarding TRALI - 1. Characterized by acute respiratory distress within 12 hrs oftransfusion 2. Results fromthedonorplasma that contains high-titer anti-HLAantibodies 3. Leukocytes aggregate in the pulmonaryvasculature and release mediators that decrease capillary permeability 4. The implicated donors arefrequently multiparous women",
+img: "",
+answers: [
+{ text: "1 and2 aretrue", correct: false },
+{ text: "2 and4 are true ", correct: true },
+{ text: "1,2 and4 are true", correct: false },
+{ text: "1, 2,3 and 4 are true", correct: false },
+], },
+
+{ question: "Device shown intheimage is used for whatpurpose?",
+img: "imgm2-101-200/pg 218.png",
+answers: [
+{ text: "Prevent transmission of RBCs which hasexpired", correct: false },
+{ text: "Prevent transfusion related reactions ", correct: true },
+{ text: "Preventtransfusion associated circulatory overload", correct: false },
+{ text: "Prevents transfusion related acute lung injury", correct: false },
+], },
+
+{ question: "Markthetruestatements - 1. CPDAis Citrate-Phosphate-Dextrose bufier supplemented withAlanine 2. The shelf life of RBC concentrates in CPDAis 35 days 3. The shelflife of RBC concentrates in CPD is 28 days 4.The shelf life of RBC concentrates in ACD is 21 days",
+img: "",
+answers: [
+{ text: "2 and3 are true", correct: false },
+{ text: "1,2 and4 aretrue ", correct: false },
+{ text: "2,3 and 4 are true", correct: true },
+{ text: "1,2,3and,4 are true", correct: false },
+], },
+
+
+{ question: "Mostcommoncause offebrile non haemolytic transfusion reaction?",
+img: "",
+answers: [
+{ text: "ABO mismatch", correct: false },
+{ text: "Rh mismatch ", correct: false },
+{ text: "HLA mismatch", correct: true },
+{ text: "All of the above", correct: false },
+], },
+
+
+{ question: "Markthetruestatements regarding ABO bloodgroupsystem - 1. GenecodingforABO blood group is located on Chromosome9p 2. Pattern of inheritance is Co-dominance 3. LC Blood group is0 -ve 4.H antigen decides the bloodgroup",
+img: "",
+answers: [
+{ text: "1,2 and 3 are true", correct: false },
+{ text: "2 and3 are true ", correct: false },
+{ text: "2 and4 are true", correct: true },
+{ text: "1, 2,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "Marktrue statements regarding platelet transfusion - 1. Platelets are given either as pools of4 to6 prepared RDP orasSDPsfroma single donor 2. Transfusion is indicated in bleeding patients with platelet dysfunction only if counts areless than 5O,o0o/ cumm 3. Platelets beartheantigens ofABO system 4. Platelets carrythe Rh antigen",
+img: "",
+answers: [
+{ text: "1, 2,3 and 4 are true", correct: false },
+{ text: "1 and 3 are true ", correct: true },
+{ text: "1,2 and 3 are true", correct: false },
+{ text: "1,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "Whatis the Neutrophil countfor moderate neutropenia?",
+img: "",
+answers: [
+{ text: "< 500/mm3", correct: false },
+{ text: "500-1000/mm3 ", correct: true },
+{ text: ">1000/mm3", correct: false },
+{ text: "100/mm3", correct: false },
+], },
+
+{ question: "A patient isa knowncase ofthalassemia majorand is on repeated packed RBC transfusion. She is on iron chelators and has history of arrythmias. Duringthe current BT,she has backache and looks veryanxious. The next managementis?",
+img: "",
+answers: [
+{ text: "Observeforchange in colour of urine", correct: false },
+{ text: "Continuous BT and perform ECG ", correct: false },
+{ text: "Stop BT and waitforpatient to become normal and then restart BT", correct: false },
+{ text: "Stop BT and perform clerical check ofblood group", correct: true },
+], },
+
+{ question: "Markthetruestatements regarding the process oftaking an ABG sample- 1. Allen test is donetocheckintegrity of palmerarch. 2. Syringe is rinsed with Heparin before takinga sample 3. Artery is poked at45-degree angle. 4. Flex wristjoint and takethe sample",
+img: "",
+answers: [
+{ text: "2,3 and4 are true", correct: false },
+{ text: "1 and4 aretrue ", correct: false },
+{ text: "1,2 and 3 are true", correct: true },
+{ text: "1, 2,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "A trauma patient presents atemergency department. There is no time forcross matching. FFP ofwhich group canbe transfused safely?",
+img: "",
+answers: [
+{ text: "O-", correct: false },
+{ text: "O+ ", correct: false },
+{ text: "AB-", correct: false },
+{ text: "AB+", correct: true },
+], },
+
+{ question: "A thalassemic patient with need of recurrent transfusion. But he develops transfusion reaction like fever and chills. Whatcanbedonetotheblood to decrease the rate of transfusion reactions?",
+img: "",
+answers: [
+{ text: "Leucocyte depletion", correct: true },
+{ text: "Antibiotics ", correct: false },
+{ text: "Irradiation", correct: false },
+{ text: "Washed RBCs", correct: false },
+], },
+
+{ question: "A CKD patient had to undergo dialysis. His Hb was 5.5. So two blood transfusions weretobegiven. First bag was completed in2 hours. Second was started and midwaybetween he developed shortness ofbreath, hypertension. Vitals: BP 180/120 mm Hg and pulse rate1 10/min. Whatis the cause?",
+img: "",
+answers: [
+{ text: "Allergic", correct: false },
+{ text: "Transfusion related circulatory overload (TACO ", correct: true },
+{ text: "TRALI", correct: false },
+{ text: "FNHTR", correct: false },
+], },
+
+{ question: "A 30-year-old man admitted formultiple injuries following an accident receives8 units of packed RBCs(PRBCs). Whatis the mostlikely ABG finding in this patient?",
+img: "",
+answers: [
+{ text: "Metabolic alkalosi", correct: true },
+{ text: "Respiratory alkalosis ", correct: false },
+{ text: "Metabolic acidosis", correct: false },
+{ text: "Respiratory acidosis", correct: false },
+], },
+
+{ question: "Acute renal failure ina patient who received incompatible blood transfusion with hemolytic reaction is best managed by:",
+img: "",
+answers: [
+{ text: "20% Mannitol", correct: false },
+{ text: "IVfluids with K+ supplementation ", correct: false },
+{ text: "Alkalinizing the urine", correct: false },
+{ text: "Stopping blood transfusion", correct: true },
+], },
+
+{ question: "Mostcommoncomplication of blood transfusion leading to death?",
+img: "",
+answers: [
+{ text: "Hyperkalemia", correct: false },
+{ text: "C itrate toxicity ", correct: false },
+{ text: "T.R.A.L.I", correct: true },
+{ text: "Hypothermia", correct: false },
+], },
+
+
+{ question: "Which reflex is beingtested here?",
+img: "imgm2-101-200/pg 248.png",
+answers: [
+{ text: "Brachioradialis Reflex", correct: false },
+{ text: "Wartenberg sign ", correct: false },
+{ text: "Finger flexor Reflex", correct: true },
+{ text: "Supinator reflex", correct: false },
+], },
+
+
+{ question: "A 48 years motorcyclist met an accident and wentunconscious and was brought toemergency. He gained consciousness5 minsaRertheaccident and explained all the incident in detail to doctoron duty. There is no h/o ENT bleed, vomiting. Therewas no major injury. The doctoron dutyadvised him to undergoa CTscan which he refused. He wentunconscious after8 hrs of incident and was again brought backtohospital emergency. NCCTHeadwas donewhichshowed Biconvex Hyperdense lesion. Likely diagnosis is?",
+img: "",
+answers: [
+{ text: "SDH", correct: false },
+{ text: "EDH ", correct: true },
+{ text: "Concussion injury", correct: false },
+{ text: "Stroke", correct: false },
+], },
+
+{ question: "Which ofthefollowing statement(s) is/are true about Berry's Aneurysm- 1. >7 mm size and at the top of vertebral artery has highest chancesofrupture 2. Berry's Aneurysm rupture has the mortality of 75 °A 3. Prior intracranial hemorrhage increases risk of subsequent hemorrhage 4.Presents as Thunderclap headache 5. Mostcommonsite is anterior communicating artery",
+img: "",
+answers: [
+{ text: "1,2 and 4 are true", correct: false },
+{ text: "2,3 and 4 are true ", correct: false },
+{ text: "3,4 and 5 are true ", correct: true },
+{ text: "1 and 4 are true", correct: false },
+], },
+
+{ question: "Match thefollowing - 1. Neocerebellum 2. Paleocerebellum 3. Archicerebellum 4. Berry aneurysm a. Gait ataxia b. Truncal ataxia c. Thunderclap headache d. Pendular knee-jerk",
+img: "",
+answers: [
+{ text: "1a, 2d, 3b, 4c", correct: false },
+{ text: "1d, 2a, 3b, 4c ", correct: true },
+{ text: "1 d, 2a, 3c, 4b", correct: false },
+{ text: "1 a, 2b, 3d, 4c", correct: false },
+], },
+
+{ question: "Markthetruestatements regarding Gegenhalten - 1. Increased tonethatvaries irregularly ina mannerseemingly related to the degree ofrelaxation 2. Present onlyatinitiation of motion 3. Affects flexors and extensors equally 4. Exaggerated deeptendon reflexes are seen",
+img: "",
+answers: [
+{ text: "1,2 and 3 are true", correct: false },
+{ text: "1 and3 are true ", correct: true },
+{ text: "2,3 and 4 are true", correct: false },
+{ text: "Only1 is true", correct: false },
+], },
+
+{ question: "A 25-year-old is admitted with loss of consciousness aRercocaine over-dosage. On examination BP= 200/100 with GCS of 7/15. The right-sided pupil is dilated and showsa sluggish reaction to light. Which is not recommendedforthis patient?",
+img: "",
+answers: [
+{ text: "Administer mannitol at1g/kg body weight", correct: false },
+{ text: "Administer hypertonic fluids to maintain sodium of145mEq/dl ", correct: false },
+{ text: "Initiate sodium nitroprusside to achieve MAP below 130mmHg", correct: true },
+{ text: "Neuromuscular paralysis", correct: false },
+], },
+
+
+{ question: "A 60-year-old malediabetic and hypertensive patientwas found unconscious in the morning. On examination pulse rate is 120/min, BP=160/100 mm Hg.Whatis the next stepto be done for management?",
+img: "",
+answers: [
+{ text: "OrderCT scan", correct: false },
+{ text: "Checkblood glucose ", correct: true },
+{ text: "Give intravenous mannitol", correct: false },
+{ text: "Immediately reduce BP with antihypertensives", correct: false },
+], },
+
+
+{ question: "A 64-year-old, maleunconscious patient was brought in witha history of high- gradefever. The attender recalls history of doublevision, dysphagia, and unsteadygait in the patient. The medical history of the patient was hypertension forthe past 13years& he is on anti- hypertensives. on examination, his temperature was 102.8 degrees Fahrenheit& bilateral pinpoint pupils are noted. Whatwould betheprobable diagnosis?",
+img: "",
+answers: [
+{ text: "Brain stem lesion", correct: true },
+{ text: "Cerebellar lesion ", correct: false },
+{ text: "Thalamic lesions", correct: false },
+{ text: "Internal capsule lesions", correct: false },
+], },
+
+
+
+{ question: "A 44-year-old malewith no substantial medical historywas injured falling off his road bike at25 mph and sustaineda traumatic brain injury resulting in marked expressive dysphasia. CT brain demonstrated subarachnoid hemorrhage. He also noted tohave features of cerebral salt-wasting syndrome. Which ofthefollowing is found in such patients?",
+img: "",
+answers: [
+{ text: "Elevated serumcortisol", correct: false },
+{ text: "Hypernatremia ", correct: false },
+{ text: "Hypovolemia", correct: true },
+{ text: "Low urine sodium excretion ", correct: false },
+], },
+
+
+{ question: "Which ofthefollowing is the most commonsite of aneurysmal subarachnoid hemorrhage?",
+img: "",
+answers: [
+{ text: "Anterior communicating artery ", correct: true },
+{ text: "Basilar artery ", correct: false },
+{ text: "osterior communicating artery", correct: false },
+{ text: "Middle cerebral artery", correct: false },
+], },
+
+
+{ question: "MarktheFALSE statement regarding Head injury and Brain hemorrhage",
+img: "",
+answers: [
+{ text: "Extradural hemorrhage occurs due tothe rupture ofa middle meningeal artery.", correct: false },
+{ text: "Subdural hemorrhage -Lucid interval is exclusive ", correct: true },
+{ text: "Posterior communicating artery aneurysm canlead to dilated pupil", correct: false },
+{ text: "Huntand Hess Scale is used for subarachanoid hemorrhage severity", correct: false },
+], },
+
+
+
+
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M2 401-500</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que M2 M2 401-500</h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Shubhneet</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+
+            { question: "A 40 years old male, labourer by occupation presented toopd with complain ofdiscoloration of nails. He also complains ofdecreased appetite, fatigue and backache. The nails show typical appearance asshownin image below.All are possible diagnoses in these changes in nails except?",
+img: "imgm2-401-500/pg 1.png",
+answers: [
+{ text: "Peutz -jehgers syndrome", correct: false },
+{ text: "Addison disease ", correct: false },
+{ text: "Cushing disease", correct: false },
+{ text: "Wilson disease", correct: true },
+], },
+
+
+{ question: "All are true about Cushing syndrome except? 1. Association with MEN 2 syndrome 2. Bronchial carcinoid causes Cushing syndrome 3. Hypokalemia 4. Associated with coronary accidents 5. Systolic hypertension",
+img: "",
+answers: [
+{ text: "1,3 and 5 are false", correct: false },
+{ text: "1,2 and 4 are false ", correct: false },
+{ text: "1 and 5 are false", correct: true },
+{ text: "Only1 is false", correct: false },
+], },
+
+
+{ question: "Mark the true statement regarding Pseudo-Cushing syndrome1. Pseudo-Cushing syndrome is Hypocortisolism secondary to an underlying illness 2. Pseudo-Cushing syndrome is seen in Chronic alcoholism 3. Pseudo-Cushing syndrome is caused by overactivation of the normal hypothalamic-pituitary-adrenal axis 4. Patients with pseudo-Cushing syndrome present with the same symptoms as Cushing syndrome",
+img: "",
+answers: [
+{ text: "1,3 and 4 are true", correct: false },
+{ text: "2 and 4 are true ", correct: false },
+{ text: "2 and3 are true", correct: false },
+{ text: "2,3 and 4 are true", correct: true },
+], },
+
+
+{ question: "Which of the following presents with hypokalemia and metabolic acidosis?",
+img: "",
+answers: [
+{ text: "Diarrhea", correct: true },
+{ text: "Vomiting ", correct: false },
+{ text: "Nasogastric suction", correct: false },
+{ text: "Conn's Syndrome", correct: false },
+], },
+
+
+{ question: "A 46-year-old man has mild renal failure and hypertension which is proving difficult to manage. CT scan shows both a small adrenal tumor and bilateral hyperplasia. Which of the following is the best test to make a definitive diagnosis?",
+img: "",
+answers: [
+{ text: "Dexamethasone suppression test", correct: false },
+{ text: "NP-59adrenal scintigraph ", correct: false },
+{ text: "Adrenal MRI", correct: false },
+{ text: "Selective adrenal vein sampling", correct: true },
+], },
+
+
+{ question: "Mark the true statements regarding the condition shown below1. Hyperpigmentation 2. Purplish striae 3. Hyperkalemia 4. Metabolic alkalosis",
+img: "imgm2-401-500/pg 14.png",
+answers: [
+{ text: "1 and 3 are true", correct: false },
+{ text: "1,3 and 4 are true ", correct: false },
+{ text: "1,2 and 4 are true", correct: true },
+{ text: "1,2,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "A 60 year old male presented with skin hyperpigmentation, central obesity, violet striae& proximal myopathy. His BP is 160/90 mmHg. Lab studies show hypokalemic metabolic alkalosis. Which of the following statements is true regarding this condition?",
+img: "",
+answers: [
+{ text: "Basal ACTH level is likely to be low.", correct: false },
+{ text: "Circulating corticotropin-releasing hormone is likely to be elevated. ", correct: false },
+{ text: "Pituitary magnetic resonance imaging (MRI) will visualize all ACTH-secreting tumors.", correct: false },
+{ text: "Serum potassium level <3.3 mmol/Lis suggestive of ectopic ACTH production", correct: true },
+], },
+
+
+{ question: "A middle age male patient met with a road traffic accident& is brought to emergency in an unconscious state. CT abdomen reveals a splenic laceration, emergency splenectomy is done& patient is shifted to ICU. His BP remains low in postop period even after a bolus of normal saline. O/E- he is afebrile, has moonlike face with central obesity& presence of violet striae over abdomen. Repeat CT scan of the chest, abdomen, and pelvis shows no hemorrhage. What is the next best step in management of this patient?",
+img: "",
+answers: [
+{ text: "Return to the operating room for exploratory laparotomy", correct: false },
+{ text: "Administer hydrocortisone 100 mg IV ", correct: true },
+{ text: "Administer vancomycin and piperacillin/tazobactam", correct: false },
+{ text: "Perform MRI of the spine.", correct: false },
+], },
+
+
+{ question: "A 44-year-old obese male presented to you with increased daytime sleepiness & decreased concentration in his work. He has no significant past medical history. Initial investigations were not significant. Thorough evaluation& investigations suggested a diagnosis of severe obstructive sleep apnea(OSA). In such patients, what would be the apnea hypopnea index?",
+img: "",
+answers: [
+{ text: ">10 events/ hour", correct: false },
+{ text: ">15events/ hour ", correct: false },
+{ text: ">20events/ hour", correct: false },
+{ text: ">30events/ hour", correct: true },
+], },
+
+
+{ question: "A 40-year-old man presents to you with complaints of insomnia and frequent awakenings at night. His wife states that he has the habit of snoring and reports that his breathing pattern has changed while sleeping. The physician suspected sleep apnea. If that is the case, Sleep apnea is defined as a temporary pause in breathing during sleep lasting at least?",
+img: "",
+answers: [
+{ text: "40 seconds", correct: false },
+{ text: "30seconds ", correct: false },
+{ text: "20 seconds", correct: false },
+{ text: "10 seconds", correct: true },
+], },
+
+
+{ question: "Which of the following statements are true about obstructive sleep apnea? 1)NocturnaI asphyxia is a feature of OSA 2)AIcohoIism is a cofactor 3)Patients with OSA are prone to hypertension 4)PoIysomnography is diagnostic",
+img: "",
+answers: [
+{ text: "1,2,3 only", correct: false },
+{ text: "2 & 4 only ", correct: false },
+{ text: "1,3,4 only", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+
+{ question: "A 48-year-old obese male accompanied by his wife presented with a history of loud chronic snoring& gasping episodes during sleep. He also complained of impaired concentration& memory which interferes with his work. He always feels unrefreshed during his work. Which of the following tool is useful in assessing sleep apnea in such patients?",
+img: "",
+answers: [
+{ text: "Fisher grading scale", correct: false },
+{ text: "Modified Rodnan score ", correct: false },
+{ text: "Epworth scale", correct: true },
+{ text: "Gleason score", correct: false },
+], },
+
+
+{ question: "50 yr old smoker, obese, hypertension patient is having loud snoring. He has >5 episodes of apnea per hour of sleep. What is the best management for improvement of his symptom?",
+img: "",
+answers: [
+{ text: "Uvulopalatoplasty", correct: false },
+{ text: "C.P.A.P ", correct: true },
+{ text: "Weight reduction and diet control", correct: false },
+{ text: "Mandibular reposition surgery", correct: false },
+], },
+
+
+{ question: "A 38-year-old obese male accompanied by his wife presented with complaints of increased daytime sleepiness and impaired concentration& memory. Laboratory investigations revealed elevated serum bicarbonate, hypercapnia, and hypoxemia. All of the following criteria are used for the diagnosis of obesity hypoventilation syndrome except:",
+img: "",
+answers: [
+{ text: "Hypertension", correct: true },
+{ text: "Sleep disorder breathing ", correct: false },
+{ text: "BMI >= 30 Kg/ m 2", correct: false },
+{ text: "PaC02>=45mmHg", correct: false },
+], },
+
+
+{ question: "A 28-year-old male was diagnosed with Cystic Fibrosis recently. He is on treatment with mucolytic dornase (DNase). Which of the following is the most common presentation in such patients with the above diagnosis?",
+img: "",
+answers: [
+{ text: "Lung infection", correct: true },
+{ text: "Meconium ileus ", correct: false },
+{ text: "Malabsorption", correct: false },
+{ text: "Infertility", correct: false },
+], },
+
+
+{ question: "An infant has a positive newborn screening test for cystic fibrosis. What cutoff of sweat chloride confirms cystic fibrosis?",
+img: "",
+answers: [
+{ text: "Sweat chloride > 30 mEq/L", correct: false },
+{ text: "Sweat chloride > 40 mEq/L ", correct: false },
+{ text: "Sweat chloride > 50 mEq/L", correct: false },
+{ text: "Sweat chloride >60 mEq/L", correct: true },
+], },
+
+
+{ question: "A 26-year-old female with recurrent lung infections was diagnosed with cystic fibrosis. She is on treatment with 15Omg of Ivacaftor, twice daily secondary to CFTR-G551D mutant protein. The CFTR gene associated with cystic fibrosis is located on chromosome:",
+img: "",
+answers: [
+{ text: "4", correct: false },
+{ text: "5 ", correct: false },
+{ text: "7", correct: true },
+{ text: "12", correct: false },
+], },
+
+
+{ question: "Which is the most frequent pulmonary pathogen causing recurrent pneumonia in cystic fibrosis?",
+img: "",
+answers: [
+{ text: "Pseudomonas", correct: true },
+{ text: "Enterococci ", correct: false },
+{ text: "Streptococci", correct: false },
+{ text: "Klebsiella", correct: false },
+], },
+
+
+{ question: "A 36-year-old woman presented to you with complaints of recurrent chronic cough. She gives a history of sinusitis, expectoration of sputum for the past 5- 6years. Workups revealed a diagnosis of cystic fibrosis. Which of the following organisms is unlikely to be found in the sputum of such patients with the above diagnosis?",
+img: "",
+answers: [
+{ text: "Hemophilus influenzae", correct: false },
+{ text: "Acinetobacter baumannii ", correct: true },
+{ text: "Burkholderia cepacia", correct: false },
+{ text: "Aspergillus fumigatus", correct: false },
+], },
+
+
+{ question: "According to Infection Prevention & Control Guidelines forCovid-19, which of the following is an incorrect practice for environmental cleaning in healthcare facilities?",
+img: "",
+answers: [
+{ text: "1% Sodium Hypochlorite can be used as a disinfectant for cleaning and disinfection", correct: false },
+{ text: "Sodium Hypochlorite can be applied to surfaces using a spray pack ", correct: true },
+{ text: "Leaving the solution for a contact time ofatleast10 minutes is recommended.", correct: false },
+{ text: "Isopropyl 700/0 can be used to wipe down surfaces where the use of bleach is not suitable", correct: false },
+], },
+
+{ question: "A 57-year-old male presented to the emergency department due to progressively worsening dyspnea over the last three months. On physical exam, the patient had diffuse wheezing. Initial investigations were done. Significant findings included elevated IgE levels and a positive test for IgE against Aspergillus fumigatus. This condition is commonly a complication of:",
+img: "",
+answers: [
+{ text: "TB", correct: false },
+{ text: "Bronchogenic carcinoma ", correct: false },
+{ text: "Cystic-fibrosis", correct: true },
+{ text: "Wegener's granulomatosis", correct: false },
+], },
+
+
+{ question: "A 50-year-old woman complains of clumsiness in her hands while working in the kitchen. She recently burned her hands on the stove without experiencing any pain. Neurologic examination reveals bilateral weakness of the shoulder girdles, arms, and hands as well as a loss of pain and temperature sensation covering the shoulder and upper limb in a cape-like distribution. Severe atrophy is present in the intrinsic muscles of the hands. The most likely diagnosis is:",
+img: "",
+answers: [
+{ text: "ALS", correct: false },
+{ text: "Subacute combined degeneration ", correct: false },
+{ text: "Syringomyelia", correct: true },
+{ text: "Tabes dorsalis.", correct: false },
+], },
+
+
+{ question: "Which of the following clinical features of demyelinating myelopathy is least likely to suggest a progression to multiple sclerosis?",
+img: "",
+answers: [
+{ text: "Complete cord transection", correct: false },
+{ text: "Bilateral visual loss ", correct: false },
+{ text: "Absence of oligoclonal bands", correct: true },
+{ text: "Delayed sensory evoked responses", correct: false },
+], },
+
+
+{ question: "A 40 -year-old woman has relapsing/remitting multiple sclerosis. She has experienced two attacks of disease previously that have left her with residual lower extremity weakness. She was initially treated with glucocorticoids with some improvement in her symptoms. However, she is currently only able to walk with a rolling walker about too m .A prior antibody test shows that she is negative for reactivity to the QC virus. You are planning to start a disease-modifying therapy. Which of the following drug that causes a maximum reduction in the appearance of new lesions and change in disease severity?",
+img: "",
+answers: [
+{ text: "Natalizumab", correct: true },
+{ text: "Glatiramer ", correct: false },
+{ text: "Interferon beta la", correct: false },
+{ text: "Interferon beta lb", correct: false },
+], },
+
+
+{ question: "A patient was treated for mantle cell Hodgkin lymphoma with radiation therapy. After6 months he develops an electric shock-like pain along the spine on flexing his neck. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Cervical arthritis", correct: false },
+{ text: "Cervical spinal cord pathology ", correct: true },
+{ text: "Multiple sclerosis", correct: false },
+{ text: "Spinal cord compression", correct: false },
+], },
+
+
+{ question: "A 33-yr-old male presented to your clinic with numbness from the lower trunk to the distal lower extremities, anteriorly and posteriorly, bilaterally equal. On examination, reflexes were hyperactive, and hypoesthesia was present with the neurological pinwheel exam. Initial investigations were done. A probable diagnosis of Multiple Sclerosis was made. Which of the following test is not useful for the evaluation of the above diagnosis?",
+img: "",
+answers: [
+{ text: "Lumbar puncture", correct: false },
+{ text: "Gadolinium-enhanced MRI ", correct: false },
+{ text: "Visual evoked potential", correct: false },
+{ text: "Electronystagmogram", correct: true },
+], },
+
+
+{ question: "A 36-yr-old male presented to your clinic with numbness from the lower trunk to the distal lower extremities, anteriorly and posteriorly, bilaterally equal. On examination, reflexes were hyperactive, and hypoesthesia was present with the neurological pinwheel exam. MRI showed a characteristic finding as shown in the image below. Which of the following drug is useful in acute exacerbation in such patients?",
+img: "imgm2-401-500/pg 73.png",
+answers: [
+{ text: "Methylprednisolone", correct: true },
+{ text: "Fingolimod ", correct: false },
+{ text: "Beta interferon", correct: false },
+{ text: "Natalizumab", correct: false },
+], },
+
+
+{ question: "A 9-year-old boy is diagnosed with multiple sclerosis (MS). Which of the following nervous structures would most likely be affected by this disease?",
+img: "",
+answers: [
+{ text: "Trigeminal ganglion", correct: false },
+{ text: "Superior cervical ganglion ", correct: false },
+{ text: "Optic nerve", correct: true },
+{ text: "Facial nerve", correct: false },
+], },
+
+
+{ question: "A 33-year male with numbness from the lower trunk to the distal extremities was diagnosed with multiple sclerosis. He was started with glucocorticoids with some improvement in his symptoms. Which one of the following is not predictive of long-term disability in such patients?",
+img: "",
+answers: [
+{ text: "Length of intervals between relapses", correct: false },
+{ text: "Incomplete recovery from relapses ", correct: false },
+{ text: "Optic neuritis in the first 2 years", correct: true },
+{ text: "Frequency of relapses", correct: false },
+], },
+
+
+{ question: "A 50 years male, chronic alcoholic with MMS score of20/30 presents with tremors, proximal weakness and has cerebral lesions in MRI shown in the image. What is the next investigation?",
+img: "imgm2-401-500/pg 82.png",
+answers: [
+{ text: "CSF AFB", correct: false },
+{ text: "CSF oligoclonal bands ", correct: true },
+{ text: "CSF protein", correct: false },
+{ text: "CSF culture and gram stain", correct: false },
+], },
+
+
+{ question: "A patient has had recurrent optic neuritis bilaterally with transverse myelitis. Visual acuity in right eye is 6/60 and left eye is 6/18. Patient showed a 50% response to steroids. Diagnosis is?",
+img: "",
+answers: [
+{ text: "Neuromyelitis Optica", correct: true },
+{ text: "Subacute combined degeneration of spinal cord(SACD) ", correct: false },
+{ text: "Post cerebral artery stroke", correct: false },
+{ text: "Neuro-syphilis", correct: false },
+], },
+
+
+{ question: "Which of the following statements are incorrect regarding multiple sclerosis? 1)lnvoIves peripheral nervous system 2)Condition is almost always malignant and is resolved spontaneously 3)More common in males 4)Autoimmune disease mainly targetting MBP",
+img: "",
+answers: [
+{ text: "1,2,3 are incorrect", correct: false },
+{ text: "3 & 4 are incorrect ", correct: false },
+{ text: " 1 & 4 are incorrect", correct: false },
+{ text: "All are incorrect", correct: true },
+], },
+
+
+{ question: "A 36-year-old female with sensory disturbances, muscle weakness& visual disturbances were being evaluated by her General Practitioner. MRI showed characteristic 'Dawson fingers' suggestive of Multiple Sclerosis. Which of the following statement is correct regarding Dawson's fingers?",
+img: "",
+answers: [
+{ text: "Perivenous Demyelination oriented perpendicular to the ventricular surface", correct: true },
+{ text: "Demyelinated axons in PNS ", correct: false },
+{ text: "Regenerating axons seen in juxtacortical area", correct: false },
+{ text: "Regenerating axons in PNS", correct: false },
+], },
+
+{ question: "A 38-year-old woman with sensory disturbances, muscle weakness& visual disturbances was diagnosed with Multiple Sclerosis recently. The physician is evaluating her neurological status with Expanded disability severity score (EDSS). What does a score of 9 in EDSS signify?",
+img: "",
+answers: [
+{ text: "Death of patient due to multiple sclerosis", correct: false },
+{ text: "Patient is bedridden, can talk, can drink ", correct: true },
+{ text: "Patient is bedridden, can't talk, can't drink", correct: false },
+{ text: "Patient walks normally, shows no disability", correct: false },
+], },
+
+
+{ question: "Which of the following statement is false with respect to demyelinating disorders?",
+img: "",
+answers: [
+{ text: "Multiple sclerosis is an autoimmune disease of the central nervous system", correct: false },
+{ text: "More common in females ", correct: false },
+{ text: "Involves biochemical abnormality of myelin", correct: true },
+{ text: "Multiple Sclerosis is most common type of demyelinating disorder.", correct: false },
+], },
+
+
+{ question: "35 year female presented to you with B/L sudden onset blindness, progressing very fast. Anti aquaporin-4 antibody was found to be positive. 0/E she complains of pins& needle sensations. You immediately called for MRI that shows cloud like lesion in brain parenchyma as shown in image. What is the DOC in this condition?",
+img: "imgm2-401-500/pg 99.png",
+answers: [
+{ text: "Mycophenolate", correct: false },
+{ text: "Methyl prednisolone ", correct: true },
+{ text: "Beta- Interferon", correct: false },
+{ text: "Glatiramer", correct: false },
+], },
+
+
+{ question: "There are two patients john and Scott, john presents with features: deviation of angle of mouth to right, wrinkIing of the forehead and eyelids completely closed. Scott presents with features: deviation of angle of mouth to right, no wrinkling is seen on forehead and is unable to close his left eyelid. Identify the type of facial palsy with which john and Scott are suffering?",
+img: "",
+answers: [
+{ text: "john-Right LMN facial nerve palsy Scott-Left UMN facial nerve palsy", correct: false },
+{ text: "john-Left LMN facial nerve palsy Scott-Right UMN facial nerve palsy ", correct: false },
+{ text: "john-Left UMN facial nerve palsy Scott-Left LMN facial nerve palsy", correct: false },
+{ text: "john-Right UMN facial nerve palsy Scott-Left LMN facial nerve palsy", correct: true },
+], },
+
+
+{ question: "Match the following conditions with their corresponding gait: i)CerebeIIar ataxia b) High steppage gait ii)FrontaI lobe stroke b)Equine gait iii)Tabes dorsalis c)Magnetic Gait iv)Leprosy d) Wide based gait",
+img: "",
+answers: [
+{ text: "i-d..ii-c iii-a. iv-b", correct: true },
+{ text: "i-d,ii-c,iii-b,iv-a ", correct: false },
+{ text: "i-a,ii-c,iii-d,iv-b", correct: false },
+{ text: "i-b,ii-a,iii-c,iv-d", correct: false },
+], },
+
+
+{ question: "An 18 yrs old, male was brought in with complaints of overeating, increased weight gain having BMI of41.6 kg/m2and noted to have mental retardation. He was diagnosed of having adult onset diabetes mellitus. Which of the following endocrine disorder best describes the above clinical scenario?",
+img: "",
+answers: [
+{ text: "Kallman Syndrome", correct: false },
+{ text: "Hypothalamic hamartoma ", correct: false },
+{ text: "Granulomatous Hypophysitis", correct: false },
+{ text: "Prader willi Syndrome", correct: true },
+], },
+
+
+{ question: "Which of the following statements are correct regarding Wolfram syndrome? 1. Diabetes mellitus 2. Optic Atrophy 3. Retrobulbar neuritis 4. Sensorineural Deafness",
+img: "",
+answers: [
+{ text: "1, 2,3 are correct", correct: false },
+{ text: "1, 3,4 are correct ", correct: false },
+{ text: "1, 2,4 are correct", correct: true },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "Which of the following statements regarding Maturing Onset Diabetes in Young(MODY) are correct? 1. Most common type of MODY is MODY 3. 2. HNF-1a- gene is involved in pathogenesis ofMODY3. 3. Chromosome involved in MODY3 is chromosome 12. 4. HNF-1B- gene is involved in pathogenesis of MODY5.",
+img: "",
+answers: [
+{ text: "Only1 is correct", correct: false },
+{ text: "1, 2,3 are correct ", correct: false },
+{ text: "1, 2,4 are correct", correct: false },
+{ text: "All are correct", correct: true },
+], },
+
+{ question: "A 25yrs old, male patient with family history of Diabetes Mellitus for2 successive generations. He is not having any classical symptoms of DM. He wanted to have his blood sugar levels checked& it turned out to be FBS=25Omg°A.Onfurther workup, Radio Immune Assay of Insulin is normal. Which of the following is the likely diagnosis?",
+img: "",
+answers: [
+{ text: "MODY", correct: true },
+{ text: "Wolfram syndrome ", correct: false },
+{ text: "Type1 diabetes", correct: false },
+{ text: "Latent auto immune diabetes in adults", correct: false },
+], },
+
+
+{ question: "Which of the following statements are true regarding HbA1C values? 1. HbA1C values are falsely low in Haemolytic anaemia 2. HbA1C values are falsely elevated in Splenectomy 3. HbA1C values are falsely low in Iron deficiency Anaemia 4. HbA1C values are falsely elevated due to IV iron infusion",
+img: "",
+answers: [
+{ text: "1, 2,3 are correct", correct: false },
+{ text: "1, 2,4 are correct ", correct: true },
+{ text: "1, 3,4 are correct", correct: false },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "Which of the following conditions show False positive OGTT? 1. Malnourished 2. Infection 3. Severe emotional stress 4. Exercise",
+img: "",
+answers: [
+{ text: "1, 2,3 are correct", correct: true },
+{ text: "1, 2,4 are correct ", correct: false },
+{ text: "2, 3,4 are correct", correct: false },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "Which of the following statements regarding sulfonylureas are correct? 1. Sulfonylureas act on receptors in pancreatic beta cells resulting in closure of sodium cells 2. Glyburide has the highest potency. 3. Sulfonylureas do not cause hypoglycemia. 4. The second-generation agents are more potent than the first-generation agents on a weight basis.",
+img: "",
+answers: [
+{ text: "1,2,3 are correct", correct: false },
+{ text: "1,2,4 are correct ", correct: false },
+{ text: "2,4 are correct", correct: true },
+{ text: "3,4 are correct", correct: false },
+], },
+
+
+{ question: "An 11 year old type1 diabetes mellitus patient was on CSII. While on holiday with her family she has become disoriented. On admission Na=126mEq/dl, potassium= 4.3mEq/dl, BUN=10Omg7dI, bicarbonate is 10mEq/dl and blood sugar is 6OOmg%.All are required for management except?",
+img: "",
+answers: [
+{ text: "ABG", correct: false },
+{ text: "Potassium hydrogen phosphate ", correct: false },
+{ text: "Intravenous potassium", correct: false },
+{ text: "3% saline", correct: true },
+], },
+
+
+{ question: "Which of the following is known as peak less insulin?",
+img: "",
+answers: [
+{ text: "1, 2,3 are correct", correct: false },
+{ text: "2, 3,4 are correct ", correct: true },
+{ text: "Only2 is correct", correct: false },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "A type1 DM patient on insulin is having consistent values of Pre-breakfast hyperglycemia. Hence the physician ordered self- monitoring of blood glucose including at night. The following record of blood sugar of patient is given below. Which is the correct description for the recording shown below?",
+img: "imgm2-401-500/pg 133.png",
+answers: [
+{ text: "Dawn phenomenon", correct: true },
+{ text: "Somogyi phenomenon ", correct: false },
+{ text: "Waning of insulin effect", correct: false },
+{ text: "Factitious hypoglycaemia", correct: false },
+], },
+
+
+{ question: "A 75yrs old, male patient diagnosed of havingType2 DM for the past 20 yrs with poor metabolic control came with complaints of passing foamy urine, Blood analysis revealed glucose 20Omg/dl, urea 62mg/dl, creatinine 1.8mg/dl, uric acid 5.3mg/dl. The physician suspected this condition as a complication of long standing diabetes mellitus. Which of the following statement is correct regarding this condition?",
+img: "",
+answers: [
+{ text: "Urine dipsticks can easily detect microalbuminuria", correct: false },
+{ text: "24 hr urine albumin is more sensitive than spot sample urine albumin: urine creatinine ", correct: false },
+{ text: "Microalbuminuria correlates with nocturnal spike in Systolic blood pressure", correct: true },
+{ text: "Most common cause of death in type2 diabetes mellitus", correct: false },
+], },
+
+
+{ question: "Which of the following clinical features are correct regarding Diabetic Amyotrophy? 1. Pain in front of thigh 2. 3rd nerve palsy with pupillary sparing 3. Distal areflexia 4. Asymmetric motor weakness",
+img: "",
+answers: [
+{ text: "1,2,3 are correct", correct: false },
+{ text: "2,4are correct ", correct: false },
+{ text: "only1 is correct", correct: true },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "Which of the following gene is involved in the pathogenesis of Type1 Diabetes mellitus? 1. CTLA-4 2. ABCD1 3. HNF-1 Alpha 4.HNF-4Alpha",
+img: "",
+answers: [
+{ text: "1,2,3 are correct", correct: false },
+{ text: "3,4are correct ", correct: false },
+{ text: "only1 is correct", correct: true },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "A diabetic normotensive patient of Enterococcus faecalis sepsis, on intravenous Linezolid developed high anion gap metabolic acidosis with increased serum lactate and negative ketone. The acid base abnormality is most probably?",
+img: "",
+answers: [
+{ text: "TypeA lactic acidosis due to septic shock", correct: false },
+{ text: "Metabolic acidosis of uncertain etiology ", correct: false },
+{ text: "Diabetic ketoacidosis", correct: false },
+{ text: "TypeB lactic acidosis due to linezolid", correct: true },
+], },
+
+
+{ question: "Match the antidiabetic drug which is NOT to be used in the given situation?",
+img: "imgm2-401-500/pg 147.png",
+answers: [
+{ text: "PQR = YXW", correct: true },
+{ text: "PQR = XWY ", correct: false },
+{ text: "PQR=WYX", correct: false },
+{ text: "PQR=XVW", correct: false },
+], },
+
+
+{ question: "A middle aged man is admitted with RTA and bleeding from the scalp. He is unconscious. A card in his pocket reveals that he is a known diabetic on Glimipiride and Metformin,2 tablets twice daily. What should be the next step?",
+img: "",
+answers: [
+{ text: "Send blood for tests, start iv glucose and send for CT head", correct: false },
+{ text: "Start normal saline and send for CT head ", correct: false },
+{ text: "Start Dextrose solution and send for CT head", correct: false },
+{ text: "Airway, CT scan, Blood Sugar if <70 start dextrose", correct: true },
+], },
+
+
+{ question: "Consider the following conditions: A. Thyrotoxicosis, Pheochromocytoma and Acromegaly B. Haemochromatosis C. Conn's syndrome(primary hyperaldosteronism) D. Pancreatic carcinoma Which of the above may result in secondary diabetes mellitus?",
+img: "",
+answers: [
+{ text: "B and C only", correct: false },
+{ text: "A,B and D ", correct: true },
+{ text: "A,C and D", correct: false },
+{ text: "A, B and C", correct: false },
+], },
+
+
+{ question: "A 28yrs old, female patient with a diagnosed caseofType1 diabetes mellitus is on daily insulin injection for the past 16years.She came with complaints of frequent periods of unconsciousness due to lack of insulin and early signs of kidney problems. She is willing to undergo islet cell transplant. Which is the common site of injection of islet cells in this transplant?",
+img: "",
+answers: [
+{ text: "Pelvis", correct: false },
+{ text: "Portal vein ", correct: true },
+{ text: "Pancreas", correct: false },
+{ text: "Pancreas", correct: false },
+], },
+
+
+{ question: "A 50 year old patient with signs of peripheral neuropathy is found to have diabetes mellitus. He has no ocular symptoms. When would you refer this patient for retina evaluation?",
+img: "",
+answers: [
+{ text: "When he develops ocular symptoms", correct: false },
+{ text: "Immediately after diagnosis ", correct: true },
+{ text: "When he needs insulin for blood sugar", correct: false },
+{ text: "Five years after diagnosis", correct: false },
+], },
+
+
+{ question: "Which of the following statements are true about glycosylated haemoglobin? 1. It isa retrospective test indicating glycemic control for 8-12weeks. 2. It is a poor indicator of long term diabetic status in patient with renal disease 3. Contain Haemoglobin with sugar moiety 4. Half- life is 45 days in adults",
+img: "",
+answers: [
+{ text: "1, 2,3 are correct", correct: false },
+{ text: "1,3 are correct ", correct: true },
+{ text: "2,4 are correct", correct: false },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "A 75yrs old, male patient diagnosed of havingType2 DM for the past 20yrs with poor metabolic control came with complaints of passing foamy urine. After workup, he is diagnosed of having diabetic nephropathy. Which would be the earliest finding that can confirm the diagnosis?",
+img: "",
+answers: [
+{ text: "Shrunken kidney is hallmark", correct: false },
+{ text: "Fibrin Caps ", correct: false },
+{ text: "Elevated Creatinine Clearance", correct: false },
+{ text: "Urine albumin >30 mg/dl", correct: true },
+], },
+
+
+{ question: "Which of the following statements are true regarding 0.G.T.T (100gglucose)? 1. It is commonly used during pregnancy for the diagnosis of gestational diabetes. 2. G.T.T post1 hour value> 180 mg% for the diagnosis of gestational diabetes. 3. G.T.T post 2 hour value> 155 mg% for the diagnosis of gestational diabetes. 4.G.T.T post3 hour value> 1 40 mg% for the diagnosis of gestational diabetes.",
+img: "",
+answers: [
+{ text: "1, 2,3 are correct", correct: false },
+{ text: "1, 2,4 are correct ", correct: false },
+{ text: "1, 3,4 are correct", correct: false },
+{ text: "All are correct", correct: true },
+], },
+
+
+{ question: "A 30 year old woman presents with a cosmetic complaint shown in the image. What is the clinical diagnosis?",
+img: "imgm2-401-500/pg 166.png",
+answers: [
+{ text: "Xanthelasma", correct: true },
+{ text: "Necrobiosis lipidoica ", correct: false },
+{ text: "Tuberous Xanthoma", correct: false },
+{ text: "Orbital lipogranuloma", correct: false },
+], },
+
+
+{ question: "A 35yrs oId, maIe patient came with complaints of frequent urination, excessive thirst. The blood sugar levels are FBS=118mg%& 2hr PPBS=162mg%.On examination, the following finding was noticed in the patient with history of involuntary weight loss. What is this clinical finding shown in the image?",
+img: "imgm2-401-500/pg 168.png",
+answers: [
+{ text: "Acanthosis nigricans", correct: true },
+{ text: "Leser-Trelat sign ", correct: false },
+{ text: "Actinic keratosis", correct: false },
+{ text: "Intertriginous candida", correct: false },
+], },
+
+
+{ question: "A 62 yrs oId, male diabetic patient with history of toe amputation came with complaints of non-healing ulcer in the sole of his right leg. He is on insulin injection for the last 8yrs with poor metabolic control. His blood sugar levels came out to be FBS=232 mg%,2hr PPBS=388 mg%& HbAlc of 11%.This patient will require all of management except?",
+img: "imgm2-401-500/pg 170.png",
+answers: [
+{ text: "Off loading", correct: false },
+{ text: "Debridement ", correct: false },
+{ text: "Antiseptic agent dressings", correct: true },
+{ text: "Antibiotics", correct: false },
+], },
+
+
+{ question: "The treatment of diabetic complications A 69-year-old man is noted to have a glucose of60Omg°Aanda Na of163 mmol/L. He has no prior history of diabetes and has been on intravenous fluids for a week. His other medications include lv cefuroxime, metronidazole, and dexamethasone.",
+img: "",
+answers: [
+{ text: "Insulin sliding scale and 0.45% normal saline", correct: true },
+{ text: "Insulin sliding scale, 0.9% normal saline and potassium replacement ", correct: false },
+{ text: "50 ml of50% dextrose IV", correct: false },
+{ text: "Measure C-peptide levels", correct: false },
+], },
+
+
+{ question: "Weight loss is seen with all except?",
+img: "",
+answers: [
+{ text: "GLP-1 Agonists", correct: false },
+{ text: "SGLT-2 Inhibitors ", correct: false },
+{ text: "Pramlintide", correct: false },
+{ text: "DPP-4inhibitors", correct: true },
+], },
+
+
+{ question: "A 20 year old military recruit is found to have a HbAl C of 6.1% and FBS of 120 mg%. No family history of Diabetes Mellitus& he is asymptomatic. Which of the following best describes about the glucose levels in this patient?",
+img: "",
+answers: [
+{ text: "Normal", correct: false },
+{ text: " Impaired Glucose tolerance ", correct: true },
+{ text: "Diabetes Mellitus", correct: false },
+{ text: "Maturity onset diabetes in young", correct: false },
+], },
+
+
+{ question: "A 19yrs oId, female with a known case of Type1 DM, compIiant to Insulin came to ER with complaints of nausea, Iethargy for 1 day. Labs revealed high blood glucose& positive for acetone test. Which type of Insulin is used to manage this case?",
+img: "",
+answers: [
+{ text: "Regular", correct: true },
+{ text: "Lispro ", correct: false },
+{ text: "Glargine", correct: false },
+{ text: "Aspart", correct: false },
+], },
+
+
+{ question: "A 19yrs oId, female with a known case of Type1 DM, compIiant to Insulin came to ER with complaints of nausea, Iethargy for 1 day. Labs revealed high blood glucose& positive for acetone test. What is the mast appropriate management in this case?",
+img: "",
+answers: [
+{ text: "500mI of 0.9%Saline over 15 minutes and a fixed rate insulin infusion", correct: false },
+{ text: "500mI of 0.9% Saline over 15 minutes with potassium chloride and a fixed rate insulin infusion ", correct: true },
+{ text: "500mI of 0.9%Saline over 30 minutes with potassium chloride and a rapid acting subcutaneous insulin injection", correct: false },
+{ text: "50OmI of 0.9% Saline over 30 minutes and a rapid acting subcutaneous insulin injection", correct: false },
+], },
+
+
+{ question: "A 66yrs oId, femaIe with a known case of Type2 DM came with complaints of painfuI, uIcerated lesion on her right leg as shown in the image below. What is the diagnosis?",
+img: "imgm2-401-500/pg 187.png",
+answers: [
+{ text: "Necrobiosis lipidoica diabeticorum", correct: true },
+{ text: "Acanthosis nigricans ", correct: false },
+{ text: "Lupus pernio", correct: false },
+{ text: "Pretibial myxedema", correct: false },
+], },
+
+
+{ question: "A 65-year-old male with type2 diabetes attends his annual diabetes review with HbA1c report of8.8^A. He currently takes metformin. His routine blood tests detect a reduction in his renal function, with his GFR now beingless than 30ml/min. Which is correct about his current status?",
+img: "",
+answers: [
+{ text: "Increased risk of developing acidosis", correct: false },
+{ text: "Increased risk of retinopathy ", correct: false },
+{ text: "Increased risk of high anion gap acidosis", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+
+{ question: "All are complications arising out of use of the medical device shown here except?",
+img: "imgm2-401-500/pg 193.png",
+answers: [
+{ text: "Lipo-hypertrophy", correct: false },
+{ text: "Neuro-glucopenia ", correct: false },
+{ text: "Pre-breakfast hyperglycemia", correct: false },
+{ text: "Molar ratio of insulin/C-peptide <1", correct: true },
+], },
+
+
+{ question: "An unconscious 50 year old known case of diabetes mellitus is brought to the ER. His medical records show he is on warfarin for atrial fibrillation. Which of the following investigations will not be done in this patient for workup?",
+img: "",
+answers: [
+{ text: "Lumbar puncture", correct: true },
+{ text: "Random blood sugar ", correct: false },
+{ text: "NCCT", correct: false },
+{ text: "ECG monitoring", correct: false },
+], },
+
+
+{ question: "A female presents with blood sugar of 600 mg% and sodium of110 mEq. Insulin was given. What will happen to serum sodium levels?",
+img: "",
+answers: [
+{ text: "Sodium increase", correct: true },
+{ text: "Sodium decrease ", correct: false },
+{ text: "Sodium unaffected", correct: false },
+{ text: "Relative sodium deficiency", correct: false },
+], },
+
+
+{ question: "Which of the following conditions cause increased Plasma anion gap? 1)Diabetic Ketoacidosis 2)Uremia 3)Lactic acidosis 4)Uretero-sigmoidostomy",
+img: "",
+answers: [
+{ text: "1,2,3 are correct", correct: true },
+{ text: "1,3are correct ", correct: false },
+{ text: "2,4 are correct", correct: false },
+{ text: "All are correct", correct: false },
+], },
+
+
+{ question: "A 63 yrs oId, femaIe patient with Type2 DM, hypertension for the past 12yrs.She is on insulin& anti hypertensives respectively. EGFR26ml/min/1.73m2, UACR27Omg/g. She is confirmed to have CKD stage G4A2(stage 4). What is the dose adjustment of insulin required?",
+img: "",
+answers: [
+{ text: "Increased insulin", correct: false },
+{ text: "Decreased insulin ", correct: true },
+{ text: "Normal insulin", correct: false },
+{ text: "Add DPP -4 inhibitors", correct: false },
+], },
+
+
+{ question: "A 68 yrs oId, female patient diagnosed of havingType2 DM for the past 14yrs presents with dizziness, hypotension during early morning when waking from bed. What is the ideal management/drug for this patient?",
+img: "",
+answers: [
+{ text: "Dopamine/ Dobutamine", correct: false },
+{ text: "Isoproterenol ", correct: false },
+{ text: "Clonidine", correct: false },
+{ text: "Midodrine", correct: true },
+], },
+
+
+{ question: "A morbidly obese diabetic woman was on failed metformin therapy. She has a history of pancreatitis and family history of bladder cancer. Patient does not want to take injections. Which of the following would be suitable to reduce her glucose levels:",
+img: "",
+answers: [
+{ text: "Sitagliptin", correct: false },
+{ text: "Pioglitazone ", correct: false },
+{ text: "Canagliflozin", correct: true },
+{ text: "Liraglutide", correct: false },
+], },
+
+
+{ question: "A 60-year-old male diabetic and hypertensive patient was found unconscious in the morning. On examination pulse - 120/min, bp-160/100 mm Hg, and bilateral extensor plantar are elicited. What is the next step to be done for management?",
+img: "",
+answers: [
+{ text: "Order CT scan", correct: false },
+{ text: "Check blood glucose ", correct: true },
+{ text: "Give Intravenous mannitol", correct: false },
+{ text: "Immediately reduces by with antihypertensives", correct: false },
+], },
+
+
+{ question: "A 45 year old male, known case of diabetes mellitus from last 15 years ,presents with Diabetic ketoacidosis. What shall be the initial line of management?",
+img: "",
+answers: [
+{ text: " 3 % saline", correct: false },
+{ text: "5% dextrose ", correct: false },
+{ text: "0.9 % saline", correct: true },
+{ text: "Colloids", correct: false },
+], },
+
+
+{ question: "A 45 year old male known case of diabetes mellitus have HbA1c of9.4% after strict glycemic control. All of the following complications can be reversed except?",
+img: "",
+answers: [
+{ text: "Retinopathy", correct: false },
+{ text: "Neuropathy ", correct: false },
+{ text: "Nephropathy", correct: false },
+{ text: "none of the above", correct: true },
+], },
+
+
+{ question: "A 70 year old male k/c/o type2 DM presents with history of polyuria and decreased oral intake. He was brought to emergency with altered sensorium. There was no complaint of abdominal pain or nausea. His blood sugar level was 780 mg%. All of the following are correct in relation to the disorder patient is suffering from except?",
+img: "",
+answers: [
+{ text: "Ketoacidosis is absent", correct: false },
+{ text: "Kussmaul breathing is common ", correct: true },
+{ text: "Prerenal azotemia is seen", correct: false },
+{ text: "Serum osmolality> 350 m0sm/L", correct: false },
+], },
+
+
+{ question: "A 45 year old male known case of diabetes presents with nausea, multiple episodes of vomiting and abdominal pain. He is stuporous, having blood glucose level of 402 mg% and on urine examination Ketone bodies are detected. He is having tachycardina along with orthostatic hypotension. On lab investigation, his potassium levels are3 meq/L. The next best step in the management will be:",
+img: "",
+answers: [
+{ text: "Manage hypokalemia Repeat serum K+levels IVfluids and start IV regular insulin", correct: true },
+{ text: "IV fluids give IV regular insulin and lastly manage hypokalemia ", correct: false },
+{ text: "Give IV regular insulin along with K* IV fluids after the K+level is normal", correct: false },
+{ text: "IV fluids give Lente insulin and side by side manage hypokalemia", correct: false },
+], },
+
+
+{ question: "A 38 year old male known case oftype2 DM was started on oral hypoglycemic drugs. After few day she comes back to OPD with complains of urge to drink water excessively and increased frequency of micturition. He also complains of a burning sensation while urinating. Which drug could be the possible cause of the above mentioned symptoms?",
+img: "",
+answers: [
+{ text: "Exenatide", correct: false },
+{ text: "Glipizide ", correct: false },
+{ text: "Metformin", correct: false },
+{ text: "Dapagliflozin", correct: true },
+], },
+
+
+{ question: "Which of the following findings in patients of Diabetic Ketoacidosis (DKA) can mimic as a case of acute pancreatitis? 1. Elevated amylase 2. Elevated lipase 3. Abdominal pain 4. Hyperglycemia",
+img: "",
+answers: [
+{ text: "1, 2,3 only", correct: false },
+{ text: "2, 3,4 only ", correct: false },
+{ text: "1, 3,4 only", correct: true },
+{ text: "All of the above", correct: false },
+], },
+
+
+{ question: "A 30 year old nurse is evaluated for recurrent hypoglycaemia. She feels shaky, anxious, and sweaty; her plasma glucose is 50 mg/dl during the attack at work. She then drinks coffee& feels better. These episodes have not happened outside the work environment. She takes no medications and is otherwise healthy. Which is the most appropriate test in this patient?",
+img: "",
+answers: [
+{ text: "Measurement of IGF-1", correct: false },
+{ text: "Measurement of fasting insulin and glucose levels ", correct: false },
+{ text: "Measurement of fasting insulin, glucose, and C-peptide levels", correct: false },
+{ text: "Measurement of insulin, glucose, and C-peptide levels during a symptomatic episode", correct: true },
+], },
+
+
+{ question: "A 50 year old obese female presented with recurrent candidial urinary infection & excessive thirst. She also gives history of frequent night time urination. Which is the first test you will prefer in this patient?",
+img: "",
+answers: [
+{ text: "HbA1c", correct: false },
+{ text: "Oral glucose tolerance test ", correct: false },
+{ text: "Plasma C-peptide level", correct: false },
+{ text: "Random plasma glucose level", correct: true },
+], },
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M2 1-100</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que M2 1-100</h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Chirag</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+        
+            { question: "Apatient admitted in ICU, had routine ABG sampled collected for the day. Upon analysis, it revealed respiratory alkalosis. which type of ventilation is most likely to be associated with respiratory alkalosis ",
+img: "imgm2-1-100/Pg138.png",
+answers: [
+{ text: "Assisted control mode ventilation", correct: true },
+{ text: " Non-invasive ventilation ", correct: false },
+{ text: "Pressure controlled", correct: false },
+{ text: "SIMV", correct: false },
+], },
+
+
+
+
+
+
+{ question: "ACOPD patient was having pedal oedema for which thiazides were prescribed. Since he was complaining of excessive sleepiness an ABG sample was taken. Report is pH= 7.42, pCO2= 67 mmHg and HCO3 =42mEq with Na =140 mEq,=K 3.0,CL- =8mEq.Whatisthe diagnosis?",
+img: "",
+answers: [
+{ text: "Metabolic alkalosis with respiratory acidosis", correct: true },
+{ text: "Metabolic alkalosis with compensatory respiratory alkalosis ", correct: false },
+{ text: "Metabolic alkalosis with metabolic acidosis", correct: false },
+{ text: "High anion gap metabolic acidosis with paradoxical aciduria", correct: false },
+], },
+
+
+
+
+
+{ question: "A20 year old male patient presents to emergency with 6 episodes of diarrhoea initial management was done. In ABG you notice that there is normal anionic gap. The following conditions are known to have decreased anionic gap except ?",
+img: "",
+answers: [
+{ text: "Plasma cell dyscrasia", correct: false },
+{ text: " • You Missed (50%) B Ethylene glycol ", correct: true },
+{ text: "Protein losing enteropathy", correct: false },
+{ text: "Nephrotic syndrome", correct: false },
+], },
+
+
+
+
+
+
+
+
+{ question: "You're the intern on duty, a 46 year old male was brought to emergency with Spirometry findings suggestive of extrapulmonary restrictive defect. Which of the following it will lead to ?",
+img: "",
+answers: [
+{ text: "Respiratory alkalosis", correct: false },
+{ text: "Respiratory acidosis ", correct: true },
+{ text: "Increased DLco", correct: false },
+{ text: "Reduced DLco", correct: false },
+], },
+
+
+
+
+
+
+
+{ question: "In chronic respiratory alkalosis, HCO- falls by - mmol/L for every 10 mm Hg decrease in CO2",
+img: "",
+answers: [
+{ text: "1", correct: false },
+{ text: "2 ", correct: false },
+{ text: "3", correct: false },
+{ text: "4", correct: true },
+], },
+
+
+
+
+{ question: "A patient of CKD has presented with protracted vomiting. ABG shows pH = 7.40, pCO2 = 40 mm Hg, HCO3 = 25 mEq, Na=145 mEq/L, Chloride = 100 mEq/L, HCO3 = 24 mEq/L. What is the observation?",
+img: "",
+answers: [
+{ text: "Normal anion gap metabolic acidosis", correct: false },
+{ text: "High anion gap metabolic acidosis ", correct: false },
+{ text: "No acid base abnormality", correct: false },
+{ text: "High anion gap metabolic acidosis and metabolic alkalosis", correct: true },
+], },
+
+
+
+
+
+
+{ question: "Following are done during ABG sample extraction 1. Needle used is a 23 gauge 2. Allen test 3. Add 0.5 ml heparin to the syringe prior to use 4. Radial artery is preferred site",
+img: "",
+answers: [
+{ text: "1,2,3", correct: false },
+{ text: "2,3,4 ", correct: false },
+{ text: "1,2,4", correct: true },
+{ text: "1,3,4", correct: false },
+], },
+
+
+
+
+
+{ question: "A25 yr old male is found unconscious. In the ER, ABG is performed and reveals :pH - 7.25, PCO2-60, POz- 65 and HCO3 -26. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Respiratory acidosis uncompensated", correct: true },
+{ text: "Respiratory alkalosis compens ", correct: false },
+{ text: "Metabolic acidosis uncompensated", correct: false },
+{ text: "Metabolic alkalosis compensated", correct: false },
+], },
+
+
+
+
+
+
+
+{ question: "A 68 year old man with a history of very severe COPD (FEV1~1.OL, <25% predicted) presents to the ER complaining of worsening dyspnea and an increase in the frequency and purulence of his sputum production over the past 2 days. His oxygen saturation is 78% on room air. Before he is placed on supplemental oxygen, a room air arterial blood gas is drawn and reveals: pH 7.25, PCO2 - 68, PO2 - 48, HCO3 -31. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Respiratory acidosis uncompensated", correct: false },
+{ text: "Respiratory acid ", correct: true },
+{ text: "Metabolic acidosis uncompensated", correct: false },
+{ text: "Metabolic alkalosis partially compensated", correct: false },
+], },
+
+
+
+
+
+
+
+{ question: "Aclimber is coming down from the summit of Mt. Everest. At an altitude of 8,400m, he has a blood gas drawn while breathing ambient air as part of a research project. The blood gas reveals pH 7.55, PCO2-12, PO2 -30 and HCO -20. What does it demonstrate?",
+img: "",
+answers: [
+{ text: "Respiratory acidosis uncompensated", correct: false },
+{ text: "Respiratory alkalosis partially compensated ", correct: true },
+{ text: "Respiratory alkalosis uncompensated", correct: false },
+{ text: "Respiratory acidosis partially compensated", correct: false },
+], },
+
+
+
+
+
+
+{ question: "A patient was brought to emergency after a panic attack. she is found to be restless and tachycardic. Arterial blood gas was done revealing the following findings pH 7.56, paCO2- 20, HCO3- 20. Interpret the acid-base disorder in the given condition?",
+img: "",
+answers: [
+{ text: "Respiratory alkalosis, uncompensated", correct: false },
+{ text: "Respiratory alkalosis, compensated ", correct: false },
+{ text: "Respiratory alkalosis, partially compensated", correct: true },
+{ text: "Metabolic alkalosis, partially compensated", correct: false },
+], },
+
+
+
+
+
+
+{ question: "You're an intern in the emergency department, your medicine postgraduate has given the following ABG value to interpret pH 7.42, paC02- 25, HCO3- 18. Identify the diagnosis",
+img: "",
+answers: [
+{ text: "Metabolic acidosis, partially compensated", correct: false },
+{ text: "Respiratory acidosis,partially compensated ", correct: false },
+{ text: "Respiratory acidosis, fully compensated", correct: false },
+{ text: "Respiratory alkalosis, fully compensated", correct: true },
+], },
+
+
+
+
+
+
+
+
+{ question: "A28 year old woman was admitted electively to a HDU following -C section. A diagnosis of 'fatty liver of pregnancy' had been made preoperatively. She was commenced on a continuous morphine infusion at 5 mg/hr and received oxygen by mask. This was continued overnight and she was noted to be quite drowsy the next day. Arterial blood gases were- pH 7.16, pCO2- 61.9 mmHg, pOz- 115 mmHg and HCO3-21.2 mmol/l?",
+img: "",
+answers: [
+{ text: "Respiratory acidosis +Metabolic acidosis", correct: true },
+{ text: "Respiratory alkalosis +Metabolic alkalosis ", correct: false },
+{ text: "Respiratory acidosis + Metabolic alkalosis", correct: false },
+{ text: "Respiratory alkalosis + Metabolic acidosis", correct: false },
+], },
+
+
+
+
+
+
+{ question: "Apatient is experiencing respiratory acidosis due to brain trauma. Which of the following lab values correlates with this acid imbalance?",
+img: "",
+answers: [
+{ text: "Potassium level of ", correct: true },
+{ text: "Potassium level of 2.5 ", correct: false },
+{ text: "Potassium level of 5.0", correct: false },
+{ text: "Potassium level of 3.5", correct: false },
+], },
+
+
+
+
+
+
+{ question: "Apatient has the following blood gases: PaCO2-25, рн- 7.50, HCO3 - 19. Which of the following could not be the cause of this condition?",
+img: "",
+answers: [
+{ text: "Anxiety attack", correct: false },
+{ text: "pa02/Fi 02 ratio <100 ", correct: true },
+{ text: "Hysteria", correct: false },
+{ text: "Aspirin toxicity", correct: false },
+], },
+
+
+
+
+
+
+{ question: "An 8 month female baby presented with 1 day h/o lethargy. She had vomited several times. Her drug addict mother said she appeared 'intoxicated'.O/E: baby was obtunded but she was easily arousable and muscle tone was normal. RR = 60/min. Pupils are normal. BP was 112/62.1x: Na*= 135 K* = 4.2, Glucose 5.9 mmol/l, Cl- = 116, Urinalysis: pH = 5.0; negative for glucose & ketones, positive for calcium oxalate crystals. ABG: pH = 7.19, pCO2 =20, POz =100, HCO3 =6.2?",
+img: "",
+answers: [
+{ text: "Metabolic acidosis compensated", correct: false },
+{ text: "Metabolic acidosis partially compensated ", correct: true },
+{ text: "Metabolic alkalosis compensated", correct: false },
+{ text: "Metabolic alkalosis partially compensated 76%", correct: false },
+], },
+
+
+
+
+
+{ question: "In ECG lead II, Ill, and aVF are abnormal. Which of the following vessel is blocked?",
+img: "",
+answers: [
+{ text: "Left coronary artery", correct: false },
+{ text: "Left anterior descending ", correct: false },
+{ text: "Right coronary artery", correct: true },
+{ text: "Right circumflex artery", correct: false },
+], },
+
+
+
+{ question: "A60-year-old male is on aspirin, ACE inhibitor, nitrates and beta blocker for chronic stable angina. Since the new-year party, he is having long-lasting angina pain every day for past 3 days. ECG was normal and Troponin I levels are normal. Which is the best management of this patient?",
+img: "",
+answers: [
+{ text: "Admit and start heparin", correct: true },
+{ text: "Admit and start thrombolysis ", correct: false },
+{ text: "Admit and observe for rising of cardiac biomarker", correct: false },
+{ text: "Increase dose of long-acting nitrates and manage as outpatient", correct: false },
+], },
+
+
+
+{ question: "A55-year-old female presents with Levine sign, hiccups, and vomiting episodes. On examination HR=50/min with BP =100/60 mm Hg with elevated JVP. ECG technician is yet to arrive. Which coronary artery is likely to be involved?",
+img: "",
+answers: [
+{ text: "RCA", correct: true },
+{ text: "LAD ", correct: false },
+{ text: "LCX", correct: false },
+{ text: "Left main coronary artery", correct: false },
+], },
+
+
+
+
+{ question: "A 45-year-old female tourist to India presents with diffuse chest pain. There is no past history of heart disease, hypertension, and diabetes. She is admitted for observation and next morning she has a recurrence of chest pain and ECG shows ST elevation in V1 to V4. Troponin is normal and pain is promptly relieved by sublingual NTG. Which of the following is the best management plan for this patient?",
+img: "",
+answers: [
+{ text: "Echocardiography and anti- inflammatory therapy", correct: false },
+{ text: "Exercise stress testing and long- acting nitrates ", correct: false },
+{ text: "Coronary angiography with long- acting nitrates and CCB", correct: true },
+{ text: "Thallium scan and long-acting nitrates", correct: false },
+], },
+
+
+
+
+
+{ question: "A67-year-old man with a history of hypertension, hyperlipidemia and tobacco use has been diagnosed with infra-renal aortic aneurysm of size 3 X3.5 cm. Which is best suited for this patient?",
+img: "",
+answers: [
+{ text: "Endovascular stenting of an aneurysm", correct: false },
+{ text: "Serial follow up with MRI, major determinant of surgery being renal artery involvement ", correct: false },
+{ text: "Serial follow up with MRI, initiate statins and major determinant of surgery being size greater than 5.5cm", correct: true },
+{ text: "Serial follow up with MRI, initiate Statins and operate only in case of acute anginal nain", correct: false },
+], },
+
+
+
+
+{ question: "False a b o u t Friedewald's formula:- 1. 10-year mortality due to atherosclerotic cardiovascular disease is calculated 2. Calculate the value of LDL Cholesterol 3. Sample of lipids should be collected after 12 hours of fasting 4. LDL= Total cholesterol- TG/3- HDL 5. Formula is used only if the value of triglycerides >200 mg/dl.",
+img: "",
+answers: [
+{ text: "Only 1 and 5 are false", correct: false },
+{ text: "Only 4 and 5 are false ", correct: false },
+{ text: "Only1,3and5arefalse", correct: false },
+{ text: "Only 1, 4 and 5 are false", correct: true },
+], },
+
+
+
+{ question: "Amother brings her 5-year-old boy to medicine opd with complain of fever for 5 days. O/E - the child has red eyes, dry, cracked lips and a rash on his hands and feet and unilateral cervical lymphadenopathy. He also had red tongue as shown in the image below. Radiological imaging was done which showed following findings. Choose the CORRECT statement regarding the disease depicted in the given images:",
+img: "imgm2-1-100/Pg58.png",
+answers: [
+{ text: "Aspirin is contraindicated", correct: false },
+{ text: "Bilateral purulent conjunctivitis ", correct: false },
+{ text: "VI immunoglobulin is used in treatment", correct: true },
+{ text: "Lymphadenopathy is rare", correct: false },
+], },
+
+
+{ question: "A 65 year male presented to emergency with complain of sweating and chest pain for last 4 hours. ECG was done which is shown below. Which of the following drug is not given in the management of this patient?",
+img: "imgm2-1-100/Pg62.png",
+answers: [
+{ text: "Aspirin", correct: false },
+{ text: "Statin ", correct: false },
+{ text: "Thrombolytic therapy", correct: true },
+{ text: "Morphine", correct: false },
+], },
+
+
+
+{ question: "Which of the following statements are correct in relation to right ventricular myocardial infarction : 1. It may occur along with inferior wall myocardial infarction 2. The ECG shows segment elevation in right precordial leads 3. Prognosis in right ventricular involvement in inferior wall MI is bad 4. The treatment includes intravenous diltiazem",
+img: "",
+answers: [
+{ text: "Only 2 is correct", correct: false },
+{ text: "2 and 3 are correct ", correct: false },
+{ text: "1,2 and 3are correct", correct: true },
+{ text: "1,2 and 4 are correct", correct: false },
+], },
+
+
+
+{ question: "False statement regarding Dresser's Syndrome is/ are : 1. Usually occurs 1-4 days after MI 2. Occurs in 10% of patients with acute MI 3. Treatment of choice is aspirin .4 Complication of early Pericarditis",
+img: "",
+answers: [
+{ text: "Only4isfalse", correct: false },
+{ text: "1 and 4 are false ", correct: false },
+{ text: "1, 2 a n d 4 a r e f a l s e", correct: true },
+{ text: "3 and 4 are false", correct: false },
+], },
+
+
+
+
+{ question: "Match the following - 1. PET scan 2. MUGA scan 3. Thallium scan 4. Coronary angiogram a. Tells about blockages in Coronaries b. assess LV function and volume c. Best investigation to check viability of ischemic myocardium d. Detects hibernating myocardium Ventricular function assessment",
+img: "",
+answers: [
+{ text: "1c,2b,3a,4d", correct: false },
+{ text: "1b,2a,3d,4c ", correct: false },
+{ text: "1 c, 2 b, 3 d, 4 a", correct: true },
+{ text: "1 a, 2 b, 3 c, 4 d", correct: false },
+], },
+
+
+
+
+
+{ question: "A p a t i e n t in CCU o n d a y 2 o f PCI procedure has the following rhythm. BP=90/60mmHg. Which is the next best step for management of this patient?",
+img: "imgm2-1-100/Pg81.png",
+answers: [
+{ text: "Pacemaker", correct: true },
+{ text: "Lignocaine ", correct: false },
+{ text: "Amiodarone", correct: false },
+{ text: "Synchronized cardioversion", correct: false },
+], },
+
+
+
+{ question: "In an established case of coronary artery disease post MI which of the following drug will not prolong life expectancy?",
+img: "",
+answers: [
+{ text: "ACE inhibitors", correct: false },
+{ text: "Statin ", correct: false },
+{ text: "Aspirin", correct: false },
+{ text: "Nitrate ", correct: true },
+], },
+
+
+
+{ question: "A56 years male, k/c/o mitral stenosis presented to cardiac opd for follow up. ECG, ECHO and baseline blood investigations were done. There was some abnormality in the reports following which doctor added digitalis in prescription. Which of following is the indication of use of Digitalis in a patient of mitral stenosis ?",
+img: "",
+answers: [
+{ text: "Atrial fibrillation", correct: true },
+{ text: "Right ventricular failure ", correct: false },
+{ text: "Acute pulmonary edema", correct: false },
+{ text: "Myocarditis ", correct: false },
+], },
+
+
+
+
+{ question: "A56 years old female presented to emergency with complain of breathlessness, chest pain and sweating for 20 mins. The on duty intern ordered ECG. ECG showed ST segment depression and Twave inversion. His provisional diagnosis based on ECG and clinical picture was ? NSTEMI or ? Stable angina •Which is the best investigation he should order to differentiate between stable angina and NSTEMI?",
+img: "",
+answers: [
+{ text: "ECG", correct: false },
+{ text: "Cardiac-biomarkers ", correct: true },
+{ text: "Trans-thoracic Echocardiography", correct: false },
+{ text: "Multi uptake gated Acquisition scan", correct: false },
+], },
+
+
+
+
+{ question: "A65-year-old male had MI one year ago. Now the same patient presents with hypertension. Which of the following drug is best suited for this patient?",
+img: "",
+answers: [
+{ text: "Clonidine", correct: false },
+{ text: "Thiazide ", correct: false },
+{ text: "Propranolol", correct: false },
+{ text: "Lisinopril ", correct: true },
+], },
+
+
+
+
+{ question: "Dharamveer, a 55 years old retired navy personnel presented to emergency 5 days back with complains of chest pain, sweating and breathlessness for 1 hr. ECG showed Anterior wall MI. Angiography showed double vessel disease and Angioplasty was done. He is getting discharged today. Al of the following drugs will be mentioned in the discharge card for secondary prevention of Mi except?",
+img: "",
+answers: [
+{ text: "Aspirin", correct: false },
+{ text: "Statins ", correct: false },
+{ text: "Beta-blockers", correct: false },
+{ text: "Warfarin", correct: true },
+], },
+
+
+
+
+{ question: "A50-year old man who had recently joined a gym collapsed on the treadmill. He was rushed to the hospital where the ECG shows the presence of:",
+img: "imgm2-1-100/Pg99.png",
+answers: [
+{ text: "Acute extensive inferior wall MI", correct: true },
+{ text: "Brugada syndrome ", correct: false },
+{ text: "Catecholamine sensitive ventricular tachycardia", correct: false },
+{ text: "Arrhythmogenic right ventricular dysplasia", correct: false },
+], },
+
+
+
+
+{ question: "Identify the feature(s) of Unstable angina:",
+img: "",
+answers: [
+{ text: "Slight t in Troponin", correct: false },
+{ text: "Depression of ST segment ", correct: false },
+{ text: "Twave inversion", correct: false },
+{ text: "All of the above", correct: true },
+], },
+
+
+
+{ question: "A65-year old man presents with crushing chest pain for 2 hours. On examination, BP = 80/60 mm Hg and JVP are elevated 4 cm above the sternal angle. All are true about the condition shown except:",
+img: "imgm2-1-100/Pg103.png",
+answers: [
+{ text: "ST elevation in V4R", correct: false },
+{ text: "ST segment depression in lead I, III, aVF ", correct: true },
+{ text: "Right ventricular infarction", correct: false },
+{ text: "Kussmaul sign +", correct: false },
+], },
+
+
+
+
+{ question: "A 50-year-old construction worker continues to have elevated BP of 160/100 mmHg after a third agent (thiazide) is added to his anti-hypertensive regimen. Physical examination is normal, electrolytes are normal and he is not taking any over the counter medications. Which is the next helpful step in the diagnosis of this patient?",
+img: "",
+answers: [
+{ text: "Check pill count", correct: true },
+{ text: "Perform renal Doppler ", correct: false },
+{ text: "MRI aorta", correct: false },
+{ text: "Adrenal CT scan", correct: false },
+], },
+
+
+
+
+
+{ question: "A 45-year-old lady presents with a 1-year history of episodic leg edema and difficulty in breathing on exertion. ECG was performed. What is the most likely diagnosis?",
+img: "imgm2-1-100/Pg107.png",
+answers: [
+{ text: "Right bundle branch block", correct: false },
+{ text: "Cor-pulmonale ", correct: true },
+{ text: "Tako- Tsubo cardiomyopathy", correct: false },
+{ text: "Aortic stenosis", correct: false },
+], },
+
+
+
+
+
+{ question: "A 15-year old obese teenager presents with lesions on elbows and knees. He has a positive family history of coronary artery disease. The images below show?",
+img: "imgm2-1-100/Pg109.png",
+answers: [
+{ text: "Tuberous xanthoma", correct: false },
+{ text: "Eruptive xanthoma ", correct: false },
+{ text: "Tendon xanthoma", correct: true },
+{ text: "rked Xanthoma disseminatum", correct: false },
+], },
+
+
+
+{ question: "A25-year old patient with a history of recent respiratory tract infection complains of severe chest pain at rest. The ECG of the patient is given. The most probable diagnosis of the patient is?",
+img: "imgm2-1-100/Pg111.png",
+answers: [
+{ text: "Acute MI", correct: false },
+{ text: "Prinzmetal angina ", correct: false },
+{ text: "Takotsubo cardiomyopathy", correct: false },
+{ text: "Acute pericarditis", correct: true },
+], },
+
+
+
+
+{ question: "A patient undergoes a cardiac stress test, the results of which are given below. What is incorrect about this patient ",
+img: "imgm2-1-100/Pg114.png",
+answers: [
+{ text: "Patient has fixed stenotic lesion in left circulation", correct: false },
+{ text: "ST d e p r e s s i o n o f > 2 m m i n c h e s t leads is present ", correct: false },
+{ text: "Nitrates are mortality reducing drugs", correct: true },
+{ text: "Chest pain lasts for duration less than 5 minutes", correct: false },
+], },
+
+
+
+{ question: "Which drug reduce the risk of CV death and prolongs life expectancy in a patient with chronic stable angina?",
+img: "",
+answers: [
+{ text: "Aspirin", correct: false },
+{ text: "Beta Blocker ", correct: true },
+{ text: "CCB", correct: false },
+{ text: "ACE inhibitor", correct: false },
+], },
+
+
+
+
+
+{ question: "A65-year-old woman with type 2 diabetes mellitus and hypertension comes to the office for routine follow-up. She has occasional numbness in her feet. The patient takes ibuprofen for chronic back pain along with hydrochlorothiazide and metformin. Urinalysis shows albuminuria. Lisinopril therapy is initiated. The next day, the patient returns due to lightheadedness and near- syncope. Her blood pressure is 80/45 mm Hg. Which of the following is most likely the major factor contributing to this patient's current symptoms?",
+img: "",
+answers: [
+{ text: "Autonomic neuropathy", correct: false },
+{ text: "NSAID use ", correct: false },
+{ text: "Diabetic nephropathy", correct: false },
+{ text: "Diuretic therapy", correct: true },
+], },
+
+
+
+
+{ question: "A50 year old man is admitted to hospital with Levine sign. BP on admission is 70/50mm Hg. On auscultation S2 is wide split with S3 gallop rhythm. Which is correct statement about this patient?",
+img: "imgm2-1-100/Pg122.png",
+answers: [
+{ text: "Give bolus fluid", correct: true },
+{ text: "VI Atropine ", correct: false },
+{ text: "Start Streptokinase", correct: false },
+{ text: "VI Metoprolol", correct: false },
+], },
+
+
+
+
+{ question: "A65 year old man was seen as an outpatient complaining of central chest pain on exertion. His son tells you that 5 years ago he had been admitted for MI in the CCU of the same hospital. His vitals are stable and chest is clear. No added heart sounds are heard. What is the next best step?",
+img: "imgm2-1-100/Pg124.png",
+answers: [
+{ text: "Yo uMissed Perform Stress tests", correct: true },
+{ text: "Perform Cardiac biomarkers ", correct: false },
+{ text: "Perform PCI", correct: false },
+{ text: "Perform Transvenous Pacing", correct: false },
+], },
+
+
+
+
+{ question: "Which score is calculated during performance of this test?",
+img: "imgm2-1-100/Pg127.png",
+answers: [
+{ text: "Duke Score", correct: true },
+{ text: "Bruce Score ", correct: false },
+{ text: "Jones score", correct: false },
+{ text: "DeBakey Score ", correct: false },
+], },
+
+
+
+
+{ question: "A45 year old man presents with central chest pain for 4 hours. Troponin I is 0.8ng/dI. Diagnosis is?",
+img: "imgm2-1-100/Pg130.png",
+answers: [
+{ text: "Anterior wall, STEMI", correct: false },
+{ text: "Anterior wall, NSTEMI ", correct: true },
+{ text: "Unstable Angina", correct: false },
+{ text: "Prinzmetal angina", correct: false },
+], },
+
+
+
+{ question: "Ramesh, a 65 years old male, CEO of a multinational company suffered from Palpitations, Breathlessness and Sweating while attending a conference. He was rushed to nearby hospital. O/E - patient was pulseless and his BP was unrecordable. ECG was done whose findings are as follows. Likely diagnosis is?",
+img: "imgm2-1-100/Pg132.png",
+answers: [
+{ text: "Monomorphic ventricular tachycardia", correct: true },
+{ text: "Bidirectional tachycardia ", correct: false },
+{ text: "Polymorphic ventricular tachycardia", correct: false },
+{ text: "Ventricular fibrillation", correct: false },
+], },
+
+
+
+
+{ question: "A60 year old man, who is a known case of LV Aneurysm post MI in 2017, presents with recurrent episodes of syncope. Today after having a strong coffee he developed syncope and was rushed to the hospital. What is the best way to prevent such episodes from developing again?",
+img: "imgm2-1-100/Pg134.png",
+answers: [
+{ text: "Daily oral amiodarone", correct: false },
+{ text: "DC shock 200J ", correct: false },
+{ text: "Implantable Cardioverter defibrillator", correct: true },
+{ text: "Catheter ablation", correct: false },
+], },
+
+
+
+
+{ question: "Which among the following is/are true about Dressler syndrome ? 1. Post MI pericarditis 2. ECG shows ST elevation with concavity downwards 3. CPK-MB levels are normal 4. Treatment with steroids is necessary 5. Autoimmune disease",
+img: "",
+answers: [
+{ text: "1, 2 and 5 are true", correct: false },
+{ text: "1, 2, 3 and 5 are true ", correct: false },
+{ text: "1, 3 a n d 5 a r e t r u e", correct: true },
+{ text: "2, 3 and 5 are true", correct: false },
+], },
+
+
+
+
+{ question: "A55 years male presented to OPD with complains of chest pain, sweating, nausea and shortness of breath while moving upstairs or walking fast. Symptoms resolve when he takes rest. O/E - pulse 76 bpm, BP = 110/ 70 mm Hg. ECG was done whose findings are as below. What is your diagnosis?",
+img: "imgm2-1-100/Pg138.png",
+answers: [
+{ text: "Prinzmetal angina", correct: false },
+{ text: "Myocardial ischemia ", correct: true },
+{ text: "Pulmonary embolism ", correct: false },
+{ text: "Hyperkalemia", correct: false },
+], },
+
+
+
+
+{ question: "A30-year-old male presents to ER with multiple episodes of chest pain, lasting between 10-20 minutes over the last 2 hours. He admits that he did 'a bit of coke' at a house party. Clinical assessment reveals: Pulse: 95/min, Blood pressure: 135/93mm Hg, Sp02= 97% on room air. ECG during a further chest pain episode reveals ST elevation in leads V2- V6 and Troponin Tis negative. Which of the following is the most appropriate intervention for this patient?",
+img: "",
+answers: [
+{ text: "Percutaneous coronary interventio", correct: false },
+{ text: "Enoxaparin ", correct: false },
+{ text: "Calcium channel blocker", correct: true },
+{ text: "Atenolol", correct: false },
+], },
+
+
+
+
+{ question: "A 58-year-old man presents to you complaining of chest pain. The pain occurs when he walks to the corner shop on his lunch break and disappears within a couple of minutes when he stops to rest. He has never had pain at rest or pain that did not spontaneously remit. Clinical examination is normal except for mildly elevated blood pressure at 145/85. An ECG shows normal sinus rhythm. What is the most appropriate investigation",
+img: "",
+answers: [
+{ text: "Fasting blood lipids", correct: false },
+{ text: "Urgent invasive coronary angiography ", correct: false },
+{ text: "Repeat ECG in 1week", correct: false },
+{ text: "CT coronary angiography", correct: true },
+], },
+
+
+
+
+
+{ question: "Mark the True statements 1. Nitrates are C/l in the presence of hypertrophic CMP 2. MC side effect of nitrate treatment is hypotension 3. Tadalafil is DOC for erectile dysfunction in patients of acute attack of angina who are on NTG treatment 4. Tadalafil is used for symptoms of BPH",
+img: "",
+answers: [
+{ text: "1, 2 a n d 4 a r e t r u e", correct: false },
+{ text: "2, 3 and 4 are true ", correct: false },
+{ text: "2and4aretrue", correct: false },
+{ text: "1and4aretrue", correct: true },
+], },
+
+
+
+
+{ question: "Markthetruestatement- 1. Primary PCI is done for STEMI 2. Delayed PCI is done for Unstable angina 3. Rescue PCI is done for NSTEMI 4. Delayed PCI is done after failure of Thrombolysis",
+img: "",
+answers: [
+{ text: "1,2 and 4 are true", correct: false },
+{ text: "2and4aretrue ", correct: false },
+{ text: "1and2aretrue", correct: true },
+{ text: "1 3and 4are true", correct: false },
+], },
+
+
+
+
+{ question: "A 42-year-old man presents with central, crushing chest pain that radiates to the jaw. The pain occurred while jogging around the local park. The pain was alleviated with rest. The ECG is normal diagnosis is ",
+img: "",
+answers: [
+{ text: "Angina pectoris", correct: true },
+{ text: "Acute Pericarditis ", correct: false },
+{ text: "STEMI", correct: false },
+{ text: "NSTEMI", correct: false },
+], },
+
+
+
+
+{ question: "Match the following - 1. DABIGATRAM 2. RIVAROXABAN 3. FONDAPARINUX 4. BIVALIRUDIN a. Direct thrombin inhibitor b. Ultra LMWH .c Xa inhibitor d. THROMBIN inhibitor",
+img: "",
+answers: [
+{ text: "1b, 2a, 3c, 4d", correct: false },
+{ text: "1d, 2c, 3b, 4a ", correct: true },
+{ text: "1a, 2c, 3a, 4b", correct: false },
+{ text: "1c, 2d, 3b, 4a", correct: false },
+], },
+
+
+
+
+{ question: "A56 years old female presented to emergency with complains of breathlessness, chest pain and sweating for 9 hrs. ECG showed ST elevation in lead I and lead V2 to V5. Cardiac markers were sent and the LDH levels showed 'flipping effect'. Which of following finding is indicative of flipping effect",
+img: "",
+answers: [
+{ text: "LDH 1 >LDH 2", correct: true },
+{ text: "LDH 2 > LDH1 ", correct: false },
+{ text: "LDH2>LDH3", correct: false },
+{ text: "LDH 3 > LDH 2", correct: false },
+], },
+
+
+
+
+
+{ question: "Gyanchand,48 years male, presented to emergency with complains of chest pain, breathlessness and sweating for 6 hrs. O/E-BP =100/70mmHg,Pulse=58bpm. ECG was done which showed Sinus Bradycardia along with findings of MI. Likely diagnosis is?",
+img: "",
+answers: [
+{ text: "Inferior wall MI", correct: true },
+{ text: "Antero septal ", correct: false },
+{ text: "Lateral wall MI", correct: false },
+{ text: "Posterior wall MI", correct: false },
+], },
+
+
+
+
+{ question: "Which of the following artery is most common to undergo atherosclerotic changes leading to coronary artery disease?",
+img: "",
+answers: [
+{ text: "Right coronary artery", correct: false },
+{ text: "Left anterior descending coronary artery ", correct: true },
+{ text: "Left circumflex coronary artery", correct: false },
+{ text: "Left main coronary arterY", correct: false },
+], },
+
+
+
+
+
+{ question: "Mark the incorrect option(s) related to category of donation after cardiac death (DCD):",
+img: "",
+answers: [
+{ text: "Category I- Brought in dead", correct: false },
+{ text: "Category Il -Successful Resuscitation ", correct: true },
+{ text: "Category VI -Cardiac arrest in a Hospital patient", correct: true },
+{ text: "Category V- Cardiac arrest after Brainstem Death", correct: true },
+], },
+
+
+
+
+{ question: "48 y old male patient with anterior myocardial infarction has undergone a primary angioplasty with a bare metal stent. You are posted as a junior resident in the ward preparing a discharge card. What duration of antiplatelets will you advise to the patient?",
+img: "",
+answers: [
+{ text: "Dual antiplatelets for 12months and then aspirin longterm", correct: true },
+{ text: "Ticagrelor for 1month and aspirin longterm ", correct: false },
+{ text: "Aspirin for 1month and ticagrelor longterm", correct: false },
+{ text: "Ticagrelor alone is adequate longterm", correct: false },
+], },
+
+
+
+
+
+{ question: "Al statements are true regarding non-ST elevation acute coronary syndromes (NSTE-ACS) and ST elevation myocardial infarctions (STEMI) except ?",
+img: "",
+answers: [
+{ text: "The relative incidence of NSTEMI is rising due to the increasing burden of diabetes and chronic kidney disease in an aging population.", correct: false },
+{ text: "Pump failure is now the primary cause of in-hospital death from STEMI ", correct: false },
+{ text: "Infarction of ≥60% of the left ventricle usually results in cardiogenic shock", correct: true },
+{ text: "PCI is the treatment of choice for patients with acute coronary svndromes", correct: false },
+], },
+
+
+
+
+{ question: "A 46-year-old female presents to casuality with chest pain. Her BP is 140/80mmHg, heart rate 90bpm, and saturations 99% on roomair. What should be yournext step ?",
+img: "",
+answers: [
+{ text: "Administer oxygen", correct: false },
+{ text: "Administer analgesia ", correct: false },
+{ text: "Give aspirin300mg", correct: false },
+{ text: "Perform a 12-leadECG", correct: true },
+], },
+
+
+
+
+
+{ question: "A23-year-old male developed an excruciating chest pain and palpitations after drinking 4 cans of energy drink at night while revising for final year exams. He was brought to ED, and his ECG showed sinus tachycardia but no ST change. Pulse was 90/min and BP was 130 /90 mm Hg. The pain subsided after a short while. His physical examination was normal. He gave a history that last year his father had a myocardial infarction at the age of 60. Al his lab findings were in a normal range. Troponin and D-dimer tests came out to be negative. What shall be the next step in management?",
+img: "",
+answers: [
+{ text: "Closely observe and monitor ", correct: false },
+{ text: "Put him on exercise treadmill test ", correct: false },
+{ text: "Do a Stress echocardiogram", correct: false },
+{ text: "No further investigation is required", correct: true },
+], },
+
+
+
+
+{ question: "An 18-year-old man is admitted to the hospital with acute onset of substernal chest pain that began abruptly 30 minutes ago. He reports the pain radiating to his neck and right arm. He has otherwise been in good health. On physical examination, he is diaphoretic and tachypnoeic. His BP is 102/48 mmHg and heart rate is 112 bpm, regular rhythm but is tachycardiac. A 2/6 holosystolic murmur is heard best at the apex and radiates to the axilla. His lungs have bilateral rales at the bases. The ECG demonstrates 4 m m of ST elevation in the anterior leads. In the past, he was hospitalized for some problem with his heart when he was 4 years old. His mother, who accompanies him, reports that he received aspirin and -y globulin as treatment. Since that time, he has required intermittent follow-up with echocardiography. What is the most likely cause of this patient's acute coronary syndrome?",
+img: "",
+answers: [
+{ text: "Dissection of the aortic root and left coronary ostia", correct: false },
+{ text: "Presence of a myocardial bridge overlying the left anterior descending artery ", correct: false },
+{ text: "Thrombosis of a coronary artery aneurysm", correct: true },
+{ text: "Vasospasm following cocaine ingestion", correct: false },
+], },
+
+
+
+
+
+{ question: "Management of tumor Lysis syndrome include(s) : 1. Rasburicase 2. Hydration 3. Urinary alkalization 4. Allopurinol 5. Hemodialysis in renal failure",
+img: "",
+answers: [
+{ text: "1, 2, 3 and 5", correct: false },
+{ text: "1, 2, 4 and 5 ", correct: true },
+{ text: "1,2 and ", correct: false },
+{ text: "12, 3,4and 5", correct: false },
+], },
+
+
+
+
+{ question: "A 42year old female presents with diazepam and alcohol overdose. She is comatose. Temperature is 34.5°C. BP is 100/80 mmHg. Creatinine is 2.4mg/dL, AST -500, GGT- 35 lU. Urine dipstick showed 3+ for blood but urine analysis was normal. USG abdomen was normal. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Hypothermia", correct: false },
+{ text: "Alcoholic hallucinosis ", correct: false },
+{ text: "Rhabdomyolysis", correct: true },
+{ text: "Acute interstitial nephritis", correct: false },
+], },
+
+
+
+
+{ question: "Conditions causing acute renal failure are 1. Pyelonephritis 2. Snakebite 3. Rhabdomyolysis .4 Analgesic nephropathy",
+img: "",
+answers: [
+{ text: "1, 3 a n d 4", correct: false },
+{ text: "3and4 ", correct: false },
+{ text: "1,2 and 4", correct: false },
+{ text: "1,2 and 3", correct: true },
+], },
+
+
+
+
+{ question: "Markers of acute kidney injury are - .1 Clusterin 2. Osteopontin 3. Alanine aminopeptidase 4. Acid phosphatase",
+img: "",
+answers: [
+{ text: "1,2 and 3", correct: true },
+{ text: "1, 3 and 4 ", correct: false },
+{ text: "2and4", correct: false },
+{ text: "1 2,3 and 4", correct: false },
+], },
+
+
+
+
+{ question: "Mark the true statements regarding Hepatorenal syndrome - 1. Low GFR with serum creatinine level >1.5 mg/dL 2. Plasma osmolality > Urine osmolality 3. Urine sodium level <10 mEq/L 4. Urine red blood cell count <50/HPF",
+img: "",
+answers: [
+{ text: "1, 2, 3and 4are true", correct: false },
+{ text: "1, 3 a n d 4 a r e t r u e ", correct: true },
+{ text: "1,2 and 4 are true", correct: false },
+{ text: "2and3aretrue", correct: false },
+], },
+
+
+
+{ question: "What is the complication of the diuretic phase of acute renal failure ",
+img: "",
+answers: [
+{ text: "1and3aretrue", correct: false },
+{ text: "1, 2 a n d 3 a r e t r u e ", correct: false },
+{ text: "1,2 and 4 are true", correct: true },
+{ text: "1, 2, 3 a n d 4 a r e t r u e", correct: false },
+], },
+
+
+
+
+{ question: "A38 years female presented to emergency with complains of Headache, confusion, decreased urinary output, swelling on both ankles, nausea, fatigue and shortness of breath. Urine investigations revealed: Urine osmolality: 800 mOsm/kg. Urinary sodium 10 mmol/L.BUN: creatinine=20:1. What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Pre-renal acute renal failure", correct: true },
+{ text: "Acute tubular necrosis ", correct: false },
+{ text: "Acute cortical necrosis", correct: false },
+{ text: "Urinary tract obstruction", correct: false },
+], },
+
+
+
+
+
+
+{ question: "A28-year-old boy was driving a bike after having an alcohol binge. He had an accident with a car and sustained severe crush injury. He was rushed to nearby hospital emergency. O/E - Pulse = 100 bpm, BP = 100/ 70 mm Hg. He is most likely to develop which of following condition:",
+img: "",
+answers: [
+{ text: "Acute Renal Failure", correct: true },
+{ text: "Hypophosphatemia ", correct: false },
+{ text: "Hypercalcemia", correct: false },
+{ text: "Acute Myocardial Infarction", correct: false },
+], },
+
+
+
+
+{ question: "A50 years male met with an accident and was brought to emergency. O/E - BP = 100/ 70 mm Hg, Pulse = 96 bpm. Xray Hip showed bilateral Pelvic fracture. Patient's vitals were deteorating and he was suspected to develop Hypovolemic shock. The treating doctor advised to transfuse 3 units of PRBC. The transfusion was started but after 20 mins the blood was found to be incompatible. Acute renal failure in this patient who received incompatible blood transfusion with hemolytic reaction is best managed by:",
+img: "",
+answers: [
+{ text: "20% Mannitol", correct: false },
+{ text: "VI fluids with K* supplementation ", correct: false },
+{ text: "Alkalinizing the urine", correct: false },
+{ text: "Stopping blood transfusion", correct: true },
+], },
+
+
+
+
+
+
+{ question: "A35 years male patient presented to opd with shortness of breath, weakness and drowsinness since 5 days. He is a chronic alcoholic and is consuming large amount of alcohol since 5 years. He feels breathlessness while he is sitting or standing and feels comfortable in lying down position. Likely diagnosis is ?",
+img: "",
+answers: [
+{ text: "Hepato-pulmonary syndrome", correct: true },
+{ text: "Hepato-renal syndrome ", correct: false },
+{ text: "Renal artery stenosis", correct: false },
+{ text: "Hepato-renal syndrome", correct: false },
+], },
+
+
+
+
+
+{ question: "A28 years male presented to OPD with complain of pain abdomen, shortness of breath and dizziness. Examination shows distended abdomen and visible ascites. The consultant is suspecting a malignancy. To make the scenario more clear, CECT abdomen is advised. Oral contrast in 1 litre water was given to patient. He developed allergic reaction to contrast and there was worsening of kidney function. Which of following is best marker to evaluate contrast nephropathy ?",
+img: "",
+answers: [
+{ text: "High serum creatinine", correct: true },
+{ text: "Low serum creatinine ", correct: false },
+{ text: "High serum bilirubin", correct: false },
+{ text: "Low serum bilirubin", correct: false },
+], },
+
+
+
+
+
+{ question: "Complication(s) of acute renal failure include : 1. Intravascular volume overload 2. Hiccups 3. Hypokalemia 4. Metabolic alkalosis 5. Hyperkalemia",
+img: "",
+answers: [
+{ text: "1,2,4 and 5", correct: false },
+{ text: "1,4 and 5 ", correct: false },
+{ text: "1,2 and 5", correct: true },
+{ text: "12, 3and4", correct: false },
+], },
+
+
+
+
+
+{ question: "A50-year-old patient develops cardiogenic shock following acute myocardial infarction. His urine output decreases in the next few days. He has increased serum urea and creatinine, urine analysis reveals no glucose or protein but numerous hyaline casts are present. After few days he develops polyuria and serum creatinine levels fall. Histopathology of renal biopsy in this patient would reveal?",
+img: "",
+answers: [
+{ text: "Immune complex", correct: false },
+
+
+
+
+{ text: "Glomerular crescents ", correct: false },
+{ text: "Patchy tubular necrosis", correct: true },
+{ text: "Mesangial deposits", correct: false },
+], },
+
+
+
+
+
+{ question: "A67-year-old male presented with complaints of generalized fatigue associated with difficulty in breathing. On examination, he was found to have pallor &gingival hypertrophy is seen. Initial investigations revealed hyperleukocytosis. Follow-up investigations showed Leukostasis. This is a feature of?",
+img: "",
+answers: [
+{ text: "ALL", correct: false },
+{ text: "AML ", correct: true },
+{ text: "CML", correct: false },
+{ text: "CLL", correct: false },
+], },
+
+
+
+
+
+{ question: "A67-year-old male presented with clinical features of Acute Myeloid Leukemia in peripheral blood smear. Initial investigation revealed leukostasis. Which of the following organ is mainly affected in patients with Hyperleukocytosis - Leukostasis syndrome?",
+img: "",
+answers: [
+{ text: "Liver", correct: false },
+{ text: "Heart ", correct: false },
+{ text: "Kidney", correct: false },
+{ text: "Lung", correct: true },
+], },
+
+
+
+
+{ question: "A56-year-old male presented with anemia & pallor was found to have AL. He is on induction chemotherapy with Vincristine, L-asparaginase, Prednisolone, Daunorubicin & intrathecal methotrexate. Which of the following is the most important prognostic marker in such patients with ALL?",
+img: "",
+answers: [
+{ text: "Leucocyte count >50000", correct: false },
+{ text: "Hyperploidy ", correct: false },
+{ text: "Response to treatment", correct: true },
+{ text: "Organomegaly", correct: false },
+], },
+
+
+
+
+{ question: "Which of the following factors will not show a good prognosis in patients with ALL? 1. Age between 1-10 years 2. TLC > 1 lac 3. Petechiae 4. t(9:22)",
+img: "",
+answers: [
+{ text: "1, 2, 3 only", correct: false },
+{ text: "2, ,3 4only ", correct: true },
+{ text: "1&4only", correct: false },
+{ text: "1&3 onLy", correct: false },
+], },
+
+
+
+
+{ question: "A 42-year-old male presented with complaints of generalized fatigue. He is also associated to have features of DIC such as petechiae & purpura. On detailed evaluation, peripheral blood smear showed characteristic Auer rods suggesting AML. Which of the following could be the probable diagnosis?",
+img: "",
+answers: [
+{ text: "M3-AML", correct: true },
+{ text: "M4-AML ", correct: false },
+{ text: "M2-AML", correct: false },
+{ text: "M5-AML", correct: false },
+], },
+
+
+
+
+{ question: "Which of the following conditions are associated with HHV-8? 1)Kaposi sarcoma 2)Primary effusion lymphoma 3)Castleman disease 4)Adult T-cell Leukemia",
+img: "",
+answers: [
+{ text: "1,2,3 only", correct: true },
+{ text: "2,3,4 only ", correct: false },
+{ text: "1&4only", correct: false },
+{ text: "2 and 3only", correct: false },
+], },
+
+
+{ question: "A 70-year-old male presented with excessive fatigue, fever &bleeding from gums while brushing. O/E- he has splenomegaly. CBC shows marked pancytopenia with the presence of blasts. t(15;17)(q22;q12) cytogenetic rearrangement is found in this patient. Which of the following agents will you use in the management of this patient?",
+img: "",
+answers: [
+{ text: "Acyclovir", correct: false },
+{ text: "Daunorubicin ", correct: false },
+{ text: "Rituximab", correct: false },
+{ text: "Tretinoin", correct: true },
+], },
+
+
+
+
+
+{ question: "A20 year old female was diagnosed with acute myeloid leukaemia &underwent allogenic stem cell transplantation a year ago. In her follow up visit, she has manifestations of chronic graft-versus- host disease but otherwise is doing well & has no evidence of recurrence. Which of the following vaccines should not be administered to this patient at this point of time?",
+img: "",
+answers: [
+{ text: "Diphtheria-tetanus", correct: false },
+{ text: "23-Valent pneumococcal polysacch ", correct: false },
+{ text: "Measles, mumps, and rubella", correct: true },
+{ text: "Poliomyelitis via injection", correct: false },
+], },
+
+
+
+
+
+{ question: "Al are examples of upper motor neuron lesion except:",
+img: "",
+answers: [
+{ text: "Prion disease", correct: false },
+{ text: "Multiple sclerosis ", correct: false },
+{ text: "Anterior horn cell disease", correct: true },
+{ text: "Tuberous sclerosis", correct: false },
+], },
+
+
+
+
+
+{ question: "A45 year old man presents to emergency room with Progessive atrophy and weakness of hands. On further examination he is found to have brisk jaw jerk, Fasciculations, spasticity of lower leg and Bulbar palsy. In the given clinical scenario Upper motor neuron lesion is characterized by which of the following?",
+img: "",
+answers: [
+{ text: "Weakness and spasticity", correct: true },
+{ text: "Fasciculation's ", correct: false },
+{ text: "Rigidity", correct: false },
+{ text: "Muscle atrophy", correct: false },
+], },
+
+
+
+
+
+{ question: "A 56-year-old man complaining of weakness. He believes he first noticed weakness in his left foot and leg about 6 months ago. He reports that he frequently trips over his toes and drags his foot. The weakness is progressing to involve both legs now. On examination, you note tongue fasciculations. Deep tendon reflexes are 3+ at the knees and ankles. Strength is 4- at the extensors andflexorsoftheleftfootand4+ atthe right foot. Hand grip strength is also 4+. Which of the following is the suspected pathologic cause of this patient's symptoms?",
+img: "",
+answers: [
+{ text: "Degeneration of the corticospinal tracts", correct: false },
+{ text: "Demyelinating plaques ", correct: false },
+{ text: "Loss of anterior horn cells in the spinal cord", correct: false },
+{ text: "BothAandC", correct: true },
+], },
+
+
+
+
+
+{ question: "A 35-year-old patient presents with numbness over the neck. On examination decreased pain and temperature sensation is found in the distribution of C4, C5. Scalp sensation, cranial nerve function and limb examination are normal. Bladder and bowel sphincter control are normal. What is the diagnosis?",
+img: "",
+answers: [
+{ text: "Amyotrophic lateral sclerosis", correct: false },
+{ text: "An intramedullary tumor ", correct: true },
+{ text: "Neuro-syphilis", correct: false },
+{ text: "A.I.D.P", correct: false },
+], },
+
+
+
+
+
+
+{ question: "Which of the following tests is abnormal in patients with ALS (Amyotrophic Lateral Sclerosis?",
+img: "",
+answers: [
+{ text: "V.E.P", correct: false },
+{ text: "MRI whole spine ", correct: false },
+{ text: "CT whole Spine", correct: false },
+{ text: "Electromyography", correct: true },
+], },
+
+
+
+
+
+{ question: "You are a first-year medicine resident rotating in the department of neurology. You are asked to do a topic discussion on Amyotrophic lateral sclerosis. At the end of the discussion, your chief asks you about the latest drug approved for Amyotrophic lateral scle",
+img: "",
+answers: [
+{ text: "Piracetam", correct: false },
+{ text: "Edavarone ", correct: true },
+{ text: "Ocrelizumab", correct: false },
+{ text: "Nitisinone", correct: false },
+], },
+
+
+
+
+
+{ question: "Which of the following features are seen in A.L.S(Amyotrophic Lateral Sclerosis)? 1)Weakness of extremities 2) Tongue Fasciculation 3)Bulbar Palsy 4)Eye involvemen 2) Tongue Fasciculation 3)Bulbar Palsy 4)Eye involvement",
+img: "",
+answers: [
+{ text: "1,2,3 only ", correct: true },
+{ text: "2,3,4 only ", correct: false },
+{ text: "1&4 only", correct: false },
+{ text: "All of the above", correct: false },
+], },
+
+
+
+
+
+{ question: "Which of the following statements are true regarding Neurofibromatosis inheritance? 1)Von Recklinghausen's Disease is due to a defect in chromosome 17 2) Autosomal dominant type of inheritance 3)NF-2 - Musculoskeletal deformities is characteristic 4)NF-1 - Most common single gene disorder affecting the human nervous system.",
+img: "",
+answers: [
+{ text: "1,2,3 only", correct: false },
+{ text: "2,3,4 only ", correct: false },
+{ text: "1,2,4 only", correct: true },
+{ text: "All of the above", correct: false },
+], },
+
+
+
+
+
+{ question: "A 70-year-old woman has a neurological disorder resulting in degeneration of the anterior horn cells throughout her spinal cord and brainstem. Which of the following abnormal movements is she most likely to exhibit?",
+img: "",
+answers: [
+{ text: "Asterixis", correct: false },
+{ text: "chorea ", correct: false },
+{ text: "Fasciculations", correct: true },
+{ text: "Gait Apraxia", correct: false },
+], },
+
+
+
+
+
+{ question: "A middle aged chronic alcoholic man complains of burning sensation in the mouth. On examination he has thickened, dry, smooth tongue with absence of the filliform papillae. MCV is 100. Which of the following should be first line of approach in the management of this patient?",
+img: "",
+answers: [
+{ text: "Estimation of Vitamin B12 levels", correct: true },
+{ text: "Brush biopsy ", correct: false },
+{ text: "Start Antifungal therapy", correct: false },
+{ text: "Incisional biopsy", correct: false },
+], },
+
+
+
+
+{ question: "Low serum iron and low serum ferritin is seen in?",
+img: "",
+answers: [
+{ text: "Iron deficiency anaemia", correct: true },
+{ text: "Chronic kidney disease ", correct: false },
+{ text: "Sideroblastic anaemia", correct: false },
+{ text: "Fanconi anaemia", correct: false },
+], },
+
+
+
+{ question: "Which of the following types of anemia is associated with a raised MCV and normal МСНС?",
+img: "",
+answers: [
+{ text: "Sideroblastic a n e m i a", correct: false },
+{ text: "Vitamin B12 a n d Folic acid deficiency ", correct: true },
+{ text: "Beta thalassemia", correct: false },
+{ text: "Iron deficiency anemia", correct: false },
+], },
+
+
+
+{ question: "A20 year old female presenting with anemia, mild jaundice for 2 years, peripheral smear showing spherocytes, the best investigation to be donE is",
+img: "",
+answers: [
+{ text: "Reticulocyte count", correct: false },
+{ text: "Osmotic fragility test ", correct: false },
+{ text: "Coomb's test", correct: true },
+{ text: "Bone marrow aspiration", correct: false },
+], },
+
+
+
+
+
+
+
+
+
+
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M2 301-400</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Medicine Test Que M2 M2 201-300</h1>
+        <h3 id="notice">For Best Experience Use in Laptop or Tablet</h3>
+        <h3 id="notice">This Set Of Questions Is Uploaded By - Lalita</h3>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <img id="img">
+            <div id="answer-buttons">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+                <button class="btn"> Answer 5 </button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Your array of questions here
+
+            { question: "Most Common cause of congestive splenomegaly is",
+img: "",
+answers: [
+{ text: "Chronic congestive cardiac failure", correct: false },
+{ text: "Cirrhosis ", correct: true },
+{ text: "hepatic vein occlusion", correct: false },
+{ text: "stenosis of splenic vein", correct: false },
+], },
+
+
+{ question: " 45-year-old cirrhotic patient presented with severe hematemesis. The managementofchoice is:",
+img: "",
+answers: [
+{ text: "whole blood transfusion", correct: true },
+{ text: "Colloids are preferred over crystalloids ", correct: false },
+{ text: "Normal saline infusion", correct: false },
+{ text: "IV fluid with diuretics", correct: false },
+], },
+
+
+{ question: "Which one ofthefollowing statements is TRUE regardingthe clinical sign being elicited here?",
+img:"imgm2-301-400/pg 7.png",
+answers: [
+{ text: "this test help to detect ascites", correct: true },
+{ text: "This test is for eliciting shifting dullness ", correct: false },
+{ text: "The hand on themidline belowthe umbilicus will feel the vibrations in patients with ascites", correct: false },
+{ text: "All of the above statements are true", correct: false },
+], },
+
+
+{ question: "chronic liver disease patient with ascites and no bleedingvarices. He presents with hematemesis and melena.What is the next step in management?",
+img: "",
+answers: [
+{ text: "Inj. vitaminK", correct: false },
+{ text: "Inj. Tranexamic aci ", correct: false },
+{ text: "ffp transfusion", correct: true },
+{ text: "Platelet transfusion", correct: false },
+], },
+
+
+{ question: " 45 years old male patient who isa knowncaseofacute hepaticfailure presents to OPD with Ascites. Upon paracentesis Ascitic fluid is with increased SAAG.Which ofthefollowing condition will presentwith thisfindi",
+img: "",
+answers: [
+{ text: "Tuberculosis", correct: false },
+{ text: "Congestive Heart Faliure ", correct: true },
+{ text: "Nephrotic syndrome", correct: false },
+{ text: "Pancreatitis", correct: false },
+], },
+
+
+{ question: "48 year old males who isa known case ofalcoholic presents to Emergency With Ascites despite compliance to dietary sodium restrictions, and administration of maximum doses4OOmgof spironolactone 160 mg of furosemide per day.What twill be the next best managementform the given condition.",
+img: "",
+answers: [
+{ text: "AV shunt", correct: false },
+{ text: "TIPS ", correct: true },
+{ text: "Frusemide with Low volume paracentesis", correct: false },
+{ text: "Distal splenorenal shunt", correct: false },
+], },
+
+
+{ question: "Correct among the following statements? Ascites in cirrhosis of liver is due to- 1. Portal hypertension 2.HypoaLbuminemia 3.InappropriateADH secretion 4. Secondary hyper-aldosteronism",
+img: "",
+answers: [
+{ text: "1,2 and 3 are correct", correct: false },
+{ text: "1,2 and 4 are correct ", correct: true },
+{ text: "2, 3,4 are correct", correct: false },
+{ text: "1,3 and 4 are correct", correct: false },
+], },
+
+{ question: "55 year old male patient was found to haveAscites and hepatic failure on work up.He states that he had alcohol everyday for the last 2o years.Which one of the following is NOT true about the Ascitic fluid on paracentesis",
+img: "",
+answers: [
+{ text: "S.A.A.G> 1.1 is seen with portal hypertension", correct: false },
+{ text: "S.A.A.G < 1.1 is seen with Nephrotic syndrome ", correct: false },
+{ text: "Pseudochylous ascites is seen with hypertriglyceridemia", correct: true },
+{ text: "Black ascitic fluid is seen with pancreatic necrosis", correct: false },
+], },
+
+
+{ question: "patient who is known case of Decompensated Liver Disease and was already on the national transplant list for Liver Transplantation has been approved for and next in line for transplantation. Whichofthefollowing is an absolute contraindication to liver transplantation",
+img: "",
+answers: [
+{ text: "Age >70", correct: false },
+{ text: "Portal vein thrombosis ", correct: false },
+{ text: "Severe obesity", correct: false },
+{ text: "AIDS", correct: true },
+], },
+
+
+{ question: " patient presents to OPD with the following finding. Identify which ofthe following diseases can present with this given finding",
+img: "imgm2-301-400/pg35.png",
+answers: [
+{ text: "Rheumatoid arthritis", correct: false },
+{ text: "Cirrhosis of the liver ", correct: false },
+{ text: "Pregnancy", correct: false },
+{ text: "all", correct: true },
+], },
+
+
+{ question: "60-year-old man witha known case of Hemochromatosis, cirrhosis, and portal hypertension was broughttoED with altered mental status. The attendant describes that the patient is confused for the last3 days, with no h/o melena or hematemesis. For Chronic ascites, diet control and spironolactone are given regularly. He had an episode ofvariceal bleed inthe pastforwhich hewas puton propranolol and no episodes are seen since then. oc examination, he is not well oriented to time, place, but oriented to person. He is afebrile, vitals are stable, but ascites, asterixis, are notable. His laboratory investigation shows haemoglobin of10.1, Creatinine of 1.4, and Blood urea nitrogen of 45.On paracentesis, clear fluid with 800 WBC (40% neutrophils) was seen. False statement regarding this condition: Correct (24%)N E (40°A neutrophils) was seen. False statement regarding this condition",
+img: "",
+answers: [
+{ text: "Ascites is preceded by infection", correct: true },
+{ text: "Clinical features are abdominal pain, fever, leukocytosis and altered mental status ", correct: false },
+{ text: "Ascitic fluid protein of1 gm/dl", correct: false },
+{ text: "Common organismsareGram negative organisms", correct: false },
+], },
+
+{ question: "You're The Psychiatric intern inward. Your Favourite consultant asks you to join him for the morning rounds you accept and go with him.Yourconsultant ask the fourth patient in 2nd row CAGE questions. In Which Of the following conditions do you think it is used in?",
+img: "",
+answers: [
+{ text: "Alcohol Abuse", correct: true },
+{ text: "Depression ", correct: false },
+{ text: "Suicidal intentio", correct: false },
+{ text: "coma", correct: false },
+], },
+
+{ question: "Identify the given pathology which of the following not true about the given condition?",
+img: "imgm2-301-400/pg46.png",
+answers: [
+{ text: "Increase 5’- nucleotidase", correct: false },
+{ text: "Median age of presentation is 50 years ", correct: false },
+{ text: "most common cause of cholangitis in children", correct: true },
+{ text: "PBC frequently associated with CREST syndrome", correct: false },
+], },
+
+{ question: " patient with acute liver failure shows marked confusion and gross disorientation. He is drowsy but responds topain and voice stimuli. Which ofthefollowing is the Antibiotic of choice to prevent the given condition?",
+img: "",
+answers: [
+{ text: "Neomycin", correct: false },
+{ text: "Ampicillin ", correct: false },
+{ text: "Metronidazole", correct: false },
+{ text: "Rifaximin", correct: true },
+], },
+
+
+{ question: " 25 year old male came to your OPD for quitting alcohol consumption. He drinks daily for last5 years. His consumption is 2-3 beers daily and around 8-10 beers on weekends. He never drinks & drives, never missed his work. But he had hung over in office afterweekends.In last few monthshehadreported few blackouts due to binge drinking. Which laboratory tests you will perfOrm in this patient to identify heavy alcohol consumption? ",
+img: "",
+answers: [
+{ text: "Carbohydrate deficient transferrin", correct: true },
+{ text: "5-nucleotidase ", correct: false },
+{ text: "SGPT raised", correct: false },
+{ text: "MCHC", correct: false },
+],},
+
+{ question: "All of the following are noticed in cirrhosis of liver, except: 1. Raised serum albumin 2. Microcytic hypochromic anemia is present 3. Prolonged prothrombin time 4. Raised serum globulin 5. Liver biopsy always show active cirrhosis",
+img: "",
+answers: [
+{ text: "2,3,4", correct: false },
+{ text: "1, 2,3 ", correct: false },
+{ text: "1, 2,5", correct: true },
+{ text: "2,4", correct: false },
+], },
+
+
+{ question: "All of the following are noticed in cirrhosis of liver, except: 1. Raised serum albumin 2. Microcytic hypochromic anemia is present 3. Prolonged prothrombin time 4. Raised serum globulin 5. Liver biopsy always show active cirrhosi",
+img: "",
+answers: [
+{ text: "2,3,4", correct: false },
+{ text: "1, 2,3 ", correct: false },
+{ text: "1, 2,5", correct: true },
+{ text: "2,4", correct: false },
+], },
+
+
+{ question: "Identify which of the following is secreted in the marked structure?",
+img: "imgm2-301-400/pg61.png",
+answers: [
+{ text: "SGOT", correct: true },
+{ text: "SGPT ", correct: false },
+{ text: "GGT", correct: false },
+{ text: "All", correct: false },
+], },
+
+{ question: " DCLD patient is being prepared for liver transplantation. The surgeon has removed a part of the liver from the donor and has stored in University of Wisconsin solution. Which ofthe following is incorrect about liver transplantation?",
+img: "",
+answers: [
+{ text: "University ofWisconsin solution for prolongation of cold ischemia time", correct: false },
+{ text: "Done if MELDscore • 17 ", correct: false },
+{ text: "HLA matching not required", correct: false },
+{ text: "Recurrence withWilson disease", correct: true },
+], },
+
+{ question: "patient who hasa serum bilirubin 4 mg/ dl, serum albumin 3 g/dl, prothrombin time5 seconds (INR= 2), no encephalopathy, and mild ascites. What shall be the next line of management?",
+img: "",
+answers: [
+{ text: "Conservative management", correct: false },
+{ text: "Orthotopic liver transplant ", correct: true },
+{ text: "Sclerotherapy", correct: false },
+{ text: "Shunt surgery", correct: false },
+], },
+
+
+{ question: "obese male patient who is known case of diabetes has presented toOPD with increased serum ferritin levels. Uponfurther investigations it is found that he is case Non-alcoholic fatty liver disease. Which ofthe following is the most common cause ofNonalcoholic fatty liver disease?",
+img: "",
+answers: [
+{ text: "Reye syndrom", correct: false },
+{ text: "Syndrome-X ", correct: true },
+{ text: "Cardiac syndrome-X", correct: false },
+{ text: "Pregnancy", correct: false },
+], },
+
+
+{ question: "55 year oldmale patient was found to haveAscites and hepatic failure on work up.He states that he had alcohol everyday for the last 2o years.which of the following hand signs of liver cell failure you wont expect in this patient",
+img: "",
+answers: [
+{ text: "Palmar Erythema", correct: false },
+{ text: "Clubbing ", correct: false },
+{ text: "Dupuytren's contracture", correct: false },
+{ text: "Splinter haemorrhages", correct: true },
+], },
+
+{ question: "You're The intern inGastro OPD an alcoholic patient who had a history of variceal bleeding has cometotheOPD now.You have read the chapter and took notes last night, the following is written inyour notes. Identify the incorrect statement regarding portal hypertension.",
+img: "",
+answers: [
+{ text: "Massive splenomegaly is seen in Banti's syndrome", correct: false },
+{ text: "Hepatic Venous pressure gradient is• 10 mm Hg for clinically Significant Portal hypertension ", correct: false },
+{ text: "Most common cause of portal hypertension is Alcoholic cirrhosis", correct: false },
+{ text: "Schistosomiasis is prehepatic causes of portal hypertension", correct: true },
+], },
+
+{ question: "Identify the correctly matched pair: 1. Chronic hepatitisB - Micronodular cirrhosis 2. Alcoholic liver disease (late) - micronodular cirrhosis 3. HemochromatDSÍ5 - Micronodular cirrhosis 4.Wilson's disease -Micronodular cirrhosis",
+img: "",
+answers: [
+{ text: "1,2", correct: false },
+{ text: "2,4 ", correct: false },
+{ text: "1,3", correct: true },
+{ text: "3,4", correct: false },
+], },
+
+{ question: "Cirrhosis can lead to development of?",
+img: "",
+answers: [
+{ text: "Metabolic alkalosis, Chloride responsive", correct: false },
+{ text: "Metabolic alkalosis, Chloride nonresponsive ", correct: true },
+{ text: "Hyperchloremic Metabolic acidosis", correct: false },
+{ text: "Hypochloremic metabolic acidosis", correct: false },
+], },
+
+{ question: "Which of the following statement is false regarding Sengstaken Blakemore Tube?",
+img: "",
+answers: [
+{ text: "Used to arrest acute variceal bleed", correct: false },
+{ text: "Gastric ballon should be inflated with 200ml of air ", correct: true },
+{ text: "Pressure in the oesophageal balloon is 40 mm Hg.", correct: false },
+{ text: "Endotracheal intubation prior to tube insertion reduces the risk of pulmonary aspiration", correct: false },
+], },
+
+{ question: "30 years male presents with right upper quadrant discomfort and nausea. He denies any H/0 alcohol intake whereas laboratory findings are contradictory with elevations ofAST,ALT,and GGT accompanied by hypertriglyceridemia and hyperbilirubinemia. Hiswife narrates that his husband is chronic alcoholic and to aid her statement sheshows his previous USG reports showing fatty liver Grade3 .Which ofthe following statements is incorrect regarding the diagnosis being made?",
+img: "",
+answers: [
+{ text: "Liver Function test are normal in stage of steatosis", correct: false },
+{ text: "Stellate cell mediated fibrosis leads to cirrhosis ", correct: false },
+{ text: "Direct oxidative injury occurs in stage of hepatitis", correct: false },
+{ text: "Apoptosis and necrosis stage of hepatitis is facilitated by Transforminggrowth factor beta (TGF-§)", correct: true },
+], },
+
+
+{ question: "80 year old, asymptomatic man presents witha Total leucocyte count of1 lakh, with 80% lymphocytes and 20% PMN.What is the most probable diagnosis?",
+img: "",
+answers: [
+{ text: "HIV", correct: false },
+{ text: "CML ", correct: false },
+{ text: "CLL", correct: true },
+{ text: "TB", correct: false },
+], },
+
+
+{ question: "You are a first-year medicine resident rotating in the department of hematology.A group of patients came for follow-up after having allogeneic bone marrow transplantation.Which Of The following has the least 5-year survival rate following allogeneic bone marrow transplantation?",
+img: "",
+answers: [
+{ text: "Severe Combined Immunodeficiency State", correct: false },
+{ text: "Aplastic Anemia ", correct: false },
+{ text: "Blast crisis in CML", correct: true },
+{ text: "Chronic lymphocytic leukaemia", correct: false },
+], },
+
+{ question: "63-year-old man presented with prolonged history of upper abdominal discomfort, anorexia and2 episodes of recent gum bleeds without fever or other bleeding manifestations. Examination revealed moderate hepatosplenomegaly. On investigation, he was found to have extreme thrombocytosis and leucocytosis. He was investigated for CML and found to be positive for BCR-ABL by reverse transcription PCR (RT-PCR). Vitamin B12 level in this patient would be?",
+img: "",
+answers: [
+{ text: "Elevated", correct: true },
+{ text: "Decreased (slightly) ", correct: false },
+{ text: "Normal", correct: false },
+{ text: "Markedly Decreased", correct: false },
+], },
+
+{ question: "58-year-old male was diagnosed with Chronic Myeloid Leukemia afteran incidental finding of leukocytosis last year. He was treated with imatinib, and the treatment was changed to nilotinib because of progressive leukocytosis. On follow-up, investigations revealed worsening of leukocytosis & thrombocytopenia. Hisperipheral blood showed >30%blasts with promyelocytes. What Is the most elective treatment for this patient?",
+img: "",
+answers: [
+{ text: "Allogeneic bonemarrow transplantation", correct: true },
+{ text: "Autologous bone marrow transplantation ", correct: false },
+{ text: "Chemotherapy", correct: false },
+{ text: "Hydroxyurea & interferon", correct: false },
+], },
+
+{ question: "Which of the following are classified underWHO classified Myelodysplastic Syndromes? 1. CML 2. Refractory anemia with excess blasts 3. Refractory anemia with ringed sideroblasts 4. Refractory anemia",
+img: "",
+answers: [
+{ text: "1,2,3 only", correct: false },
+{ text: "2,3,4 only ", correct: true },
+{ text: " 1& 4 only", correct: false },
+{ text: "All", correct: false },
+], },
+
+{ question: " 62-year-old male was found to have clinical features ofChronic Myeloid Leukemia(CML) on peripheral blood smear. On detailed evaluation, the patient was also found tohaveT315I mutation inBCR-ABL.What is the first line treatment for this patient?",
+img: "",
+answers: [
+{ text: "Bosutinib", correct: false },
+{ text: "Tofacitinib ", correct: false },
+{ text: "Ponatinib", correct: true },
+{ text: "Nilotinib", correct: false },
+], },
+
+
+{ question: "Leadingcauseofdeath in CLL is",
+img: "",
+answers: [
+{ text: "Bleeding", correct: true },
+{ text: "Bleeding ", correct: false },
+{ text: "Meningeal and ventricular extension", correct: false },
+{ text: "DIC", correct: false },
+], },
+
+
+{ question: "72-year-old male presented with complaints of progressive cervical lymphadenopathy & night sweats. On examination, he was found to have pallor & non-blanching petechia in his ankles. Initial investigations revealed leukocytosis. On detailed evaluation, smudgecells are seen inperipheral smear.The BCL-2 inhibitor useful in this patientwould be?",
+img: "",
+answers: [
+{ text: "Fludarabine", correct: false },
+{ text: "Cladribine ", correct: false },
+{ text: "Pentostatin", correct: false },
+{ text: "Venetoclax", correct: true },
+], },
+
+{ question: "72-year-old male presented with complaints of progressive cervical lymphadenopathy, night sweats. Initial investigations revealedB cell lymphocytosis. Flow Cytometry results showed CD19,CD20,CD21,CD23,CD5 positive. He is also found tohave NOTCH1 mutations, del(17)(p13.1).Which of the following transformation is likely to happen in this patient?",
+img: "",
+answers: [
+{ text: "CLL into DLBCL", correct: true },
+{ text: "DLBCL into CLL ", correct: false },
+{ text: "SLL into CLL", correct: false },
+{ text: "CLL into SLL", correct: false },
+], },
+
+{ question: "72-year-old male is found tohave clinical features ofChronic Lymphocytic Leukemia on peripheral smear. Initial investigations revealed B-cell lymphocytosis.Which ofthefollowing genetic abnormality is related to the worst prognosis in patientswiththe above diagnosis?",
+img: "",
+answers: [
+{ text: "11q Deletion", correct: false },
+{ text: "12q Trisomy ", correct: false },
+{ text: "17p Deletion", correct: true },
+{ text: "13q Deletion", correct: false },
+], },
+
+
+{ question: "Which of the following features could be present in patients with Chronic Myeloid Leukemia(C.M.L)? 1)Pruritus 2)Infections 3)Shift of neutrophils to the left 4)Autoimmune hemolytic anemia",
+img: "",
+answers: [
+{ text: "1,2,3 only", correct: true },
+{ text: "2,3,4 only ", correct: false },
+{ text: " 1& 4 only", correct: false },
+{ text: "All", correct: false },
+], },
+
+{ question: "40 year male complains of hot flushes each time he bathes. On investigation his Hb is 20 @dL, Platelet: 1,89,000/yL, WBC: 30,000/yL, Investigation revealedjAK2 mutation.What is the most likely diagnosis?",
+img: "",
+answers: [
+{ text: "Progressive massive fibrosis", correct: false },
+{ text: "Chronic myeloid leukaemia ", correct: false },
+{ text: "Polycythemia Vera", correct: true },
+{ text: "Essential thrombocytosis", correct: false },
+], },
+
+{ question: "child who isa known case of bronchial asthma comes with a respiratory rate of 48/min, cannotspeak2 words, occasional wheeze, and oxygen saturation of95%. You give3 doses of salbutamol nebulization, then he started to speak a sentence but saturation falls to g5%. What Is the cause?",
+img: "",
+answers: [
+{ text: "Bronchomalacia", correct: false },
+{ text: "Right to left shunt ", correct: false },
+{ text: "VP mismatch with dead space ventilation", correct: true },
+{ text: "Faulty pulse oxy-meter", correct: false },
+], },
+
+{ question: "Which of the following will have the highest magnitude of the increased Alveolar arteriolar gradient at rest",
+img: "",
+answers: [
+{ text: "Interstitial lung disease", correct: false },
+{ text: "Massive Pulmonary embolism ", correct: true },
+{ text: "Acute Severe asthma", correct: false },
+{ text: "FB leading to upper airway obstruction", correct: false },
+], },
+
+{ question: "You're The intern in ER,A 27 year old male patient with history of moderate persistent asthma with progressive worsening symptoms has come for a consult. Ifthis patientworsen to become a caseofacutesevereasthma, in which ofthe following criteria you'll not put this patient in assisted ventilation?",
+img: "",
+answers: [
+{ text: "PEFR 50-60% of predicted value", correct: true },
+{ text: "Rising PaCO 2> 6kPa (45mm Hg) ", correct: false },
+{ text: "Diminishing level of consciousness", correct: false },
+{ text: "Falling PaCO2 8kPa (45mm Hg)", correct: false },
+], },
+
+{ question: " 0 year old girl was brought to ER with fast shallow breathing. On examination, chest is silent with paradoxical breathing associated with tachypnea and bradycardia. Which one of the following is not recommended for the immediate treatment of the given condition?",
+img: "",
+answers: [
+{ text: "Ipratropium", correct: false },
+{ text: "Magnesium sulphate ", correct: false },
+{ text: "Hydrocortisone", correct: false },
+{ text: "Salmeterol", correct: true },
+], },
+
+{ question: "You're The intern inMedicine OPD,A 28 year old male patient who isa known case ofAllergic bronchopulmonary aspergillosis come for follow up.Which of the following findings you won't expect in the given case?",
+img: "",
+answers: [
+{ text: "Distal bronchiectasis", correct: true },
+{ text: "Peripheral eosinophilia ", correct: false },
+{ text: "Bronchial asthma", correct: false },
+{ text: "Thin sputum casts,usuaIIy brown", correct: true },
+], },
+
+{ question: " 40 year old chronic smoker presented with breathlessness on climbing steps associated with profuse expectoration on coughing. HisPFT showed FEV1/FVC of 0.6, with FEV1 70%.This spirometry findings is also seen in?",
+img: "",
+answers: [
+{ text: "Pleural effusion", correct: false },
+{ text: "Lung Fibrosis ", correct: false },
+{ text: "Asthma", correct: true },
+{ text: "All", correct: false },
+], },
+
+{ question: " 39 year old female patient reports wheezing after taking dose of aspirin, he states that he had similar episodes in past as well.What all are true about the given condition except?",
+img: "",
+answers: [
+{ text: "Nasal polyposis", correct: false },
+{ text: "Treatment with inhaled corticosteroids ", correct: false },
+{ text: "Rhinosinusitis", correct: false },
+{ text: "Increased prostaglandins", correct: true },
+], },
+
+{ question: " 39 year oldman who is known case of moderate persistent asthma, presents with unabletospeak in complete sentences progressive worsening of shortness of breathing, wheezing, and cough over5 days followed bya history of recent respiratory infection. Upon examination increased respiratory rate, tachycardia, and cyanosis is noted. ABG shows hypoxemia and lowPaCo2. InPFT, there isa marked fall in FEV1 and PEFR. Which of the following isgiven in the maintenance of the following condition? ",
+img: "",
+answers: [
+{ text: "Oral Steroid", correct: false },
+{ text: "Leukotriene agonist ", correct: false },
+{ text: "Ipratropium bromide", correct: false },
+{ text: "Long-acting beta2 agonist", correct: true },
+], },
+
+
+{ question: "Which ofthe following drug is used in an adverse eventfollowing type2 Brittle Asthma?",
+img: "",
+answers: [
+{ text: "§-adrenergic agonist", correct: false },
+{ text: "Inhaled corticosteroids ", correct: false },
+{ text: "Antileukotrienes DM", correct: false },
+{ text: "subcutaneous epinephrine", correct: true },
+], },
+
+{ question: " 5 year old boy was brought to emergency with an acute exacerbation of bronchial asthma. Which of the following drugs is not used in the management of this case",
+img: "",
+answers: [
+{ text: "100% Oxygen", correct: false },
+{ text: "Hydrocortisone ", correct: false },
+{ text: "Salbutamol", correct: false },
+{ text: "Sodium Cromoglycate inhalation", correct: true },
+], },
+
+{ question: " 14 year old male patient who has been having persistent cough and difficulty breathing on exertion has cometoOPD. A sputum examination was done showing the following finding. Identify the diagnosis?",
+img: "",
+answers: [
+{ text: "Tuberculosis cavity", correct: false },
+{ text: "Asthma ", correct: true },
+{ text: "Bronchitis", correct: false },
+{ text: "Bronchiectasis", correct: false },
+], },
+
+{ question: "The Following CT chest shows the presence of?",
+img: "imgm2-301-400/pg198.png",
+answers: [
+{ text: "Emphysema", correct: true },
+{ text: "Artefact ", correct: false },
+{ text: "Silicosis", correct: false },
+{ text: "Pneumonoultramicroscopic Icanoconiosis", correct: false },
+], },
+
+{ question: "46 yr old chronic smoker presents with complains ofcoughwithsputumand pain chest since3 months.TB lungswas ruled out and on histopath reports revealed increased Reid index. Increased Reid index is classically associated with",
+img: "",
+answers: [
+{ text: "Chronic Bronchitis", correct: true },
+{ text: "Emphysema ", correct: false },
+{ text: "Bronchiectasis", correct: false },
+{ text: "intestinal lung disease", correct: false },
+], },
+
+
+{ question: " 58 year old chronic smoker presented with difficulty breathing associated with profuse expectoration on coughing. His saturation at rest is 85%.What is the best management option in this patient",
+img: "",
+answers: [
+{ text: "Quit smoking", correct: false },
+{ text: "Bronchodilator ", correct: false },
+{ text: "Low flow Oxygen", correct: true },
+{ text: "Mucolytics", correct: false },
+], },
+
+{ question: "All are true about emphysema except: 1. Cyanosis 2. Barrel-shaped chest 3. Associated with smoking 4.Type1 respiratory failure",
+img: "",
+answers: [
+{ text: "1, 2,3", correct: false },
+{ text: "only1 ", correct: true },
+{ text: "2,3,4", correct: false },
+{ text: "only 4", correct: false },
+], },
+
+{ question: "You're the intern in medicine OPD,A Patient who isa known case ofChronic bronchitis has comeforfollow-up. Which ofthefollowing findings you won't expecttofind in your Patient history and clinical finding?",
+img: "",
+answers: [
+{ text: "Cough >3 months", correct: false },
+{ text: "Bronchorrhea ", correct: false },
+{ text: "Hoover sign", correct: false },
+{ text: "Clubbing", correct: true },
+], },
+
+
+{ question: "61 years oldformer heavysmokerwith a known case ofchronic bronchitis presents toemergency room with history of shortness ofbreath which gradually increased in severity and present even at rest. He also had peripheral chest pain. He is undergoing treatment for3-4years. The complication least likely to occur in this case is?",
+img: "",
+answers: [
+{ text: "Pulmonary hypertension", correct: false },
+{ text: "Spontaneous pneumothorax ", correct: true },
+{ text: "Respiratory acidosis", correct: false },
+{ text: "Polycythemia", correct: false },
+], },
+
+
+{ question: " 64-year-old female patient with HT arid DM type 2, non-smoker, presented with acute cough, purulerit sputum production and fever. CT image is given below. Mark The Incorrect statement regarding the given condition.",
+img: "",
+answers: [
+{ text: "Mycobacterium Avium InterceIIuIare- Upper lobe bronchiectasis", correct: true },
+{ text: "ABPA- Central bronchiectasis ", correct: false },
+{ text: "End stage fibrotic lung diseaseLowerlung bronchiectasis", correct: false },
+{ text: "Immotile Cilia syndrome- Mid lung bronchiectasis", correct: false },
+], },
+
+
+{ question: "This patient camewith chronic productive cough and clubbing and coarse rales. What is the diagnosis ofthe CT scan shown?",
+img: "imgm2-301-400/PG220.png",
+answers: [
+{ text: "Bilateral varicose bronchiectasis", correct: true },
+{ text: "Multiple cavitating secondaries ", correct: false },
+{ text: "Interstitial fibrosis", correct: false },
+{ text: "Milliary TB", correct: false },
+], },
+
+
+{ question: "Cough variant asthma is treated with?",
+img: "",
+answers: [
+{ text: "ICS Low dose once a day", correct: true },
+{ text: "LABA once at night ", correct: false },
+{ text: "SABA twice daily", correct: false },
+{ text: "Anti-tussive lozenges as an when required", correct: false },
+], },
+
+{ question: " 38 year old chronic smoker, who isa known case ofObstructive lung disease has come up for follow up which of the following findings you would expect in this given case?",
+img: "",
+answers: [
+{ text: "mMRCdyspnea scale ,grade2 includes shortness of breath when hurrying up inclines", correct: false },
+{ text: "Decreased FEV1/FVC ,TLC is inceased ", correct: true },
+{ text: "Normal PEFRand decreased in Lung volume", correct: false },
+{ text: "Roflumilast is introduced in managementofCOPD in GroupC", correct: false },
+], },
+
+{ question: " 4-year-old girl asthmatic child is brought casualty. She is not speaking and has fast shallow breathing with pulsus paradoxus. ABG shows respiratory acidosis. What is the next beststep in management of this patient?",
+img: "",
+answers: [
+{ text: "Urgent endotracheal intubation", correct: true },
+{ text: "Hyperbaric oxygen therapy ", correct: false },
+{ text: "MDI with salbutamol and conicosteroids", correct: false },
+{ text: "Terbutaline subcutaneous with aminophylline drip", correct: false },
+], },
+
+{ question: " 13-year-old known asthmatic presents with severewheezing anda respiratory rate of40. Her pulse rate is 120.What is the next best step in management ofthis patient?",
+img: "",
+answers: [
+{ text: "Oxygen and nebulised salbutamol", correct: true },
+{ text: "Oxygen and Metered dose inhaler of salmeterol ", correct: false },
+{ text: "Oxygen and intravenous Aminophylline", correct: false },
+{ text: "Oxygen and Intravenous magnesium sulphate", correct: false },
+], },
+
+
+{ question: "Which ofthefollowing is seen in COPD? 1. Chronic bronchitis 2. Follicular bronchiolitis 3. Desqumative pneumonitis 4. Chemical pneumonitis",
+img: "",
+answers: [
+{ text: "1,2", correct: false },
+{ text: "only1 ", correct: true },
+{ text: "3,4", correct: false },
+{ text: "only2", correct: false },
+], },
+
+
+{ question: " patient presents with shortness of breath to medicine OPD, His Post Bronchodilator FEV1/FVC < 0.7and FEV1 is 55°A. He complains if he walks faster than his peers he has breathlessness. He's has been admitted twice this year already. IF roflumilast is introduced in management of this case,what category of GOD he will be?",
+img: "",
+answers: [
+{ text: "GroupA", correct: false },
+{ text: "GroupB ", correct: false },
+{ text: "GroupC", correct: false },
+{ text: "GroupD", correct: true },
+], },
+
+
+{ question: "Comment The Diagnosis based on spirometry report TLC=75% FRC=1 00% RV=120% FEV1 = 60% DLco=80%",
+img: "",
+answers: [
+{ text: "Acute asthma", correct: false },
+{ text: "Emphysema ", correct: false },
+{ text: "Pulmonary fibrosis", correct: false },
+{ text: "Myasthenia gravis", correct: true },
+], },
+
+
+{ question: " 16-year-old asthmatic is currently on salbutamol inhaler which she uses twice a week on average and frequently wakesup coughing. She hasa compliant with her treatment regimen and has goad inhaler technique. Which ofthe followingwould bethemostappropriate nextstep in managing herasthma? You Missed (49*A",
+img: "",
+answers: [
+{ text: "Budesonide 200yg BD", correct: true },
+{ text: "Theophylline 30Omgsustained release ", correct: false },
+{ text: "Montelukast 10mg", correct: false },
+{ text: "Salmeterol 50ygBD", correct: false },
+], },
+
+
+{ question: "A patient on spirometry showed FEV1/FVC <0.7 and FEV1 »30% but<50% predicted. Patients diagnosis according toGOLD criteria is?",
+img: "",
+answers: [
+{ text: "Mild COPD", correct: false },
+{ text: "ModerateCOPD ", correct: false },
+{ text: "severe COPD", correct: true },
+{ text: "Verysevere COPD", correct: false },
+], },
+
+
+{ question: " 40 year old male patient presents with 1 year history of dyspnea, wheeze, shortness ofbreath and chest tightness to OPD. He states that he isa cook by profession. These symptoms become worse each day after startingworkand worsen throughouttheweek.The incorrect statement regarding the given condition is:",
+img: "",
+answers: [
+{ text: "Asthma risk reduces in one with hookworm infection", correct: false },
+{ text: "Occurs more commonly in obese people ", correct: false },
+{ text: "Airway edema is present", correct: false },
+{ text: "Necrosis of airways", correct: true },
+], },
+
+{ question: " 65 year old male who is a chronic smoker present stoopd with complaints of shortness o fbreath. To combat breathlessness he satina 'Tripod position'. On an ABG, pH -7.2, pOj.4s, pCOy-80 were observed .Which of the following option is incorrect regarding the underlying disease?",
+img: "",
+answers: [
+{ text: "Accessory muscles of respiration are used", correct: false },
+{ text: "Barrel chest ", correct: false },
+{ text: "Clubbing", correct: true },
+{ text: "Cyanosis", correct: false },
+], },
+
+{ question: " 70 year old chronic smoker presents to OPD with chronic cough and progressive shortness ofbreath. Upon examination there is barrel chest, inspiratory wheeze and hyper-resonant field. Ifthe given case is associated with Alpha-1 antitrypsin deficiency, what is the diagnosis?",
+img: "",
+answers: [
+{ text: "Panacinar emphysema", correct: true },
+{ text: "Paraseptal emphysema ", correct: false },
+{ text: "centriacinar emphysema", correct: false },
+{ text: "Irregular emphysema", correct: false },
+], },
+
+
+{ question: " 55 year oldfemale patient, who isa knowncaseofCOPD is admitted in the Intermediate care unitfor management ofacuteexacerbation. Which ofthe following is not true about pathological features ofthe disease?",
+img: "",
+answers: [
+{ text: "Residual volume decreases", correct: true },
+{ text: "Irreversible airflow limitation ", correct: false },
+{ text: "Ineffective repair of elastin", correct: false },
+{ text: "Includes small airway disease", correct: false },
+], },
+
+
+{ question: "The treatment ofEmergency admission A 42-year-old pedestrian has been struck bya speedingcardriven bya juvenile. She is brought into emergencywearinga pneumatic anti-shockgarmentforan extensive injury to her pelvis which is distorted. She is intubated with fluids runningviatwo greycolorcannulas. Her blood pressure is 120/60.",
+img: "",
+answers: [
+{ text: "Emergency tracheostomy", correct: false },
+{ text: "Urgent endotracheal intubation ", correct: false },
+{ text: "TransfuseO negative blood and apply external fixator", correct: true },
+{ text: "Oxygen and nebulized salbutamol", correct: false },
+], },
+
+
+{ question: " 1 0-year-old boy withsmoke inhalation is brought into Casualty with worsening stridor.A face maskwith1 00% oxygen is covering hisface, but hisoxygen saturation continues to fall.",
+img: "",
+answers: [
+{ text: "Emergency tracheostomy", correct: true },
+{ text: "Urgent endotracheal intubation ", correct: false },
+{ text: "TransfuseO negative blood and applyexternal fixator", correct: false },
+{ text: "Oxygen and nebulized salbutamol", correct: false },
+], },
+
+
+{ question: " 4-year-old girl asthmatic child is broughttocasualty. She is not speaking and has fastshallow breathingwith pulsus paradoxsus. ABG shows respiratory acidosis.",
+img: "",
+answers: [
+{ text: "Emergency tracheostomy", correct: false },
+{ text: "Urgent endotracheal intubation ", correct: true },
+{ text: "TransfuseO negative blood and apply external fixator", correct: false },
+{ text: "Oxygen and nebulized salbutamol", correct: false },
+], },
+
+
+{ question: "An 18-year-old man presents with fever, drooling ofsaliva and stridor. His breathing becomes labored with use of accessory muscles. He becomes cyanotic. He initially presented to hisGP witha sorethroata few days ago.",
+img: "",
+answers: [
+{ text: "Emergency tracheostomy", correct: false },
+{ text: "Urgent endotracheal intubation ", correct: true },
+{ text: "TransfuseO negative blood and apply external fixator", correct: false },
+{ text: "Oxygen and nebulized salbutamol", correct: false },
+], },
+
+
+{ question: " 13-year-old known asthmatic presents with severewheezinganda respiratory rate of40. Her pulse rate is 120.",
+img: "",
+answers: [
+{ text: "Emergency tracheostomy", correct: false },
+{ text: "Urgent endotracheal intubation ", correct: false },
+{ text: "TransfuseO negative blood and apply external fixator", correct: false },
+{ text: "Oxygen and nebulized salbutamol", correct: true },
+], },
+
+
+{ question: " 18-year-old malewith history cystic fibrosis. While attendinga class, he suddenly beginstocough up large volumesofbright red blood. He was admitted tonearby hospital in emergencydepartment. With above clinical scenario which vessel is most likely to bleed?",
+img: "",
+answers: [
+{ text: "Bronchial arteries", correct: true },
+{ text: "Alveolar capillaries ", correct: false },
+{ text: "Gastric varices", correct: false },
+{ text: "Pulmonary artery", correct: false },
+], },
+
+
+{ question: " 45 years old male patient with history of swelling and pain in greattoe presents to OPD. Aspiration ofsynovial fluid was donebyattending physician. On Polarised microscopyyou seethe image given below. Identify",
+img: "imgm2-301-400/pg284.png",
+answers: [
+{ text: "Uric acid", correct: true },
+{ text: "Calcium pyrophosphate ", correct: false },
+{ text: "Calcium phosphate", correct: false },
+{ text: "Cystine", correct: false },
+], },
+
+
+{ question: " 48 year oldmale patient presents to OPD with severe leftgreatto pain. AnX ray of the foot was done. Identify the disease and the sign associated with it.",
+img: "imgm2-301-400/pg286.png",
+answers: [
+{ text: "Gout - Martel Sign", correct: true },
+{ text: "Osteoarthritis- Frommets sign ", correct: false },
+{ text: "Rheumatoid arthritis- swan neck deformity", correct: false },
+{ text: "Rheumatoid arthritis- boutonniere deformity", correct: false },
+], },
+
+
+{ question: " 39 year oldmale presents to OPD with severe pain in the proximal interphalangealjoint of the leftsecond toe. You diagnosethe case as an Acute gout. The following drugs can be used in the treatment ofthegiven condition except.",
+img: "",
+answers: [
+{ text: "Allopurinol", correct: true },
+{ text: "Steroids ", correct: false },
+{ text: "Colchicine", correct: false },
+{ text: "Naproxen", correct: false },
+], },
+
+
+{ question: " 40-year-old male complains ofexquisite pain and tenderness overthe left ankle. There is no history oftrauma.The patient is takinga mild diuretic for hypertension. On exam,theankle isveryswollen and tender. Thereareno other physical exam abnormalities.The next step in management is",
+img: "",
+answers: [
+{ text: "Begin Colchicine and broadspectrum antibiotics", correct: false },
+{ text: "Obtain uric acid level and perform srthrocentesis ", correct: true },
+{ text: "Begin allopurinol if uric acid level is elevated", correct: false },
+{ text: "Obtain ankle x-rayto rule out fracture", correct: false },
+], },
+
+
+{ question: " 48 year oldmale presents to OPD with severejoint pain on hisbigtoe with multiple such episodes on the past. He is currently on Allopurinol therapy. Prolonged allopurinol therapy NOT indicated forwhich ofthefollowing conditions?",
+img: "",
+answers: [
+{ text: "Acutegouty arthritis", correct: true },
+{ text: "Tophi ", correct: false },
+{ text: " urate nephropathy", correct: false },
+{ text: "evidence of bone/joint damage", correct: false },
+], },
+
+
+{ question: " 48 year oldmale presents to OPD with severejoint pain on hisbigtoe with multiple such episodes on the past. On repeated *luestioning the patientstates the he has been diagnosed with Chronic kidneydisease. Whichofthefollowing drugs is the bestfortreatment ofthe given condition?",
+img: "",
+answers: [
+{ text: "Allopurinol", correct: false },
+{ text: "Febuxostat ", correct: true },
+{ text: "Uricase", correct: false },
+{ text: "Benzbromarone", correct: false },
+], },
+
+
+{ question: "ll joints are involved in acutegout except:",
+img: "",
+answers: [
+{ text: "MTP", correct: false },
+{ text: "Gleno-humeral joint ", correct: true },
+{ text: "Ankl ejoint", correct: false },
+{ text: "Knee joint", correct: false },
+], },
+
+
+{ question: "Extended matchingquestions Case-1. 50 years obese male patient with acute painful swelling of kneejointwith fever and history of similar events in past involving differentjoints. On radiology workup punched outperiarticular erosion are noted.",
+img: "",
+answers: [
+{ text: "RA", correct: false },
+{ text: "SLE ", correct: false },
+{ text: "GOUT", correct: true },
+{ text: "Pseudogout", correct: false },
+], },
+
+
+{ question: "Case-2. 30 yearoldmalewith pain for last 10 years with fusion of sacroillac and hip joints, intervertebral disc ossification and decreased mobility. His father is also affected.",
+img: "",
+answers: [
+{ text: "RA", correct: false },
+{ text: "SLE ", correct: false },
+{ text: "Ankylosing spondylitis", correct: true },
+{ text: "Pseudogout", correct: false },
+], },
+
+
+{ question: "Case -3. 30 yearoldfemalewithjoint pain, oral ulcers and skin rash that worsenson goingout in sunlight.",
+img: "",
+answers: [
+{ text: "RA", correct: false },
+{ text: "SLE ", correct: true },
+{ text: "GOUT", correct: false },
+{ text: "Pseudogout", correct: false },
+], },
+
+
+{ question: "Ina patient with gouty arthritis,synoviaI fluid aspiration was done,strongIy negative birefringent needleshaped crystals were seen under polarized light .These crystals are composed ofwhich of thefollowing?",
+img: "",
+answers: [
+{ text: "Monosodium urate", correct: true },
+{ text: "Calcium pyrophosphate ", correct: false },
+{ text: "Sodium pyrophosphate", correct: false },
+{ text: "Homogentisic acid", correct: false },
+], },
+
+
+{ question: "hich is the drugofchoice foracute gout?",
+img: "",
+answers: [
+{ text: "Febuxostat", correct: false },
+{ text: "Probenecid ", correct: false },
+{ text: "Rofecoxib", correct: false },
+{ text: "Naproxen", correct: true },
+], },
+
+
+{ question: "Which is the mostcommon clinical feature ofCushing syndrome?",
+img: "",
+answers: [
+{ text: "Moon facies", correct: false },
+{ text: "Purplish skin striae ", correct: false },
+{ text: "Hypokalemic alkalosis", correct: false },
+{ text: "Weight gain", correct: true },
+], },
+
+
+{ question: "Which ofthefollowing tests is bestfor differentiatingACTH secreting pituitary tumourfrom EctopicACTH production?",
+img: "",
+answers: [
+{ text: "24 hour Urinaryfree cortisol", correct: false },
+{ text: "Overnight dexamethasone suppression test ", correct: false },
+{ text: "Low dose dexamethasone suppression test", correct: false },
+{ text: "High dose dexamethasone suppression test", correct: true },
+], },
+
+
+{ question: "Whichamongthefollowing is/are false statement(s) related to confirmation of diagnosis ofCushingsyndrome",
+img: "",
+answers: [
+{ text: "midnight plasma cortisol >J 10ng/dl", correct: true },
+{ text: "overnight dexamethasone test >50nmoI/L in morning after1 mg dexamethasone tablet given at night before ", correct: false },
+{ text: "Plasma cortisol> 50nmoI/L after 0.5mgdexamethasone6 hourlyfor 2 days", correct: false },
+{ text: "CRH test is confirmatory", correct: true },
+], },
+
+
+{ question: "Markthetruestatements regarding Cushingsyndrome - 1. Increased infection susceptibility 2. Hypercoagulability 3. Eosinopenia 4. Leucopenia",
+img: "",
+answers: [
+{ text: "1,3 and 4 are true", correct: false },
+{ text: "1,2 and 3 are true ", correct: true },
+{ text: "2,3 and 4 are true", correct: false },
+{ text: "1,2,3 and 4 are true", correct: false },
+], },
+
+
+{ question: "Mark True Statements regardingACTH independent Cushing Syndrome - 1. Leading cause ofACTH independent Cushing's Syndrome is Pituitary Corticotroph adenoma 2. ACTH independent Cushing syndrome constitutes 10% of total cases ofCushing syndrome 3. Leading cause ofACTH dependent Cushing Syndrome isAdrenocortical adenoma 4. Small cell cancer oflung produces EctopicACTH",
+img: "",
+answers: [
+{ text: "2 and4 are true", correct: true },
+{ text: "1,2 and4 are true ", correct: false },
+{ text: "1,3 and4 are true", correct: false },
+{ text: "1,2 and 3are true", correct: false },
+], },
+
+{ question: "Which ofthefollowing agents is not used in management ofCushing syndrome7",
+img: "",
+answers: [
+{ text: "Mitotane", correct: false },
+{ text: "Etomidate ", correct: false },
+{ text: "Metyrapone", correct: false },
+{ text: "Amoxapine", correct: true },
+], },
+
+
+{ question: "All of the following are ACTH independent Cushingsyndrome except:",
+img: "",
+answers: [
+{ text: "Pituitaryadenoma", correct: true },
+{ text: "Adrenal hyperplasia ", correct: false },
+{ text: "Adrenocortical carcinoma", correct: false },
+{ text: "McCune Albright Syndrome", correct: false },
+], },
+
+
+{ question: "Which ofthefollowing is not seen in the syndrome associated with the following tondition?",
+img: "imgm2-301-400/PG332.png",
+answers: [
+{ text: "Hypoglycemia", correct: true },
+{ text: "Hypertension ", correct: false },
+{ text: "Frank psychosis", correct: false },
+{ text: "Hypokalemia", correct: false },
+], },
+
+
+{ question: " 28-year-old lady has put on weight (10 kgovera period of3 years) and has oligomenorrhoeafollowed by amenorrhoea for8 months.The blood pressure is 160/1OO mm of Hg.Which of thefollowing is the mostappropriate investigation?",
+img: "",
+answers: [
+{ text: "Serum electrolytes", correct: false },
+{ text: "Plasma cortisol ", correct: true },
+{ text: "Plasma testosterone and ultrasound", correct: false },
+{ text: "T3,T4 and TSH", correct: false },
+], },
+
+{ question: " patient presents with hemoptysis and Cushingoid features witha lackof dexamethasone suppression. Whatcould be the likely reason?",
+img: "",
+answers: [
+{ text: "Adrenal Hyperplasia", correct: false },
+{ text: "Adrenal Adenoma ", correct: false },
+{ text: "Bronchial Adenoma", correct: false },
+{ text: "Bronchial Carcinoid", correct: true },
+], },
+
+
+{ question: "Which ofthefollowing is not a causeof features of primary hyperaldosteronism",
+img: "",
+answers: [
+{ text: "Cushing syndrome", correct: false },
+{ text: "Adrenal adenoma ", correct: false },
+{ text: "Adrenal hyperplasia", correct: false },
+{ text: "Chronic CCF", correct: true },
+], },
+
+
+{ question: " patient presents with hypertension and hypokalemia. CT abdomen was performed. What is the diagnosis?",
+img: "imgm2-301-400/pg341.png",
+answers: [
+{ text: "Pheochromocytoma", correct: false },
+{ text: "Conn syndrome ", correct: true },
+{ text: "", correct: false },
+{ text: "", correct: false },
+], },
+
+
+
+        ];
+
+
+
+        const questionElement = document.getElementById("question");
+        const answerButtons = document.getElementById("answer-buttons");
+        const nextButton = document.getElementById("next-btn");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            nextButton.innerHTML = "Next";
+            showQuestion();
+        }
+
+        function showQuestion() {
+            resetState();
+            let currentQuestion = questions[currentQuestionIndex];
+            let questionNo = currentQuestionIndex + 1;
+            questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+            // Set the image source if it's provided
+            if (currentQuestion.img !== "") {
+                document.getElementById("img").src = currentQuestion.img;
+                document.getElementById("img").style.display = "block"; // Show the image
+            } else {
+                document.getElementById("img").style.display = "none"; // Hide the image if no image is provided
+            }
+
+            // Create answer buttons
+            currentQuestion.answers.forEach(answer => {
+                const button = document.createElement("button");
+                button.innerHTML = answer.text;
+                button.classList.add("btn");
+                answerButtons.appendChild(button);
+
+                if (answer.correct) {
+                    button.dataset.correct = answer.correct;
+                }
+                button.addEventListener("click", selectAnswer);
+            });
+        }
+
+        function resetState() {
+            nextButton.style.display = "none";
+            while (answerButtons.firstChild) {
+                answerButtons.removeChild(answerButtons.firstChild);
+            }
+        }
+
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            if (isCorrect) {
+                selectedBtn.classList.add("correct");
+                score++;
+            } else {
+                selectedBtn.classList.add("inCorrect")
+            }
+            Array.from(answerButtons.children).forEach(button => {
+                if (button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true;
+            });
+            nextButton.style.display = "block";
+        }
+
+        function showScore() {
+            resetState();
+            questionElement.innerHTML = `You Scored ${score} out of ${questions.length} !`;
+            nextButton.innerHTML = "Solve Again";
+            nextButton.style.display = "block"
+        }
+
+        function handleNextButton() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else { showScore() }
+        }
+
+        nextButton.addEventListener("click", () => {
+            if (currentQuestionIndex < questions.length) {
+                handleNextButton();
+            } else {
+                startQuiz();
+            }
+        });
+
+        startQuiz();
+
+    </script>
+</body>
+
+</html>
+
+
