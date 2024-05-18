@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Auth State</title>
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/12.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js"></script>
+</head>
+<body>
+    <h1>Welcome to My Site</h1>
+    <div id="content"></div>
+    <script>
+        // Your Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBP7lfDUc5wDe0IALcvQhb7E0-lJKMuSQ8",
+  authDomain: "start-io-d3acb.firebaseapp.com",
+  projectId: "start-io-d3acb",
+  storageBucket: "start-io-d3acb.appspot.com",
+  messagingSenderId: "683396002335",
+  appId: "1:683396002335:web:4686e3b128a3734e469b2a",
+  measurementId: "G-KQQEWR4SCP"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Get the auth instance
+        const auth = firebase.auth();
+
+        // Check auth state
+        auth.onAuthStateChanged(user => {
+            const contentDiv = document.getElementById('content');
+            if (user) {
+                // User is signed in
+                contentDiv.innerHTML = `<p>Welcome, ${user.email}! You are logged in.</p>`;
+            } else {
+                // No user is signed in
+                contentDiv.innerHTML = '<p>You are not logged in. <a href="login.html">Login here</a></p>';
+            }
+        });
+    </script>
+</body>
+</html>
