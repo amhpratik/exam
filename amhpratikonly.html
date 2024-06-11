@@ -1,88 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <title>Registration</title>
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 15px;
+            text-align: center;
+            color: red;
+        }
+    </style>
 </head>
 <body>
-
-<div class="container">   
-    <h2>Registration</h2>
-    <form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data">
+    <div class="container">
+        <h1>Registration Page</h1>
         <div class="form-group">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
         </div>
-        
         <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
         </div>
-        <button type="button" id="register" name="register" class="btn btn-success">Register Now</button>
-    </form>
-</div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+        <div class="form-group">
+            <button id="registerBtn">Register</button>
+        </div>
+        <p id="message" class="message"></p>
+    </div>
 
-<script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
-    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+    
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBP7lfDUc5wDe0IALcvQhb7E0-lJKMuSQ8",
+            authDomain: "start-io-d3acb.firebaseapp.com",
+            projectId: "start-io-d3acb",
+            storageBucket: "start-io-d3acb.appspot.com",
+            messagingSenderId: "683396002335",
+            appId: "1:683396002335:web:4686e3b128a3734e469b2a",
+            measurementId: "G-KQQEWR4SCP"
+        };
+    
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const database = getDatabase(app);
+    
+        const registerBtn = document.getElementById('registerBtn');
+        const message = document.getElementById('message');
+    
+        registerBtn.addEventListener('click', () => {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
 
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-        apiKey: "AIzaSyBP7lfDUc5wDe0IALcvQhb7E0-lJKMuSQ8",
-  authDomain: "start-io-d3acb.firebaseapp.com",
-  projectId: "start-io-d3acb",
-  storageBucket: "start-io-d3acb.appspot.com",
-  messagingSenderId: "683396002335",
-  appId: "1:683396002335:web:4686e3b128a3734e469b2a",
-  measurementId: "G-KQQEWR4SCP"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-    const auth = getAuth();
-    const database = getDatabase(app);
-
-    // Registration code start    
-    document.getElementById("register").addEventListener("click", function() {
-        var email = document.getElementById("email").value;
-        var password = document.getElementById("password").value;
-
-        // For new registration
-        createUserWithEmailAndPassword(auth, email, password)
+    createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-            // Signed in 
-            const user = userCredential.user;
-            console.log(user);
-            alert("Registration successful!!");
-
-            // Store user data in Realtime Database
-            set(ref(database, 'users/' + user.uid), {
-                email: email,
-                status: 'in'
+            // Update user's display name
+            updateProfile(auth.currentUser, {
+                displayName: name
             }).then(() => {
-                console.log("User data stored in database");
-            }).catch((error) => {
-                console.error("Error storing user data:", error.message);
-                alert("Error storing user data: " + error.message);
-            });
+                // Registration successful
+                const user = userCredential.user;
+                message.textContent = 'Registration successful! Logged in as: ' + user.email;
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('password').value = '';
 
-            // ...
+                // Remove @gmail.com from email
+                const sanitizedEmail = email.replace(/@gmail.com$/, '');
+
+                // Store user data in the Realtime Database
+                const userId = sanitizedEmail;
+                const userRef = ref(database, 'users/' + userId);
+                set(userRef, {
+                    name: name,
+                    email: email,
+                    status: 'in' // Assuming 'in' indicates logged in status
+                }).then(() => {
+                    console.log('User data stored successfully!');
+                    // Show logout button
+                    const logoutButton = document.createElement('button');
+                    logoutButton.textContent = 'Logout';
+                    logoutButton.addEventListener('click', () => {
+                        auth.signOut().then(() => {
+                            // Sign-out successful.
+                            message.textContent = 'Logged out successfully!';
+                            // Remove logout button
+                            logoutButton.remove();
+                            // Update user status to "out" in the Realtime Database
+                            set(userRef, {
+                                name: name,
+                                email: email,
+                                status: 'out'
+                            }).then(() => {
+                                console.log('User status updated to out.');
+                            }).catch((error) => {
+                                console.error('Error updating user status:', error);
+                            });
+                        }).catch((error) => {
+                            // An error happened.
+                            console.error('Logout error:', error);
+                        });
+                    });
+                    document.querySelector('.container').appendChild(logoutButton);
+                }).catch((error) => {
+                    console.error('Error storing user data:', error);
+                });
+            }).catch((error) => {
+                message.textContent = error.message;
+            });
         })
         .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            console.log(errorMessage);
-            alert(errorMessage);
-        });                   
-    });
-    //----- End
-</script>
+            message.textContent = error.message;
+        });
+});
 
+
+    </script>
+    
 </body>
 </html>
