@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Manage User Data</title>
+    <title>Account Reset</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -38,6 +38,11 @@
             font-size: 16px;
         }
 
+        input[readonly] {
+            background-color: #f4f4f4;
+            cursor: not-allowed;
+        }
+
         button {
             width: 100%;
             padding: 10px;
@@ -54,14 +59,23 @@
             background-color: #0056b3;
         }
 
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
         .input-group {
             margin-bottom: 20px;
+        }
+
+        .hidden {
+            display: none;
         }
     </style>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
         import { getAuth, signInWithEmailAndPassword, deleteUser, createUserWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-        import { getDatabase, ref, remove, get, set } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+        import { getDatabase, ref, remove, set } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
         // Your web app's Firebase configuration
         const firebaseConfig = {
@@ -79,43 +93,52 @@
         const auth = getAuth(app);
         const db = getDatabase(app);
 
+        let originalEmail = '';
+        let originalPassword = '';
+
         // Function to remove user
         async function removeUser() {
             const email = document.getElementById('removeEmail').value;
             const password = document.getElementById('removePassword').value;
-            const nameField = document.getElementById('registerName');
+
+            // Store original values
+            originalEmail = email;
+            originalPassword = password;
 
             try {
                 // Sign in to the user account
                 const userCredential = await signInWithEmailAndPassword(auth, email, password);
                 const user = userCredential.user;
 
-                // Extract username from email
-                const username = email.split('@')[0];
-
-                // Fetch the user's name from the Realtime Database
-                const userRef = ref(db, `users/${username}`);
-                const snapshot = await get(userRef);
-                const userData = snapshot.val();
-
-                if (userData) {
-                    // Set the name field with the fetched name
-                    nameField.value = userData.name;
-                } else {
-                    // If no user data is found, clear the name field
-                    nameField.value = 'User data not found';
-                }
+                // Get the user's display name
+                const name = user.displayName;
 
                 // Remove the user from Firebase Authentication
                 await deleteUser(user);
 
                 // Remove the user data from Realtime Database
+                const username = email.split('@')[0];
+                const userRef = ref(db, `users/${username}`);
                 await remove(userRef);
 
                 alert('User removed successfully and data deleted from Realtime Database.');
-                // Clear the fields
+
+                // Clear the fields and proceed to Step 2
                 document.getElementById('removeEmail').value = '';
                 document.getElementById('removePassword').value = '';
+                document.getElementById('step1').classList.add('hidden');
+                document.getElementById('step2').classList.remove('hidden');
+                document.getElementById('registerEmail').value = email;
+                document.getElementById('registerPassword').value = password;
+                document.getElementById('registerName').value = name;
+
+                // Log the values for debugging
+                console.log("Step 1 - Email: ", email);
+                console.log("Step 1 - Password: ", password);
+                console.log("Step 2 - Email: ", document.getElementById('registerEmail').value);
+                console.log("Step 2 - Password: ", document.getElementById('registerPassword').value);
+                console.log("Step 2 - Name: ", document.getElementById('registerName').value);
+
             } catch (error) {
                 console.error("Error removing user: ", error);
                 alert("Error removing user: " + error.message);
@@ -128,6 +151,12 @@
             const password = document.getElementById('registerPassword').value;
             const name = document.getElementById('registerName').value;
 
+            // Check if email and password match
+            if (originalEmail !== email || originalPassword !== password) {
+                alert("Data mismatch detected. Please ensure data is unchanged.");
+                return;
+            }
+
             try {
                 const userCredential = await createUserWithEmailAndPassword(auth, email, password);
                 const user = userCredential.user;
@@ -135,13 +164,10 @@
                 // Update the user's profile with the name
                 await updateProfile(user, { displayName: name });
 
-                // Registration successful
-                console.log('Registration successful! Logged in as: ' + user.email);
-
                 // Clear the form fields
-                document.getElementById('registerName').value = '';
                 document.getElementById('registerEmail').value = '';
                 document.getElementById('registerPassword').value = '';
+                document.getElementById('registerName').value = '';
 
                 // Remove @gmail.com from email
                 const sanitizedEmail = email.replace(/@gmail.com$/, '');
@@ -163,22 +189,28 @@
             }
         }
 
-        // Function to sync email fields
-        function syncEmails() {
-            const removeEmail = document.getElementById('removeEmail').value;
-            document.getElementById('registerEmail').value = removeEmail;
+        // Function to check if all registration fields are filled
+        function checkRegistrationFields() {
+            const email = document.getElementById('registerEmail').value.trim();
+            const password = document.getElementById('registerPassword').value.trim();
+            const name = document.getElementById('registerName').value.trim();
+            const registerButton = document.querySelector('button[onclick="registerUser()"]');
+
+            if (email && password && name) {
+                registerButton.disabled = false;
+            } else {
+                registerButton.disabled = true;
+            }
         }
 
-        // Function to sync password fields
-        function syncPasswords() {
-            const removePassword = document.getElementById('removePassword').value;
-            document.getElementById('registerPassword').value = removePassword;
+        // Periodically check registration fields
+        function startFieldCheck() {
+            setInterval(checkRegistrationFields, 1000); // Check every second
         }
 
-        // Attach the sync functions to the input events
+        // Attach the functions and start field check
         document.addEventListener('DOMContentLoaded', () => {
-            document.getElementById('removeEmail').addEventListener('input', syncEmails);
-            document.getElementById('removePassword').addEventListener('input', syncPasswords);
+            startFieldCheck();
         });
 
         // Expose the functions to the global scope
@@ -187,27 +219,29 @@
     </script>
 </head>
 <body>
-    <div class="container">
-        <h2>Remove Email from Firebase Auth</h2>
+    <div id="step1" class="container">
+        <h2>Step 1: Remove Your Account</h2>
         <div class="input-group">
-            <input type="email" id="removeEmail" placeholder="Enter Gmail ID to Remove" required>
+            <input type="email" id="removeEmail" placeholder="Enter Your ID" required>
         </div>
         <div class="input-group">
-            <input type="password" id="removePassword" placeholder="Enter Password to Remove" required>
+            <input type="password" id="removePassword" placeholder="Enter Your Password" required>
         </div>
         <button onclick="removeUser()">Remove</button>
+    </div>
 
-        <h2>Register New User</h2>
+    <div id="step2" class="container hidden">
+        <h2>Step 2: Register Your Account</h2>
         <div class="input-group">
-            <input type="email" id="registerEmail" placeholder="Enter Gmail ID to Register" required>
+            <input type="email" id="registerEmail" placeholder="Your ID" readonly required>
         </div>
         <div class="input-group">
-            <input type="password" id="registerPassword" placeholder="Enter Password" required>
+            <input type="password" id="registerPassword" placeholder="Your Password" readonly required>
         </div>
         <div class="input-group">
-            <input type="text" id="registerName" placeholder="Enter Name" required>
+            <input type="text" id="registerName" placeholder="Your Name" readonly required>
         </div>
-        <button onclick="registerUser()">Register</button>
+        <button onclick="registerUser()" disabled>Register</button>
     </div>
 </body>
 </html>
