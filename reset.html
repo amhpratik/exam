@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manage User Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        input[type="email"],
+        input[type="password"],
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+    </style>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getAuth, signInWithEmailAndPassword, deleteUser, createUserWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+        import { getDatabase, ref, remove, get, set } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBP7lfDUc5wDe0IALcvQhb7E0-lJKMuSQ8",
+            authDomain: "start-io-d3acb.firebaseapp.com",
+            projectId: "start-io-d3acb",
+            storageBucket: "start-io-d3acb.appspot.com",
+            messagingSenderId: "683396002335",
+            appId: "1:683396002335:web:4686e3b128a3734e469b2a",
+            measurementId: "G-KQQEWR4SCP"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getDatabase(app);
+
+        // Function to remove user
+        async function removeUser() {
+            const email = document.getElementById('removeEmail').value;
+            const password = document.getElementById('removePassword').value;
+            const nameField = document.getElementById('registerName');
+
+            try {
+                // Sign in to the user account
+                const userCredential = await signInWithEmailAndPassword(auth, email, password);
+                const user = userCredential.user;
+
+                // Extract username from email
+                const username = email.split('@')[0];
+
+                // Fetch the user's name from the Realtime Database
+                const userRef = ref(db, `users/${username}`);
+                const snapshot = await get(userRef);
+                const userData = snapshot.val();
+
+                if (userData) {
+                    // Set the name field with the fetched name
+                    nameField.value = userData.name;
+                } else {
+                    // If no user data is found, clear the name field
+                    nameField.value = 'User data not found';
+                }
+
+                // Remove the user from Firebase Authentication
+                await deleteUser(user);
+
+                // Remove the user data from Realtime Database
+                await remove(userRef);
+
+                alert('User removed successfully and data deleted from Realtime Database.');
+                // Clear the fields
+                document.getElementById('removeEmail').value = '';
+                document.getElementById('removePassword').value = '';
+            } catch (error) {
+                console.error("Error removing user: ", error);
+                alert("Error removing user: " + error.message);
+            }
+        }
+
+        // Function to register new user
+        async function registerUser() {
+            const email = document.getElementById('registerEmail').value;
+            const password = document.getElementById('registerPassword').value;
+            const name = document.getElementById('registerName').value;
+
+            try {
+                const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+                const user = userCredential.user;
+
+                // Update the user's profile with the name
+                await updateProfile(user, { displayName: name });
+
+                // Registration successful
+                console.log('Registration successful! Logged in as: ' + user.email);
+
+                // Clear the form fields
+                document.getElementById('registerName').value = '';
+                document.getElementById('registerEmail').value = '';
+                document.getElementById('registerPassword').value = '';
+
+                // Remove @gmail.com from email
+                const sanitizedEmail = email.replace(/@gmail.com$/, '');
+
+                // Store user data in the Realtime Database
+                const userId = sanitizedEmail;
+                const userRef = ref(db, 'users/' + userId);
+                await set(userRef, {
+                    name: name,
+                    email: email,
+                    status: 'out' // Assuming 'out' indicates logged out status
+                });
+
+                console.log('User data stored successfully!');
+                alert('User registered successfully!');
+            } catch (error) {
+                console.error("Error registering user: ", error);
+                alert("Error registering user: " + error.message);
+            }
+        }
+
+        // Function to sync email fields
+        function syncEmails() {
+            const removeEmail = document.getElementById('removeEmail').value;
+            document.getElementById('registerEmail').value = removeEmail;
+        }
+
+        // Function to sync password fields
+        function syncPasswords() {
+            const removePassword = document.getElementById('removePassword').value;
+            document.getElementById('registerPassword').value = removePassword;
+        }
+
+        // Attach the sync functions to the input events
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('removeEmail').addEventListener('input', syncEmails);
+            document.getElementById('removePassword').addEventListener('input', syncPasswords);
+        });
+
+        // Expose the functions to the global scope
+        window.removeUser = removeUser;
+        window.registerUser = registerUser;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Remove Email from Firebase Auth</h2>
+        <div class="input-group">
+            <input type="email" id="removeEmail" placeholder="Enter Gmail ID to Remove" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="removePassword" placeholder="Enter Password to Remove" required>
+        </div>
+        <button onclick="removeUser()">Remove</button>
+
+        <h2>Register New User</h2>
+        <div class="input-group">
+            <input type="email" id="registerEmail" placeholder="Enter Gmail ID to Register" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="registerPassword" placeholder="Enter Password" required>
+        </div>
+        <div class="input-group">
+            <input type="text" id="registerName" placeholder="Enter Name" required>
+        </div>
+        <button onclick="registerUser()">Register</button>
+    </div>
+</body>
+</html>
